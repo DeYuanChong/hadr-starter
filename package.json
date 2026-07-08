@@ -7,6 +7,8 @@
     "fetch:gdacs": "tsx src/feeds/gdacs/index.ts",
     "fetch:usgs": "tsx src/feeds/usgs/index.ts",
     "fetch:reliefweb": "tsx src/feeds/reliefweb/index.ts",
+    "build:dashboard": "tsx src/dashboard/index.ts",
+    "generate:country-info": "tsx src/dashboard/generate-country-info.ts",
     "test": "bash -c 'shopt -s globstar; tsx --test src/**/*.test.ts'",
     "typecheck": "tsc --noEmit"
   },
