@@ -1,0 +1,49 @@
+# Publishes the map dashboard to GitHub Pages whenever a new snapshot lands
+# on main. Deploys the committed dashboard-map.html/json as-is — no rebuild,
+# no network calls — so the published page is exactly the reviewed artifact.
+name: Deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - dashboard-map.html
+      - dashboard-map.json
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          # The dashboard IS the site root, and stays reachable by its own name too.
+          cp dashboard-map.html _site/index.html
+          cp dashboard-map.html _site/dashboard-map.html
+          cp dashboard-map.json _site/dashboard-map.json
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
