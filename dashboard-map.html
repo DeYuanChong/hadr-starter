@@ -67,6 +67,9 @@ figure.map svg { width: 100%; height: auto; display: block; }
 .chip:hover, .chip:focus-visible { border-color: var(--accent); color: var(--ink); outline: none; }
 .chip.selected { border-color: var(--accent); color: var(--accent); }
 .country-panel { margin-top: 0.6rem; background: var(--panel); border: 1px solid var(--accent); border-radius: 8px; padding: 0.9rem 1.1rem; display: flex; gap: 0.9rem; align-items: flex-start; }
+/* Author display:flex would otherwise beat the hidden attribute's UA
+ * display:none — without this the panel can never actually hide. */
+.country-panel[hidden] { display: none; }
 .cp-flag { width: 64px; height: auto; border: 1px solid var(--line); border-radius: 3px; flex-shrink: 0; }
 .cp-name { margin: 0 0 0.3rem; font-size: 1.05rem; }
 .cp-summary { margin: 0 0 0.4rem; font-size: 0.86rem; color: var(--ink-soft); max-width: 70ch; }
@@ -109,7 +112,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 <div class="wrap">
   <header class="top">
     <h1>HADR Monitor — Southeast Asia</h1>
-    <p class="sub">Situation report · generated Wed, 08 Jul 2026 08:06:03 GMT · scope: ASEAN-10 + Timor-Leste, box 92°E–141°E 15°S–29°N · 2 reported / 453 suppressed / 4 reconciled</p>
+    <p class="sub">Situation report · generated Wed, 08 Jul 2026 08:25:48 GMT · scope: ASEAN-10 + Timor-Leste, box 92°E–141°E 15°S–29°N · 2 reported / 453 suppressed / 4 reconciled</p>
   </header>
 
   <section class="block">
@@ -122,7 +125,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 
   <section class="block">
     <h2>Since yesterday</h2>
-    <p class="sy-empty">No story changed state since the previous run (Wed, 08 Jul 2026 07:58:49 GMT). Silence here means "nothing changed", and the feed health strip above says whether every feed could actually be seen.</p>
+    <p class="sy-empty">No story changed state since the previous run (Wed, 08 Jul 2026 08:06:03 GMT). Silence here means "nothing changed", and the feed health strip above says whether every feed could actually be seen.</p>
   </section>
 
   <section class="block">
@@ -685,8 +688,16 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
     if (ev.key === "Escape" && !panel.hidden) close();
   });
 
-  var m = location.hash.match(/^#country=([A-Z]{3})$/);
-  if (m) select(m[1]);
+  function applyHash() {
+    var m = location.hash.match(/^#country=([A-Z]{3})$/);
+    if (m) select(m[1]);
+    else if (!panel.hidden) close();
+  }
+  // Same-document hash navigation (typing/pasting a #country=XXX URL over an
+  // already-open page) must work like a fresh load. select()/close() use
+  // replaceState, which never fires hashchange, so this can't loop.
+  window.addEventListener("hashchange", applyHash);
+  applyHash();
 })();</script>
 </div>
   </section>
