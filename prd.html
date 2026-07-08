@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HADR Monitor — Product Requirements Document</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #f6f7f9;
+    --text: #1a1d21;
+    --text-muted: #5a6270;
+    --border: #e2e5ea;
+    --accent: #b3441e;
+    --accent-bg: #fdf0ea;
+    --code-bg: #f0f1f3;
+    --green: #1a7a3c;
+    --green-bg: #e8f5ec;
+    --orange: #b8650a;
+    --orange-bg: #fdf1e2;
+    --red: #b3261e;
+    --red-bg: #fbe9e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181c;
+      --bg-alt: #1d2024;
+      --text: #e7e9ec;
+      --text-muted: #9aa2ad;
+      --border: #2c3036;
+      --accent: #e08a63;
+      --accent-bg: #2a2018;
+      --code-bg: #24272c;
+      --green: #6fcf8f;
+      --green-bg: #17251c;
+      --orange: #e0a24d;
+      --orange-bg: #2a2116;
+      --red: #e2837c;
+      --red-bg: #2a1918;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+  }
+  header.doc-header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  header.doc-header .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  header.doc-header h1 {
+    font-size: 2rem;
+    margin: 0.3rem 0 0.6rem;
+    letter-spacing: -0.01em;
+  }
+  header.doc-header .meta {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+    margin-top: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 1.05rem;
+    margin-top: 2rem;
+    color: var(--text);
+  }
+  h4 {
+    font-size: 0.95rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  p { margin: 0.8rem 0; }
+  code {
+    background: var(--code-bg);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.4rem 0; }
+  .toc {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .toc h2 { margin-top: 0; border: none; padding-bottom: 0; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); }
+  .toc ol { columns: 2; column-gap: 2rem; }
+  .toc a { text-decoration: none; color: var(--text); font-size: 0.92rem; }
+  .toc a:hover { color: var(--accent); }
+  .card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin: 1rem 0;
+  }
+  .card h4 { margin-top: 0; }
+  .pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    margin-left: 0.4rem;
+  }
+  .pill-green { background: var(--green-bg); color: var(--green); }
+  .pill-orange { background: var(--orange-bg); color: var(--orange); }
+  .pill-red { background: var(--red-bg); color: var(--red); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.55rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--text-muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .adr-table td:first-child { white-space: nowrap; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--text-muted); }
+  .out-of-scope-list li::marker { color: var(--red); }
+  .story-list { counter-reset: story; list-style: none; padding-left: 0; }
+  .story-list li {
+    counter-increment: story;
+    padding: 0.6rem 0.8rem 0.6rem 2.4rem;
+    position: relative;
+    border-bottom: 1px solid var(--border);
+  }
+  .story-list li:last-child { border-bottom: none; }
+  .story-list li::before {
+    content: counter(story);
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .note {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 1rem;
+    margin: 1rem 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+  hr.section-break {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 3rem 0;
+  }
+  .mermaid-fallback { display: none; }
+  .overflow-x { overflow-x: auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="doc-header">
+    <div class="kicker">Product Requirements Document</div>
+    <h1>HADR Monitor — Southeast Asia</h1>
+    <div class="meta">
+      v1 · drafted 2026-07-08 · sensing-layer only, does not dispatch or decide response ·
+      full rationale trail in <code>CONTEXT.md</code>, <code>docs/adr/*.md</code>, <code>QUESTIONS.md</code>
+    </div>
+  </header>
+
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#problem">Problem Statement</a></li>
+      <li><a href="#solution">Solution</a></li>
+      <li><a href="#scope">Scope</a></li>
+      <li><a href="#user-stories">User Stories</a></li>
+      <li><a href="#implementation">Implementation Decisions</a></li>
+      <li><a href="#testing">Testing Decisions</a></li>
+      <li><a href="#out-of-scope">Out of Scope</a></li>
+      <li><a href="#further-notes">Further Notes</a></li>
+      <li><a href="#adr-index">ADR Index</a></li>
+    </ol>
+  </nav>
+
+  <section id="problem">
+    <h2>Problem Statement</h2>
+    <p>
+      Before anyone can send aid or forces after a disaster, someone has to correctly answer a
+      smaller question first: <em>what just happened, where, how bad, and who does it affect?</em>
+      For Southeast Asia, that first-hour picture is scattered across three public feeds —
+      GDACS, USGS, and ReliefWeb — that disagree with each other by design: they are three
+      different epistemic objects (a measurement, two independent impact forecasts, and a slow
+      editorial verdict), not three views of the same fact. They also revise, escalate,
+      de-escalate, and delete events after publication, and go down or degrade without warning.
+    </p>
+    <p>
+      A human decision-maker (or a downstream agent) in the region currently has to read all
+      three feeds themselves every morning, mentally deduplicate the same physical event
+      reported three times under three identifiers, judge which severity signal to trust, and
+      notice on their own when a feed went quiet — with no way to tell whether quiet means
+      "nothing happened" or "the feed is broken."
+    </p>
+  </section>
+
+  <section id="solution">
+    <h2>Solution</h2>
+    <p>
+      An unattended monitoring agent that watches GDACS, USGS, and ReliefWeb on a schedule
+      overnight, keeps only events affecting Southeast Asia, reconciles the same physical event
+      across feeds into one <code>Story</code>, tracks each story through an explicit state
+      machine (new / escalated / de-escalated / revised / deleted / confirmed) instead of
+      treating "new" as the only signal worth acting on, and publishes one situation report to
+      <code>dashboard.html</code> at 08:30 Singapore time. The report always states feed health
+      explicitly — a bad morning is disclosed, never inferred from silence — and always states
+      what changed since the previous report, so a correction or de-escalation is never a silent
+      edit.
+    </p>
+    <p>
+      The product sits at the sensing layer only. It watches, reconciles, and reports; it does
+      not dispatch aid or recommend a response.
+    </p>
+  </section>
+
+  <section id="scope">
+    <h2>Scope</h2>
+
+    <h3>Geographic scope</h3>
+    <p>
+      <strong>Southeast Asia</strong> = the ASEAN ten (Brunei, Cambodia, Indonesia, Laos,
+      Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam) plus Timor-Leste. Papua New
+      Guinea and southern China are explicitly excluded despite bordering in-scope countries —
+      proximity alone doesn't confer scope
+      (<a href="docs/adr/0001-sea-country-list.md"><code>ADR-0001</code></a>).
+    </p>
+    <p>
+      Feeds without a country field (USGS points, GDACS cyclone tracks) are filtered with a
+      bounding box, <code>92°E–141°E, 15°S–29°N</code>, covering the full Sunda Trench to the
+      south and all of Myanmar (including Kachin State) to the north
+      (<a href="docs/adr/0002-sea-bounding-box.md"><code>ADR-0002</code></a>). A multi-country
+      event is reported in full, including out-of-scope countries it also affects
+      (<a href="docs/adr/0003-multi-country-events-shown-in-full.md"><code>ADR-0003</code></a>).
+    </p>
+
+    <h3>Hazard scope</h3>
+    <table>
+      <tr><th>In scope</th><th>Out of scope</th></tr>
+      <tr>
+        <td>Earthquake, tsunami-hint flag, tropical cyclone, flood, volcano, drought, wildfire —
+          the seven hazards GDACS covers.</td>
+        <td>Conflict, complex emergencies, epidemics, heatwaves, landslides. Structurally absent
+          from all three source feeds — the product states this as scope, not failure.</td>
+      </tr>
+    </table>
+    <p class="note">
+      "Multi-hazard" does not mean uniform freshness: real-time for EQ/TC, daily for
+      wildfire/volcano, ~monthly for drought, human-curated for flood. The sitrep discloses this
+      explicitly rather than implying one cadence for all seven hazards
+      (<a href="docs/adr/0017-static-cadence-disclosure.md"><code>ADR-0017</code></a>).
+    </p>
+
+    <h3>Domain language</h3>
+    <p>
+      The full glossary lives in <code>CONTEXT.md</code>. Key terms used throughout this
+      document:
+    </p>
+    <div class="card">
+      <h4>Story</h4>
+      <p>The reconciled representation of one physical disaster. Earthquake stories may merge
+        GDACS + USGS + ReliefWeb records via the solved EQ join. Every other hazard type is
+        sourced solely from GDACS.</p>
+    </div>
+    <div class="card">
+      <h4>Triage severity</h4>
+      <p>The value that decides a story's placement and suppression: for earthquakes, the higher
+        of GDACS's alert colour and USGS PAGER; for every other hazard, the GDACS alert colour
+        alone. Both raw values are always shown — triage severity never hides disagreement, it
+        only decides ordering.</p>
+    </div>
+    <div class="card">
+      <h4>Story state</h4>
+      <p><span class="pill pill-green">new</span> <span class="pill pill-orange">escalated /
+        de-escalated</span> <span class="pill pill-orange">revised</span>
+        <span class="pill pill-red">deleted</span> <span class="pill pill-green">confirmed
+        (EQ only)</span> — every story is in exactly one state per poll.</p>
+    </div>
+  </section>
+
+  <section id="user-stories">
+    <h2>User Stories</h2>
+    <ol class="story-list">
+      <li>As a regional decision-maker, I want one morning report covering all Southeast Asian
+        disaster activity, so that I don't have to read three global feeds myself.</li>
+      <li>As a regional decision-maker, I want the report to state each feed's health up front,
+        so that I can tell a quiet morning from a broken pipeline.</li>
+      <li>As a regional decision-maker, I want a static disclosure of how often each hazard type
+        actually updates, so that a missing drought entry doesn't read as "no drought risk."</li>
+      <li>As a regional decision-maker, I want the same physical earthquake reported once, not
+        three times under three different identifiers, so that I'm not double-counting
+        disasters.</li>
+      <li>As a regional decision-maker, I want to see both GDACS's alert colour and USGS's PAGER
+        forecast when they disagree, so that I can see the actual uncertainty instead of a
+        false consensus.</li>
+      <li>As a regional decision-maker, I want Green-tier earthquakes suppressed from the report
+        by default, so that constant background seismicity in Indonesia doesn't bury real
+        signal.</li>
+      <li>As a regional decision-maker, I want an earthquake that escalates out of Green to
+        appear immediately, so that suppression never hides a worsening situation.</li>
+      <li>As a regional decision-maker, I want an explicit "since yesterday" section, so that I
+        know what changed rather than having to diff today's report against yesterday's myself.</li>
+      <li>As a regional decision-maker, I want a deleted event to be explicitly flagged as
+        withdrawn once, so that I know to disregard it rather than have it silently vanish.</li>
+      <li>As a regional decision-maker, I want a cyclone that also affects a non-SEA country
+        shown in full, so that I have the storm's true footprint, not an artificially clipped
+        view.</li>
+      <li>As a regional decision-maker, I want offshore earthquakes near the Sunda Trench
+        included even though their epicentre isn't on land, so that a real coastal threat isn't
+        silently dropped.</li>
+      <li>As a regional decision-maker, I want to know when a ReliefWeb page eventually confirms
+        an earthquake I was already told about, so that I have the added editorial context
+        without it re-triggering alarm on an already-assessed event.</li>
+      <li>As a regional decision-maker, I want any ReliefWeb-derived text to be a short
+        own-words summary with a link back, not a republished excerpt, so that the report
+        respects ReliefWeb's content licensing.</li>
+      <li>As a regional decision-maker, I want the report published at a predictable time every
+        morning, so that I can build it into my own routine.</li>
+      <li>As a regional decision-maker, I want to understand that a high-severity event at 14:00
+        will appear in tomorrow's report rather than trigger a separate alert, so that I know
+        `dashboard.html` is the one place I need to check.</li>
+      <li>As a downstream agent consuming this report, I want the same structured story data a
+        human sees, so that I can build automated triage on top of it without re-deriving
+        reconciliation logic myself.</li>
+      <li>As the operator of this system, I want per-feed poll cadences and failures isolated
+        from each other, so that GDACS's known flakiness never blocks USGS or ReliefWeb from
+        reporting.</li>
+      <li>As the operator of this system, I want a catch-up cursor per feed, so that a period of
+        downtime doesn't cause the next successful poll to silently skip everything that
+        happened while it was down.</li>
+      <li>As the operator of this system, I want the whole pipeline built without requiring
+        ReliefWeb's appname approval to land in time, so that the 3-day build isn't blocked on
+        an external approval process outside my control.</li>
+      <li>As the operator of this system, I want persisted state to be a single, human-readable
+        file, so that I can debug an overnight run by opening it directly the next morning.</li>
+    </ol>
+  </section>
+
+  <section id="implementation">
+    <h2>Implementation Decisions</h2>
+
+    <h3>Reconciliation &amp; state</h3>
+    <ul>
+      <li>Earthquakes join across feeds via GDACS <code>sourceid</code> ↔ USGS <code>ids</code>
+        list (not the single preferred <code>id</code>, which can change network prefix).</li>
+      <li>All other hazard types (cyclone, flood, volcano, drought, wildfire) are sourced solely
+        from GDACS in v1 — no GDACS↔ReliefWeb reconciliation is attempted. GLIDE is too sparse
+        and non-unique to serve as a join key
+        (<a href="docs/adr/0004-non-eq-hazards-gdacs-sole-authority.md"><code>ADR-0004</code></a>).
+        A ReliefWeb page may be attached as a <em>Supplementary link</em> via a loose match
+        (same country, same hazard type, <code>date.created</code> within ~14 days of the
+        story's <code>fromdate</code>) — never merged, never affecting severity.</li>
+      <li>Every story carries one of six states: <code>new</code>, <code>escalated</code>,
+        <code>de-escalated</code>, <code>revised</code>, <code>deleted</code>,
+        <code>confirmed</code> (earthquake stories only, fired when a ReliefWeb page appears via
+        the EQ join) (<a href="docs/adr/0005-story-state-machine.md"><code>ADR-0005</code></a>).
+        Confirmation is purely additive — link and label only, never a severity or suppression
+        change (<a href="docs/adr/0009-confirmation-is-purely-additive.md"><code>ADR-0009</code></a>).</li>
+      <li>Every sitrep carries a "Since yesterday" section listing escalation, de-escalation,
+        revision, confirmation, and deletion of previously reported stories. A deleted story is
+        mentioned exactly once, on the report immediately after deletion, then omitted
+        (<a href="docs/adr/0006-explicit-correction-policy.md"><code>ADR-0006</code></a>).</li>
+    </ul>
+
+    <h3>Severity triage</h3>
+    <ul>
+      <li>GDACS alert colour and USGS PAGER are both displayed; neither overrides the other.
+        Triage severity — the value used for sorting and suppression — is the higher of the two
+        for earthquakes, or the GDACS alert colour alone for every other hazard
+        (<a href="docs/adr/0007-triage-severity-shows-both-takes-max.md"><code>ADR-0007</code></a>).</li>
+      <li>Stories at Green triage severity (or no alert at all) are suppressed from the sitrep
+        but remain tracked internally. An escalation out of Green is never suppressed
+        (<a href="docs/adr/0008-green-tier-suppression.md"><code>ADR-0008</code></a>).</li>
+    </ul>
+
+    <h3>Feed operations &amp; persistence</h3>
+    <ul>
+      <li>No long-running daemon. A scheduled "poll" tick fires every 5 minutes: USGS every
+        tick, GDACS every 2nd tick (~10 min), ReliefWeb every 12th tick (~hourly). A separate
+        "publish" tick fires once at 08:30 SGT
+        (<a href="docs/adr/0010-scheduled-ticks-not-long-running-daemon.md"><code>ADR-0010</code></a>).</li>
+      <li>Each feed has its own catch-up cursor (GDACS <code>datemodified</code>, USGS FDSN
+        <code>updatedafter</code>, ReliefWeb <code>date.created</code>), advanced only after a
+        tick succeeds — a failed tick leaves the cursor unmoved so the next success catches up
+        (<a href="docs/adr/0011-per-feed-cursor-advances-only-on-success.md"><code>ADR-0011</code></a>).</li>
+      <li>All state — per-story records and per-feed cursors — persists in a single
+        atomically-written JSON file, not a database
+        (<a href="docs/adr/0012-json-file-persistence.md"><code>ADR-0012</code></a>).</li>
+    </ul>
+
+    <h3>ReliefWeb build strategy</h3>
+    <ul>
+      <li>Test the RSS feed with a realistic browser <code>User-Agent</code> first. Build the
+        client behind a small adapter interface so the backing source (fixture / RSS / approved
+        API) is a config swap. Use local fixtures for development only if both RSS and the API
+        are blocked. The live pipeline reports "ReliefWeb: unavailable" honestly rather than
+        substituting fixture data in production
+        (<a href="docs/adr/0013-reliefweb-adapter-and-fixture-fallback.md"><code>ADR-0013</code></a>).</li>
+    </ul>
+
+    <h3>Report / dashboard</h3>
+    <ul>
+      <li>Fixed layout: header → feed health strip (including the static per-hazard cadence
+        disclosure) → since-yesterday → current stories grouped by hazard type, sorted by
+        triage severity descending
+        (<a href="docs/adr/0014-sitrep-layout.md"><code>ADR-0014</code></a>,
+        <a href="docs/adr/0017-static-cadence-disclosure.md"><code>ADR-0017</code></a>).</li>
+      <li>Any ReliefWeb-derived text is a one-sentence own-words summary plus attribution and a
+        link back — zero direct quotes
+        (<a href="docs/adr/0015-zero-reliefweb-quotes.md"><code>ADR-0015</code></a>).</li>
+      <li><code>dashboard.html</code> is written only by the 08:30 SGT publish run. No
+        interrupt-driven or out-of-band alerting exists in v1
+        (<a href="docs/adr/0016-scheduled-only-publishing.md"><code>ADR-0016</code></a>).</li>
+    </ul>
+  </section>
+
+  <section id="testing">
+    <h2>Testing Decisions</h2>
+    <p>
+      A good test here exercises externally observable behaviour — the story a poll/publish
+      cycle produces — not internal call sequences, since the reconciliation and triage logic is
+      where correctness actually matters and where regressions are least visible by eye.
+    </p>
+    <ul>
+      <li><strong>Feed adapters</strong> (GDACS / USGS / ReliefWeb fetch + normalize) are tested
+        against fixture responses shaped from the real examples already captured in
+        <code>feeds/*.md</code> and <code>blindspots.md</code> — including the documented edge
+        cases: GDACS NULL-byte / slow responses, USGS 409-on-deleted, ReliefWeb 403 to
+        non-browser clients. No test depends on a live network call.</li>
+      <li><strong>The EQ join</strong> is tested as a pure function: given a GDACS record with a
+        <code>sourceid</code> and a set of USGS records, it must match on any entry in
+        <code>ids</code>, not just the preferred <code>id</code>.</li>
+      <li><strong>The state machine</strong> is tested table-driven: for each pair of
+        (previous story snapshot, new feed data), assert the resulting state
+        (new/escalated/de-escalated/revised/deleted/confirmed) matches the rules in
+        <code>ADR-0005</code>, independent of any I/O.</li>
+      <li><strong>Triage severity and suppression</strong> are tested across the full alert-tier
+        matrix (Green/Orange/Red × GDACS/PAGER present-or-absent) to confirm the max-of-available-
+        signals rule and that an escalation out of Green is never suppressed.</li>
+      <li><strong>The cursor/catch-up logic</strong> is tested by simulating a failed tick
+        followed by a successful one, asserting the cursor did not advance on failure and the
+        successful tick's query used the pre-failure cursor.</li>
+      <li><strong>Report rendering</strong> is tested by snapshotting <code>dashboard.html</code>
+        output against a fixed persisted-state fixture, covering: an all-feeds-healthy morning, a
+        GDACS-degraded morning, and a morning with a since-yesterday deletion.</li>
+    </ul>
+  </section>
+
+  <section id="out-of-scope">
+    <h2>Out of Scope</h2>
+    <ul class="out-of-scope-list">
+      <li><strong>Geography:</strong> anything outside ASEAN-10 + Timor-Leste, including Papua
+        New Guinea and southern China, regardless of severity.</li>
+      <li><strong>Hazards:</strong> conflict, complex emergencies, epidemics, heatwaves,
+        landslides — structurally absent from all three source feeds.</li>
+      <li><strong>Tsunami warnings:</strong> USGS's <code>tsunami</code> flag is surfaced as a
+        "check NOAA" hint only; actual tsunami warnings are NOAA's job, not this product's.</li>
+      <li><strong>Response / dispatch:</strong> this product senses, reconciles, and reports —
+        it never recommends or triggers a response action.</li>
+      <li><strong>Cross-feed reconciliation for non-earthquake hazards:</strong> GDACS is sole
+        authority for cyclone/flood/volcano/drought/wildfire in v1; no ReliefWeb merge is
+        attempted for them.</li>
+      <li><strong>Out-of-band / real-time alerting:</strong> no notification channel exists
+        besides the scheduled 08:30 <code>dashboard.html</code> publish.</li>
+      <li><strong>Quoting ReliefWeb content:</strong> zero direct quotes under any
+        circumstance, regardless of newsworthiness.</li>
+      <li><strong>An "elsewhere in the world" footnote:</strong> considered and rejected as
+        inconsistent with the project's hard scope line.</li>
+      <li><strong>A database:</strong> persistence is a single JSON file for this build; a
+        database is not planned unless data volume outgrows it.</li>
+    </ul>
+  </section>
+
+  <section id="further-notes">
+    <h2>Further Notes</h2>
+    <p>
+      This PRD was produced via a structured grilling session against <code>REQS.md</code>,
+      the three feed docs, and <code>blindspots.md</code> — the full question-by-question trail
+      is in <code>QUESTIONS.md</code>, the resolved domain vocabulary in <code>CONTEXT.md</code>,
+      and the rationale behind every hard-to-reverse or surprising decision in the 17 ADRs
+      indexed below.
+    </p>
+    <p>
+      An A2 consistency pass across <code>CONTEXT.md</code> and all ADRs found and fixed four
+      issues before this PRD was written — most notably that the original SEA bounding box
+      (21°N northern limit) would have clipped part of in-scope Myanmar and silently broken the
+      GDACS↔USGS earthquake join for northern-Myanmar events. This is recorded in
+      <code>QUESTIONS.md</code> under "A2 — Inconsistency check."
+    </p>
+    <p>
+      Given the 3-day build window, the first vertical slice matters more than completeness:
+      the earthquake path (solved cross-feed join, dual-severity triage, full state machine) is
+      the highest-value slice to build and demo first, since it's the only hazard type with a
+      genuine three-feed reconciliation story. The other five GDACS hazard types share the same
+      suppression/state/report machinery but with a simpler single-source data path, so they
+      should follow naturally once the earthquake slice works end-to-end.
+    </p>
+  </section>
+
+  <hr class="section-break">
+
+  <section id="adr-index">
+    <h2>ADR Index</h2>
+    <div class="overflow-x">
+    <table class="adr-table">
+      <tr><th>ADR</th><th>Decision</th></tr>
+      <tr><td>0001</td><td><a href="docs/adr/0001-sea-country-list.md">SEA scope is ASEAN-10 + Timor-Leste, PNG and China excluded</a></td></tr>
+      <tr><td>0002</td><td><a href="docs/adr/0002-sea-bounding-box.md">Bounding box 92°E–141°E, 15°S–29°N for offshore/country-less feeds</a></td></tr>
+      <tr><td>0003</td><td><a href="docs/adr/0003-multi-country-events-shown-in-full.md">Multi-country events shown in full, not clipped</a></td></tr>
+      <tr><td>0004</td><td><a href="docs/adr/0004-non-eq-hazards-gdacs-sole-authority.md">GDACS is sole authority for non-EQ hazards in v1</a></td></tr>
+      <tr><td>0005</td><td><a href="docs/adr/0005-story-state-machine.md">Story state machine; confirmed is EQ-only</a></td></tr>
+      <tr><td>0006</td><td><a href="docs/adr/0006-explicit-correction-policy.md">Corrections and deletions stated explicitly, never silent</a></td></tr>
+      <tr><td>0007</td><td><a href="docs/adr/0007-triage-severity-shows-both-takes-max.md">Show both GDACS/PAGER, triage on the higher</a></td></tr>
+      <tr><td>0008</td><td><a href="docs/adr/0008-green-tier-suppression.md">Suppress Green-tier stories, never suppress an escalation</a></td></tr>
+      <tr><td>0009</td><td><a href="docs/adr/0009-confirmation-is-purely-additive.md">ReliefWeb confirmation never affects severity or suppression</a></td></tr>
+      <tr><td>0010</td><td><a href="docs/adr/0010-scheduled-ticks-not-long-running-daemon.md">Scheduled ticks, not a long-running daemon</a></td></tr>
+      <tr><td>0011</td><td><a href="docs/adr/0011-per-feed-cursor-advances-only-on-success.md">Per-feed cursor, advances only on success</a></td></tr>
+      <tr><td>0012</td><td><a href="docs/adr/0012-json-file-persistence.md">Single atomically-written JSON file, not a database</a></td></tr>
+      <tr><td>0013</td><td><a href="docs/adr/0013-reliefweb-adapter-and-fixture-fallback.md">ReliefWeb adapter interface, RSS-first, fixtures for dev only</a></td></tr>
+      <tr><td>0014</td><td><a href="docs/adr/0014-sitrep-layout.md">Sitrep layout: feed health → changes → current stories</a></td></tr>
+      <tr><td>0015</td><td><a href="docs/adr/0015-zero-reliefweb-quotes.md">Zero direct quotes from ReliefWeb content</a></td></tr>
+      <tr><td>0016</td><td><a href="docs/adr/0016-scheduled-only-publishing.md">No out-of-band alerts; scheduled-only publishing</a></td></tr>
+      <tr><td>0017</td><td><a href="docs/adr/0017-static-cadence-disclosure.md">Static hazard-cadence disclosure, not per-story freshness tracking</a></td></tr>
+    </table>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
