@@ -16,6 +16,8 @@ import { SEA_BOUNDING_BOX } from "../shared/sea-scope.js";
 import { type AlertTier, type Feed, TIER_RANK } from "../shared/story.js";
 import type { Story } from "../shared/story.js";
 import { renderMap, TIER_COLOR } from "./map.js";
+import { COUNTRY_INFO } from "./country-info.js";
+import { seaIso3ForCountryName } from "../feeds/reliefweb/country-names.js";
 
 /** Per-feed reachability for this run (story 2 — feed health up front). */
 export interface FeedHealth {
@@ -170,6 +172,140 @@ function renderHealthStrip(health: FeedHealth[]): string {
 <p class="cadence">GDACS hazard cadence: Earthquake / Cyclone real-time · Wildfire / Volcano daily · Drought ~monthly · Flood human-curated. An absent hazard means "not due for update", not "no risk" (docs/adr/0017).</p>`;
 }
 
+/** Per-country counts of current stories that *name* the country. USGS-only
+ * quakes carry no country names (they are point-plotted), so they are
+ * deliberately not attributed — the panel says so rather than implying zero
+ * risk. */
+function countryStoryCounts(
+  stories: Story[],
+): Map<string, { reported: number; suppressed: number }> {
+  const counts = new Map<string, { reported: number; suppressed: number }>();
+  for (const c of COUNTRY_INFO) counts.set(c.iso3, { reported: 0, suppressed: 0 });
+  for (const s of stories) {
+    const seen = new Set<string>();
+    for (const name of s.countries) {
+      const iso3 = seaIso3ForCountryName(name);
+      if (!iso3 || seen.has(iso3)) continue;
+      seen.add(iso3);
+      const c = counts.get(iso3);
+      if (!c) continue;
+      if (s.suppressed) c.suppressed++;
+      else c.reported++;
+    }
+  }
+  return counts;
+}
+
+/** Vanilla inline script wiring country selection: click/keyboard on map
+ * paths and chips → populate the panel; Escape or ✕ closes; #country=XXX in
+ * the URL hash deep-links (and makes the interaction testable headlessly).
+ * No runtime network calls — everything it shows is embedded at build time. */
+const COUNTRY_SCRIPT = `(function () {
+  var dataEl = document.getElementById("country-data");
+  var panel = document.getElementById("country-panel");
+  if (!dataEl || !panel) return;
+  var DATA = JSON.parse(dataEl.textContent || "{}");
+  var flagEl = document.getElementById("cp-flag");
+  var nameEl = document.getElementById("cp-name");
+  var summaryEl = document.getElementById("cp-summary");
+  var storiesEl = document.getElementById("cp-stories");
+  var wikiEl = document.getElementById("cp-wiki");
+  var closeBtn = document.getElementById("cp-close");
+
+  function clearSelected() {
+    document.querySelectorAll(".selected[data-iso3]").forEach(function (el) {
+      el.classList.remove("selected");
+    });
+  }
+  function select(iso3) {
+    var c = DATA[iso3];
+    if (!c) return;
+    clearSelected();
+    document.querySelectorAll('[data-iso3="' + iso3 + '"]').forEach(function (el) {
+      el.classList.add("selected");
+    });
+    var chipImg = document.querySelector('.chip[data-iso3="' + iso3 + '"] img');
+    flagEl.src = chipImg ? chipImg.src : "";
+    flagEl.alt = "Flag of " + c.name;
+    nameEl.textContent = c.name;
+    summaryEl.textContent = c.summary;
+    var total = c.reported + c.suppressed;
+    storiesEl.textContent =
+      total === 0
+        ? "No current stories name this country. (Point-plotted earthquakes are not attributed to countries.)"
+        : (total === 1 ? "1 current story names" : total + " current stories name") +
+          " this country — " + c.reported + " reported, " + c.suppressed + " suppressed.";
+    wikiEl.href = c.wikiUrl;
+    panel.hidden = false;
+    if (history.replaceState) history.replaceState(null, "", "#country=" + iso3);
+  }
+  function close() {
+    panel.hidden = true;
+    clearSelected();
+    if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+  }
+
+  document.querySelectorAll("[data-iso3]").forEach(function (el) {
+    el.addEventListener("click", function () { select(el.getAttribute("data-iso3")); });
+    el.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(el.getAttribute("data-iso3")); }
+    });
+  });
+  closeBtn.addEventListener("click", close);
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" && !panel.hidden) close();
+  });
+
+  var m = location.hash.match(/^#country=([A-Z]{3})$/);
+  if (m) select(m[1]);
+})();`;
+
+/** Renders the interactive country explorer: one flag chip per SEA country
+ * (clickable, like the map's country shapes) and the detail panel showing
+ * the flag, a short Wikipedia summary (CC BY-SA, attributed + linked), and
+ * this run's story counts for that country. */
+function renderCountryExplorer(stories: Story[]): string {
+  const counts = countryStoryCounts(stories);
+
+  const chips = COUNTRY_INFO.map(
+    (c) =>
+      `<button class="chip" type="button" data-iso3="${escapeHtml(c.iso3)}"><img src="${c.flagDataUri}" alt="" aria-hidden="true">${escapeHtml(c.name)}</button>`,
+  ).join("\n");
+
+  const data: Record<string, object> = {};
+  for (const c of COUNTRY_INFO) {
+    const n = counts.get(c.iso3) ?? { reported: 0, suppressed: 0 };
+    data[c.iso3] = {
+      name: c.name,
+      summary: c.summary,
+      wikiUrl: c.wikiUrl,
+      reported: n.reported,
+      suppressed: n.suppressed,
+    };
+  }
+  // "<" escaped so a summary can never terminate the JSON script block early.
+  const json = JSON.stringify(data).replace(/</g, "\\u003c");
+
+  return `<div class="country-explorer">
+<p class="explorer-hint">Select a country — on the map or below — for its flag, a short Wikipedia summary, and this run's story counts.</p>
+<div class="country-chips" role="toolbar" aria-label="Countries">
+${chips}
+</div>
+<aside class="country-panel" id="country-panel" role="region" aria-label="Country details" aria-live="polite" hidden>
+  <img class="cp-flag" id="cp-flag" src="" alt="">
+  <div class="cp-body">
+    <h3 class="cp-name" id="cp-name"></h3>
+    <p class="cp-summary" id="cp-summary"></p>
+    <p class="cp-stories" id="cp-stories"></p>
+    <p class="cp-meta">Summary from <a id="cp-wiki" href="https://en.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a> (CC BY-SA 4.0) · flag via Flagpedia (public domain)</p>
+  </div>
+  <button class="cp-close" id="cp-close" type="button" aria-label="Close country details">✕</button>
+</aside>
+<script type="application/json" id="country-data">${json}</script>
+<script>${COUNTRY_SCRIPT}</script>
+</div>`;
+}
+
 /** The machine-readable payload written to dashboard-map.json (story 16). */
 export function buildStructuredOutput(
   stories: Story[],
@@ -249,6 +385,23 @@ section.block { margin-bottom: 1.5rem; }
 figure.map { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem; }
 figure.map svg { width: 100%; height: auto; display: block; }
 .land { fill: var(--panel-2); stroke: var(--ink-faint); stroke-width: 0.6; }
+.land[data-iso3] { cursor: pointer; }
+.land[data-iso3]:hover, .land[data-iso3]:focus { stroke: var(--accent); stroke-width: 1.4; outline: none; }
+.land.selected { stroke: var(--accent); stroke-width: 1.8; fill: color-mix(in srgb, var(--accent) 16%, var(--panel-2)); }
+.explorer-hint { font-size: 0.8rem; color: var(--ink-faint); margin: 0.8rem 0 0.4rem; }
+.country-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.65rem 0.15rem 0.3rem; font: inherit; font-size: 0.78rem; color: var(--ink-soft); cursor: pointer; }
+.chip img { width: 20px; height: auto; border-radius: 2px; display: block; }
+.chip:hover, .chip:focus-visible { border-color: var(--accent); color: var(--ink); outline: none; }
+.chip.selected { border-color: var(--accent); color: var(--accent); }
+.country-panel { margin-top: 0.6rem; background: var(--panel); border: 1px solid var(--accent); border-radius: 8px; padding: 0.9rem 1.1rem; display: flex; gap: 0.9rem; align-items: flex-start; }
+.cp-flag { width: 64px; height: auto; border: 1px solid var(--line); border-radius: 3px; flex-shrink: 0; }
+.cp-name { margin: 0 0 0.3rem; font-size: 1.05rem; }
+.cp-summary { margin: 0 0 0.4rem; font-size: 0.86rem; color: var(--ink-soft); max-width: 70ch; }
+.cp-stories { margin: 0 0 0.4rem; font-size: 0.8rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.cp-meta { margin: 0; font-size: 0.74rem; color: var(--ink-faint); }
+.cp-close { margin-left: auto; background: none; border: 1px solid var(--line); border-radius: 4px; color: var(--ink-soft); cursor: pointer; padding: 0.1rem 0.5rem; font: inherit; flex-shrink: 0; }
+.cp-close:hover, .cp-close:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
 .bbox { fill: none; stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: 6 5; opacity: 0.7; }
 .markers circle { cursor: pointer; transition: r 0.1s; }
 .markers circle:hover, .markers circle:focus { stroke: var(--accent); stroke-width: 2; outline: none; }
@@ -321,6 +474,7 @@ export function renderDashboard(
   <section class="block">
     <h2>Monitored region</h2>
     ${renderMap(stories)}
+    ${renderCountryExplorer(stories)}
   </section>
 
   <section class="block">

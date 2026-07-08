@@ -76,14 +76,18 @@ function geometryToPath(geometry: {
     .join(" ");
 }
 
-/** Renders the country basemap layer as SVG path elements. */
+/** Renders the country basemap layer as SVG path elements. Each in-scope
+ * country is focusable and carries data-iso3 so the country-info panel
+ * (render.ts) can wire click/keyboard selection to it. */
 function renderBasemap(): string {
   return SEA_GEOJSON.features
     .map(
       (f) =>
-        `<path class="land" d="${geometryToPath(f.geometry)}"><title>${escapeHtml(
+        `<path class="land" d="${geometryToPath(f.geometry)}" data-iso3="${escapeHtml(
+          f.properties.iso3,
+        )}" tabindex="0" role="button" aria-label="${escapeHtml(
           f.properties.name,
-        )}</title></path>`,
+        )} — show country details"><title>${escapeHtml(f.properties.name)}</title></path>`,
     )
     .join("\n");
 }
