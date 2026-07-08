@@ -302,8 +302,16 @@ const COUNTRY_SCRIPT = `(function () {
     if (ev.key === "Escape" && !panel.hidden) close();
   });
 
-  var m = location.hash.match(/^#country=([A-Z]{3})$/);
-  if (m) select(m[1]);
+  function applyHash() {
+    var m = location.hash.match(/^#country=([A-Z]{3})$/);
+    if (m) select(m[1]);
+    else if (!panel.hidden) close();
+  }
+  // Same-document hash navigation (typing/pasting a #country=XXX URL over an
+  // already-open page) must work like a fresh load. select()/close() use
+  // replaceState, which never fires hashchange, so this can't loop.
+  window.addEventListener("hashchange", applyHash);
+  applyHash();
 })();`;
 
 /** Renders the interactive country explorer: one flag chip per SEA country
@@ -456,6 +464,9 @@ figure.map svg { width: 100%; height: auto; display: block; }
 .chip:hover, .chip:focus-visible { border-color: var(--accent); color: var(--ink); outline: none; }
 .chip.selected { border-color: var(--accent); color: var(--accent); }
 .country-panel { margin-top: 0.6rem; background: var(--panel); border: 1px solid var(--accent); border-radius: 8px; padding: 0.9rem 1.1rem; display: flex; gap: 0.9rem; align-items: flex-start; }
+/* Author display:flex would otherwise beat the hidden attribute's UA
+ * display:none — without this the panel can never actually hide. */
+.country-panel[hidden] { display: none; }
 .cp-flag { width: 64px; height: auto; border: 1px solid var(--line); border-radius: 3px; flex-shrink: 0; }
 .cp-name { margin: 0 0 0.3rem; font-size: 1.05rem; }
 .cp-summary { margin: 0 0 0.4rem; font-size: 0.86rem; color: var(--ink-soft); max-width: 70ch; }

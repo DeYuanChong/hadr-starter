@@ -63,6 +63,14 @@ test("dashboard embeds the country explorer: chips, panel, data blob, script", (
   assert.match(html, /#country=\(\[A-Z\]\{3\}\)/, "hash deep-link wiring present");
   // Wikipedia licensing: attribution + link must accompany the summaries.
   assert.match(html, /Wikipedia<\/a> \(CC BY-SA 4\.0\)/, "CC BY-SA attribution present");
+  // Regressions caught by the hosted-page e2e run (2026-07-08): author
+  // display:flex beat the hidden attribute, and same-document hash
+  // navigation never re-ran the init.
+  assert.ok(
+    html.includes(".country-panel[hidden] { display: none; }"),
+    "panel can actually hide: [hidden] must beat display:flex",
+  );
+  assert.ok(html.includes('addEventListener("hashchange"'), "hashchange navigation wired");
 });
 
 test("dashboard country data carries per-country story counts by name", () => {
