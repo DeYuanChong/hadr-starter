@@ -72,3 +72,24 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      # Post-deploy verification: drive the LIVE site with a real browser
+      # (scripts/e2e-hosted.js, 37 checks — the harness that caught PR #8's
+      # production bugs). Runs after the commit + deploy on purpose: a
+      # failure here can't roll anything back, but it turns a broken morning
+      # publish into a red workflow instead of silence. GitHub runners ship
+      # with Chrome, which Playwright uses via channel:"chrome" — no browser
+      # download. One retry absorbs Pages CDN settle time.
+      - name: Verify deployed site (browser e2e)
+        env:
+          E2E_BASE: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          sleep 10
+          npm run e2e || { echo "e2e failed; retrying once after 30s (CDN settle)"; sleep 30; npm run e2e; }
+      - name: Upload e2e screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-shots
+          path: reports/e2e-shots/
+          if-no-files-found: ignore
+          retention-days: 14
