@@ -16,6 +16,7 @@ import {
 } from "../feeds/gdacs/index.js";
 import {
   buildQueryUrl,
+  computeQueryStart,
   extractInScopeEvents,
   fetchUsgsFeed,
   type UsgsFeatureCollection,
@@ -25,14 +26,28 @@ import { FIXTURE_RSS_XML } from "../feeds/reliefweb/fixture.js";
 import { parseSeaEvents } from "../feeds/reliefweb/transform.js";
 import type { FeedHealth } from "./render.js";
 import type { GdacsInput, ReliefWebInput, UsgsInput } from "./reconcile.js";
+import type { Feed } from "../shared/story.js";
 
 const DETAIL_TIMEOUT_MS = 15_000;
+
+export interface CollectOptions {
+  /** Last successful USGS poll (docs/adr/0011): when older than the default
+   * lookback, the query window extends back to it so nothing that changed
+   * during the gap is silently skipped. */
+  usgsExtendBackTo?: Date;
+}
 
 export interface Collected {
   gdacs: GdacsInput[];
   usgs: UsgsInput[];
   reliefweb: ReliefWebInput[];
   health: FeedHealth[];
+  /** Start of the USGS query window actually used this run (epoch ms) — the
+   * state machine needs it to tell "aged out of the window" from "deleted". */
+  usgsWindowStartMs: number;
+  /** Per-feed version watermarks observed this run (GDACS max datemodified,
+   * USGS max updated), recorded in the cursor per docs/adr/0011. */
+  watermarks: Partial<Record<Feed, string | null>>;
 }
 
 function isObj(v: unknown): v is Record<string, unknown> {
@@ -45,10 +60,16 @@ function isObj(v: unknown): v is Record<string, unknown> {
  * map (coordinates) and the EQ join (detail URL → sourceid) both need.
  * Keyed by stringified eventid so it can be joined back to the records.
  */
-function indexGdacsGeometry(
-  raw: unknown,
-): Map<string, { lat: number | null; lon: number | null; detailUrl: string | null }> {
-  const index = new Map<string, { lat: number | null; lon: number | null; detailUrl: string | null }>();
+interface GdacsGeomEntry {
+  lat: number | null;
+  lon: number | null;
+  detailUrl: string | null;
+  glide: string | null;
+  dateModified: string | null;
+}
+
+function indexGdacsGeometry(raw: unknown): Map<string, GdacsGeomEntry> {
+  const index = new Map<string, GdacsGeomEntry>();
   if (!isObj(raw) || !Array.isArray(raw.features)) return index;
   for (const f of raw.features) {
     if (!isObj(f)) continue;
@@ -72,7 +93,15 @@ function indexGdacsGeometry(
     if (isObj(props.url) && typeof props.url.details === "string") {
       detailUrl = props.url.details;
     }
-    index.set(eventId, { lat, lon, detailUrl });
+    const glide =
+      typeof props.glide === "string" && props.glide.trim().length > 0
+        ? props.glide.trim()
+        : null;
+    const dateModified =
+      typeof props.datemodified === "string" && props.datemodified.trim().length > 0
+        ? props.datemodified.trim()
+        : null;
+    index.set(eventId, { lat, lon, detailUrl, glide, dateModified });
   }
   return index;
 }
@@ -114,7 +143,10 @@ function indexUsgsIds(collection: UsgsFeatureCollection): Map<string, string[]> 
   return map;
 }
 
-async function collectGdacs(health: FeedHealth[]): Promise<GdacsInput[]> {
+async function collectGdacs(
+  health: FeedHealth[],
+  watermarks: Partial<Record<Feed, string | null>>,
+): Promise<GdacsInput[]> {
   let raw: unknown;
   try {
     raw = await fetchGdacsEventList();
@@ -130,11 +162,23 @@ async function collectGdacs(health: FeedHealth[]): Promise<GdacsInput[]> {
   const records = filterInScopeRecords(parseGdacsEventList(raw));
   const geo = indexGdacsGeometry(raw);
 
+  // GDACS's own version cursor is datemodified (docs/adr/0011); record the
+  // max observed as this run's watermark.
+  let watermark: string | null = null;
+  for (const entry of geo.values()) {
+    if (entry.dateModified && (!watermark || entry.dateModified > watermark)) {
+      watermark = entry.dateModified;
+    }
+  }
+  watermarks.gdacs = watermark;
+
   // Resolve sourceids for in-scope earthquakes only (bounded work), in
   // parallel. A failed detail fetch just leaves sourceId null (no join).
   const inputs = await Promise.all(
     records.map(async (r): Promise<GdacsInput> => {
-      const g = geo.get(r.eventId) ?? { lat: null, lon: null, detailUrl: null };
+      const g: GdacsGeomEntry =
+        geo.get(r.eventId) ??
+        { lat: null, lon: null, detailUrl: null, glide: null, dateModified: null };
       let sourceId: string | null = null;
       if (r.hazardType.toUpperCase() === "EQ" && g.detailUrl) {
         sourceId = await fetchSourceId(g.detailUrl);
@@ -150,6 +194,7 @@ async function collectGdacs(health: FeedHealth[]): Promise<GdacsInput[]> {
         lat: g.lat,
         lon: g.lon,
         sourceId,
+        glide: g.glide,
       };
     }),
   );
@@ -162,10 +207,15 @@ async function collectGdacs(health: FeedHealth[]): Promise<GdacsInput[]> {
   return inputs;
 }
 
-async function collectUsgs(health: FeedHealth[]): Promise<UsgsInput[]> {
+async function collectUsgs(
+  health: FeedHealth[],
+  watermarks: Partial<Record<Feed, string | null>>,
+  now: Date,
+  extendBackTo?: Date,
+): Promise<UsgsInput[]> {
   let collection: UsgsFeatureCollection;
   try {
-    collection = await fetchUsgsFeed(buildQueryUrl());
+    collection = await fetchUsgsFeed(buildQueryUrl(now, extendBackTo));
   } catch (err) {
     health.push({
       feed: "usgs",
@@ -174,6 +224,15 @@ async function collectUsgs(health: FeedHealth[]): Promise<UsgsInput[]> {
     });
     return [];
   }
+
+  // USGS's version cursor is `updated` (docs/adr/0011); record the max
+  // observed (as an ISO string) as this run's watermark.
+  let maxUpdated = 0;
+  for (const f of collection.features ?? []) {
+    const u = f?.properties?.updated;
+    if (typeof u === "number" && u > maxUpdated) maxUpdated = u;
+  }
+  watermarks.usgs = maxUpdated > 0 ? new Date(maxUpdated).toISOString() : null;
 
   const events = extractInScopeEvents(collection);
   const idsById = indexUsgsIds(collection);
@@ -227,15 +286,24 @@ async function collectReliefWeb(health: FeedHealth[]): Promise<ReliefWebInput[]>
 }
 
 /** Fetches all three feeds concurrently, isolated from one another. */
-export async function collect(): Promise<Collected> {
+export async function collect(options: CollectOptions = {}): Promise<Collected> {
   const health: FeedHealth[] = [];
+  const watermarks: Partial<Record<Feed, string | null>> = {};
+  const now = new Date();
   const [gdacs, usgs, reliefweb] = await Promise.all([
-    collectGdacs(health),
-    collectUsgs(health),
+    collectGdacs(health, watermarks),
+    collectUsgs(health, watermarks, now, options.usgsExtendBackTo),
     collectReliefWeb(health),
   ]);
   // Keep a stable feed order in the health strip regardless of resolution order.
   const order: Record<string, number> = { gdacs: 0, usgs: 1, reliefweb: 2 };
   health.sort((a, b) => order[a.feed] - order[b.feed]);
-  return { gdacs, usgs, reliefweb, health };
+  return {
+    gdacs,
+    usgs,
+    reliefweb,
+    health,
+    usgsWindowStartMs: computeQueryStart(now, options.usgsExtendBackTo).getTime(),
+    watermarks,
+  };
 }

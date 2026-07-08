@@ -59,6 +59,21 @@ export interface SupplementaryLink {
   url: string;
 }
 
+/**
+ * The Story state machine (docs/adr/0005). Every story is in exactly one
+ * state per run. "unchanged" is the absence of a transition — not one of the
+ * ADR's six states, but the honest label for a story that was seen before
+ * and didn't move.
+ */
+export type StoryState =
+  | "new"
+  | "escalated"
+  | "de-escalated"
+  | "revised"
+  | "deleted"
+  | "confirmed"
+  | "unchanged";
+
 export interface Story {
   /** Stable-ish identity for this run: USGS id when present, else the GDACS
    * eventid, else a ReliefWeb-derived key. */
@@ -87,12 +102,24 @@ export interface Story {
    * never hides that they disagreed (docs/adr/0007). */
   triageSeverity: AlertTier;
   /** True when Green-tier or unalerted: tracked but omitted from the report
-   * body (docs/adr/0008). Suppression here is stateless — the "escalation out
-   * of Green is never suppressed" rule (docs/adr/0008) needs prior state and
-   * is out of scope for this snapshot. */
+   * body (docs/adr/0008). Tier-based, so an escalation out of Green is never
+   * suppressed — the escalated tier is above Green by definition; the
+   * transition itself is surfaced by the state machine (docs/adr/0005). */
   suppressed: boolean;
   /** True when this Story merged records from more than one feed. */
   reconciled: boolean;
+  /**
+   * Every identifier this story is known by: its id, the GDACS eventid, and
+   * the full USGS `ids` list. Cross-run identity matches on ANY alias — a
+   * story whose preferred id changes between runs (e.g. the EQ join resolving
+   * a day late, switching id from the GDACS eventid to the USGS id) must read
+   * as the same story, not as a deletion plus a new arrival.
+   */
+  aliases: string[];
+  /** State-machine position for this run (docs/adr/0005). reconcile() emits
+   * "new"; the state machine (src/dashboard/state.ts) overwrites it by
+   * diffing against the persisted prior run. */
+  state: StoryState;
   sources: SourceLink[];
   supplementary: SupplementaryLink[];
 }

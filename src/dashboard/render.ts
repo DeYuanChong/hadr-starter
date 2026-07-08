@@ -5,16 +5,20 @@
  * by triage severity). Also builds the machine-readable payload (story 16)
  * that is written alongside as dashboard-map.json.
  *
- * Scope is honest about itself: the "since yesterday" section and the
- * stateful story states render as an explicit "not yet" note rather than
- * being silently absent, because ADR-0006's whole point is that absence must
- * never be mistaken for "nothing changed".
+ * The "Since yesterday" section renders the state machine's transitions
+ * (docs/adr/0005, docs/adr/0006): escalations, de-escalations, revisions,
+ * confirmations, and each deletion's single explicit mention. On the first
+ * run ever it says so explicitly, because ADR-0006's whole point is that
+ * absence must never be mistaken for "nothing changed".
  */
 
 import { escapeHtml } from "../shared/html.js";
 import { SEA_BOUNDING_BOX } from "../shared/sea-scope.js";
-import { type AlertTier, type Feed, TIER_RANK } from "../shared/story.js";
+import { type AlertTier, type Feed, type StoryState, TIER_RANK } from "../shared/story.js";
 import type { Story } from "../shared/story.js";
+// Type-only: erased at compile time, so no runtime cycle with state.ts's
+// type-only import of FeedHealth from this module.
+import type { ChangeLine } from "./state.js";
 import { renderMap, TIER_COLOR } from "./map.js";
 import { COUNTRY_INFO } from "./country-info.js";
 import { seaIso3ForCountryName } from "../feeds/reliefweb/country-names.js";
@@ -44,6 +48,22 @@ function hazardLabel(code: string): string {
 
 function tierPill(tier: AlertTier): string {
   return `<span class="pill" style="--pill:${TIER_COLOR[tier]}">${tier}</span>`;
+}
+
+/** Colours for state chips (Since-yesterday lines and story-card badges).
+ * Semantic, mirroring the alert palette where the meaning lines up. */
+const STATE_COLOR: Record<Exclude<StoryState, "unchanged">, string> = {
+  escalated: "#d63b2f",
+  "de-escalated": "#3f9d5a",
+  deleted: "#8a94a6",
+  confirmed: "#0e6f68",
+  revised: "#e0842b",
+  new: "#5b6ee1",
+};
+
+function stateChip(state: StoryState): string {
+  if (state === "unchanged") return "";
+  return `<span class="sy-kind" style="--state:${STATE_COLOR[state]}">${state}</span>`;
 }
 
 function maxGroupTier(stories: Story[]): AlertTier {
@@ -100,6 +120,7 @@ function renderStory(s: Story): string {
   <div class="s-head">
     ${tierPill(s.triageSeverity)}
     <h4>${escapeHtml(`${mag}${s.title}`)}</h4>
+    ${stateChip(s.state)}
     ${reconciledBadge}
   </div>
   <p class="s-meta">${alertsLine}${sources ? ` <span class="s-src">${sources}</span>` : ""}</p>
@@ -157,6 +178,31 @@ function renderStoryGroups(stories: Story[]): string {
 </section>`;
     })
     .join("\n");
+}
+
+/** Renders the Since-yesterday section (docs/adr/0006): explicit state
+ * transitions against the prior run, an honest empty line when nothing
+ * changed, and a first-run note when there is no prior state at all. */
+function renderSinceYesterday(changes: ChangeLine[], priorRunAt: string | null): string {
+  if (priorRunAt === null) {
+    return `<p class="sy-empty">First run — no prior state to compare against; every story below is <strong>new</strong>. Change tracking starts with the next run.</p>`;
+  }
+  const prior = escapeHtml(new Date(priorRunAt).toUTCString());
+  if (changes.length === 0) {
+    return `<p class="sy-empty">No story changed state since the previous run (${prior}). Silence here means "nothing changed", and the feed health strip above says whether every feed could actually be seen.</p>`;
+  }
+  const items = changes
+    .map(
+      (c) =>
+        `<li>${stateChip(c.kind)}<span class="sy-title">${escapeHtml(c.title)}</span><span class="sy-hazard">${escapeHtml(
+          c.hazardType,
+        )}</span>${c.detail ? `<span class="sy-detail">${escapeHtml(c.detail)}</span>` : ""}</li>`,
+    )
+    .join("\n");
+  return `<p class="sy-since">Compared against the previous run (${prior}).</p>
+<ul class="sy-list">
+${items}
+</ul>`;
 }
 
 function renderHealthStrip(health: FeedHealth[]): string {
@@ -311,6 +357,8 @@ export function buildStructuredOutput(
   stories: Story[],
   health: FeedHealth[],
   generatedAt: Date,
+  changes: ChangeLine[] = [],
+  priorRunAt: string | null = null,
 ): object {
   return {
     generatedAt: generatedAt.toISOString(),
@@ -319,6 +367,10 @@ export function buildStructuredOutput(
       boundingBox: SEA_BOUNDING_BOX,
     },
     feedHealth: health,
+    sinceYesterday: {
+      priorRunAt,
+      changes,
+    },
     stories: stories.map((s) => ({
       id: s.id,
       hazardType: s.hazardType,
@@ -333,6 +385,8 @@ export function buildStructuredOutput(
       triageSeverity: s.triageSeverity,
       suppressed: s.suppressed,
       reconciled: s.reconciled,
+      state: s.state,
+      aliases: s.aliases,
       sources: s.sources,
       supplementary: s.supplementary,
     })),
@@ -380,8 +434,15 @@ section.block { margin-bottom: 1.5rem; }
 .health-fixture { border-left-color: #e0b341; }
 .health-unavailable { border-left-color: #d63b2f; }
 .cadence { font-size: 0.8rem; color: var(--ink-faint); margin: 0.6rem 0 0; }
-.deferred { background: var(--panel-2); border: 1px dashed var(--line); border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.86rem; color: var(--ink-soft); }
-.deferred strong { color: var(--ink); }
+.sy-empty { background: var(--panel-2); border: 1px dashed var(--line); border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.86rem; color: var(--ink-soft); margin: 0; }
+.sy-empty strong { color: var(--ink); }
+.sy-since { font-size: 0.8rem; color: var(--ink-faint); margin: 0 0 0.5rem; }
+.sy-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.sy-list li { background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 0.5rem 0.8rem; font-size: 0.88rem; display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+.sy-kind { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.45rem; border-radius: 4px; color: #fff; background: var(--state); }
+.sy-title { font-weight: 600; }
+.sy-hazard { font-size: 0.72rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.03em; }
+.sy-detail { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 figure.map { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem; }
 figure.map svg { width: 100%; height: auto; display: block; }
 .land { fill: var(--panel-2); stroke: var(--ink-faint); stroke-width: 0.6; }
@@ -438,6 +499,8 @@ export function renderDashboard(
   stories: Story[],
   health: FeedHealth[],
   generatedAt: Date,
+  changes: ChangeLine[] = [],
+  priorRunAt: string | null = null,
 ): string {
   const reportedCount = stories.filter((s) => !s.suppressed).length;
   const suppressedCount = stories.length - reportedCount;
@@ -468,7 +531,7 @@ export function renderDashboard(
 
   <section class="block">
     <h2>Since yesterday</h2>
-    <div class="deferred"><strong>Not tracked in this build.</strong> Change detection (new / escalated / de-escalated / revised / deleted / confirmed, docs/adr/0005–0006) needs persisted prior state, which this snapshot dashboard does not keep. This section is shown empty-on-purpose rather than omitted, so its absence is never mistaken for "nothing changed" (docs/adr/0006).</div>
+    ${renderSinceYesterday(changes, priorRunAt)}
   </section>
 
   <section class="block">

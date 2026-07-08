@@ -45,8 +45,15 @@ section.block { margin-bottom: 1.5rem; }
 .health-fixture { border-left-color: #e0b341; }
 .health-unavailable { border-left-color: #d63b2f; }
 .cadence { font-size: 0.8rem; color: var(--ink-faint); margin: 0.6rem 0 0; }
-.deferred { background: var(--panel-2); border: 1px dashed var(--line); border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.86rem; color: var(--ink-soft); }
-.deferred strong { color: var(--ink); }
+.sy-empty { background: var(--panel-2); border: 1px dashed var(--line); border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.86rem; color: var(--ink-soft); margin: 0; }
+.sy-empty strong { color: var(--ink); }
+.sy-since { font-size: 0.8rem; color: var(--ink-faint); margin: 0 0 0.5rem; }
+.sy-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.sy-list li { background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 0.5rem 0.8rem; font-size: 0.88rem; display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+.sy-kind { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.45rem; border-radius: 4px; color: #fff; background: var(--state); }
+.sy-title { font-weight: 600; }
+.sy-hazard { font-size: 0.72rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.03em; }
+.sy-detail { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 figure.map { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem; }
 figure.map svg { width: 100%; height: auto; display: block; }
 .land { fill: var(--panel-2); stroke: var(--ink-faint); stroke-width: 0.6; }
@@ -102,7 +109,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 <div class="wrap">
   <header class="top">
     <h1>HADR Monitor — Southeast Asia</h1>
-    <p class="sub">Situation report · generated Wed, 08 Jul 2026 07:31:00 GMT · scope: ASEAN-10 + Timor-Leste, box 92°E–141°E 15°S–29°N · 2 reported / 453 suppressed / 4 reconciled</p>
+    <p class="sub">Situation report · generated Wed, 08 Jul 2026 07:58:49 GMT · scope: ASEAN-10 + Timor-Leste, box 92°E–141°E 15°S–29°N · 2 reported / 453 suppressed / 4 reconciled</p>
   </header>
 
   <section class="block">
@@ -115,7 +122,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 
   <section class="block">
     <h2>Since yesterday</h2>
-    <div class="deferred"><strong>Not tracked in this build.</strong> Change detection (new / escalated / de-escalated / revised / deleted / confirmed, docs/adr/0005–0006) needs persisted prior state, which this snapshot dashboard does not keep. This section is shown empty-on-purpose rather than omitted, so its absence is never mistaken for "nothing changed" (docs/adr/0006).</div>
+    <p class="sy-empty">No story changed state since the previous run (Wed, 08 Jul 2026 07:58:06 GMT). Silence here means "nothing changed", and the feed health strip above says whether every feed could actually be seen.</p>
   </section>
 
   <section class="block">
@@ -693,6 +700,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
     <span class="pill" style="--pill:#e0b341">yellow</span>
     <h4>M6.7 · 43 km ESE of Palu, Indonesia</h4>
     
+    
   </div>
   <p class="s-meta"><span class="s-raw">PAGER yellow</span> <span class="s-src"><a href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000st95" target="_blank" rel="noopener noreferrer">usgs</a></span></p>
   
@@ -706,6 +714,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
   <div class="s-head">
     <span class="pill" style="--pill:#8a94a6">none</span>
     <h4>Myanmar: Floods - Jun 2026 (fixture)</h4>
+    
     
   </div>
   <p class="s-meta"><span class="s-raw s-muted">no alert value</span> <span class="s-src"><a href="https://reliefweb.int/disaster/fl-2026-000104-mmr" target="_blank" rel="noopener noreferrer">reliefweb</a></span></p>
