@@ -1,0 +1,74 @@
+# The 08:30 SGT publish run (ADR-0010/0016): rebuilds the situation report
+# against live feeds, commits the new snapshot + persisted state to main, and
+# redeploys GitHub Pages.
+#
+# Two things worth knowing:
+# - 08:30 SGT is 00:30 UTC. GitHub cron can drift by minutes (occasionally
+#   more) under load — the schedule is a target, not a guarantee, which is
+#   also how ADR-0010 frames tick cadence.
+# - This workflow deploys Pages itself rather than relying on pages.yml:
+#   pushes made with the default GITHUB_TOKEN deliberately do not trigger
+#   other workflows, so a commit from here would never fire the push-based
+#   deploy.
+name: Daily 08:30 SGT sitrep
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 08:30 Asia/Singapore (UTC+8, no DST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sitrep:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Run checks
+        run: |
+          npx tsc --noEmit
+          npm test
+      - name: Build situation report (live feeds)
+        run: npm run build:dashboard
+      - name: Commit snapshot and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard-map.html dashboard-map.json state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit (feeds unchanged since last run)."
+          else
+            git commit -m "chore: 08:30 SGT sitrep $(date -u +%Y-%m-%d)"
+            git push
+          fi
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp dashboard-map.html _site/index.html
+          cp dashboard-map.html _site/dashboard-map.html
+          cp dashboard-map.json _site/dashboard-map.json
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

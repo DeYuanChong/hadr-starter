@@ -23,7 +23,7 @@ Legend: ✅ met · ◑ partial.
 | 11 | Offshore Sunda Trench quakes included | ✅ | Bounding-box scope (ADR-0002); offshore markers visible on the map. |
 | 12 | ReliefWeb confirmation of an EQ | ✅ | A ReliefWeb page attaches to an EQ story only on an exact GLIDE match (conservative by design — GLIDE is a bonus link, mostly empty on GDACS, so this fires rarely); the attach flips the story to `confirmed`, additive-only per ADR-0009. Non-EQ country-match attach unchanged (ADR-0004). |
 | 13 | ReliefWeb own-words + link, not republished | ✅ | Title + link + "via ReliefWeb" attribution only; zero body text (ADR-0015). |
-| 14 | Predictable 08:30 publish | ◑ | Build is a deterministic one-shot (`npm run build:dashboard`) with persisted state between runs; wiring it to a 08:30 SGT schedule is the remaining piece (ADR-0010/0016). |
+| 14 | Predictable 08:30 publish | ✅ | `.github/workflows/sitrep.yml` runs the build daily at 08:30 SGT (cron `30 0 * * *` UTC), commits the snapshot + state to main, and redeploys GitHub Pages itself (a GITHUB_TOKEN push can't trigger the push-based deploy). GitHub cron can drift by minutes — a target, not a guarantee, matching how ADR-0010 frames cadence. |
 | 15 | High-severity event waits for next report (no out-of-band) | ✅ | By design — only the build publishes; there is no separate alert channel (ADR-0016). |
 | 16 | Downstream agent gets structured data | ✅ | `dashboard-map.json` emitted alongside the HTML — stories with state + aliases, feed health, and the sinceYesterday change list. |
 | 17 | Per-feed failures isolated | ✅ | Each feed fetched in its own try/catch; one failing degrades only its own health line, the report still publishes — and its stories are carried forward, not deleted. |
@@ -31,6 +31,6 @@ Legend: ✅ met · ◑ partial.
 | 19 | No hard dependency on ReliefWeb appname | ✅ | RSS-first with fixture fallback (ADR-0013); the verifying run used the fixture and said so honestly. |
 | 20 | Single human-readable state file | ✅ | `state.json` at the repo root: cursors + story snapshots, pretty-printed JSON, written atomically (temp file + rename, ADR-0012). A corrupt/missing file degrades to "first run" rather than blocking the publish. |
 
-**Summary:** 19 met, 1 partial. The remaining partial (story 14) is purely a
-scheduling concern — running `npm run build:dashboard` at 08:30 SGT — not a
-missing capability in the pipeline itself.
+**Summary:** all 20 stories met. The one soft edge: story 14's 08:30 SGT
+schedule rides GitHub Actions cron, which can drift by minutes under load —
+disclosed here and in the workflow rather than papered over.
