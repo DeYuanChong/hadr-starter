@@ -20,6 +20,8 @@ function story(overrides: Partial<Story> = {}): Story {
     triageSeverity: "orange",
     suppressed: false,
     reconciled: false,
+    aliases: ["x"],
+    state: "new",
     sources: [{ feed: "usgs", url: "https://example.test/e" }],
     supplementary: [],
   };

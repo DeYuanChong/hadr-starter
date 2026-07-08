@@ -15,6 +15,7 @@ function gdacsEq(overrides: Partial<GdacsInput> = {}): GdacsInput {
     lat: 13.77,
     lon: 120.66,
     sourceId: null,
+    glide: null,
     ...overrides,
   };
 }

@@ -5,9 +5,10 @@
  * record's `sourceid` (from its geteventdata detail) is a USGS event id;
  * match it against the USGS event's `ids` *list*, not the single preferred
  * id. Matched records merge into one reconciled Story. All other GDACS and
- * USGS records stand alone. ReliefWeb items attach as supplementary links to
- * a loosely-matching non-EQ story, or list on their own — never merged, never
- * affecting severity (docs/adr/0004, docs/adr/0015).
+ * USGS records stand alone. ReliefWeb items attach as supplementary links —
+ * to an EQ story only via an exact GLIDE match (the "confirmed" trigger,
+ * docs/adr/0005), or to a non-EQ story sharing a country (docs/adr/0004) —
+ * never merged, never affecting severity (docs/adr/0015).
  *
  * This is a pure function over already-fetched inputs, so it is testable
  * without the network.
@@ -32,6 +33,11 @@ export interface GdacsInput {
   /** USGS event id from the GDACS detail endpoint (EQ + source NEIC), else
    * null — either not an earthquake, or the detail fetch failed/was empty. */
   sourceId: string | null;
+  /** GLIDE number when GDACS populated it (mostly empty — a bonus link,
+   * never a join key, per feeds/blindspots.md). An exact GLIDE match is the
+   * only thing that attaches a ReliefWeb page to an EQ story, which in turn
+   * is what can fire the "confirmed" state (docs/adr/0005). */
+  glide: string | null;
 }
 
 /** A USGS event plus its full `ids` list (the join target). */
@@ -62,15 +68,31 @@ function splitCountries(country: string): string[] {
     .filter((c) => c.length > 0);
 }
 
-function makeStory(partial: Omit<Story, "triageSeverity" | "suppressed">): Story {
+/**
+ * Pulls a GLIDE number out of a ReliefWeb disaster URL slug, e.g.
+ * https://reliefweb.int/disaster/eq-2026-000093-ven → EQ-2026-000093-VEN.
+ * Returns null when the link doesn't carry one.
+ */
+export function glideFromReliefWebLink(link: string): string | null {
+  const m = link.match(/disaster\/([a-z]{2}-\d{4}-\d{6}-[a-z]{3})\b/i);
+  return m ? m[1].toUpperCase() : null;
+}
+
+function makeStory(
+  partial: Omit<Story, "triageSeverity" | "suppressed" | "state">,
+): Story {
   const { triageSeverity, suppressed } = assignTriage(partial.gdacsAlert, partial.pagerAlert);
-  return { ...partial, triageSeverity, suppressed };
+  // Every story starts "new"; the state machine (src/dashboard/state.ts)
+  // overwrites this by diffing against the persisted prior run.
+  return { ...partial, triageSeverity, suppressed, state: "new" };
+}
+
+function dedupe(ids: (string | null | undefined)[]): string[] {
+  return [...new Set(ids.filter((x): x is string => typeof x === "string" && x.length > 0))];
 }
 
 /**
  * Builds the reconciled Story list from the three feeds' inputs.
- * ReliefWeb items are attached to non-EQ stories that share a country, or
- * kept as their own supplementary-only entries when nothing matches.
  */
 export function reconcile(
   gdacs: GdacsInput[],
@@ -88,53 +110,58 @@ export function reconcile(
 
   const matchedUsgs = new Set<string>();
   const stories: Story[] = [];
+  // GDACS GLIDE per story, for the ReliefWeb→EQ attach below.
+  const glideByStory = new Map<Story, string>();
 
   // GDACS records first — these can absorb a USGS event via the EQ join.
   for (const g of gdacs) {
     const isEq = g.hazardType.toUpperCase() === "EQ";
     const joined = isEq && g.sourceId ? usgsByAnyId.get(g.sourceId) : undefined;
 
+    let story: Story;
     if (joined) {
       matchedUsgs.add(joined.id);
-      stories.push(
-        makeStory({
-          id: joined.id,
-          hazardType: "EQ",
-          title: g.name,
-          countries: splitCountries(g.country),
-          lat: joined.lat, // USGS coordinate is the precise epicentre
-          lon: joined.lon,
-          timeUtc: joined.timeUtc,
-          mag: joined.mag,
-          gdacsAlert: g.alertLevel,
-          pagerAlert: joined.alert,
-          reconciled: true,
-          sources: [
-            { feed: "gdacs", url: g.reportUrl },
-            { feed: "usgs", url: joined.url },
-          ],
-          supplementary: [],
-        }),
-      );
+      story = makeStory({
+        id: joined.id,
+        hazardType: "EQ",
+        title: g.name,
+        countries: splitCountries(g.country),
+        lat: joined.lat, // USGS coordinate is the precise epicentre
+        lon: joined.lon,
+        timeUtc: joined.timeUtc,
+        mag: joined.mag,
+        gdacsAlert: g.alertLevel,
+        pagerAlert: joined.alert,
+        reconciled: true,
+        // Cross-run identity survives the join resolving late or the
+        // preferred USGS id flipping network prefix.
+        aliases: dedupe([joined.id, ...joined.ids, g.eventId]),
+        sources: [
+          { feed: "gdacs", url: g.reportUrl },
+          { feed: "usgs", url: joined.url },
+        ],
+        supplementary: [],
+      });
     } else {
-      stories.push(
-        makeStory({
-          id: g.eventId,
-          hazardType: g.hazardType,
-          title: g.name,
-          countries: splitCountries(g.country),
-          lat: g.lat,
-          lon: g.lon,
-          timeUtc: g.fromDate,
-          mag: null,
-          gdacsAlert: g.alertLevel,
-          pagerAlert: null,
-          reconciled: false,
-          sources: [{ feed: "gdacs", url: g.reportUrl }],
-          supplementary: [],
-        }),
-      );
+      story = makeStory({
+        id: g.eventId,
+        hazardType: g.hazardType,
+        title: g.name,
+        countries: splitCountries(g.country),
+        lat: g.lat,
+        lon: g.lon,
+        timeUtc: g.fromDate,
+        mag: null,
+        gdacsAlert: g.alertLevel,
+        pagerAlert: null,
+        reconciled: false,
+        aliases: dedupe([g.eventId]),
+        sources: [{ feed: "gdacs", url: g.reportUrl }],
+        supplementary: [],
+      });
     }
+    if (g.glide) glideByStory.set(story, g.glide.trim().toUpperCase());
+    stories.push(story);
   }
 
   // USGS events not absorbed by a GDACS join stand alone.
@@ -153,21 +180,32 @@ export function reconcile(
         gdacsAlert: null,
         pagerAlert: u.alert,
         reconciled: false,
+        aliases: dedupe([u.id, ...u.ids]),
         sources: [{ feed: "usgs", url: u.url }],
         supplementary: [],
       }),
     );
   }
 
-  // ReliefWeb items: attach to a loosely-matching non-EQ story sharing an
-  // in-scope country (docs/adr/0004); otherwise keep as a standalone
-  // supplementary entry. Never merged, never affects severity.
+  // ReliefWeb items: attach as a supplementary link — to an EQ story only on
+  // an exact GLIDE match (conservative on purpose: GLIDE is a bonus link,
+  // and this attach is what makes "confirmed" possible), else to a non-EQ
+  // story sharing a country (docs/adr/0004), else standalone. Never merged,
+  // never affects severity.
   for (const r of reliefweb) {
-    const host = stories.find(
-      (s) =>
-        s.hazardType.toUpperCase() !== "EQ" &&
-        s.countries.some((c) => r.countries.includes(c)),
-    );
+    const rwGlide = glideFromReliefWebLink(r.link);
+    const eqHost = rwGlide
+      ? stories.find(
+          (s) => s.hazardType.toUpperCase() === "EQ" && glideByStory.get(s) === rwGlide,
+        )
+      : undefined;
+    const host =
+      eqHost ??
+      stories.find(
+        (s) =>
+          s.hazardType.toUpperCase() !== "EQ" &&
+          s.countries.some((c) => r.countries.includes(c)),
+      );
     if (host) {
       host.supplementary.push({ title: r.title, url: r.link });
     } else {
@@ -188,6 +226,7 @@ export function reconcile(
         gdacsAlert: null,
         pagerAlert: null,
         reconciled: false,
+        aliases: dedupe([`reliefweb:${r.link}`]),
         sources: [{ feed: "reliefweb", url: r.link }],
         supplementary: [{ title: r.title, url: r.link }],
       });

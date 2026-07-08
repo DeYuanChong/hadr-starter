@@ -64,12 +64,26 @@ export interface EarthquakeEvent {
 }
 
 /**
+ * Computes the query window start: the default lookback, extended further
+ * back when the last successful poll is older than the lookback would cover
+ * (docs/adr/0011 — the cursor makes downtime recoverable: however long the
+ * gap, the next successful run still asks about everything it missed).
+ */
+export function computeQueryStart(now: Date = new Date(), extendBackTo?: Date): Date {
+  const defaultStart = new Date(now.getTime() - LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
+  if (extendBackTo && extendBackTo.getTime() < defaultStart.getTime()) {
+    return extendBackTo;
+  }
+  return defaultStart;
+}
+
+/**
  * Builds the FDSN query URL, bounding the request server-side to the SEA
  * box (ADR-0002) so the box is a query parameter, not a client-side
  * post-filter over the global feed.
  */
-export function buildQueryUrl(now: Date = new Date()): string {
-  const start = new Date(now.getTime() - LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
+export function buildQueryUrl(now: Date = new Date(), extendBackTo?: Date): string {
+  const start = computeQueryStart(now, extendBackTo);
   const starttime = start.toISOString().slice(0, 10); // ISO date, e.g. "2026-06-08"
   const params = new URLSearchParams({
     format: "geojson",
