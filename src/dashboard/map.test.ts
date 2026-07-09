@@ -63,7 +63,7 @@ test("renderMap places a marker per mappable story and notes the unmapped count"
 });
 
 test("suppressed markers are drawn faint, reported markers are not", () => {
-  const t = assignTriage("Green", null); // suppressed
+  const t = assignTriage("Green", null, "EQ"); // suppressed
   assert.equal(t.suppressed, true);
   const svg = renderMap([story({ id: "faint", triageSeverity: "green", suppressed: true })]);
   assert.match(svg, /fill-opacity="0.35"/, "suppressed marker is faint");

@@ -81,7 +81,7 @@ export function glideFromReliefWebLink(link: string): string | null {
 function makeStory(
   partial: Omit<Story, "triageSeverity" | "suppressed" | "state">,
 ): Story {
-  const { triageSeverity, suppressed } = assignTriage(partial.gdacsAlert, partial.pagerAlert);
+  const { triageSeverity, suppressed } = assignTriage(partial.gdacsAlert, partial.pagerAlert, partial.hazardType);
   // Every story starts "new"; the state machine (src/dashboard/state.ts)
   // overwrites this by diffing against the persisted prior run.
   return { ...partial, triageSeverity, suppressed, state: "new" };

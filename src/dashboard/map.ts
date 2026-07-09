@@ -107,11 +107,12 @@ export function isMappable(story: Story): boolean {
 }
 
 /**
- * Renders one event marker. Suppressed (Green-tier) stories still appear on
- * the map — the map is context, and hiding them would misrepresent the
- * region's activity — but drawn faint and small so they don't compete with
- * live signal. Each marker carries a data-story-id and an SVG <title> for
- * hover, and is a link when a source url exists.
+ * Renders one event marker. Suppressed (Green-tier earthquakes — ADR-0008,
+ * scoped to EQ) still appear on the map — the map is context, and hiding
+ * them would misrepresent the region's activity — but drawn faint and small
+ * so they don't compete with live signal. Each marker carries a
+ * data-story-id and an SVG <title> for hover, and is a link when a source
+ * url exists.
  */
 function renderMarker(story: Story): string {
   const [x, y] = project(story.lon as number, story.lat as number);
@@ -150,7 +151,7 @@ function renderLegend(tiersPresent: Set<AlertTier>): string {
         `<span class="legend-item"><span class="swatch" style="background:${TIER_COLOR[t]}"></span>${label[t]}</span>`,
     )
     .join("");
-  return `<div class="map-legend">${items}<span class="legend-item legend-suppressed"><span class="swatch swatch-faint"></span>faint = suppressed (Green-tier)</span></div>`;
+  return `<div class="map-legend">${items}<span class="legend-item legend-suppressed"><span class="swatch swatch-faint"></span>faint = suppressed (Green-tier earthquake)</span></div>`;
 }
 
 /**

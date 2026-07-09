@@ -88,7 +88,7 @@ function renderStoryImagery(img: StoryImagery | undefined, title: string): strin
 }
 
 /** A single consolidated table row for one story (all hazards, all tiers,
- * including suppressed Green-tier ones — "all the alerts gathered").
+ * including suppressed Green-tier earthquakes — "all the alerts gathered").
  * Mirrors one story card's fields so the table and cards always agree. */
 function renderAlertRow(s: Story): string {
   const mag = s.mag !== null ? s.mag.toFixed(1) : "—";
@@ -105,7 +105,7 @@ function renderAlertRow(s: Story): string {
     )
     .join(" ");
   const suppressedTag = s.suppressed
-    ? `<span class="row-supp" title="Green-tier or unalerted — tracked, not surfaced in the story cards">suppressed</span>`
+    ? `<span class="row-supp" title="Green-tier or unalerted earthquake — tracked, not surfaced in the story cards">suppressed</span>`
     : "";
   return `<tr class="row row-${s.triageSeverity}" data-hazard="${escapeHtml(s.hazardType.toUpperCase())}" data-tier="${s.triageSeverity}">
   <td class="c-tier"><span class="pill" style="--pill:${TIER_COLOR[s.triageSeverity]}">${s.triageSeverity}</span>${suppressedTag}</td>
@@ -124,9 +124,9 @@ function renderAlertRow(s: Story): string {
 /** Consolidated table of every alert gathered this run, across all feeds and
  * hazard types, sorted by triage severity (highest first), then newest first.
  * Reported stories come before suppressed ones at equal tier; this is the
- * one place every alert — including the Green-tier suppressed ones — appears
- * in a single scannable view. A small client filter lets the reader narrow
- * by hazard. */
+ * one place every alert — including the Green-tier earthquakes suppressed
+ * from the story cards — appears in a single scannable view. A small client
+ * filter lets the reader narrow by hazard. */
 function renderAlertsTable(stories: Story[]): string {
   const rows = stories
     .slice()
@@ -145,7 +145,7 @@ function renderAlertsTable(stories: Story[]): string {
     .join("");
 
   return `<div class="alerts-table-wrap">
-<p class="alerts-table-hint">Every alert gathered this run, including Green-tier suppressed ones. Use the hazard filter to narrow the view — the table itself is the complete record.</p>
+<p class="alerts-table-hint">Every alert gathered this run, including Green-tier earthquakes (suppressed from the story cards). Use the hazard filter to narrow the view — the table itself is the complete record.</p>
 <div class="alerts-table-controls">
   <label class="filter">Hazard
     <select id="hazard-filter" autocomplete="off">
@@ -309,8 +309,8 @@ function renderStoryGroups(stories: Story[], imagery?: Map<string, StoryImagery>
 
   if (groups.length === 0) {
     const totalSuppressed = [...suppressedByHazard.values()].reduce((a, b) => a + b, 0);
-    return `<p class="empty">No stories above Green-tier at time of fetch.${
-      totalSuppressed ? ` ${totalSuppressed} Green-tier stor${totalSuppressed === 1 ? "y" : "ies"} suppressed (tracked, not shown).` : ""
+    return `<p class="empty">No stories above Green-tier earthquakes at time of fetch.${
+      totalSuppressed ? ` ${totalSuppressed} Green-tier quake${totalSuppressed === 1 ? "" : "s"} suppressed (tracked, not shown).` : ""
     }</p>`;
   }
 

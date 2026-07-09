@@ -79,15 +79,40 @@ test("triage takes the higher of GDACS colour and PAGER; both are shown", () => 
   assert.equal(stories[0].suppressed, false);
 });
 
-test("Green-tier and unalerted stories are suppressed; above-Green are reported", () => {
+test("Green-tier and unalerted EQ stories are suppressed; above-Green EQ are reported", () => {
   const green = reconcile([gdacsEq({ alertLevel: "Green" })], [], []);
-  assert.equal(green[0].suppressed, true, "Green is suppressed");
+  assert.equal(green[0].suppressed, true, "Green EQ is suppressed");
 
   const orange = reconcile([gdacsEq({ alertLevel: "Orange" })], [], []);
-  assert.equal(orange[0].suppressed, false, "Orange is reported");
+  assert.equal(orange[0].suppressed, false, "Orange EQ is reported");
 
   const none = reconcile([], [usgsEq({ alert: null })], []);
-  assert.equal(none[0].suppressed, true, "unalerted USGS is suppressed");
+  assert.equal(none[0].suppressed, true, "unalerted USGS EQ is suppressed");
+});
+
+test("Green-tier non-EQ hazards are NOT suppressed (ADR-0008 scoped to EQ)", () => {
+  const flood = reconcile(
+    [gdacsEq({ hazardType: "FL", country: "Laos", alertLevel: "Green" })],
+    [],
+    [],
+  );
+  assert.equal(flood[0].suppressed, false, "Green flood is reported, not noise");
+
+  const cyclone = reconcile(
+    [gdacsEq({ hazardType: "TC", country: "Philippines", alertLevel: "Green" })],
+    [],
+    [],
+  );
+  assert.equal(cyclone[0].suppressed, false, "Green tropical cyclone is reported");
+
+  // Above-Green non-EQ is also reported (unchanged — only the EQ branch ever
+  // suppressed, and it suppresses only at green/none).
+  const orangeFlood = reconcile(
+    [gdacsEq({ hazardType: "FL", country: "Vietnam", alertLevel: "Orange" })],
+    [],
+    [],
+  );
+  assert.equal(orangeFlood[0].suppressed, false, "Orange flood is reported");
 });
 
 test("multi-country GDACS event keeps all countries, in full (ADR-0003)", () => {

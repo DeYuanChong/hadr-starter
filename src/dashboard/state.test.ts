@@ -234,6 +234,31 @@ test("new reported story on a non-first run gets a 'new' line; suppressed ones d
   );
 });
 
+test("a new non-EQ Green story surfaces as 'new' (ADR-0008 scoped to EQ)", () => {
+  // A Green-alert flood is not background seismicity, so it is reported and
+  // therefore announced on a non-first run — unlike a suppressed Green EQ.
+  const prior = priorFrom([story()]); // an existing suppressed Green EQ
+  const flood: Story = {
+    ...story(),
+    id: "fl1",
+    aliases: ["fl1"],
+    hazardType: "FL",
+    title: "Flood in Laos",
+    countries: ["Laos"],
+    gdacsAlert: "Green",
+    pagerAlert: null,
+    triageSeverity: "green",
+    suppressed: false, // triage.ts would set this; state machine trusts the flag
+    sources: [{ feed: "gdacs", url: null }],
+  };
+  const r = applyStateMachine(prior, [story(), flood], ALL_LIVE, T1, WINDOW_START, {});
+  assert.deepEqual(
+    r.changes.map((c) => [c.kind, c.storyId]),
+    [["new", "fl1"]],
+    "the Green non-EQ arrival is announced, not swallowed as noise",
+  );
+});
+
 test("parseUtcish treats GDACS's bare timestamps as UTC, not local time", () => {
   const bare = parseUtcish("2026-07-06T11:29:36"); // GDACS shape, no suffix
   const explicit = parseUtcish("2026-07-06T11:29:36Z");
