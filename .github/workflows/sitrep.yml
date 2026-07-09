@@ -1,20 +1,26 @@
-# The 08:30 SGT publish run (ADR-0010/0016): rebuilds the situation report
-# against live feeds, commits the new snapshot + persisted state to main, and
-# redeploys GitHub Pages.
+# The situation-report publish run (ADR-0010/0016): rebuilds the situation
+# report against live feeds, commits the new snapshot + persisted state to
+# main, and redeploys GitHub Pages.
 #
-# Two things worth knowing:
-# - 08:30 SGT is 00:30 UTC. GitHub cron can drift by minutes (occasionally
-#   more) under load — the schedule is a target, not a guarantee, which is
-#   also how ADR-0010 frames tick cadence.
-# - This workflow deploys Pages itself rather than relying on pages.yml:
-#   pushes made with the default GITHUB_TOKEN deliberately do not trigger
-#   other workflows, so a commit from here would never fire the push-based
-#   deploy.
-name: Daily 08:30 SGT sitrep
+# Cadence: every 15 minutes (was daily at 08:30 SGT). GitHub's shortest
+# schedule interval is 5 min; cron can still drift by minutes (occasionally
+# more) under load — the schedule is a target, not a guarantee, which is how
+# ADR-0010 frames tick cadence. Note: ~96 commits/day, so main accumulates
+# snapshot history quickly.
+#
+# This workflow deploys Pages itself rather than relying on pages.yml:
+# pushes made with the default GITHUB_TOKEN deliberately do not trigger
+# other workflows, so a commit from here would never fire the push-based
+# deploy.
+name: Sitrep (every 15 min)
 
 on:
   schedule:
-    - cron: "30 0 * * *" # 08:30 Asia/Singapore (UTC+8, no DST)
+    # Every 15 minutes, offset off the top of the hour (:07/:22/:37/:52) to
+    # dodge the high-load window GitHub warns about near :00. GitHub's
+    # shortest schedule interval is 5 min; runs can still drift/drop under
+    # load — the schedule is a target, not a guarantee (ADR-0010).
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -54,7 +60,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit (feeds unchanged since last run)."
           else
-            git commit -m "chore: 08:30 SGT sitrep $(date -u +%Y-%m-%d)"
+            git commit -m "chore: sitrep $(date -u +%Y-%m-%dT%H:%M)Z"
             git push
           fi
       - name: Assemble site
