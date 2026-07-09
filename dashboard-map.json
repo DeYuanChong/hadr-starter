@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T15:48:54.538Z",
+  "generatedAt": "2026-07-09T17:43:27.111Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "336 in-scope event(s)"
+      "detail": "340 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T12:42:04.092Z",
+    "priorRunAt": "2026-07-09T15:48:54.538Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000sz8l",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 10.8094,
+      "lon": 125.179,
+      "timeUtc": "Thu, 09 Jul 2026 16:46:49 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000sz8l",
+        "1551003"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551003&episodeid=1717226&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz8l"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000sz4q",
       "hazardType": "EQ",
@@ -165,6 +199,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.5273,20.9268,103.0273,22.4268&t=2026-06-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us7000sz8f",
+      "hazardType": "EQ",
+      "title": "70 km NNW of Hirara, Japan",
+      "countries": [],
+      "lat": 25.3774,
+      "lon": 125.0105,
+      "timeUtc": "Thu, 09 Jul 2026 16:21:44 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000sz8f"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz8f"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us7000sz3z",
@@ -1333,6 +1394,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ad"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tapy",
+      "hazardType": "EQ",
+      "title": "64 km ENE of Kendari, Indonesia",
+      "countries": [],
+      "lat": -3.8383,
+      "lon": 123.0835,
+      "timeUtc": "Tue, 30 Jun 2026 18:25:48 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tapy"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tapy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t990",
+      "hazardType": "EQ",
+      "title": "202 km SE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.06,
+      "lon": 126.701,
+      "timeUtc": "Tue, 30 Jun 2026 18:24:28 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t990"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t990"
         }
       ],
       "supplementary": [],
@@ -4389,7 +4504,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t7mg"
       ],
@@ -4416,7 +4531,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t7mh"
       ],
@@ -5396,7 +5511,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sulx"
       ],
@@ -6586,7 +6701,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000su2n"
       ],
