@@ -244,6 +244,36 @@ function check(name, cond, extra = "") {
   await cleanPage.waitForTimeout(1500);
   check("zero console/page errors", errors.length === 0, errors.slice(0, 2).join(" | "));
 
+  // ---- 12. About page (marketing) ----------------------------------------------
+  check(
+    "dashboard links to About page",
+    (await page.locator('a[href="about.html"]').count()) >= 1,
+  );
+  const aboutPage = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  const aboutResp = await aboutPage.goto(new URL("about.html", ENTRY).href, {
+    waitUntil: "load",
+  });
+  check("about page serves", aboutResp.ok(), `HTTP ${aboutResp.status()}`);
+  check("about title", (await aboutPage.title()).includes("HADR Monitor"));
+  const aboutHeadings = await aboutPage.locator("main h2").allInnerTexts();
+  for (const expected of [
+    "What is this?",
+    "Why it exists — and where it's headed",
+    "Who it's for — and the decision it speeds up",
+    "What it deliberately does not do",
+  ]) {
+    check(`about answers "${expected}"`, aboutHeadings.includes(expected));
+  }
+  check(
+    "about has collapsible technical sections",
+    (await aboutPage.locator("details").count()) >= 4,
+  );
+  check(
+    "about links back to the report",
+    (await aboutPage.locator('a[href="dashboard-map.html"]').count()) >= 1,
+  );
+  await aboutPage.screenshot({ path: SHOT("05-about"), fullPage: true });
+
   await browser.close();
 
   console.log(`\n===== E2E RESULTS (${ENTRY}) =====`);

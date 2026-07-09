@@ -5,9 +5,9 @@ Deterministic checks live here — anything that must give the same answer twice
 Browser end-to-end check of a deployed dashboard (`npm run e2e`). Drives the
 real page with system Chrome via Playwright through every interactive
 affordance: map clicks, flag chips, keyboard selection, Escape/close, hash
-deep links, marker source links, the dashboard-map.json payload, and both
-themes. Exits non-zero on any failure; screenshots go to the gitignored
-`reports/e2e-shots/`.
+deep links, marker source links, the dashboard-map.json payload, both themes,
+and the About page. Exits non-zero on any failure; screenshots go to the
+gitignored `reports/e2e-shots/`.
 
 `E2E_BASE` is **required** — it names the page to test:
 

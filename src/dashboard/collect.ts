@@ -6,7 +6,8 @@
  * Feeds are isolated from each other (story 17): each is fetched in its own
  * try/catch, and one feed failing degrades the report for that feed only
  * (its health goes to unavailable/fixture) rather than aborting the run —
- * the 08:30 report must still publish on a bad morning (REQS.md item 5).
+ * the 08:30 report must still publish on a bad morning
+ * (docs/design/requirements.md, core behaviour 5).
  */
 
 import {

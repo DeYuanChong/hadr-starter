@@ -136,6 +136,10 @@ stories.
   agents.
 - **`events/<feed>.html`** — one plain table per feed, produced by the
   individual fetchers.
+- **`about.html`** — a static marketing/about page deployed alongside the
+  report: what the monitor is, why it exists, who it serves, and what it
+  deliberately does not do, with collapsible technical detail (data sources,
+  refresh cadence, retention, features) for the deeper reader.
 
 The vocabulary used throughout the UI and the code (Story, Triage severity,
 Story state, Feed health strip, …) is defined in
@@ -159,6 +163,7 @@ Story state, Feed health strip, …) is defined in
 ├── .github/workflows/    # CI, scheduled publish, Pages deploy
 ├── dashboard-map.html    # generated situation report (committed product)
 ├── dashboard-map.json    # machine-readable twin (committed)
+├── about.html            # static marketing/about page (committed, deployed)
 ├── state.json            # persisted run state / cursors (committed)
 ├── CONTEXT.md            # domain vocabulary
 ├── ARCHITECTURE.md       # architecture overview
@@ -265,12 +270,12 @@ To enable it on your fork:
 
 ### Other hosts
 
-Because `dashboard-map.html` and `dashboard-map.json` are committed artifacts
-with no runtime dependencies, you can also serve them from Netlify, Vercel,
-S3/CloudFront, or any web server — point the host at the repository root (or
-copy those two files plus rename `dashboard-map.html` to `index.html`). Run
-`npm run build:dashboard` on your own schedule (cron, a scheduled function,
-etc.) to refresh them.
+Because `dashboard-map.html`, `dashboard-map.json` and `about.html` are
+committed artifacts with no runtime dependencies, you can also serve them from
+Netlify, Vercel, S3/CloudFront, or any web server — point the host at the
+repository root (or copy those three files, renaming `dashboard-map.html` to
+`index.html`). Run `npm run build:dashboard` on your own schedule (cron, a
+scheduled function, etc.) to refresh them.
 
 ## Development
 

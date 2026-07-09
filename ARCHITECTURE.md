@@ -34,6 +34,10 @@ There are two entry surfaces:
   scripts that each render one feed's raw *records* to `events/<feed>.html`.
   They share the scope and HTML helpers but do no reconciliation.
 
+Alongside these generated outputs, the deploy ships one hand-authored static
+page: `about.html`, the marketing/about page. It is committed as-is (not
+produced by the pipeline) and, like the dashboard, is fully self-contained.
+
 ## The pipeline (`src/dashboard/`)
 
 `index.ts` orchestrates the run in order:

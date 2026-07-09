@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="HADR Monitor watches the world's public disaster alert systems and publishes one honest morning situation report for Southeast Asia — free, automatic, and clear about what it can and cannot see.">
+<title>About — HADR Monitor · Southeast Asia</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%230e6f68'/%3E%3Ccircle cx='8' cy='8' r='3' fill='%23f4f6f4'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #f4f6f4; --panel: #ffffff; --line: #d9ded8; --ink: #1b1e24;
+  --ink-soft: #5a6470; --ink-faint: #8a94a0; --accent: #0e6f68;
+  --panel-2: #eef1ee; --btn-ink: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12171a; --panel: #182025; --line: #28323a; --ink: #e3e9e6;
+    --ink-soft: #9aa8a2; --ink-faint: #64726c; --accent: #5fe0cf;
+    --panel-2: #1d272c; --btn-ink: #0c1214;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171a; --panel: #182025; --line: #28323a; --ink: #e3e9e6;
+  --ink-soft: #9aa8a2; --ink-faint: #64726c; --accent: #5fe0cf;
+  --panel-2: #1d272c; --btn-ink: #0c1214;
+}
+:root[data-theme="light"] {
+  --bg: #f4f6f4; --panel: #ffffff; --line: #d9ded8; --ink: #1b1e24;
+  --ink-soft: #5a6470; --ink-faint: #8a94a0; --accent: #0e6f68;
+  --panel-2: #eef1ee; --btn-ink: #ffffff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { position: static; display: inline-block; padding: 0.3rem 0.6rem; }
+
+header.top {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  border-bottom: 2px solid var(--accent); padding-bottom: 0.9rem; flex-wrap: wrap;
+}
+.brand { margin: 0; font-weight: 700; font-size: 1rem; letter-spacing: 0.01em; }
+.brand .dim { color: var(--ink-soft); font-weight: 400; }
+header.top nav { font-size: 0.9rem; }
+
+.hero { padding: 2.5rem 0 1.5rem; }
+.hero h1 {
+  margin: 0 0 0.9rem; font-size: clamp(1.65rem, 4.5vw, 2.35rem);
+  line-height: 1.2; letter-spacing: -0.01em; max-width: 24ch;
+}
+.lede { margin: 0 0 1.4rem; font-size: 1.08rem; color: var(--ink-soft); max-width: 62ch; }
+.cta-row { display: flex; gap: 0.7rem; flex-wrap: wrap; margin: 0 0 0.9rem; }
+.btn {
+  display: inline-block; background: var(--accent); color: var(--btn-ink);
+  text-decoration: none; font-weight: 600; font-size: 0.95rem;
+  padding: 0.55rem 1.1rem; border-radius: 6px;
+}
+.btn:hover { filter: brightness(1.08); }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.fineprint { margin: 0; font-size: 0.8rem; color: var(--ink-faint); }
+
+section { margin: 2.4rem 0 0; }
+.kicker {
+  margin: 0 0 0.2rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--ink-faint);
+}
+h2 { margin: 0 0 0.8rem; font-size: 1.35rem; line-height: 1.25; }
+section p { max-width: 68ch; }
+.soft { color: var(--ink-soft); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.9rem 0; padding: 0; list-style: none; }
+.chips li {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 999px;
+  padding: 0.18rem 0.7rem; font-size: 0.8rem; color: var(--ink-soft);
+}
+.reads { margin: 1rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.5rem; }
+.reads li {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+  padding: 0.55rem 0.8rem; font-size: 0.9rem; display: flex; gap: 0.6rem; align-items: baseline;
+}
+.reads .tag {
+  flex-shrink: 0; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--accent); border: 1px solid var(--accent);
+  border-radius: 4px; padding: 0.08rem 0.4rem;
+}
+
+.cards { display: grid; gap: 0.8rem; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin: 1.1rem 0; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.95rem 1.05rem; }
+.card h3 { margin: 0 0 0.35rem; font-size: 0.98rem; }
+.card p { margin: 0; font-size: 0.87rem; color: var(--ink-soft); }
+
+.callout {
+  background: var(--panel-2); border-left: 4px solid var(--accent); border-radius: 6px;
+  padding: 0.9rem 1.1rem; margin: 1.2rem 0 0;
+}
+.callout p { margin: 0; max-width: none; }
+.callout strong { display: block; margin-bottom: 0.25rem; }
+
+.not-list { margin: 1rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.55rem; }
+.not-list li {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+  padding: 0.6rem 0.85rem; font-size: 0.9rem; display: flex; gap: 0.6rem;
+}
+.not-list .x { color: var(--ink-faint); font-weight: 700; flex-shrink: 0; }
+.not-list strong { font-weight: 600; }
+
+details {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+  margin: 0 0 0.7rem; overflow: hidden;
+}
+summary {
+  cursor: pointer; padding: 0.8rem 1.05rem; font-weight: 600; font-size: 0.95rem;
+  color: var(--ink); user-select: none;
+}
+summary:hover { color: var(--accent); }
+summary .hint { font-weight: 400; font-size: 0.8rem; color: var(--ink-faint); margin-left: 0.4rem; }
+.d-body { padding: 0.2rem 1.05rem 1rem; border-top: 1px solid var(--line); font-size: 0.9rem; }
+.d-body p { max-width: none; }
+.d-body ul { padding-left: 1.2rem; margin: 0.6rem 0; }
+.d-body li { margin: 0.25rem 0; }
+.d-body .note { font-size: 0.82rem; color: var(--ink-faint); }
+table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 0.4rem; font-size: 0.86rem; }
+th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.05em; color: var(--ink-faint); }
+@media (max-width: 640px) {
+  .tbl-scroll { overflow-x: auto; }
+  table { min-width: 560px; }
+}
+
+footer {
+  margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+  font-size: 0.78rem; color: var(--ink-faint);
+}
+footer p { max-width: none; margin: 0 0 0.6rem; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+
+  <header class="top">
+    <p class="brand">HADR Monitor <span class="dim">— Southeast Asia</span></p>
+    <nav><a href="dashboard-map.html">View today's report →</a></nav>
+  </header>
+
+  <main id="main">
+
+    <div class="hero">
+      <h1>Every morning, one honest picture of Southeast Asia's disasters.</h1>
+      <p class="lede">HADR Monitor watches the world's public disaster alert systems around
+      the clock, sorts signal from noise, and publishes a single plain-language situation
+      report each morning — free, automatic, and clear about what it can and cannot see.</p>
+      <p class="cta-row">
+        <a class="btn" href="dashboard-map.html">View today's report</a>
+        <!-- If you fork this project, point this link at your own repository. -->
+        <a class="btn ghost" href="https://github.com/DeYuanChong/hadr-starter">Source code</a>
+      </p>
+      <p class="fineprint">Free · no account · no tracking · updated daily at 08:30 Singapore time</p>
+    </div>
+
+    <section id="what">
+      <p class="kicker">The product</p>
+      <h2>What is this?</h2>
+      <p><strong>HADR</strong> stands for <em>humanitarian assistance and disaster
+      response</em> — the work governments, militaries, UN agencies and NGOs do when an
+      earthquake, storm or flood strikes. Before anyone can help, someone has to answer a
+      deceptively hard question: <em>what just happened, where, how bad, and who does it
+      affect?</em></p>
+      <p>HADR Monitor is a small, automated news desk for that question. Overnight, it
+      reads three official global alert systems — <a href="https://www.gdacs.org/">GDACS</a>
+      (the EU/UN's multi-hazard alerts), the <a href="https://earthquake.usgs.gov/">US
+      Geological Survey</a> (earthquakes), and the UN's
+      <a href="https://reliefweb.int/">ReliefWeb</a> (human-curated coverage) — and each
+      morning publishes one report covering the eleven countries of Southeast Asia (the
+      ASEAN ten plus Timor-Leste):</p>
+      <ul class="chips" aria-label="Hazards covered">
+        <li>Earthquakes</li><li>Tropical cyclones</li><li>Floods</li>
+        <li>Volcanoes</li><li>Drought</li><li>Wildfires</li>
+      </ul>
+      <ul class="reads">
+        <li><span class="tag">Where</span><span>An interactive map of what happened, country by country, with links to every official source.</span></li>
+        <li><span class="tag">How bad</span><span>A severity rating for each event — including when the expert systems disagree with each other.</span></li>
+        <li><span class="tag">What changed</span><span>A "since yesterday" section: what's new, what escalated or eased, what was confirmed, what was withdrawn.</span></li>
+        <li><span class="tag">What it missed</span><span>A health check on its own sources — if a feed was down overnight, the report says so instead of staying silent.</span></li>
+      </ul>
+      <p>The same physical disaster often appears in several systems under different names
+      and severity ratings. The monitor reconciles them into <strong>one story per
+      disaster</strong>, so you read about one earthquake once — not three times under
+      three identifiers.</p>
+    </section>
+
+    <section id="why">
+      <p class="kicker">The reason</p>
+      <h2>Why it exists — and where it's headed</h2>
+      <p>In the first hours after a disaster, the hardest problem isn't deciding what to
+      do — it's knowing what actually happened. The information exists, but it is
+      scattered across systems that don't agree with each other, duplicated under
+      different names, revised after publication, and buried in global feeds where a major
+      Philippine typhoon sits between a Chilean aftershock and an Atlantic depression.
+      Someone responsible for Southeast Asia has to read all of it, every morning, just to
+      answer "did anything happen?"</p>
+      <p>HADR Monitor exists to do that reading. And it is built around one value:
+      <strong>honesty about its own picture</strong>. Silence means "nothing new" — never
+      "it crashed". A morning when a source was unreachable says so, up front. A severity
+      downgrade is announced, not quietly edited. Routine low-level tremor noise is
+      filtered out, but a disagreement between two severity systems is always shown, never
+      hidden behind an average.</p>
+      <p><strong>Where it's headed:</strong> the Southeast Asia focus is a starting scope,
+      not a ceiling. The architecture deliberately leaves room to grow —</p>
+      <ul class="soft">
+        <li><strong>More regions.</strong> The geographic scope is one shared definition in the code; pointing the monitor at another region is a bounded, well-understood change.</li>
+        <li><strong>More sources.</strong> Each feed is an independent module behind a common shape; new alert systems can be added without rewiring the pipeline.</li>
+        <li><strong>Downstream tools.</strong> Every report is also published as machine-readable data, so other dashboards, alerting layers, and AI agents can build on the reconciled picture instead of re-reading the raw feeds.</li>
+        <li><strong>Deeper history.</strong> Every published report is preserved, opening the door to trend and recurrence views over time.</li>
+      </ul>
+    </section>
+
+    <section id="who">
+      <p class="kicker">The audience</p>
+      <h2>Who it's for — and the decision it speeds up</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Duty officers &amp; emergency managers</h3>
+          <p>The start-of-day regional scan for people who own a watch floor, an operations
+          desk, or a country brief — without reading three global feeds first.</p>
+        </div>
+        <div class="card">
+          <h3>Humanitarian &amp; operations teams</h3>
+          <p>Programme, logistics and continuity planners with staff, partners or supply
+          chains in the region, deciding whether today is a normal day.</p>
+        </div>
+        <div class="card">
+          <h3>Analysts, researchers &amp; journalists</h3>
+          <p>A reconciled, source-linked record of what the official alert systems said,
+          when they said it, and how their assessments moved.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p><strong>The decision it speeds up</strong>
+        The first one of the morning: <em>"Does anything in the region need my attention
+        today — and if so, what and where?"</em> Instead of reading three global feeds and
+        reconciling them yourself, you read one two-minute page: what's new, what
+        escalated, what was confirmed, what stayed quiet. Every story links back to the
+        official sources, so "dig deeper" is one click — not a search.</p>
+      </div>
+    </section>
+
+    <section id="not">
+      <p class="kicker">The boundaries</p>
+      <h2>What it deliberately does not do</h2>
+      <p>Trust in a monitoring tool comes from knowing its edges. These are design
+      decisions, not gaps:</p>
+      <ul class="not-list">
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not issue warnings.</strong> One scheduled report a day, not a real-time alerting channel. For life-safety warnings — evacuations, tsunami alerts — follow your national disaster-management authority.</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not decide or dispatch response.</strong> It sits at the sensing layer: it watches, reconciles, and reports. What to do about it belongs to people.</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not predict.</strong> It reports what official systems have published — measurements, forecasts and assessments attributed to their sources — and adds no speculation of its own.</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not cover conflict, epidemics, heatwaves or landslides.</strong> Its sources are natural-hazard feeds; those crises are structurally absent from them. Absence from this report means "out of scope", never "all clear".</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not watch the whole world.</strong> Southeast Asia only — a deliberate focus, so the report stays a two-minute read for the people it serves.</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not republish others' reporting.</strong> Curated coverage (ReliefWeb) appears only as a one-sentence summary in the monitor's own words, attributed and linked back — never copied text.</span></li>
+        <li><span class="x" aria-hidden="true">✕</span><span><strong>It does not track you.</strong> No accounts, no cookies, no analytics. The report is a self-contained page that loads nothing from anywhere once it reaches your browser.</span></li>
+      </ul>
+    </section>
+
+    <section id="tech">
+      <p class="kicker">Under the hood</p>
+      <h2>For the technical reader</h2>
+      <p class="soft">The short version: a deterministic TypeScript pipeline, scheduled by
+      GitHub Actions, publishing a static self-contained page plus a JSON twin. No API
+      keys, no database, no server. Full detail lives in <code>ARCHITECTURE.md</code> and
+      the ADRs in <code>docs/adr/</code> in the repository.</p>
+
+      <details>
+        <summary>Data sources <span class="hint">— five public endpoints, zero API keys</span></summary>
+        <div class="d-body">
+          <div class="tbl-scroll">
+          <table>
+            <thead><tr><th>Source</th><th>Role</th><th>Access</th></tr></thead>
+            <tbody>
+              <tr><td><a href="https://www.gdacs.org/">GDACS</a> (EC/UN)</td><td>Multi-hazard alerts: earthquakes, cyclones, floods, volcanoes, drought, wildfires — each with a Green/Orange/Red alert colour weighted by the affected country's coping capacity.</td><td>Public GeoJSON event list</td></tr>
+              <tr><td><a href="https://earthquake.usgs.gov/">USGS</a></td><td>Earthquakes with PAGER casualty-impact alerts (green/yellow/orange/red). Queried server-side against the Southeast Asia bounding box, then re-checked client-side.</td><td>Public FDSN event query</td></tr>
+              <tr><td><a href="https://reliefweb.int/">ReliefWeb</a> (UN OCHA)</td><td>Human-curated disaster pages — the slow, editorial "verdict" used to confirm earthquake stories and attach related coverage to others.</td><td>Public RSS feed; a bundled fixture is used only if the live fetch fails, and the report discloses which one it got</td></tr>
+              <tr><td><a href="https://worldview.earthdata.nasa.gov/">NASA GIBS / Worldview</a></td><td>Satellite imagery for alerted stories (see feature notes below).</td><td>Public snapshot API</td></tr>
+              <tr><td>Wikipedia + Flagpedia</td><td>Country summaries and flags for the map's country panels.</td><td>Fetched once at code-generation time and committed; the daily build makes no call to them</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <ul>
+            <li><strong>Reconciliation:</strong> for earthquakes, GDACS records carry the USGS event ID, so the same quake from both feeds is joined into one story (matched against USGS's full alias list, not just its preferred ID). For every other hazard, GDACS is the sole authority and ReliefWeb pages attach only as "related coverage" links.</li>
+            <li><strong>Severity:</strong> where GDACS and USGS PAGER both rate an earthquake, the story is ranked by the more severe of the two — and both ratings stay visible, so a disagreement is shown rather than averaged away.</li>
+          </ul>
+          <p class="note">Every endpoint is public and unauthenticated — the project needs no API keys or secrets to run.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Refresh period <span class="hint">— daily at 08:30 SGT, honestly disclosed cadences</span></summary>
+        <div class="d-body">
+          <ul>
+            <li><strong>The report rebuilds once a day at 08:30 Singapore time</strong> (00:30 UTC) via a scheduled GitHub Actions run, plus on-demand manual runs. Each run is a single deterministic pass — fetch, reconcile, diff, render, publish — not a long-running service. (Scheduler start times can drift by a few minutes under load.)</li>
+            <li><strong>Upstream feeds move at different speeds,</strong> and the report carries a standing disclosure so an absent hazard reads as "not due", not "no risk": GDACS is near-real-time for earthquakes and cyclones, roughly daily for wildfires and volcanoes, ~monthly for drought, and human-curated for floods. USGS regenerates every minute (sampled daily by this monitor, with a 30-day query window). ReliefWeb is editorial — pages appear days after an event, with no weekend coverage.</li>
+            <li><strong>Downtime is recoverable:</strong> each feed keeps a "last successful fetch" cursor, and the next successful run re-queries everything it missed, however long the gap.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Data retention &amp; privacy <span class="hint">— one snapshot of state, full public history, no personal data</span></summary>
+        <div class="d-body">
+          <ul>
+            <li><strong>Working state is one snapshot deep.</strong> The pipeline persists a single small state file: the previous run's story fingerprints (identity, severity tier, key fields) and per-feed cursors. That is exactly what's needed to compute "since yesterday" — there is no database.</li>
+            <li><strong>History lives in version control.</strong> Every published report (page + JSON + state) is committed to the repository, so the full run-by-run history is public and auditable. Corrections append to the record — a past report is never silently rewritten.</li>
+            <li><strong>Withdrawn events are announced once.</strong> A story whose source record disappears is reported as deleted exactly once, then omitted from later reports (it remains in the git history).</li>
+            <li><strong>Look-back window:</strong> earthquake queries cover the past 30 days by default, automatically extended further back after downtime.</li>
+            <li><strong>No personal data, ever.</strong> The system stores disaster-feed content only. The published page sets no cookies, runs no analytics, requires no account, and makes zero network requests when viewed.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Feature notes <span class="hint">— satellite imagery, change tracking, self-contained output</span></summary>
+        <div class="d-body">
+          <ul>
+            <li><strong>Satellite imagery.</strong> Each alerted (non-Green) story with coordinates gets a true-colour NASA VIIRS scene from the event date, fetched at build time and embedded directly in the page, linking to NASA Worldview for interactive exploration. The captions are deliberately honest: at 375&nbsp;m per pixel the imagery shows regional context — smoke plumes, cyclone structure, major flooding — never building-level damage, and monsoon cloud cover is routine. Imagery is treated as enhancement, not signal: a failed fetch just means a story renders without a picture.</li>
+            <li><strong>Change tracking.</strong> Every story runs through a state machine — new, escalated, de-escalated, revised, confirmed, deleted — by diffing against the previous run, and transitions are called out in the "Since yesterday" section rather than silently applied.</li>
+            <li><strong>Noise suppression.</strong> Green-tier stories are tracked but kept out of the report; an escalation out of Green surfaces on the next report. Suppression only ever filters the report — it never alters the underlying record.</li>
+            <li><strong>Feed health strip.</strong> The report opens with a per-source status line (reachable, degraded, or down, and when it last succeeded), so a bad morning is stated rather than inferred from missing stories.</li>
+            <li><strong>Self-contained output.</strong> The map, flags, country summaries and imagery are all inlined — the published page is a single reviewable artifact with no runtime dependencies.</li>
+            <li><strong>Machine-readable twin.</strong> The same stories, states, health data and change lines are published as <code>dashboard-map.json</code> for downstream tools and agents.</li>
+            <li><strong>Verified after every publish.</strong> A real-browser end-to-end harness drives the live page after each deploy — map clicks, keyboard navigation, deep links, both themes — turning a broken publish into a red build instead of silence.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>HADR Monitor is an independent open-source project. It is not affiliated with or
+    endorsed by GDACS, USGS, UN OCHA or NASA, and it is <strong>not an official warning
+    channel</strong> — for life-safety information, follow your national
+    disaster-management authority.</p>
+    <p>Data: GDACS © European Commission / United Nations · USGS earthquake data (US
+    public domain) · ReliefWeb © UN OCHA, summarised in our own words with attribution
+    and links back · Satellite imagery courtesy of NASA GIBS / Worldview (public domain) ·
+    Country summaries from Wikipedia (CC BY-SA 4.0) · Flags from Flagpedia (public
+    domain).</p>
+    <p><a href="dashboard-map.html">Today's report</a> ·
+    <a href="dashboard-map.json">Machine-readable data</a> ·
+    <a href="https://github.com/DeYuanChong/hadr-starter">Source code &amp; documentation</a></p>
+  </footer>
+
+</div>
+</body>
+</html>

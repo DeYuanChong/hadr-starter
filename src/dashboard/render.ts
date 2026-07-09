@@ -560,7 +560,7 @@ export function renderDashboard(
     <h1>HADR Monitor — Southeast Asia</h1>
     <p class="sub">Situation report · generated ${escapeHtml(generatedAt.toUTCString())} · scope: ASEAN-10 + Timor-Leste, box ${minLon}°E–${maxLon}°E ${Math.abs(
       minLat,
-    )}°S–${maxLat}°N · ${reportedCount} reported / ${suppressedCount} suppressed / ${reconciledCount} reconciled</p>
+    )}°S–${maxLat}°N · ${reportedCount} reported / ${suppressedCount} suppressed / ${reconciledCount} reconciled · <a href="about.html">About this monitor</a></p>
   </header>
 
   <section class="block">
@@ -585,7 +585,7 @@ export function renderDashboard(
   </section>
 
   <footer>
-    Sensing layer only — watches, reconciles, reports; does not dispatch or decide response (REQS.md). Machine-readable data: dashboard-map.json. ReliefWeb content is own-words summary + link only (docs/adr/0015).
+    Sensing layer only — watches, reconciles, reports; does not dispatch or decide response. Not an official warning channel. <a href="about.html">About this monitor</a> · machine-readable data: <a href="dashboard-map.json">dashboard-map.json</a>. ReliefWeb content is own-words summary + link only (docs/adr/0015).
   </footer>
 </div>
 </body>
