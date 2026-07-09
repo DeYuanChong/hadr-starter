@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T04:26:51.816Z",
+  "generatedAt": "2026-07-09T05:48:58.178Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "323 in-scope event(s)"
+      "detail": "326 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T02:31:21.624Z",
+    "priorRunAt": "2026-07-09T04:26:51.816Z",
     "changes": []
   },
   "stories": [
@@ -128,6 +128,35 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104009",
+      "hazardType": "FL",
+      "title": "Flood in Laos",
+      "countries": [
+        "Laos"
+      ],
+      "lat": 21.6768,
+      "lon": 102.2773,
+      "timeUtc": "2026-06-30T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104009"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104009&episodeid=2&eventtype=FL"
         }
       ],
       "supplementary": [],
@@ -2449,6 +2478,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t9v3",
+      "hazardType": "EQ",
+      "title": "72 km W of Manado, Indonesia",
+      "countries": [],
+      "lat": 1.5921,
+      "lon": 124.206,
+      "timeUtc": "Wed, 24 Jun 2026 01:02:13 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9v3"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9v3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t9v1",
       "hazardType": "EQ",
       "title": "68 km W of Macabuboni, Philippines",
@@ -3071,6 +3127,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t8gl",
+      "hazardType": "EQ",
+      "title": "29 km ESE of Tawang, India",
+      "countries": [],
+      "lat": 27.4893,
+      "lon": 92.2066,
+      "timeUtc": "Sun, 21 Jun 2026 02:24:55 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t8gl"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8gl"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t8gh",
       "hazardType": "EQ",
       "title": "23 km ESE of Tawang, India",
@@ -3246,7 +3329,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t87n"
       ],
@@ -6892,6 +6975,33 @@
       "imagery": null
     },
     {
+      "id": "us7000stzr",
+      "hazardType": "EQ",
+      "title": "63 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.8538,
+      "lon": 125.2868,
+      "timeUtc": "Thu, 11 Jun 2026 03:54:36 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000stzr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stzr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ss5k",
       "hazardType": "EQ",
       "title": "51 km ESE of Sarangani, Philippines",
@@ -6932,7 +7042,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ss5f"
       ],
@@ -6959,7 +7069,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000su5a"
       ],
@@ -6986,7 +7096,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ss57",
         "usauto7000ss57"
