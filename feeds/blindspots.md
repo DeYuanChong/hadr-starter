@@ -146,9 +146,9 @@ US-government public domain. **ReliefWeb: the content belongs to ~4,000
 publishers**, the site T&C forbids redistribution and derivative works, and
 there is now an explicit AI clause about redistributing AI-generated content
 attributed to sources. The assumed "metadata is fine, full text isn't" rule is
-community convention, not a written grant. For `dashboard.html`: summarise in
-your own words, quote sparingly, attribute, link back — don't republish report
-bodies.
+community convention, not a written grant. For the published report
+(`dashboard-map.html`): summarise in your own words, quote sparingly,
+attribute, link back — don't republish report bodies.
 
 ## 9. The feeds themselves are moving targets
 

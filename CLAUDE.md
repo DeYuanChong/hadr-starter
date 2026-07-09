@@ -1,7 +1,8 @@
 # CLAUDE.md
 
-<!-- Fill in at least three conventions below before your first prompt.
-     An empty conventions file is also a decision — just not one you made. -->
+Guidance for AI coding assistants (and a quick orientation for humans) working
+in this repository. For the full picture, see [`README.md`](./README.md) and
+[`ARCHITECTURE.md`](./ARCHITECTURE.md).
 
 ## Language & tooling
 
@@ -23,7 +24,7 @@ step. Package management via npm; dependencies are in `package.json` /
   it. See `docs/adr/0001-sea-country-list.md` and
   `docs/adr/0002-sea-bounding-box.md`.
 - Each feed's generated events page is committed at `events/<feed>.html`
-  (parallel to `dashboard.html`, per `.gitignore`'s generated-reports
+  (parallel to `dashboard-map.html`, per `.gitignore`'s generated-reports
   exception).
 - Domain vocabulary (Story, Triage severity, Story state, etc.) is defined
   in `CONTEXT.md` — use it in code and comments rather than inventing
@@ -31,6 +32,6 @@ step. Package management via npm; dependencies are in `package.json` /
 
 ## Deviations policy
 
-Anything built that departs from the PRD (`prd.html`) or an ADR
-(`docs/adr/*.md`) is recorded in `implementation-notes.md` under
+Anything built that departs from the PRD (`docs/design/prd.html`) or an ADR
+(`docs/adr/*.md`) is recorded in `docs/design/implementation-notes.md` under
 "Deviations," with the reason. An undocumented deviation is a bug.

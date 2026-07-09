@@ -2,7 +2,23 @@
   "name": "hadr-monitor",
   "version": "0.1.0",
   "private": true,
+  "description": "Unattended monitoring agent for humanitarian assistance and disaster response (HADR) in Southeast Asia: watches GDACS, USGS and ReliefWeb, reconciles events across feeds, triages severity, and publishes a daily situation report.",
+  "keywords": [
+    "hadr",
+    "disaster-response",
+    "humanitarian",
+    "gdacs",
+    "usgs",
+    "reliefweb",
+    "earthquake",
+    "monitoring",
+    "southeast-asia"
+  ],
+  "author": "The HADR Monitor contributors",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "fetch:gdacs": "tsx src/feeds/gdacs/index.ts",
     "fetch:usgs": "tsx src/feeds/usgs/index.ts",

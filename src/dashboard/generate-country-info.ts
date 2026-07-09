@@ -22,7 +22,7 @@ const OUT_URL = new URL("./country-info.ts", import.meta.url);
 const FETCH_TIMEOUT_MS = 20_000;
 
 // Wikimedia etiquette: identify the client.
-const USER_AGENT = "hadr-monitor-course-project/0.1 (codegen; run manually)";
+const USER_AGENT = "hadr-monitor/0.1 (codegen; run manually)";
 
 /** The fixed ADR-0001 country set. wikiTitle is the English Wikipedia article
  * title (Timor-Leste's article lives at "East Timor"). iso2 keys flagcdn. */

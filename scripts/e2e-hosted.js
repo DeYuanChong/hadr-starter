@@ -4,9 +4,11 @@
  * affordance a user has — map clicks, chips, keyboard, Escape/close, hash
  * deep links, marker links, the JSON payload, and both themes.
  *
- * Run: npm run e2e
- *   E2E_BASE=…    page to test (default: the GitHub Pages site).
- *                 For a local build: E2E_BASE=http://127.0.0.1:8080/dashboard-map.html
+ * Run: E2E_BASE=<url> npm run e2e
+ *   E2E_BASE=…    (required) the deployed page to test, e.g.
+ *                 https://<user>.github.io/<repo>/ for a GitHub Pages
+ *                 deployment, or http://127.0.0.1:8080/dashboard-map.html
+ *                 for a local build.
  *   E2E_HEADED=1  watch it run (headed, slow-motion); default is headless.
  *
  * Exits non-zero on any failure. Screenshots land in reports/e2e-shots/
@@ -22,7 +24,16 @@ import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
 
-const BASE = process.env.E2E_BASE || "https://deyuanchong.github.io/hadr-starter/";
+const BASE = process.env.E2E_BASE;
+if (!BASE) {
+  console.error(
+    "E2E_BASE is required. Set it to the deployed dashboard URL, e.g.\n" +
+      "  E2E_BASE=https://<user>.github.io/<repo>/ npm run e2e\n" +
+      "or, for a local build:\n" +
+      "  E2E_BASE=http://127.0.0.1:8080/dashboard-map.html npm run e2e",
+  );
+  process.exit(2);
+}
 const HEADED = Boolean(process.env.E2E_HEADED);
 // The hosted site serves the dashboard at the root; a local E2E_BASE should
 // point at the .html file itself.

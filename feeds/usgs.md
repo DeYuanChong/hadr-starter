@@ -46,12 +46,16 @@ Other windows and magnitude cut-offs exist (`all_hour`, `4.5_week`,
 }
 ```
 
-## Open questions
+## Gotchas
 
-1. This event has one `id` but two entries in `ids`. Why would a single
-   earthquake carry several identifiers, and which one do you store?
-2. `status` is `"automatic"` and `updated` is later than `time`. Events get
-   revised — magnitude, location, occasionally deleted outright. What happens
-   to a report you have already published when its event changes underneath it?
-3. `alert` is `null` here, but not always. What are its possible values, and
-   how do they relate to GDACS's colours?
+- A single earthquake carries one `id` but several entries in `ids`. The EQ
+  join matches GDACS `sourceid` against the USGS `ids` *list*, not the single
+  preferred `id` — see [CONTEXT.md](../CONTEXT.md)'s **Story** definition.
+- `status: automatic` events get revised (magnitude, location) and are
+  occasionally deleted outright (deletions return HTTP 409, not 404). Revision
+  and deletion are tracked by the Story state machine
+  ([ADR-0005](../docs/adr/0005-story-state-machine.md)); the correction policy
+  for an already-published report is [ADR-0006](../docs/adr/0006-explicit-correction-policy.md).
+- `alert` is the USGS PAGER tier (green/yellow/orange/red) and is often
+  `null`. How it combines with GDACS's colours to derive triage severity is
+  [ADR-0007](../docs/adr/0007-triage-severity-shows-both-takes-max.md).

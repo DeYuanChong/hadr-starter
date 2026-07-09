@@ -1,15 +1,18 @@
-# Generated reports — the morning routine rebuilds these; do not commit churn.
+# Transient report scratch — the build may write these; do not commit churn.
 reports/
 *.sitrep.html
 
-# dashboard.html is the exception: it is the product, and it is committed.
-!dashboard.html
+# The published products (dashboard-map.html/.json) and the persisted run
+# state (state.json) ARE committed — they are the reviewed artifacts the
+# GitHub Pages deploy serves as-is. They are not ignored by anything above.
 
-# Secrets stay out of the repo and out of the agent's context.
+# Secrets stay out of the repo. `.env.example` is committed as documentation;
+# a real `.env` is not.
 .env
 .env.*
+!.env.example
 
-# Language debris — extend for whichever toolchain you pick in CLAUDE.md.
+# Dependencies and OS/editor debris.
 __pycache__/
 .venv/
 node_modules/

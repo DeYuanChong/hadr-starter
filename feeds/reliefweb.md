@@ -47,13 +47,17 @@ The RSS feed needs no approval:
 </item>
 ```
 
-## Open questions
+## Gotchas
 
-1. The appname review takes time you may not have this week. What do you
-   build against in the meantime, and what does the RSS feed lack that the
-   API would give you?
-2. This Venezuela entry describes earthquakes that GDACS and USGS reported
-   days earlier, under different identifiers. Is there anything in this
-   record that could tie the three feeds together?
-3. The API docs say usage is monitored and adapted per application. What are
-   the actual limits, and how should your agent behave when it hits one?
+- The API `appname` approval can take time to arrive, and the RSS fallback may
+  403 non-browser clients. This project builds against the **RSS feed** with a
+  browser User-Agent and falls back to a bundled fixture when even that fails,
+  always disclosing which source produced the page — see
+  [ADR-0013](../docs/adr/0013-reliefweb-adapter-and-fixture-fallback.md).
+- A ReliefWeb entry often describes an event GDACS and USGS reported days
+  earlier under different identifiers. For earthquakes it can *confirm* an
+  existing Story (the EQ join); for other hazards it is attached only as a
+  Supplementary link, never merged — see [CONTEXT.md](../CONTEXT.md).
+- ReliefWeb content is redistribution-restricted: the report only ever carries
+  a one-sentence own-words paraphrase with attribution and a link back, never a
+  direct quote — see [ADR-0015](../docs/adr/0015-zero-reliefweb-quotes.md).
