@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T08:37:48.971Z",
+  "generatedAt": "2026-07-09T01:58:36.638Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "454 in-scope event(s)"
+      "detail": "321 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,140 +27,132 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-08T08:25:48.477Z",
+    "priorRunAt": "2026-07-08T08:37:48.971Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "us6000tase",
+      "id": "us7000sz4q",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 1.4658,
+      "lon": 126.3353,
+      "timeUtc": "Thu, 09 Jul 2026 01:16:25 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000sz4q",
+        "1550874"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1550874&episodeid=1717092&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz4q"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us7000sz31",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
         "Philippines"
       ],
-      "lat": 13.7713,
-      "lon": 120.6627,
-      "timeUtc": "Tue, 07 Jul 2026 20:37:40 GMT",
-      "mag": 4.5,
+      "lat": 11.319,
+      "lon": 126.335,
+      "timeUtc": "Wed, 08 Jul 2026 20:32:04 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "us6000tase",
-        "1550657"
+        "us7000sz31",
+        "1550851"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550657&episodeid=1716846&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1550851&episodeid=1717062&eventtype=EQ"
         },
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tase"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz31"
         }
       ],
       "supplementary": []
     },
     {
-      "id": "us6000tary",
+      "id": "us6000tavx",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -6.7717,
-      "lon": 105.0646,
-      "timeUtc": "Tue, 07 Jul 2026 19:44:52 GMT",
-      "mag": 5.3,
+      "lat": 1.8113,
+      "lon": 127.4396,
+      "timeUtc": "Wed, 08 Jul 2026 08:36:06 GMT",
+      "mag": 4.8,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "us6000tary",
-        "usauto6000tary",
-        "1550650"
+        "us6000tavx",
+        "1550763"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550650&episodeid=1716837&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1550763&episodeid=1716963&eventtype=EQ"
         },
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tary"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavx"
         }
       ],
       "supplementary": []
     },
     {
-      "id": "us6000tant",
+      "id": "us7000sz3z",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 3.1116,
-      "lon": 127.2906,
-      "timeUtc": "Tue, 07 Jul 2026 14:21:22 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
+      "title": "1 km NNW of Xunchang, China",
+      "countries": [],
+      "lat": 28.4707,
+      "lon": 104.7074,
+      "timeUtc": "Wed, 08 Jul 2026 23:44:13 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "new",
       "aliases": [
-        "us6000tant",
-        "1550615"
+        "us7000sz3z",
+        "usauto7000sz3z"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550615&episodeid=1716796&eventtype=EQ"
-        },
-        {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tant"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us6000talg",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 3.1239,
-      "lon": 127.5573,
-      "timeUtc": "Tue, 07 Jul 2026 07:16:26 GMT",
-      "mag": 5.4,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000talg",
-        "usauto6000talg",
-        "1550568"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550568&episodeid=1716745&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000talg"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz3z"
         }
       ],
       "supplementary": []
@@ -272,6 +264,59 @@
       "supplementary": []
     },
     {
+      "id": "us6000tase",
+      "hazardType": "EQ",
+      "title": "7 km SSE of Calatagan, Philippines",
+      "countries": [],
+      "lat": 13.7713,
+      "lon": 120.6627,
+      "timeUtc": "Tue, 07 Jul 2026 20:37:40 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tase"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tase"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000tary",
+      "hazardType": "EQ",
+      "title": "95 km WSW of Labuan, Indonesia",
+      "countries": [],
+      "lat": -6.7717,
+      "lon": 105.0646,
+      "timeUtc": "Tue, 07 Jul 2026 19:44:52 GMT",
+      "mag": 5.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tary",
+        "usauto6000tary"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tary"
+        }
+      ],
+      "supplementary": []
+    },
+    {
       "id": "us6000tapb",
       "hazardType": "EQ",
       "title": "76 km NNW of Singkil, Indonesia",
@@ -293,6 +338,59 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tapb"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000tant",
+      "hazardType": "EQ",
+      "title": "172 km NNW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.1116,
+      "lon": 127.2906,
+      "timeUtc": "Tue, 07 Jul 2026 14:21:22 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tant"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tant"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000talg",
+      "hazardType": "EQ",
+      "title": "162 km NNW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.1239,
+      "lon": 127.5573,
+      "timeUtc": "Tue, 07 Jul 2026 07:16:26 GMT",
+      "mag": 5.4,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us6000talg",
+        "usauto6000talg"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000talg"
         }
       ],
       "supplementary": []
@@ -1157,6 +1255,32 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ad"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t9cp",
+      "hazardType": "EQ",
+      "title": "81 km W of Myitkyina, Burma (Myanmar)",
+      "countries": [],
+      "lat": 25.3549,
+      "lon": 96.585,
+      "timeUtc": "Tue, 30 Jun 2026 17:12:17 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9cp"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9cp"
         }
       ],
       "supplementary": []
@@ -2786,18 +2910,18 @@
     {
       "id": "us7000suy5",
       "hazardType": "EQ",
-      "title": "106 km NNE of Bitung, Indonesia",
+      "title": "109 km NNE of Bitung, Indonesia",
       "countries": [],
-      "lat": 2.259,
-      "lon": 125.6296,
-      "timeUtc": "Sun, 21 Jun 2026 06:18:21 GMT",
-      "mag": 4.4,
+      "lat": 2.3386,
+      "lon": 125.5355,
+      "timeUtc": "Sun, 21 Jun 2026 06:18:18 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000suy5"
       ],
@@ -2914,6 +3038,84 @@
       "supplementary": []
     },
     {
+      "id": "us6000t87z",
+      "hazardType": "EQ",
+      "title": "24 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.4058,
+      "lon": 125.2035,
+      "timeUtc": "Sat, 20 Jun 2026 12:56:16 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87z"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87z"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t87x",
+      "hazardType": "EQ",
+      "title": "202 km NNE of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.504,
+      "lon": 128.4414,
+      "timeUtc": "Sat, 20 Jun 2026 10:38:26 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87x"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87x"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t87v",
+      "hazardType": "EQ",
+      "title": "231 km SE of Pondaguitan, Philippines",
+      "countries": [],
+      "lat": 4.8796,
+      "lon": 127.6478,
+      "timeUtc": "Sat, 20 Jun 2026 09:07:09 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87v"
+        }
+      ],
+      "supplementary": []
+    },
+    {
       "id": "us7000suse",
       "hazardType": "EQ",
       "title": "77 km E of Wāngjing, India",
@@ -2940,6 +3142,32 @@
       "supplementary": []
     },
     {
+      "id": "us6000t87k",
+      "hazardType": "EQ",
+      "title": "55 km N of Tuapejat, Indonesia",
+      "countries": [],
+      "lat": -1.523,
+      "lon": 99.6088,
+      "timeUtc": "Sat, 20 Jun 2026 03:25:56 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87k"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87k"
+        }
+      ],
+      "supplementary": []
+    },
+    {
       "id": "us7000surx",
       "hazardType": "EQ",
       "title": "102 km SSW of Pagar Alam, Indonesia",
@@ -2961,6 +3189,58 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000surx"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t87i",
+      "hazardType": "EQ",
+      "title": "241 km NW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.2346,
+      "lon": 126.441,
+      "timeUtc": "Sat, 20 Jun 2026 01:24:27 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87i"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87i"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t87g",
+      "hazardType": "EQ",
+      "title": "3 km WNW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.5897,
+      "lon": 125.3255,
+      "timeUtc": "Sat, 20 Jun 2026 01:06:36 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87g"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87g"
         }
       ],
       "supplementary": []
@@ -3541,20 +3821,46 @@
       "supplementary": []
     },
     {
-      "id": "us6000t7n0",
+      "id": "us6000t7n1",
       "hazardType": "EQ",
-      "title": "126 km ENE of Masohi, Indonesia",
+      "title": "Pulau Pulau Tanimbar, Indonesia",
       "countries": [],
-      "lat": -2.9921,
-      "lon": 130.0663,
-      "timeUtc": "Wed, 17 Jun 2026 22:26:25 GMT",
-      "mag": 4.4,
+      "lat": -7.1123,
+      "lon": 130.2289,
+      "timeUtc": "Wed, 17 Jun 2026 22:48:19 GMT",
+      "mag": 4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
+      "aliases": [
+        "us6000t7n1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7n1"
+        }
+      ],
+      "supplementary": []
+    },
+    {
+      "id": "us6000t7n0",
+      "hazardType": "EQ",
+      "title": "127 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -3.0061,
+      "lon": 130.0769,
+      "timeUtc": "Wed, 17 Jun 2026 22:26:25 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us6000t7n0"
       ],
@@ -3571,8 +3877,8 @@
       "hazardType": "EQ",
       "title": "64 km ESE of Bobon, Philippines",
       "countries": [],
-      "lat": 6.6046,
-      "lon": 126.8479,
+      "lat": 6.5964,
+      "lon": 126.8425,
       "timeUtc": "Wed, 17 Jun 2026 21:49:27 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
@@ -3673,18 +3979,18 @@
     {
       "id": "us7000stm3",
       "hazardType": "EQ",
-      "title": "18 km W of Sarangani, Philippines",
+      "title": "31 km WSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.396,
-      "lon": 125.3008,
+      "lat": 5.3277,
+      "lon": 125.1915,
       "timeUtc": "Wed, 17 Jun 2026 10:58:45 GMT",
-      "mag": 4.5,
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000stm3"
       ],
@@ -3699,11 +4005,11 @@
     {
       "id": "us7000stlm",
       "hazardType": "EQ",
-      "title": "10 km NNE of Luklukan, Philippines",
+      "title": "12 km NE of Luklukan, Philippines",
       "countries": [],
-      "lat": 14.4042,
-      "lon": 122.7634,
-      "timeUtc": "Wed, 17 Jun 2026 10:31:54 GMT",
+      "lat": 14.4168,
+      "lon": 122.7856,
+      "timeUtc": "Wed, 17 Jun 2026 10:31:53 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3805,8 +4111,8 @@
       "hazardType": "EQ",
       "title": "84 km E of Tatsugō, Japan",
       "countries": [],
-      "lat": 28.5268,
-      "lon": 130.4569,
+      "lat": 28.5309,
+      "lon": 130.4585,
       "timeUtc": "Tue, 16 Jun 2026 23:18:37 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -4063,11 +4369,11 @@
     {
       "id": "us7000stdg",
       "hazardType": "EQ",
-      "title": "52 km SE of Palu, Indonesia",
+      "title": "56 km WNW of Poso, Indonesia",
       "countries": [],
-      "lat": -1.2294,
-      "lon": 120.2174,
-      "timeUtc": "Tue, 16 Jun 2026 11:03:52 GMT",
+      "lat": -1.1979,
+      "lon": 120.2873,
+      "timeUtc": "Tue, 16 Jun 2026 11:03:51 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4089,18 +4395,18 @@
     {
       "id": "us7000std4",
       "hazardType": "EQ",
-      "title": "90 km WSW of Ternate, Indonesia",
+      "title": "91 km WSW of Ternate, Indonesia",
       "countries": [],
-      "lat": 0.5717,
-      "lon": 126.6007,
-      "timeUtc": "Tue, 16 Jun 2026 10:23:50 GMT",
-      "mag": 4.8,
+      "lat": 0.5489,
+      "lon": 126.5962,
+      "timeUtc": "Tue, 16 Jun 2026 10:23:49 GMT",
+      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000std4"
       ],
@@ -4613,18 +4919,18 @@
     {
       "id": "us7000sujp",
       "hazardType": "EQ",
-      "title": "196 km WSW of Tual, Indonesia",
+      "title": "193 km WSW of Tual, Indonesia",
       "countries": [],
-      "lat": -6.2817,
-      "lon": 131.1045,
+      "lat": -6.3614,
+      "lon": 131.1677,
       "timeUtc": "Sun, 14 Jun 2026 23:26:52 GMT",
-      "mag": 4.2,
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000sujp"
       ],
@@ -6463,10 +6769,10 @@
     {
       "id": "us7000su3u",
       "hazardType": "EQ",
-      "title": "225 km ENE of Lospalos, Timor Leste",
+      "title": "228 km ENE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.4699,
-      "lon": 128.7518,
+      "lat": -7.4838,
+      "lon": 128.7881,
       "timeUtc": "Wed, 10 Jun 2026 22:27:19 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
@@ -6489,18 +6795,18 @@
     {
       "id": "us7000su53",
       "hazardType": "EQ",
-      "title": "33 km NE of Fef, Indonesia",
+      "title": "64 km NE of Fef, Indonesia",
       "countries": [],
-      "lat": -0.5604,
-      "lon": 132.6002,
-      "timeUtc": "Wed, 10 Jun 2026 21:23:21 GMT",
-      "mag": 4.3,
+      "lat": -0.4456,
+      "lon": 132.8872,
+      "timeUtc": "Wed, 10 Jun 2026 21:23:19 GMT",
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000su53"
       ],
@@ -6905,11 +7211,11 @@
     {
       "id": "us7000stqu",
       "hazardType": "EQ",
-      "title": "63 km WSW of Sarangani, Philippines",
+      "title": "82 km SW of Balangonan, Philippines",
       "countries": [],
-      "lat": 5.1097,
-      "lon": 124.9725,
-      "timeUtc": "Wed, 10 Jun 2026 00:05:47 GMT",
+      "lat": 5.0899,
+      "lon": 124.7926,
+      "timeUtc": "Wed, 10 Jun 2026 00:05:44 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -6957,18 +7263,18 @@
     {
       "id": "us7000stzh",
       "hazardType": "EQ",
-      "title": "220 km NE of Lospalos, Timor Leste",
+      "title": "229 km ENE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.4049,
-      "lon": 128.6529,
-      "timeUtc": "Tue, 09 Jun 2026 23:34:57 GMT",
-      "mag": 4.6,
+      "lat": -7.3896,
+      "lon": 128.7435,
+      "timeUtc": "Tue, 09 Jun 2026 23:34:56 GMT",
+      "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000stzh"
       ],
@@ -8124,3778 +8430,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxy"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srmq",
-      "hazardType": "EQ",
-      "title": "6 km ESE of Bukid, Philippines",
-      "countries": [],
-      "lat": 5.5438,
-      "lon": 125.4558,
-      "timeUtc": "Mon, 08 Jun 2026 23:38:24 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srmq",
-        "usauto7000srmq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srmq"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su1v",
-      "hazardType": "EQ",
-      "title": "23 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4105,
-      "lon": 125.215,
-      "timeUtc": "Mon, 08 Jun 2026 23:38:09 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su1v"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su1v"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srml",
-      "hazardType": "EQ",
-      "title": "14 km SW of Pangyan, Philippines",
-      "countries": [],
-      "lat": 5.5905,
-      "lon": 125.2037,
-      "timeUtc": "Mon, 08 Jun 2026 23:21:52 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srml"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srml"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxw",
-      "hazardType": "EQ",
-      "title": "32 km SSE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1421,
-      "lon": 125.5941,
-      "timeUtc": "Mon, 08 Jun 2026 23:14:48 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxw"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srm7",
-      "hazardType": "EQ",
-      "title": "18 km SSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4335,
-      "lon": 125.2623,
-      "timeUtc": "Mon, 08 Jun 2026 22:38:04 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srm7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srm7"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxr",
-      "hazardType": "EQ",
-      "title": "122 km ESE of Isen, Japan",
-      "countries": [],
-      "lat": 27.0699,
-      "lon": 129.9686,
-      "timeUtc": "Mon, 08 Jun 2026 22:37:55 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxr"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxs",
-      "hazardType": "EQ",
-      "title": "36 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.328,
-      "lon": 125.1356,
-      "timeUtc": "Mon, 08 Jun 2026 22:30:50 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxs"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxs"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxt",
-      "hazardType": "EQ",
-      "title": "16 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.264,
-      "lon": 125.4197,
-      "timeUtc": "Mon, 08 Jun 2026 22:20:36 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxt"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxn",
-      "hazardType": "EQ",
-      "title": "49 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0615,
-      "lon": 125.1812,
-      "timeUtc": "Mon, 08 Jun 2026 22:17:12 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxn"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxm",
-      "hazardType": "EQ",
-      "title": "32 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.6029,
-      "lon": 124.7675,
-      "timeUtc": "Mon, 08 Jun 2026 21:58:56 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxm"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxf",
-      "hazardType": "EQ",
-      "title": "70 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7631,
-      "lon": 125.4177,
-      "timeUtc": "Mon, 08 Jun 2026 20:03:02 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxf"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srkw",
-      "hazardType": "EQ",
-      "title": "88 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0289,
-      "lon": 124.7555,
-      "timeUtc": "Mon, 08 Jun 2026 19:24:44 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srkw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srkw"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0m",
-      "hazardType": "EQ",
-      "title": "36 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1497,
-      "lon": 125.248,
-      "timeUtc": "Mon, 08 Jun 2026 19:19:15 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0m"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0m"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stxc",
-      "hazardType": "EQ",
-      "title": "53 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.004,
-      "lon": 125.1867,
-      "timeUtc": "Mon, 08 Jun 2026 19:18:48 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stxc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stxc"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srk7",
-      "hazardType": "EQ",
-      "title": "53 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9172,
-      "lon": 125.4299,
-      "timeUtc": "Mon, 08 Jun 2026 18:29:00 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srk7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srk7"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srjt",
-      "hazardType": "EQ",
-      "title": "94 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.5518,
-      "lon": 125.3882,
-      "timeUtc": "Mon, 08 Jun 2026 17:41:31 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srjt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjt"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stx8",
-      "hazardType": "EQ",
-      "title": "22 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2178,
-      "lon": 125.3786,
-      "timeUtc": "Mon, 08 Jun 2026 16:25:46 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stx8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stx8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stx6",
-      "hazardType": "EQ",
-      "title": "44 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0413,
-      "lon": 125.2802,
-      "timeUtc": "Mon, 08 Jun 2026 16:16:39 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stx6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stx6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su09",
-      "hazardType": "EQ",
-      "title": "23 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5818,
-      "lon": 125.0925,
-      "timeUtc": "Mon, 08 Jun 2026 15:49:21 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su09"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su09"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srhn",
-      "hazardType": "EQ",
-      "title": "43 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.024,
-      "lon": 125.3637,
-      "timeUtc": "Mon, 08 Jun 2026 15:39:50 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srhn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srhn"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stqt",
-      "hazardType": "EQ",
-      "title": "34 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.5968,
-      "lon": 124.7156,
-      "timeUtc": "Mon, 08 Jun 2026 15:14:22 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stqt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stqt"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwz",
-      "hazardType": "EQ",
-      "title": "19 km SSW of Daliao, Philippines",
-      "countries": [],
-      "lat": 5.6978,
-      "lon": 124.892,
-      "timeUtc": "Mon, 08 Jun 2026 15:09:14 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwz"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stx1",
-      "hazardType": "EQ",
-      "title": "55 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0848,
-      "lon": 125.0741,
-      "timeUtc": "Mon, 08 Jun 2026 15:03:16 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stx1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stx1"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwx",
-      "hazardType": "EQ",
-      "title": "22 km SSW of Daliao, Philippines",
-      "countries": [],
-      "lat": 5.6673,
-      "lon": 124.9052,
-      "timeUtc": "Mon, 08 Jun 2026 15:01:52 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwx"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srh8",
-      "hazardType": "EQ",
-      "title": "15 km SSW of Lumatil, Philippines",
-      "countries": [],
-      "lat": 5.7353,
-      "lon": 124.8562,
-      "timeUtc": "Mon, 08 Jun 2026 14:53:05 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srh8",
-        "usauto7000srh8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srh8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srh6",
-      "hazardType": "EQ",
-      "title": "64 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8219,
-      "lon": 125.3941,
-      "timeUtc": "Mon, 08 Jun 2026 14:37:38 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srh6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srh6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stww",
-      "hazardType": "EQ",
-      "title": "78 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7032,
-      "lon": 125.3476,
-      "timeUtc": "Mon, 08 Jun 2026 14:22:11 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stww"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stww"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwv",
-      "hazardType": "EQ",
-      "title": "50 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9484,
-      "lon": 125.4618,
-      "timeUtc": "Mon, 08 Jun 2026 14:04:33 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwv"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwt",
-      "hazardType": "EQ",
-      "title": "67 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7943,
-      "lon": 125.5192,
-      "timeUtc": "Mon, 08 Jun 2026 13:53:12 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwt"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwu",
-      "hazardType": "EQ",
-      "title": "76 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9703,
-      "lon": 124.9217,
-      "timeUtc": "Mon, 08 Jun 2026 13:46:24 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwu"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srgq",
-      "hazardType": "EQ",
-      "title": "52 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.006,
-      "lon": 125.2001,
-      "timeUtc": "Mon, 08 Jun 2026 13:37:57 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srgq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgq"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwp",
-      "hazardType": "EQ",
-      "title": "82 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.6829,
-      "lon": 125.2772,
-      "timeUtc": "Mon, 08 Jun 2026 13:35:42 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwp"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srgk",
-      "hazardType": "EQ",
-      "title": "72 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7517,
-      "lon": 125.4204,
-      "timeUtc": "Mon, 08 Jun 2026 13:05:36 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srgk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgk"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwm",
-      "hazardType": "EQ",
-      "title": "41 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0546,
-      "lon": 125.3197,
-      "timeUtc": "Mon, 08 Jun 2026 12:52:36 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwm"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwn",
-      "hazardType": "EQ",
-      "title": "48 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9679,
-      "lon": 125.5268,
-      "timeUtc": "Mon, 08 Jun 2026 12:45:52 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwn"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srgh",
-      "hazardType": "EQ",
-      "title": "24 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4055,
-      "lon": 125.2064,
-      "timeUtc": "Mon, 08 Jun 2026 12:44:22 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srgh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgh"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwl",
-      "hazardType": "EQ",
-      "title": "16 km SSW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5892,
-      "lon": 125.1811,
-      "timeUtc": "Mon, 08 Jun 2026 12:10:53 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwl"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwh",
-      "hazardType": "EQ",
-      "title": "9 km SSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4913,
-      "lon": 125.331,
-      "timeUtc": "Mon, 08 Jun 2026 11:59:52 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwh"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su45",
-      "hazardType": "EQ",
-      "title": "64 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1664,
-      "lon": 124.9348,
-      "timeUtc": "Mon, 08 Jun 2026 11:55:14 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su45"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su45"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su40",
-      "hazardType": "EQ",
-      "title": "68 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.086,
-      "lon": 124.9314,
-      "timeUtc": "Mon, 08 Jun 2026 11:55:02 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su40"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su40"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwg",
-      "hazardType": "EQ",
-      "title": "68 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7831,
-      "lon": 125.4023,
-      "timeUtc": "Mon, 08 Jun 2026 11:54:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwg"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwj",
-      "hazardType": "EQ",
-      "title": "30 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3437,
-      "lon": 125.1905,
-      "timeUtc": "Mon, 08 Jun 2026 11:50:54 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwj"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwf",
-      "hazardType": "EQ",
-      "title": "1 km S of Pangyan, Philippines",
-      "countries": [],
-      "lat": 5.686,
-      "lon": 125.2808,
-      "timeUtc": "Mon, 08 Jun 2026 11:37:05 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwf"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su43",
-      "hazardType": "EQ",
-      "title": "159 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.0087,
-      "lon": 125.0796,
-      "timeUtc": "Mon, 08 Jun 2026 11:29:30 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su43"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su43"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srfx",
-      "hazardType": "EQ",
-      "title": "14 km SW of Pangyan, Philippines",
-      "countries": [],
-      "lat": 5.5916,
-      "lon": 125.206,
-      "timeUtc": "Mon, 08 Jun 2026 11:22:33 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srfx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srfx"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwb",
-      "hazardType": "EQ",
-      "title": "12 km W of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5803,
-      "lon": 125.2427,
-      "timeUtc": "Mon, 08 Jun 2026 11:12:25 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwb"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwb"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwc",
-      "hazardType": "EQ",
-      "title": "257 km S of Wonosari, Indonesia",
-      "countries": [],
-      "lat": -10.2949,
-      "lon": 110.5108,
-      "timeUtc": "Mon, 08 Jun 2026 11:05:30 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwc"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwe",
-      "hazardType": "EQ",
-      "title": "40 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3639,
-      "lon": 125.0592,
-      "timeUtc": "Mon, 08 Jun 2026 11:01:45 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwe"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwe"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stwa",
-      "hazardType": "EQ",
-      "title": "11 km W of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5715,
-      "lon": 125.2495,
-      "timeUtc": "Mon, 08 Jun 2026 10:46:14 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stwa"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stwa"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stw8",
-      "hazardType": "EQ",
-      "title": "9 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.506,
-      "lon": 125.3019,
-      "timeUtc": "Mon, 08 Jun 2026 10:26:37 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stw8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stw8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srfd",
-      "hazardType": "EQ",
-      "title": "31 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2627,
-      "lon": 125.2196,
-      "timeUtc": "Mon, 08 Jun 2026 10:04:07 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srfd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srfd"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0f",
-      "hazardType": "EQ",
-      "title": "69 km SSE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8211,
-      "lon": 125.6902,
-      "timeUtc": "Mon, 08 Jun 2026 09:31:26 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0f"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0f"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srfa",
-      "hazardType": "EQ",
-      "title": "61 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8466,
-      "lon": 125.4602,
-      "timeUtc": "Mon, 08 Jun 2026 09:28:30 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srfa"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srfa"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srf8",
-      "hazardType": "EQ",
-      "title": "60 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8817,
-      "lon": 125.2956,
-      "timeUtc": "Mon, 08 Jun 2026 09:17:22 GMT",
-      "mag": 5.6,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srf8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srf8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stw4",
-      "hazardType": "EQ",
-      "title": "44 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5,
-      "lon": 125.4105,
-      "timeUtc": "Mon, 08 Jun 2026 09:16:47 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stw4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stw4"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0e",
-      "hazardType": "EQ",
-      "title": "64 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.3269,
-      "lon": 124.6889,
-      "timeUtc": "Mon, 08 Jun 2026 09:04:51 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0e"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0e"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvz",
-      "hazardType": "EQ",
-      "title": "36 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2481,
-      "lon": 125.1684,
-      "timeUtc": "Mon, 08 Jun 2026 08:50:15 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvz"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srf6",
-      "hazardType": "EQ",
-      "title": "39 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1636,
-      "lon": 125.1999,
-      "timeUtc": "Mon, 08 Jun 2026 08:45:54 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srf6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srf6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stw2",
-      "hazardType": "EQ",
-      "title": "179 km NE of Maumere, Indonesia",
-      "countries": [],
-      "lat": -7.4661,
-      "lon": 123.3562,
-      "timeUtc": "Mon, 08 Jun 2026 08:41:57 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stw2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stw2"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stw1",
-      "hazardType": "EQ",
-      "title": "39 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.394,
-      "lon": 125.0426,
-      "timeUtc": "Mon, 08 Jun 2026 08:40:42 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stw1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stw1"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvy",
-      "hazardType": "EQ",
-      "title": "13 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5029,
-      "lon": 125.2582,
-      "timeUtc": "Mon, 08 Jun 2026 08:35:12 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvy"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvx",
-      "hazardType": "EQ",
-      "title": "34 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3859,
-      "lon": 125.1047,
-      "timeUtc": "Mon, 08 Jun 2026 08:23:22 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvx"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvw",
-      "hazardType": "EQ",
-      "title": "59 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0142,
-      "lon": 125.0994,
-      "timeUtc": "Mon, 08 Jun 2026 08:17:23 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvw"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srf1",
-      "hazardType": "EQ",
-      "title": "37 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3895,
-      "lon": 125.0661,
-      "timeUtc": "Mon, 08 Jun 2026 08:13:45 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srf1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srf1"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvv",
-      "hazardType": "EQ",
-      "title": "75 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8761,
-      "lon": 125.0371,
-      "timeUtc": "Mon, 08 Jun 2026 08:08:00 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvv"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sret",
-      "hazardType": "EQ",
-      "title": "58 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9442,
-      "lon": 125.2017,
-      "timeUtc": "Mon, 08 Jun 2026 07:15:39 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sret"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sret"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvt",
-      "hazardType": "EQ",
-      "title": "58 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9283,
-      "lon": 125.2359,
-      "timeUtc": "Mon, 08 Jun 2026 07:10:39 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvt"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srem",
-      "hazardType": "EQ",
-      "title": "29 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5078,
-      "lon": 125.0837,
-      "timeUtc": "Mon, 08 Jun 2026 07:00:06 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srem"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srem"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvq",
-      "hazardType": "EQ",
-      "title": "21 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4285,
-      "lon": 125.2188,
-      "timeUtc": "Mon, 08 Jun 2026 06:58:46 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvq"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvr",
-      "hazardType": "EQ",
-      "title": "35 km SW of Kablalan, Philippines",
-      "countries": [],
-      "lat": 5.5383,
-      "lon": 124.9917,
-      "timeUtc": "Mon, 08 Jun 2026 06:47:55 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvr"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srei",
-      "hazardType": "EQ",
-      "title": "17 km NNE of Padang, Indonesia",
-      "countries": [],
-      "lat": -0.8144,
-      "lon": 100.4437,
-      "timeUtc": "Mon, 08 Jun 2026 06:39:21 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srei"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srei"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvn",
-      "hazardType": "EQ",
-      "title": "26 km SSE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.201,
-      "lon": 125.5961,
-      "timeUtc": "Mon, 08 Jun 2026 06:33:02 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvn"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sref",
-      "hazardType": "EQ",
-      "title": "23 km ESE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3313,
-      "lon": 125.661,
-      "timeUtc": "Mon, 08 Jun 2026 06:28:00 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sref"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sref"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stzu",
-      "hazardType": "EQ",
-      "title": "55 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9178,
-      "lon": 125.3393,
-      "timeUtc": "Mon, 08 Jun 2026 06:24:45 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stzu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stzu"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srec",
-      "hazardType": "EQ",
-      "title": "64 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8335,
-      "lon": 125.3414,
-      "timeUtc": "Mon, 08 Jun 2026 06:21:56 GMT",
-      "mag": 5.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srec"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srec"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sred",
-      "hazardType": "EQ",
-      "title": "22 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3479,
-      "lon": 125.2727,
-      "timeUtc": "Mon, 08 Jun 2026 06:08:03 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sred"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sred"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvm",
-      "hazardType": "EQ",
-      "title": "18 km ESE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3436,
-      "lon": 125.6154,
-      "timeUtc": "Mon, 08 Jun 2026 06:07:12 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvm"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sre8",
-      "hazardType": "EQ",
-      "title": "56 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0164,
-      "lon": 125.1297,
-      "timeUtc": "Mon, 08 Jun 2026 05:58:57 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sre8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sre8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su41",
-      "hazardType": "EQ",
-      "title": "17 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2885,
-      "lon": 125.3597,
-      "timeUtc": "Mon, 08 Jun 2026 05:41:12 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su41"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su41"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sre5",
-      "hazardType": "EQ",
-      "title": "47 km E of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3433,
-      "lon": 125.8838,
-      "timeUtc": "Mon, 08 Jun 2026 05:38:16 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sre5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sre5"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sre4",
-      "hazardType": "EQ",
-      "title": "49 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0856,
-      "lon": 125.1512,
-      "timeUtc": "Mon, 08 Jun 2026 05:36:15 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sre4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sre4"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su3w",
-      "hazardType": "EQ",
-      "title": "49 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1906,
-      "lon": 125.0723,
-      "timeUtc": "Mon, 08 Jun 2026 05:19:10 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su3w"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su3w"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su57",
-      "hazardType": "EQ",
-      "title": "21 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3253,
-      "lon": 125.2873,
-      "timeUtc": "Mon, 08 Jun 2026 05:13:52 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su57"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su57"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000sre1",
-      "hazardType": "EQ",
-      "title": "13 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2936,
-      "lon": 125.4095,
-      "timeUtc": "Mon, 08 Jun 2026 05:12:04 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sre1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sre1"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvk",
-      "hazardType": "EQ",
-      "title": "40 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.2984,
-      "lon": 125.1103,
-      "timeUtc": "Mon, 08 Jun 2026 05:03:24 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvk"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvi",
-      "hazardType": "EQ",
-      "title": "17 km W of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3904,
-      "lon": 125.3037,
-      "timeUtc": "Mon, 08 Jun 2026 04:57:23 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvi"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvi"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su59",
-      "hazardType": "EQ",
-      "title": "66 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8567,
-      "lon": 125.2241,
-      "timeUtc": "Mon, 08 Jun 2026 04:51:08 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su59"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su59"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvj",
-      "hazardType": "EQ",
-      "title": "60 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8998,
-      "lon": 125.2449,
-      "timeUtc": "Mon, 08 Jun 2026 04:50:01 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvj"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srds",
-      "hazardType": "EQ",
-      "title": "54 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9867,
-      "lon": 125.2095,
-      "timeUtc": "Mon, 08 Jun 2026 04:46:42 GMT",
-      "mag": 5.6,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srds"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srds"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srdu",
-      "hazardType": "EQ",
-      "title": "68 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.807,
-      "lon": 125.3096,
-      "timeUtc": "Mon, 08 Jun 2026 04:44:29 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srdu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srdu"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srdr",
-      "hazardType": "EQ",
-      "title": "45 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2028,
-      "lon": 125.1083,
-      "timeUtc": "Mon, 08 Jun 2026 04:42:59 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srdr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srdr"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvh",
-      "hazardType": "EQ",
-      "title": "68 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1169,
-      "lon": 124.9171,
-      "timeUtc": "Mon, 08 Jun 2026 04:36:03 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvh"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stve",
-      "hazardType": "EQ",
-      "title": "95 km SE of Caburan, Philippines",
-      "countries": [],
-      "lat": 5.4128,
-      "lon": 126.3381,
-      "timeUtc": "Mon, 08 Jun 2026 04:17:57 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stve"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stve"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srdy",
-      "hazardType": "EQ",
-      "title": "83 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7796,
-      "lon": 125.0333,
-      "timeUtc": "Mon, 08 Jun 2026 04:07:54 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srdy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srdy"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stvd",
-      "hazardType": "EQ",
-      "title": "53 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.2518,
-      "lon": 124.996,
-      "timeUtc": "Mon, 08 Jun 2026 04:04:14 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stvd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stvd"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srdh",
-      "hazardType": "EQ",
-      "title": "46 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1843,
-      "lon": 125.1086,
-      "timeUtc": "Mon, 08 Jun 2026 03:52:18 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srdh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srdh"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stva",
-      "hazardType": "EQ",
-      "title": "12 km W of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5613,
-      "lon": 125.2423,
-      "timeUtc": "Mon, 08 Jun 2026 03:49:55 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stva"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stva"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv9",
-      "hazardType": "EQ",
-      "title": "37 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2004,
-      "lon": 125.1968,
-      "timeUtc": "Mon, 08 Jun 2026 03:47:36 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv9"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv5",
-      "hazardType": "EQ",
-      "title": "63 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0712,
-      "lon": 125.0016,
-      "timeUtc": "Mon, 08 Jun 2026 03:29:06 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv5"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srdc",
-      "hazardType": "EQ",
-      "title": "34 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2615,
-      "lon": 125.1864,
-      "timeUtc": "Mon, 08 Jun 2026 03:26:53 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srdc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srdc"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv8",
-      "hazardType": "EQ",
-      "title": "69 km E of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.4363,
-      "lon": 126.0869,
-      "timeUtc": "Mon, 08 Jun 2026 03:23:24 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv8"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv6",
-      "hazardType": "EQ",
-      "title": "66 km S of Lumatil, Philippines",
-      "countries": [],
-      "lat": 5.2778,
-      "lon": 124.7864,
-      "timeUtc": "Mon, 08 Jun 2026 03:20:08 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srd9",
-      "hazardType": "EQ",
-      "title": "62 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8517,
-      "lon": 125.3321,
-      "timeUtc": "Mon, 08 Jun 2026 03:06:19 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srd9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srd9"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv1",
-      "hazardType": "EQ",
-      "title": "76 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7208,
-      "lon": 125.3456,
-      "timeUtc": "Mon, 08 Jun 2026 03:01:39 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv1"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stv2",
-      "hazardType": "EQ",
-      "title": "69 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8142,
-      "lon": 125.2383,
-      "timeUtc": "Mon, 08 Jun 2026 02:59:45 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stv2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stv2"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuy",
-      "hazardType": "EQ",
-      "title": "42 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0521,
-      "lon": 125.3116,
-      "timeUtc": "Mon, 08 Jun 2026 02:56:15 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuy"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stux",
-      "hazardType": "EQ",
-      "title": "58 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9214,
-      "lon": 125.2406,
-      "timeUtc": "Mon, 08 Jun 2026 02:44:32 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stux"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stux"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srd6",
-      "hazardType": "EQ",
-      "title": "61 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.0512,
-      "lon": 125.0296,
-      "timeUtc": "Mon, 08 Jun 2026 02:38:08 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srd6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srd6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuv",
-      "hazardType": "EQ",
-      "title": "8 km SSW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.6431,
-      "lon": 125.2231,
-      "timeUtc": "Mon, 08 Jun 2026 02:34:50 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuv"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuw",
-      "hazardType": "EQ",
-      "title": "62 km SSE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.8916,
-      "lon": 126.4862,
-      "timeUtc": "Mon, 08 Jun 2026 02:24:37 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuw"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srd3",
-      "hazardType": "EQ",
-      "title": "6 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.6769,
-      "lon": 125.2054,
-      "timeUtc": "Mon, 08 Jun 2026 02:12:30 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srd3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srd3"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stut",
-      "hazardType": "EQ",
-      "title": "27 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1536,
-      "lon": 125.4979,
-      "timeUtc": "Mon, 08 Jun 2026 02:11:34 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stut"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stut"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stur",
-      "hazardType": "EQ",
-      "title": "59 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.2084,
-      "lon": 124.9634,
-      "timeUtc": "Mon, 08 Jun 2026 02:07:23 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stur"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stur"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su27",
-      "hazardType": "EQ",
-      "title": "37 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.32,
-      "lon": 125.1289,
-      "timeUtc": "Mon, 08 Jun 2026 02:04:33 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su27"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su27"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stus",
-      "hazardType": "EQ",
-      "title": "52 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.2797,
-      "lon": 124.9842,
-      "timeUtc": "Mon, 08 Jun 2026 02:03:38 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stus"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stus"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stup",
-      "hazardType": "EQ",
-      "title": "13 km SSW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.6089,
-      "lon": 125.1962,
-      "timeUtc": "Mon, 08 Jun 2026 01:57:26 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stup"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stup"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srcz",
-      "hazardType": "EQ",
-      "title": "24 km SE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2253,
-      "lon": 125.6014,
-      "timeUtc": "Mon, 08 Jun 2026 01:46:24 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srcz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcz"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stun",
-      "hazardType": "EQ",
-      "title": "4 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5642,
-      "lon": 125.3121,
-      "timeUtc": "Mon, 08 Jun 2026 01:41:30 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stun"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stun"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuq",
-      "hazardType": "EQ",
-      "title": "47 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.2678,
-      "lon": 125.0497,
-      "timeUtc": "Mon, 08 Jun 2026 01:40:39 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuq"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stum",
-      "hazardType": "EQ",
-      "title": "14 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4789,
-      "lon": 125.26,
-      "timeUtc": "Mon, 08 Jun 2026 01:38:56 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stum"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stum"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuj",
-      "hazardType": "EQ",
-      "title": "24 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4352,
-      "lon": 125.1833,
-      "timeUtc": "Mon, 08 Jun 2026 01:35:34 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuj"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuk",
-      "hazardType": "EQ",
-      "title": "54 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9321,
-      "lon": 125.3217,
-      "timeUtc": "Mon, 08 Jun 2026 01:32:49 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuk"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stul",
-      "hazardType": "EQ",
-      "title": "35 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1114,
-      "lon": 125.3322,
-      "timeUtc": "Mon, 08 Jun 2026 01:27:46 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stul"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stul"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stui",
-      "hazardType": "EQ",
-      "title": "7 km ESE of Bukid, Philippines",
-      "countries": [],
-      "lat": 5.5493,
-      "lon": 125.4671,
-      "timeUtc": "Mon, 08 Jun 2026 01:19:33 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stui"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stui"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stug",
-      "hazardType": "EQ",
-      "title": "35 km ESE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2318,
-      "lon": 125.7291,
-      "timeUtc": "Mon, 08 Jun 2026 01:17:01 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stug"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stug"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stue",
-      "hazardType": "EQ",
-      "title": "17 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2597,
-      "lon": 125.4036,
-      "timeUtc": "Mon, 08 Jun 2026 01:16:38 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stue"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stue"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srck",
-      "hazardType": "EQ",
-      "title": "71 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8254,
-      "lon": 125.1805,
-      "timeUtc": "Mon, 08 Jun 2026 01:11:00 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srck"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srck"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuh",
-      "hazardType": "EQ",
-      "title": "52 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1741,
-      "lon": 125.0501,
-      "timeUtc": "Mon, 08 Jun 2026 01:05:56 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuh"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srci",
-      "hazardType": "EQ",
-      "title": "33 km ESE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2644,
-      "lon": 125.729,
-      "timeUtc": "Mon, 08 Jun 2026 00:58:20 GMT",
-      "mag": 5.8,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srci"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srci"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srcg",
-      "hazardType": "EQ",
-      "title": "18 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4747,
-      "lon": 125.2173,
-      "timeUtc": "Mon, 08 Jun 2026 00:55:12 GMT",
-      "mag": 6.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srcg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcg"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srcf",
-      "hazardType": "EQ",
-      "title": "41 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1977,
-      "lon": 125.152,
-      "timeUtc": "Mon, 08 Jun 2026 00:53:03 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srcf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcf"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stud",
-      "hazardType": "EQ",
-      "title": "60 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8729,
-      "lon": 125.3378,
-      "timeUtc": "Mon, 08 Jun 2026 00:52:32 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stud"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stud"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srcd",
-      "hazardType": "EQ",
-      "title": "10 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5392,
-      "lon": 125.2658,
-      "timeUtc": "Mon, 08 Jun 2026 00:48:42 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srcd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcd"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0i",
-      "hazardType": "EQ",
-      "title": "55 km SSW of Maitum, Philippines",
-      "countries": [],
-      "lat": 5.5859,
-      "lon": 124.2826,
-      "timeUtc": "Mon, 08 Jun 2026 00:44:34 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0i"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0i"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000srcc",
-      "hazardType": "EQ",
-      "title": "3 km E of Pangyan, Philippines",
-      "countries": [],
-      "lat": 5.6968,
-      "lon": 125.3128,
-      "timeUtc": "Mon, 08 Jun 2026 00:42:28 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srcc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcc"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0g",
-      "hazardType": "EQ",
-      "title": "6 km E of Butulan, Philippines",
-      "countries": [],
-      "lat": 5.6073,
-      "lon": 125.4866,
-      "timeUtc": "Mon, 08 Jun 2026 00:35:01 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0g"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0g"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0s",
-      "hazardType": "EQ",
-      "title": "34 km SSW of Tambilil, Philippines",
-      "countries": [],
-      "lat": 5.6941,
-      "lon": 124.5147,
-      "timeUtc": "Mon, 08 Jun 2026 00:32:21 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0s"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0s"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stua",
-      "hazardType": "EQ",
-      "title": "187 km NW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 3.0983,
-      "lon": 127.0104,
-      "timeUtc": "Mon, 08 Jun 2026 00:28:30 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stua"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stua"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stub",
-      "hazardType": "EQ",
-      "title": "191 km NW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 3.0825,
-      "lon": 126.9334,
-      "timeUtc": "Mon, 08 Jun 2026 00:26:54 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stub"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stub"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stuc",
-      "hazardType": "EQ",
-      "title": "32 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.4887,
-      "lon": 125.067,
-      "timeUtc": "Mon, 08 Jun 2026 00:23:13 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stuc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stuc"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stu4",
-      "hazardType": "EQ",
-      "title": "15 km W of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3957,
-      "lon": 125.3265,
-      "timeUtc": "Mon, 08 Jun 2026 00:18:20 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stu4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stu4"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000su0l",
-      "hazardType": "EQ",
-      "title": "15 km W of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3923,
-      "lon": 125.327,
-      "timeUtc": "Mon, 08 Jun 2026 00:12:26 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su0l"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su0l"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stu5",
-      "hazardType": "EQ",
-      "title": "21 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4879,
-      "lon": 125.181,
-      "timeUtc": "Mon, 08 Jun 2026 00:11:10 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stu5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stu5"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stu6",
-      "hazardType": "EQ",
-      "title": "54 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.462,
-      "lon": 124.5854,
-      "timeUtc": "Mon, 08 Jun 2026 00:07:44 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stu6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stu6"
-        }
-      ],
-      "supplementary": []
-    },
-    {
-      "id": "us7000stu9",
-      "hazardType": "EQ",
-      "title": "203 km SE of Tabiauan, Philippines",
-      "countries": [],
-      "lat": 4.5641,
-      "lon": 123.0049,
-      "timeUtc": "Mon, 08 Jun 2026 00:02:12 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stu9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stu9"
         }
       ],
       "supplementary": []
