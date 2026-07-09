@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T17:43:27.111Z",
+  "generatedAt": "2026-07-09T19:14:13.632Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T15:48:54.538Z",
-    "changes": []
+    "priorRunAt": "2026-07-09T17:43:27.111Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104009",
+        "title": "Flood in Laos",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +55,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sz8l",
         "1551003"
@@ -100,107 +108,6 @@
       "imagery": null
     },
     {
-      "id": "us7000sz31",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 11.319,
-      "lon": 126.335,
-      "timeUtc": "Wed, 08 Jul 2026 20:32:04 GMT",
-      "mag": 4.9,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz31",
-        "1550851"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550851&episodeid=1717062&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz31"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tavx",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 1.8113,
-      "lon": 127.4396,
-      "timeUtc": "Wed, 08 Jul 2026 08:36:06 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tavx",
-        "1550763"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1550763&episodeid=1716963&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104009",
-      "hazardType": "FL",
-      "title": "Flood in Laos",
-      "countries": [
-        "Laos"
-      ],
-      "lat": 21.6768,
-      "lon": 102.2773,
-      "timeUtc": "2026-06-30T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104009"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104009&episodeid=2&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-06-30",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.5273,20.9268,103.0273,22.4268&t=2026-06-30",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us7000sz8f",
       "hazardType": "EQ",
       "title": "70 km NNW of Hirara, Japan",
@@ -214,7 +121,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sz8f"
       ],
@@ -250,6 +157,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz3z"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000sz31",
+      "hazardType": "EQ",
+      "title": "69 km NE of Sulangan, Philippines",
+      "countries": [],
+      "lat": 11.319,
+      "lon": 126.335,
+      "timeUtc": "Wed, 08 Jul 2026 20:32:04 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000sz31"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz31"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tavx",
+      "hazardType": "EQ",
+      "title": "64 km W of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 1.8113,
+      "lon": 127.4396,
+      "timeUtc": "Wed, 08 Jul 2026 08:36:06 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tavx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavx"
         }
       ],
       "supplementary": [],
@@ -1413,7 +1374,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tapy"
       ],
@@ -1440,7 +1401,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t990"
       ],
