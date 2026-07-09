@@ -1,8 +1,13 @@
-# REQS — HADR Monitor for Southeast Asia (initial idea capture)
+# Requirements — HADR Monitor for Southeast Asia (initial idea capture)
 
-Raw requirements for the product planning process. Sources: my read of
-`README.md`, the three feed docs in `feeds/`, and `feeds/blindspots.md`
-(live-verified 7 Jul 2026). This is the idea, not the design.
+> **Archived design document.** This captures the original requirements that
+> shaped the project. It is preserved for context; the authoritative design
+> decisions live in [`docs/adr/`](../adr/) and the domain vocabulary in
+> [`CONTEXT.md`](../../CONTEXT.md).
+
+Raw requirements for the product planning process. Sources: the feed docs in
+[`feeds/`](../../feeds/) and `feeds/blindspots.md`. This is the idea, not the
+design.
 
 ## The idea
 
@@ -13,9 +18,6 @@ Southeast Asian countries, reconciles them into single event stories, triages
 severity, and publishes a morning situation report to `dashboard.html` at
 08:30 Singapore time. It sits at the sensing layer only: it watches,
 reconciles, and reports; it does not dispatch or decide response.
-
-Deadline reality: this gets built over ~3 days. First vertical slice matters
-more than completeness.
 
 ## Who it's for
 
@@ -152,8 +154,3 @@ meaning the SEA filter can be done server-side instead of pulling the global
 - Dashboard layout and how much ReliefWeb-derived text it may carry.
 - What, if anything, goes out between 08:30 reports (e.g. a Red-level
   Philippines typhoon at 14:00 — wait until tomorrow?).
-
-## Expected artefacts (course requirement)
-
-`prd.html` · `system-view.html` · `implementation-notes.md` ·
-`dashboard.html` · `goal.md` · at least one skill.

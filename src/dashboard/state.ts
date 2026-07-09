@@ -330,7 +330,8 @@ export function applyStateMachine(
 
 /** Loads state.json, or null on the first run / unreadable file. A corrupt
  * state file degrades to "first run" (everything new) rather than crashing
- * the publish — the report must still go out (REQS.md item 5). */
+ * the publish — the report must still go out (docs/design/requirements.md,
+ * core behaviour 5). */
 export async function loadState(path: string | URL): Promise<PersistedState | null> {
   let raw: string;
   try {

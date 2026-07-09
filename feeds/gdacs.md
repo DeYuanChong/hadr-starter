@@ -51,15 +51,19 @@ RSS alternative: `https://www.gdacs.org/xml/rss.xml`. Per-event detail hangs off
 }
 ```
 
-## Open questions
+## Gotchas
 
-1. Every event carries `alertlevel`, `alertscore`, `episodealertlevel` and
-   `episodealertscore`. Which of these is "the alert level" for reporting
-   purposes — and can an event's colour change after you have already
-   reported on it?
-2. This event's `source` is `NEIC` — the same US agency behind the USGS feed.
-   When the same physical earthquake arrives from two of your three feeds,
-   what makes two records the same event?
-3. GDACS publishes no rate limits and no uptime guarantees. What is a polite
-   polling frequency, and what does your 08:30 report say on a morning the
-   feed is down?
+- Events carry `alertlevel`, `alertscore`, `episodealertlevel` and
+  `episodealertscore`, and an event's colour can change after it has been
+  reported. The reporting alert level and the escalation/de-escalation rules
+  are defined in [ADR-0007](../docs/adr/0007-triage-severity-shows-both-takes-max.md)
+  and the Story state machine in [ADR-0005](../docs/adr/0005-story-state-machine.md).
+- `source: NEIC` is the same US agency behind the USGS feed, so the same
+  physical earthquake can arrive from both. Cross-feed identity (the EQ join)
+  is handled per [CONTEXT.md](../CONTEXT.md)'s **Story** definition; GDACS is
+  the sole authority for all non-earthquake hazards
+  ([ADR-0004](../docs/adr/0004-non-eq-hazards-gdacs-sole-authority.md)).
+- GDACS publishes no rate limits or uptime guarantees and is known to be
+  flaky. Graceful degradation and the "bad morning" reporting behaviour are
+  covered in [`blindspots.md`](./blindspots.md) and
+  [ADR-0010](../docs/adr/0010-scheduled-ticks-not-long-running-daemon.md).

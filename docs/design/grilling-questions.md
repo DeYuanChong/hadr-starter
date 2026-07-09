@@ -1,9 +1,10 @@
-# QUESTIONS — grilling scratch file
+# Requirements grilling — scratch log
 
-Working log for the `/grill-with-docs` session on REQS.md. Answered questions
-are checked off with the decision recorded; new questions get appended as
-they surface. This file is scratch — the durable outputs are `CONTEXT.md`
-and `docs/adr/*.md`.
+> **Archived design document.** A working log of the open questions raised
+> against the [requirements](./requirements.md) and how each was resolved.
+> Answered questions are checked off with the decision recorded. This file is
+> scratch — the durable outputs are [`CONTEXT.md`](../../CONTEXT.md) and the
+> [ADRs](../adr/).
 
 ## 1. Geographic scope
 

@@ -4,9 +4,11 @@
  * affordance a user has — map clicks, chips, keyboard, Escape/close, hash
  * deep links, marker links, the JSON payload, and both themes.
  *
- * Run: npm run e2e
- *   E2E_BASE=…    page to test (default: the GitHub Pages site).
- *                 For a local build: E2E_BASE=http://127.0.0.1:8080/dashboard-map.html
+ * Run: E2E_BASE=<url> npm run e2e
+ *   E2E_BASE=…    (required) the deployed page to test, e.g.
+ *                 https://<user>.github.io/<repo>/ for a GitHub Pages
+ *                 deployment, or http://127.0.0.1:8080/dashboard-map.html
+ *                 for a local build.
  *   E2E_HEADED=1  watch it run (headed, slow-motion); default is headless.
  *
  * Exits non-zero on any failure. Screenshots land in reports/e2e-shots/
@@ -22,7 +24,16 @@ import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
 
-const BASE = process.env.E2E_BASE || "https://deyuanchong.github.io/hadr-starter/";
+const BASE = process.env.E2E_BASE;
+if (!BASE) {
+  console.error(
+    "E2E_BASE is required. Set it to the deployed dashboard URL, e.g.\n" +
+      "  E2E_BASE=https://<user>.github.io/<repo>/ npm run e2e\n" +
+      "or, for a local build:\n" +
+      "  E2E_BASE=http://127.0.0.1:8080/dashboard-map.html npm run e2e",
+  );
+  process.exit(2);
+}
 const HEADED = Boolean(process.env.E2E_HEADED);
 // The hosted site serves the dashboard at the root; a local E2E_BASE should
 // point at the .html file itself.
@@ -232,6 +243,36 @@ function check(name, cond, extra = "") {
   await cleanPage.goto(ENTRY, { waitUntil: "load" });
   await cleanPage.waitForTimeout(1500);
   check("zero console/page errors", errors.length === 0, errors.slice(0, 2).join(" | "));
+
+  // ---- 12. About page (marketing) ----------------------------------------------
+  check(
+    "dashboard links to About page",
+    (await page.locator('a[href="about.html"]').count()) >= 1,
+  );
+  const aboutPage = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  const aboutResp = await aboutPage.goto(new URL("about.html", ENTRY).href, {
+    waitUntil: "load",
+  });
+  check("about page serves", aboutResp.ok(), `HTTP ${aboutResp.status()}`);
+  check("about title", (await aboutPage.title()).includes("HADR Monitor"));
+  const aboutHeadings = await aboutPage.locator("main h2").allInnerTexts();
+  for (const expected of [
+    "What is this?",
+    "Why it exists — and where it's headed",
+    "Who it's for — and the decision it speeds up",
+    "What it deliberately does not do",
+  ]) {
+    check(`about answers "${expected}"`, aboutHeadings.includes(expected));
+  }
+  check(
+    "about has collapsible technical sections",
+    (await aboutPage.locator("details").count()) >= 4,
+  );
+  check(
+    "about links back to the report",
+    (await aboutPage.locator('a[href="dashboard-map.html"]').count()) >= 1,
+  );
+  await aboutPage.screenshot({ path: SHOT("05-about"), fullPage: true });
 
   await browser.close();
 

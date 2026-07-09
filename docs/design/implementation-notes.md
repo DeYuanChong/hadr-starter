@@ -1,6 +1,7 @@
 # Implementation notes
 
-Kept by the agent, reviewed by you. One entry per working block.
+A running log of implementation decisions, open questions, and deliberate
+deviations from the PRD or the ADRs. One entry per working block.
 
 ## Decisions
 

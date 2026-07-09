@@ -63,6 +63,7 @@ jobs:
           cp dashboard-map.html _site/index.html
           cp dashboard-map.html _site/dashboard-map.html
           cp dashboard-map.json _site/dashboard-map.json
+          cp about.html _site/about.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
@@ -73,7 +74,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       # Post-deploy verification: drive the LIVE site with a real browser
-      # (scripts/e2e-hosted.js, 37 checks — the harness that caught PR #8's
+      # (scripts/e2e-hosted.js — the harness that caught PR #8's
       # production bugs). Runs after the commit + deploy on purpose: a
       # failure here can't roll anything back, but it turns a broken morning
       # publish into a red workflow instead of silence. GitHub runners ship
