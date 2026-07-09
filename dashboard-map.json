@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T19:14:13.632Z",
+  "generatedAt": "2026-07-09T20:58:41.331Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "2 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "340 in-scope event(s)"
+      "detail": "341 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T17:43:27.111Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104009",
-        "title": "Flood in Laos",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-07-09T19:14:13.632Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000sz8z",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.2785,
+      "lon": 124.9069,
+      "timeUtc": "Thu, 09 Jul 2026 17:50:13 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000sz8z",
+        "1551007"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551007&episodeid=1717238&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz8z"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000sz8l",
       "hazardType": "EQ",
@@ -176,7 +202,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000sz31"
       ],
@@ -203,7 +229,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tavx"
       ],
