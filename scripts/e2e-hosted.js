@@ -168,6 +168,24 @@ function check(name, cond, extra = "") {
     check("marker tooltip has content", markerCount === 0, "no linked markers found");
   }
 
+  // ---- 8b. Satellite imagery (data-dependent: present when an alerted story
+  // had a coordinate and GIBS had a usable scene) -------------------------------
+  const satCount = await page.locator(".s-sat img").count();
+  if (satCount > 0) {
+    const allEmbedded = await page.evaluate(() =>
+      [...document.querySelectorAll(".s-sat img")].every((i) => i.src.startsWith("data:image/")),
+    );
+    check("satellite imagery embedded (self-contained)", allEmbedded, `${satCount} image(s)`);
+    const caption = await page.locator(".s-sat figcaption").first().innerText();
+    check(
+      "imagery caption: date + resolution honesty + attribution",
+      /\d{4}-\d{2}-\d{2}/.test(caption) && caption.includes("375 m") && caption.includes("NASA GIBS"),
+      caption.slice(0, 80),
+    );
+    const wv = await page.locator(".s-sat figcaption a").first().getAttribute("href");
+    check("imagery links to NASA Worldview", wv.startsWith("https://worldview.earthdata.nasa.gov/"), wv.slice(0, 70));
+  }
+
   // ---- 9. Machine-readable payload --------------------------------------------
   const json = await page.evaluate(async (url) => {
     const r = await fetch(url);

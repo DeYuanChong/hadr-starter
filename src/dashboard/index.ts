@@ -22,6 +22,7 @@ import path from "node:path";
 import { collect } from "./collect.js";
 import { reconcile } from "./reconcile.js";
 import { applyStateMachine, loadState, saveState } from "./state.js";
+import { fetchImagery } from "./imagery.js";
 import { buildStructuredOutput, renderDashboard } from "./render.js";
 
 const HTML_PATH = fileURLToPath(new URL("../../dashboard-map.html", import.meta.url));
@@ -48,9 +49,15 @@ async function main(): Promise<void> {
     watermarks,
   );
 
-  const html = renderDashboard(stories, health, generatedAt, machine.changes, machine.priorRunAt);
+  // Satellite imagery for alerted areas (docs/adr/0018): fetched at build
+  // time, embedded as data URIs. An enhancement, never signal — failures
+  // just mean a story renders without an image.
+  const imagery = await fetchImagery(stories, generatedAt);
+  console.log(`[dashboard] Embedded satellite imagery for ${imagery.size} alerted stor${imagery.size === 1 ? "y" : "ies"}.`);
+
+  const html = renderDashboard(stories, health, generatedAt, machine.changes, machine.priorRunAt, imagery);
   const json = JSON.stringify(
-    buildStructuredOutput(stories, health, generatedAt, machine.changes, machine.priorRunAt),
+    buildStructuredOutput(stories, health, generatedAt, machine.changes, machine.priorRunAt, imagery),
     null,
     2,
   );

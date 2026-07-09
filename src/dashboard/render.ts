@@ -19,6 +19,7 @@ import type { Story } from "../shared/story.js";
 // Type-only: erased at compile time, so no runtime cycle with state.ts's
 // type-only import of FeedHealth from this module.
 import type { ChangeLine } from "./state.js";
+import type { StoryImagery } from "./imagery.js";
 import { renderMap, TIER_COLOR } from "./map.js";
 import { COUNTRY_INFO } from "./country-info.js";
 import { seaIso3ForCountryName } from "../feeds/reliefweb/country-names.js";
@@ -73,8 +74,21 @@ function maxGroupTier(stories: Story[]): AlertTier {
   );
 }
 
+/** Satellite imagery block for a story card (docs/adr/0018): the embedded
+ * GIBS snapshot, its acquisition date, resolution honesty, public-domain
+ * attribution, and the Worldview deep link for interactive exploration. */
+function renderStoryImagery(img: StoryImagery | undefined, title: string): string {
+  if (!img) return "";
+  return `<figure class="s-sat">
+    <img src="${img.dataUri}" alt="Satellite view of the area around ${escapeHtml(title)} on ${escapeHtml(img.imageDate)}" loading="lazy" width="512" height="512">
+    <figcaption>VIIRS true colour, ${escapeHtml(img.imageDate)} · 375 m — regional context only, clouds may obscure the surface · <a href="${escapeHtml(
+      img.worldviewUrl,
+    )}" target="_blank" rel="noopener noreferrer">explore in NASA Worldview</a> · NASA GIBS (public domain)</figcaption>
+  </figure>`;
+}
+
 /** Renders one story card. */
-function renderStory(s: Story): string {
+function renderStory(s: Story, imagery?: Map<string, StoryImagery>): string {
   const mag = s.mag !== null ? `M${s.mag.toFixed(1)} · ` : "";
   const countries = s.countries.length
     ? `<p class="s-countries">Affected: ${escapeHtml(s.countries.join(", "))}</p>`
@@ -127,13 +141,14 @@ function renderStory(s: Story): string {
   ${countries}
   ${when}
   ${supplementary}
+  ${renderStoryImagery(imagery?.get(s.id), s.title)}
 </article>`;
 }
 
 /** Groups reported (non-suppressed) stories by hazard, sorts groups and
  * members by severity, and renders each group. Suppressed stories are
  * counted per hazard (story 6 — suppressed but disclosed, not vanished). */
-function renderStoryGroups(stories: Story[]): string {
+function renderStoryGroups(stories: Story[], imagery?: Map<string, StoryImagery>): string {
   const reported = stories.filter((s) => !s.suppressed);
   const suppressedByHazard = new Map<string, number>();
   for (const s of stories) {
@@ -174,7 +189,7 @@ function renderStoryGroups(stories: Story[]): string {
         : "";
       return `<section class="hazard-group">
   <h3>${escapeHtml(hazardLabel(hazard))} <span class="count">${arr.length}</span>${suppressedNote}</h3>
-  ${arr.map(renderStory).join("\n")}
+  ${arr.map((s) => renderStory(s, imagery)).join("\n")}
 </section>`;
     })
     .join("\n");
@@ -367,6 +382,7 @@ export function buildStructuredOutput(
   generatedAt: Date,
   changes: ChangeLine[] = [],
   priorRunAt: string | null = null,
+  imagery: Map<string, StoryImagery> = new Map(),
 ): object {
   return {
     generatedAt: generatedAt.toISOString(),
@@ -397,6 +413,14 @@ export function buildStructuredOutput(
       aliases: s.aliases,
       sources: s.sources,
       supplementary: s.supplementary,
+      // Imagery metadata only — the data URI stays out of the JSON payload
+      // (agents can follow worldviewUrl or re-fetch GIBS themselves).
+      imagery: (() => {
+        const img = imagery.get(s.id);
+        return img
+          ? { imageDate: img.imageDate, worldviewUrl: img.worldviewUrl, layer: img.layer }
+          : null;
+      })(),
     })),
   };
 }
@@ -499,6 +523,9 @@ figure.map svg { width: 100%; height: auto; display: block; }
 .s-countries, .s-when { margin: 0.25rem 0 0; font-size: 0.82rem; color: var(--ink-soft); }
 .s-when { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
 .s-supp { margin: 0.4rem 0 0; padding-left: 1.1rem; font-size: 0.82rem; }
+.s-sat { margin: 0.6rem 0 0; }
+.s-sat img { display: block; width: 100%; max-width: 420px; height: auto; border: 1px solid var(--line); border-radius: 5px; }
+.s-sat figcaption { margin-top: 0.3rem; font-size: 0.72rem; color: var(--ink-faint); max-width: 62ch; }
 .via { color: var(--ink-faint); font-size: 0.75rem; }
 .empty { color: var(--ink-faint); font-style: italic; }
 a { color: var(--accent); }
@@ -512,6 +539,7 @@ export function renderDashboard(
   generatedAt: Date,
   changes: ChangeLine[] = [],
   priorRunAt: string | null = null,
+  imagery: Map<string, StoryImagery> = new Map(),
 ): string {
   const reportedCount = stories.filter((s) => !s.suppressed).length;
   const suppressedCount = stories.length - reportedCount;
@@ -553,7 +581,7 @@ export function renderDashboard(
 
   <section class="block">
     <h2>Current stories</h2>
-    ${renderStoryGroups(stories)}
+    ${renderStoryGroups(stories, imagery)}
   </section>
 
   <footer>
