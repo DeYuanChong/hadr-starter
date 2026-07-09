@@ -284,7 +284,7 @@ etc.) to refresh them.
 | `E2E_BASE=<url> npm run e2e` | Drive a deployed dashboard with a real browser. |
 
 There is **no build step** — TypeScript is executed directly via
-[`tsx`](https://github.com/privatenolan/tsx). Conventions (one folder per feed,
+[`tsx`](https://github.com/privatenumber/tsx). Conventions (one folder per feed,
 shared logic in `src/shared/`, domain vocabulary from `CONTEXT.md`) are
 documented in [`CLAUDE.md`](CLAUDE.md).
 

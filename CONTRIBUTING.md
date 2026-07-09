@@ -14,7 +14,7 @@ npm run typecheck && npm test
 ```
 
 You need **Node.js v22+**. There is no build step — TypeScript runs directly
-via [`tsx`](https://github.com/privatenolan/tsx).
+via [`tsx`](https://github.com/privatenumber/tsx).
 
 ## Before you open a pull request
 
