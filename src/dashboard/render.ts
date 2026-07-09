@@ -87,6 +87,144 @@ function renderStoryImagery(img: StoryImagery | undefined, title: string): strin
   </figure>`;
 }
 
+/** A single consolidated table row for one story (all hazards, all tiers,
+ * including suppressed Green-tier ones — "all the alerts gathered").
+ * Mirrors one story card's fields so the table and cards always agree. */
+function renderAlertRow(s: Story): string {
+  const mag = s.mag !== null ? s.mag.toFixed(1) : "—";
+  const countries = s.countries.length ? escapeHtml(s.countries.join(", ")) : "—";
+  const when = s.timeUtc ? escapeHtml(s.timeUtc) : "—";
+  const gdacs = s.gdacsAlert ? escapeHtml(s.gdacsAlert) : "—";
+  const pager = s.pagerAlert ? escapeHtml(s.pagerAlert) : "—";
+  const state = s.state === "unchanged" ? "" : stateChip(s.state);
+  const srcLinks = s.sources
+    .filter((x) => x.url)
+    .map(
+      (x) =>
+        `<a href="${escapeHtml(x.url as string)}" target="_blank" rel="noopener noreferrer">${x.feed}</a>`,
+    )
+    .join(" ");
+  const suppressedTag = s.suppressed
+    ? `<span class="row-supp" title="Green-tier or unalerted — tracked, not surfaced in the story cards">suppressed</span>`
+    : "";
+  return `<tr class="row row-${s.triageSeverity}" data-hazard="${escapeHtml(s.hazardType.toUpperCase())}" data-tier="${s.triageSeverity}">
+  <td class="c-tier"><span class="pill" style="--pill:${TIER_COLOR[s.triageSeverity]}">${s.triageSeverity}</span>${suppressedTag}</td>
+  <td class="c-hazard">${escapeHtml(s.hazardType.toUpperCase())}</td>
+  <td class="c-mag">${mag}</td>
+  <td class="c-title">${escapeHtml(s.title)}</td>
+  <td class="c-loc">${countries}</td>
+  <td class="c-when">${when}</td>
+  <td class="c-alert">${gdacs}</td>
+  <td class="c-alert">${pager}</td>
+  <td class="c-state">${state}</td>
+  <td class="c-src">${srcLinks}</td>
+</tr>`;
+}
+
+/** Consolidated table of every alert gathered this run, across all feeds and
+ * hazard types, sorted by triage severity (highest first), then newest first.
+ * Reported stories come before suppressed ones at equal tier; this is the
+ * one place every alert — including the Green-tier suppressed ones — appears
+ * in a single scannable view. A small client filter lets the reader narrow
+ * by hazard. */
+function renderAlertsTable(stories: Story[]): string {
+  const rows = stories
+    .slice()
+    .sort((a, b) => {
+      const t = TIER_RANK[b.triageSeverity] - TIER_RANK[a.triageSeverity];
+      if (t !== 0) return t;
+      if (a.suppressed !== b.suppressed) return a.suppressed ? 1 : -1;
+      return (b.timeUtc ?? "").localeCompare(a.timeUtc ?? "");
+    })
+    .map(renderAlertRow)
+    .join("\n");
+
+  const hazardOpts = [...new Set(stories.map((s) => s.hazardType.toUpperCase()))]
+    .sort()
+    .map((h) => `<option value="${escapeHtml(h)}">${escapeHtml(hazardLabel(h))}</option>`)
+    .join("");
+
+  return `<div class="alerts-table-wrap">
+<p class="alerts-table-hint">Every alert gathered this run, including Green-tier suppressed ones. Use the hazard filter to narrow the view — the table itself is the complete record.</p>
+<div class="alerts-table-controls">
+  <label class="filter">Hazard
+    <select id="hazard-filter" autocomplete="off">
+      <option value="">All hazards</option>${hazardOpts}
+    </select>
+  </label>
+  <label class="filter">Tier
+    <select id="tier-filter" autocomplete="off">
+      <option value="">All tiers</option>
+      <option value="red">red</option>
+      <option value="orange">orange</option>
+      <option value="yellow">yellow</option>
+      <option value="green">green</option>
+      <option value="none">none</option>
+    </select>
+  </label>
+  <label class="filter">Suppressed
+    <select id="supp-filter" autocomplete="off">
+      <option value="">Show all</option>
+      <option value="reported">Reported only</option>
+      <option value="suppressed">Suppressed only</option>
+    </select>
+  </label>
+  <span class="row-count" id="row-count"></span>
+</div>
+<div class="alerts-table-scroll">
+<table class="alerts-table" id="alerts-table">
+  <thead><tr>
+    <th class="c-tier">Tier</th>
+    <th class="c-hazard">Hazard</th>
+    <th class="c-mag">Mag</th>
+    <th class="c-title">Title</th>
+    <th class="c-loc">Location</th>
+    <th class="c-when">Time (UTC)</th>
+    <th class="c-alert">GDACS</th>
+    <th class="c-alert">PAGER</th>
+    <th class="c-state">Change</th>
+    <th class="c-src">Sources</th>
+  </tr></thead>
+  <tbody>
+${rows}
+  </tbody>
+</table>
+</div>
+</div>
+<script>${ALERTS_TABLE_SCRIPT}</script>`;
+}
+
+/** Client-side filter for the consolidated alerts table. Hides rows that
+ * don't match the selected hazard / tier / suppression, and updates the
+ * visible-row count. No network, no state — pure DOM on already-rendered
+ * rows keyed by data-hazard and the row's tier class. */
+const ALERTS_TABLE_SCRIPT = `(function () {
+  var table = document.getElementById("alerts-table");
+  if (!table) return;
+  var body = table.tBodies[0];
+  var rows = body ? Array.prototype.slice.call(body.rows) : [];
+  var hazard = document.getElementById("hazard-filter");
+  var tier = document.getElementById("tier-filter");
+  var supp = document.getElementById("supp-filter");
+  var count = document.getElementById("row-count");
+  function apply() {
+    var h = hazard ? hazard.value : "";
+    var t = tier ? tier.value : "";
+    var s = supp ? supp.value : "";
+    var shown = 0;
+    rows.forEach(function (r) {
+      var okH = !h || r.getAttribute("data-hazard") === h;
+      var okT = !t || r.getAttribute("data-tier") === t;
+      var hasSupp = r.querySelector(".row-supp") !== null;
+      var okS = !s || (s === "suppressed" && hasSupp) || (s === "reported" && !hasSupp);
+      if (okH && okT && okS) { r.style.display = ""; shown++; } else { r.style.display = "none"; }
+    });
+    if (count) count.textContent = shown + " / " + rows.length + " row(s)";
+  }
+  [hazard, tier, supp].forEach(function (el) { if (el) el.addEventListener("change", apply); });
+  apply();
+})();`;
+
 /** Renders one story card. */
 function renderStory(s: Story, imagery?: Map<string, StoryImagery>): string {
   const mag = s.mag !== null ? `M${s.mag.toFixed(1)} · ` : "";
@@ -451,7 +589,7 @@ body {
   margin: 0; background: var(--bg); color: var(--ink); line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+.wrap { max-width: 1480px; margin: 0 auto; padding: 2rem 1.5rem 5rem; }
 header.top { border-bottom: 2px solid var(--accent); padding-bottom: 1rem; margin-bottom: 1.5rem; }
 header.top h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
 header.top .sub { color: var(--ink-soft); font-size: 0.9rem; margin: 0; }
@@ -530,6 +668,35 @@ figure.map svg { width: 100%; height: auto; display: block; }
 .empty { color: var(--ink-faint); font-style: italic; }
 a { color: var(--accent); }
 footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: 0.78rem; color: var(--ink-faint); }
+.alerts-table-wrap { margin-top: 0.5rem; }
+.alerts-table-hint { font-size: 0.82rem; color: var(--ink-soft); margin: 0 0 0.6rem; max-width: 92ch; }
+.alerts-table-controls { display: flex; flex-wrap: wrap; gap: 0.6rem 0.9rem; align-items: center; margin-bottom: 0.7rem; }
+.alerts-table-controls .filter { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.78rem; color: var(--ink-soft); }
+.alerts-table-controls select { font: inherit; font-size: 0.8rem; padding: 0.15rem 0.4rem; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 4px; }
+.row-count { margin-left: auto; font-size: 0.78rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.alerts-table-scroll { overflow-x: auto; max-height: 560px; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.alerts-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.alerts-table thead th { position: sticky; top: 0; background: var(--panel-2); color: var(--ink-soft); text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); z-index: 1; }
+.alerts-table thead th.c-state, .alerts-table thead th.c-src { white-space: nowrap; }
+.alerts-table tbody td { padding: 0.3rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.alerts-table tbody tr:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.alerts-table .c-tier { white-space: nowrap; }
+.alerts-table .c-tier .pill { margin-right: 0.3rem; }
+.row-supp { font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-faint); border: 1px solid var(--line); padding: 0.02rem 0.3rem; border-radius: 3px; }
+.alerts-table .c-hazard { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-faint); white-space: nowrap; }
+.alerts-table .c-mag { text-align: right; white-space: nowrap; }
+.alerts-table .c-title { font-weight: 600; min-width: 22ch; }
+.alerts-table .c-loc { color: var(--ink-soft); }
+.alerts-table .c-when { color: var(--ink-faint); white-space: nowrap; }
+.alerts-table .c-alert { color: var(--ink-soft); }
+.alerts-table .c-state .sy-kind { margin-right: 0; }
+.alerts-table .c-src { white-space: nowrap; }
+.alerts-table .c-src a + a { margin-left: 0.3rem; }
+.alerts-table .row-green, .alerts-table .row-none { color: var(--ink-soft); }
+@media (max-width: 760px) {
+  .alerts-table { font-size: 0.74rem; }
+  .alerts-table tbody td, .alerts-table thead th { padding: 0.25rem 0.4rem; }
+}
 `;
 
 /** Renders the full dashboard HTML document. */
@@ -579,9 +746,14 @@ export function renderDashboard(
     ${renderCountryExplorer(stories)}
   </section>
 
-  <section class="block">
+<section class="block">
     <h2>Current stories</h2>
     ${renderStoryGroups(stories, imagery)}
+  </section>
+
+  <section class="block">
+    <h2>Consolidated alerts (all ${stories.length})</h2>
+    ${renderAlertsTable(stories)}
   </section>
 
   <footer>
