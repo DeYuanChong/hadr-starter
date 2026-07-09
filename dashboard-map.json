@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T22:40:50.438Z",
+  "generatedAt": "2026-07-09T23:54:11.652Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "349 in-scope event(s)"
+      "detail": "353 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T20:58:41.331Z",
+    "priorRunAt": "2026-07-09T22:40:50.438Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szaw",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 1.9145,
+      "lon": 126.7066,
+      "timeUtc": "Thu, 09 Jul 2026 21:55:49 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szaw",
+        "1551030"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551030&episodeid=1717264&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szaw"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000sz8z",
       "hazardType": "EQ",
@@ -2502,6 +2536,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t9va",
+      "hazardType": "EQ",
+      "title": "90 km WNW of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.1633,
+      "lon": 126.6641,
+      "timeUtc": "Wed, 24 Jun 2026 03:54:35 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9va"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9va"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t7s8",
       "hazardType": "EQ",
       "title": "78 km SSW of Lumatil, Philippines",
@@ -2569,7 +2630,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9v9"
       ],
@@ -2596,7 +2657,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9v8"
       ],
@@ -2694,10 +2755,10 @@
     {
       "id": "us6000t7rq",
       "hazardType": "EQ",
-      "title": "64 km WNW of Catuday, Philippines",
+      "title": "60 km WNW of Catuday, Philippines",
       "countries": [],
-      "lat": 16.5023,
-      "lon": 119.2436,
+      "lat": 16.5055,
+      "lon": 119.2835,
       "timeUtc": "Wed, 24 Jun 2026 01:34:19 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -2713,6 +2774,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7rq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t9v4",
+      "hazardType": "EQ",
+      "title": "75 km W of Macabuboni, Philippines",
+      "countries": [],
+      "lat": 16.2667,
+      "lon": 119.0775,
+      "timeUtc": "Wed, 24 Jun 2026 01:26:55 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9v4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9v4"
         }
       ],
       "supplementary": [],
@@ -4977,7 +5065,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sv5d"
       ],
@@ -5031,7 +5119,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sv58"
       ],
@@ -5606,7 +5694,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000suly"
       ],
@@ -5660,7 +5748,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sult"
       ],
@@ -5687,7 +5775,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sulv"
       ],
@@ -6918,6 +7006,33 @@
       "imagery": null
     },
     {
+      "id": "us7000su24",
+      "hazardType": "EQ",
+      "title": "20 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.2324,
+      "lon": 125.3997,
+      "timeUtc": "Fri, 12 Jun 2026 03:13:45 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000su24"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su24"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000su1x",
       "hazardType": "EQ",
       "title": "9 km S of Bukid, Philippines",
@@ -6931,7 +7046,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000su1x"
       ],
