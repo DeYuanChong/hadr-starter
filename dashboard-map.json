@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:07:16.354Z",
+  "generatedAt": "2026-07-10T07:49:59.318Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,10 +27,51 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-09T23:54:11.652Z",
-    "changes": []
+    "priorRunAt": "2026-07-10T04:07:16.354Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1000143",
+        "title": "Eruption  Kanlaon",
+        "hazardType": "VO",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1000143",
+      "hazardType": "VO",
+      "title": "Eruption  Kanlaon",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 10.412,
+      "lon": 123.132,
+      "timeUtc": "2026-07-10T08:02:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1000143"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000143&episodeid=1&eventtype=VO"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-08",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.382,9.662,123.882,11.162&t=2026-07-08",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000szaw",
       "hazardType": "EQ",
@@ -2019,18 +2060,18 @@
     {
       "id": "us6000t8qv",
       "hazardType": "EQ",
-      "title": "112 km SW of Bandar Lampung, Indonesia",
+      "title": "86 km SW of Bandar Lampung, Indonesia",
       "countries": [],
-      "lat": -6.2095,
-      "lon": 104.6082,
-      "timeUtc": "Sat, 27 Jun 2026 21:10:26 GMT",
-      "mag": 5.1,
+      "lat": -6.0545,
+      "lon": 104.7911,
+      "timeUtc": "Sat, 27 Jun 2026 21:10:33 GMT",
+      "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000t8qv"
       ],
@@ -2712,7 +2753,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000t7rv"
       ],
@@ -3685,7 +3726,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000suse"
       ],
@@ -5362,7 +5403,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sv4r"
       ],
@@ -5476,7 +5517,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sv4q"
       ],
