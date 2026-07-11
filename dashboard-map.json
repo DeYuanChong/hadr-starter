@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T18:30:20.618Z",
+  "generatedAt": "2026-07-11T19:46:55.858Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-11T17:26:09.052Z",
-    "changes": []
+    "priorRunAt": "2026-07-11T18:30:20.618Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1000143",
+        "title": "Eruption  Kanlaon",
+        "hazardType": "VO",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1103942",
+        "title": "Flood in Philippines",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +62,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000szri",
         "1551339"
@@ -134,7 +149,7 @@
       "imagery": null
     },
     {
-      "id": "1551233",
+      "id": "us7000szm5",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -142,21 +157,26 @@
       ],
       "lat": -2.8499,
       "lon": 128.7635,
-      "timeUtc": "2026-07-11T02:28:51",
-      "mag": null,
+      "timeUtc": "Sat, 11 Jul 2026 02:28:51 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us7000szm5",
         "1551233"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1551233&episodeid=1717479&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szm5"
         }
       ],
       "supplementary": [],
@@ -165,170 +185,12 @@
     {
       "id": "us7000szla",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "98 km WSW of Labuan, Indonesia",
+      "countries": [],
       "lat": -6.8003,
       "lon": 105.0425,
       "timeUtc": "Fri, 10 Jul 2026 22:59:34 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szla",
-        "1551196"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551196&episodeid=1717438&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szla"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1551134",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 5.3629,
-      "lon": 125.5148,
-      "timeUtc": "2026-07-10T12:42:32",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1551134"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551134&episodeid=1717382&eventtype=EQ"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1551118",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.0909,
-      "lon": 139.9122,
-      "timeUtc": "2026-07-10T08:33:03",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1551118"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551118&episodeid=1717354&eventtype=EQ"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1000143",
-      "hazardType": "VO",
-      "title": "Eruption  Kanlaon",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 10.412,
-      "lon": 123.132,
-      "timeUtc": "2026-07-10T08:02:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1000143"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1000143&episodeid=1&eventtype=VO"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.382,9.662,123.882,11.162&t=2026-07-10",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1103942",
-      "hazardType": "FL",
-      "title": "Flood in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 7.1573,
-      "lon": 124.1825,
-      "timeUtc": "2026-06-13T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1103942"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=5&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-06-13",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.4325,6.4073,124.9325,7.9073&t=2026-06-13",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us7000szm5",
-      "hazardType": "EQ",
-      "title": "54 km NNW of Masohi, Indonesia",
-      "countries": [],
-      "lat": -2.8499,
-      "lon": 128.7635,
-      "timeUtc": "Sat, 11 Jul 2026 02:28:51 GMT",
-      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
@@ -336,12 +198,12 @@
       "reconciled": false,
       "state": "de-escalated",
       "aliases": [
-        "us7000szm5"
+        "us7000szla"
       ],
       "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szm5"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szla"
         }
       ],
       "supplementary": [],
@@ -361,7 +223,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000szfz"
       ],
@@ -388,7 +250,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000sze4"
       ],
