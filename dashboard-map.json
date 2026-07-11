@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T06:39:25.097Z",
+  "generatedAt": "2026-07-11T08:30:28.909Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-11T04:32:12.041Z",
-    "changes": []
+    "priorRunAt": "2026-07-11T06:39:25.097Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1103942",
+        "title": "Flood in Philippines",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -197,6 +205,39 @@
       "imagery": {
         "imageDate": "2026-07-10",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.382,9.662,123.882,11.162&t=2026-07-10",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1103942",
+      "hazardType": "FL",
+      "title": "Flood in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 7.1573,
+      "lon": 124.1825,
+      "timeUtc": "2026-06-13T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1103942"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=5&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-06-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.4325,6.4073,124.9325,7.9073&t=2026-06-13",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
