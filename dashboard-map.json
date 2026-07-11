@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T08:30:28.909Z",
+  "generatedAt": "2026-07-11T10:04:09.144Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "298 in-scope event(s)"
+      "detail": "300 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-11T06:39:25.097Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1103942",
-        "title": "Flood in Philippines",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-11T08:30:28.909Z",
+    "changes": []
   },
   "stories": [
     {
@@ -224,7 +216,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1103942"
       ],
@@ -3800,13 +3792,40 @@
       "imagery": null
     },
     {
+      "id": "us6000t884",
+      "hazardType": "EQ",
+      "title": "104 km WSW of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": 0.1872,
+      "lon": 122.1953,
+      "timeUtc": "Sat, 20 Jun 2026 15:26:27 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t884"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t884"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000suub",
       "hazardType": "EQ",
-      "title": "13 km SSW of Balangonan, Philippines",
+      "title": "9 km SSW of Balangonan, Philippines",
       "countries": [],
-      "lat": 5.4539,
-      "lon": 125.3179,
-      "timeUtc": "Sat, 20 Jun 2026 14:05:21 GMT",
+      "lat": 5.4897,
+      "lon": 125.3312,
+      "timeUtc": "Sat, 20 Jun 2026 14:05:22 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3821,6 +3840,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suub"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t881",
+      "hazardType": "EQ",
+      "title": "23 km W of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.3668,
+      "lon": 125.2513,
+      "timeUtc": "Sat, 20 Jun 2026 13:45:54 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t881"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t881"
         }
       ],
       "supplementary": [],
