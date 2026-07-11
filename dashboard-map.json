@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T23:42:43.816Z",
+  "generatedAt": "2026-07-11T01:12:50.975Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "313 in-scope event(s)"
+      "detail": "297 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-10T22:44:37.502Z",
+    "priorRunAt": "2026-07-10T23:42:43.816Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000szla",
         "1551196"
@@ -161,8 +161,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-07-08",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.382,9.662,123.882,11.162&t=2026-07-08",
+        "imageDate": "2026-07-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.382,9.662,123.882,11.162&t=2026-07-10",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -2124,6 +2124,33 @@
       "imagery": null
     },
     {
+      "id": "us6000taex",
+      "hazardType": "EQ",
+      "title": "61 km N of Modisi, Indonesia",
+      "countries": [],
+      "lat": 0.9963,
+      "lon": 124.3343,
+      "timeUtc": "Sat, 27 Jun 2026 23:37:34 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taex"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taex"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t8re",
       "hazardType": "EQ",
       "title": "200 km N of Lospalos, Timor Leste",
@@ -3103,6 +3130,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t90u",
+      "hazardType": "EQ",
+      "title": "20 km SSW of Burias, Philippines",
+      "countries": [],
+      "lat": 5.5578,
+      "lon": 125.1672,
+      "timeUtc": "Tue, 23 Jun 2026 15:19:42 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t90u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t7ks",
       "hazardType": "EQ",
       "title": "114 km NE of Tobelo, Indonesia",
@@ -3989,6 +4043,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86w"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t86p",
+      "hazardType": "EQ",
+      "title": "123 km S of Itoman, Japan",
+      "countries": [],
+      "lat": 25.0284,
+      "lon": 127.898,
+      "timeUtc": "Fri, 19 Jun 2026 19:41:52 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t86p"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86p"
         }
       ],
       "supplementary": [],
@@ -8054,519 +8135,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss4y"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ss4r",
-      "hazardType": "EQ",
-      "title": "61 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.849,
-      "lon": 125.4113,
-      "timeUtc": "Wed, 10 Jun 2026 23:26:26 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ss4r"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss4r"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su3u",
-      "hazardType": "EQ",
-      "title": "228 km ENE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.4838,
-      "lon": 128.7881,
-      "timeUtc": "Wed, 10 Jun 2026 22:27:19 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su3u"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su3u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su53",
-      "hazardType": "EQ",
-      "title": "64 km NE of Fef, Indonesia",
-      "countries": [],
-      "lat": -0.4456,
-      "lon": 132.8872,
-      "timeUtc": "Wed, 10 Jun 2026 21:23:19 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su53"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su53"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su3t",
-      "hazardType": "EQ",
-      "title": "59 km WNW of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": 0.7049,
-      "lon": 122.5504,
-      "timeUtc": "Wed, 10 Jun 2026 21:12:00 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su3t"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su3t"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su51",
-      "hazardType": "EQ",
-      "title": "272 km ENE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.3558,
-      "lon": 129.1747,
-      "timeUtc": "Wed, 10 Jun 2026 20:22:46 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su51"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su51"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su3p",
-      "hazardType": "EQ",
-      "title": "55 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.4507,
-      "lon": 124.5797,
-      "timeUtc": "Wed, 10 Jun 2026 17:26:08 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su3p"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su3p"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ss28",
-      "hazardType": "EQ",
-      "title": "25 km NE of Sibolga, Indonesia",
-      "countries": [],
-      "lat": 1.8751,
-      "lon": 98.9714,
-      "timeUtc": "Wed, 10 Jun 2026 16:30:55 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ss28"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss28"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4r",
-      "hazardType": "EQ",
-      "title": "51 km WSW of Gunungsitoli, Indonesia",
-      "countries": [],
-      "lat": 1.1549,
-      "lon": 97.1738,
-      "timeUtc": "Wed, 10 Jun 2026 14:45:31 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4r"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4r"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4n",
-      "hazardType": "EQ",
-      "title": "7 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5207,
-      "lon": 125.316,
-      "timeUtc": "Wed, 10 Jun 2026 12:18:06 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4n"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4n"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4m",
-      "hazardType": "EQ",
-      "title": "46 km SSW of Lumatil, Philippines",
-      "countries": [],
-      "lat": 5.4672,
-      "lon": 124.7981,
-      "timeUtc": "Wed, 10 Jun 2026 11:46:13 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4m"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4m"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4l",
-      "hazardType": "EQ",
-      "title": "105 km ESE of Teluk Dalam, Indonesia",
-      "countries": [],
-      "lat": 0.1225,
-      "lon": 98.6363,
-      "timeUtc": "Wed, 10 Jun 2026 11:10:04 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4l"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4l"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ss0f",
-      "hazardType": "EQ",
-      "title": "18 km SSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4196,
-      "lon": 125.2919,
-      "timeUtc": "Wed, 10 Jun 2026 11:07:56 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ss0f"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss0f"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4f",
-      "hazardType": "EQ",
-      "title": "167 km NNW of Metinaro, Timor Leste",
-      "countries": [],
-      "lat": -7.0498,
-      "lon": 125.4156,
-      "timeUtc": "Wed, 10 Jun 2026 09:32:55 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4f"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4f"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000srzt",
-      "hazardType": "EQ",
-      "title": "9 km NW of Nuing, Philippines",
-      "countries": [],
-      "lat": 5.6831,
-      "lon": 125.3682,
-      "timeUtc": "Wed, 10 Jun 2026 09:13:42 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000srzt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srzt"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su4a",
-      "hazardType": "EQ",
-      "title": "51 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3394,
-      "lon": 124.9545,
-      "timeUtc": "Wed, 10 Jun 2026 08:14:24 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su4a"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su4a"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000su47",
-      "hazardType": "EQ",
-      "title": "9 km SE of Butulan, Philippines",
-      "countries": [],
-      "lat": 5.5636,
-      "lon": 125.5041,
-      "timeUtc": "Wed, 10 Jun 2026 07:24:45 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000su47"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su47"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sry1",
-      "hazardType": "EQ",
-      "title": "4 km SSW of Pangyan, Philippines",
-      "countries": [],
-      "lat": 5.6601,
-      "lon": 125.2663,
-      "timeUtc": "Wed, 10 Jun 2026 01:54:24 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sry1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sry1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000stzl",
-      "hazardType": "EQ",
-      "title": "91 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7203,
-      "lon": 124.991,
-      "timeUtc": "Wed, 10 Jun 2026 01:12:59 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stzl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stzl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000stqu",
-      "hazardType": "EQ",
-      "title": "82 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.0899,
-      "lon": 124.7926,
-      "timeUtc": "Wed, 10 Jun 2026 00:05:44 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000stqu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stqu"
         }
       ],
       "supplementary": [],
