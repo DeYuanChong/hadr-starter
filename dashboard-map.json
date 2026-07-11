@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T10:04:09.144Z",
+  "generatedAt": "2026-07-11T11:16:23.858Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "300 in-scope event(s)"
+      "detail": "301 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-11T08:30:28.909Z",
+    "priorRunAt": "2026-07-11T10:04:09.144Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szq0",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.0334,
+      "lon": 125.4897,
+      "timeUtc": "Sat, 11 Jul 2026 10:51:12 GMT",
+      "mag": 5.4,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szq0",
+        "1551280"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551280&episodeid=1717535&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szq0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000szm5",
       "hazardType": "EQ",
@@ -3805,7 +3839,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t884"
       ],
@@ -3859,7 +3893,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t881"
       ],
