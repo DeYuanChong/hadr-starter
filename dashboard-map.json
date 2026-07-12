@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T01:10:00.362Z",
+  "generatedAt": "2026-07-12T04:43:43.367Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "279 in-scope event(s)"
+      "detail": "280 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-11T23:33:12.327Z",
+    "priorRunAt": "2026-07-12T01:10:00.362Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szsv",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 3.6769,
+      "lon": 127.0246,
+      "timeUtc": "Sun, 12 Jul 2026 00:43:30 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us7000szsv",
+        "1551370"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551370&episodeid=1717644&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szsv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000szri",
       "hazardType": "EQ",
@@ -202,14 +236,14 @@
       "imagery": null
     },
     {
-      "id": "us7000szsv",
+      "id": "us7000szth",
       "hazardType": "EQ",
-      "title": "241 km NNW of Tobelo, Indonesia",
+      "title": "123 km SSE of Miyakojima, Japan",
       "countries": [],
-      "lat": 3.6769,
-      "lon": 127.0246,
-      "timeUtc": "Sun, 12 Jul 2026 00:43:30 GMT",
-      "mag": 4.9,
+      "lat": 23.7163,
+      "lon": 125.6339,
+      "timeUtc": "Sun, 12 Jul 2026 04:11:30 GMT",
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
@@ -217,12 +251,12 @@
       "reconciled": false,
       "state": "new",
       "aliases": [
-        "us7000szsv"
+        "us7000szth"
       ],
       "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szsv"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szth"
         }
       ],
       "supplementary": [],
@@ -242,7 +276,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000szsk"
       ],
@@ -2377,18 +2411,18 @@
     {
       "id": "us6000t8re",
       "hazardType": "EQ",
-      "title": "200 km N of Lospalos, Timor Leste",
+      "title": "198 km N of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -6.7268,
-      "lon": 127.2767,
-      "timeUtc": "Sat, 27 Jun 2026 23:29:09 GMT",
-      "mag": 4.5,
+      "lat": -6.747,
+      "lon": 127.2741,
+      "timeUtc": "Sat, 27 Jun 2026 23:29:10 GMT",
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000t8re"
       ],
