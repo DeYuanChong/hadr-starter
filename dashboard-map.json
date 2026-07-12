@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T22:01:57.270Z",
+  "generatedAt": "2026-07-12T23:01:30.652Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "285 in-scope event(s)"
+      "detail": "286 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-12T21:02:16.228Z",
+    "priorRunAt": "2026-07-12T22:01:57.270Z",
     "changes": []
   },
   "stories": [
@@ -305,6 +305,33 @@
       "imagery": null
     },
     {
+      "id": "us7000szxs",
+      "hazardType": "EQ",
+      "title": "14 km WNW of Changning, China",
+      "countries": [],
+      "lat": 28.6112,
+      "lon": 104.7797,
+      "timeUtc": "Sun, 12 Jul 2026 21:02:12 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000szxs"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szxs"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000szth",
       "hazardType": "EQ",
       "title": "123 km SSE of Miyakojima, Japan",
@@ -399,7 +426,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000szlw"
       ],
