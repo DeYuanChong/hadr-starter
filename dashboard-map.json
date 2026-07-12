@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T12:43:06.236Z",
+  "generatedAt": "2026-07-12T14:18:51.219Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "9 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "283 in-scope event(s)"
+      "detail": "285 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,79 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-12T11:48:12.178Z",
+    "priorRunAt": "2026-07-12T12:43:06.236Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szvv",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 1.1684,
+      "lon": 121.446,
+      "timeUtc": "Sun, 12 Jul 2026 13:46:37 GMT",
+      "mag": 5.3,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szvv",
+        "usauto7000szvv",
+        "1551466"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551466&episodeid=1717754&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szvv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000szvq",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -9.6705,
+      "lon": 119.304,
+      "timeUtc": "Sun, 12 Jul 2026 13:20:25 GMT",
+      "mag": 5.1,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szvq",
+        "1551464"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551464&episodeid=1717744&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szvq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000szus",
       "hazardType": "EQ",
@@ -1036,10 +1105,10 @@
     {
       "id": "us6000tab1",
       "hazardType": "EQ",
-      "title": "47 km ESE of Jiufen, Taiwan",
+      "title": "48 km ESE of Jiufen, Taiwan",
       "countries": [],
-      "lat": 24.9267,
-      "lon": 122.268,
+      "lat": 24.9528,
+      "lon": 122.2926,
       "timeUtc": "Sun, 05 Jul 2026 19:11:34 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
@@ -1063,11 +1132,11 @@
     {
       "id": "us6000tab5",
       "hazardType": "EQ",
-      "title": "185 km W of Abepura, Indonesia",
+      "title": "186 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.7128,
-      "lon": 138.968,
-      "timeUtc": "Sun, 05 Jul 2026 19:10:14 GMT",
+      "lat": -2.7088,
+      "lon": 138.955,
+      "timeUtc": "Sun, 05 Jul 2026 19:10:15 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1414,10 +1483,10 @@
     {
       "id": "us6000t9yy",
       "hazardType": "EQ",
-      "title": "24 km SE of Tambolaka, Indonesia",
+      "title": "30 km SE of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -9.5546,
-      "lon": 119.4219,
+      "lat": -9.5876,
+      "lon": 119.4682,
       "timeUtc": "Fri, 03 Jul 2026 17:14:52 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
