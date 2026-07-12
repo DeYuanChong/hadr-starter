@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T07:20:23.041Z",
+  "generatedAt": "2026-07-12T09:22:12.676Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "280 in-scope event(s)"
+      "detail": "282 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-12T04:43:43.367Z",
+    "priorRunAt": "2026-07-12T07:20:23.041Z",
     "changes": []
   },
   "stories": [
@@ -2376,6 +2376,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ta"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tagf",
+      "hazardType": "EQ",
+      "title": "294 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -6.9609,
+      "lon": 129.1585,
+      "timeUtc": "Sun, 28 Jun 2026 05:25:49 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tagf"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tagf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tage",
+      "hazardType": "EQ",
+      "title": "32 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.3396,
+      "lon": 125.1688,
+      "timeUtc": "Sun, 28 Jun 2026 05:04:29 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tage"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tage"
         }
       ],
       "supplementary": [],
