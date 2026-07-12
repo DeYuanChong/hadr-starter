@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T09:22:12.676Z",
+  "generatedAt": "2026-07-12T10:50:10.621Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "282 in-scope event(s)"
+      "detail": "283 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-12T07:20:23.041Z",
+    "priorRunAt": "2026-07-12T09:22:12.676Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szus",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.2198,
+      "lon": 122.4111,
+      "timeUtc": "Sun, 12 Jul 2026 10:05:37 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szus",
+        "1551435"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551435&episodeid=1717711&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szus"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000szsv",
       "hazardType": "EQ",
@@ -2395,7 +2429,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tagf"
       ],
@@ -2422,7 +2456,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tage"
       ],
