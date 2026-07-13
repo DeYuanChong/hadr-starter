@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T10:41:03.764Z",
+  "generatedAt": "2026-07-13T13:09:07.761Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "276 in-scope event(s)"
+      "detail": "278 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-13T07:32:22.381Z",
+    "priorRunAt": "2026-07-13T10:41:03.764Z",
     "changes": []
   },
   "stories": [
@@ -276,40 +276,6 @@
       "imagery": null
     },
     {
-      "id": "us7000szq0",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 5.0334,
-      "lon": 125.4897,
-      "timeUtc": "Sat, 11 Jul 2026 10:51:12 GMT",
-      "mag": 5.4,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szq0",
-        "1551280"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551280&episodeid=1717535&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szq0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000szz4",
       "hazardType": "EQ",
       "title": "8 km SE of Bojonegoro, Indonesia",
@@ -499,6 +465,33 @@
       "imagery": null
     },
     {
+      "id": "us7000szq0",
+      "hazardType": "EQ",
+      "title": "41 km S of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.0334,
+      "lon": 125.4897,
+      "timeUtc": "Sat, 11 Jul 2026 10:51:12 GMT",
+      "mag": 5.4,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000szq0"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szq0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000sznp",
       "hazardType": "EQ",
       "title": "115 km WNW of Meulaboh, Indonesia",
@@ -512,7 +505,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000sznp"
       ],
@@ -4462,6 +4455,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t87u",
+      "hazardType": "EQ",
+      "title": "71 km N of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.4317,
+      "lon": 127.3038,
+      "timeUtc": "Sat, 20 Jun 2026 08:34:50 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t87u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t87n",
       "hazardType": "EQ",
       "title": "62 km SE of Tarragona, Philippines",
@@ -4841,6 +4861,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t865",
+      "hazardType": "EQ",
+      "title": "198 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.8216,
+      "lon": 138.865,
+      "timeUtc": "Fri, 19 Jun 2026 12:51:20 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t865"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t865"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t860",
       "hazardType": "EQ",
       "title": "142 km NE of Lospalos, Timor Leste",
@@ -4854,7 +4901,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t860"
       ],
