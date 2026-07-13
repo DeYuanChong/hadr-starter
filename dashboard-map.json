@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T00:05:06.475Z",
+  "generatedAt": "2026-07-13T03:53:19.820Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "9 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "272 in-scope event(s)"
+      "detail": "275 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,45 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-12T23:01:30.652Z",
+    "priorRunAt": "2026-07-13T00:05:06.475Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000szyr",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 12.7921,
+      "lon": 123.0436,
+      "timeUtc": "Mon, 13 Jul 2026 00:54:02 GMT",
+      "mag": 5.4,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000szyr",
+        "usauto7000szyr",
+        "1551528"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551528&episodeid=1717819&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szyr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000szvv",
       "hazardType": "EQ",
@@ -305,6 +340,60 @@
       "imagery": null
     },
     {
+      "id": "us7000szz4",
+      "hazardType": "EQ",
+      "title": "8 km SE of Bojonegoro, Indonesia",
+      "countries": [],
+      "lat": -7.2151,
+      "lon": 111.9269,
+      "timeUtc": "Mon, 13 Jul 2026 02:54:43 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000szz4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szz4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000szyb",
+      "hazardType": "EQ",
+      "title": "16 km N of Xunchang, China",
+      "countries": [],
+      "lat": 28.6046,
+      "lon": 104.701,
+      "timeUtc": "Sun, 12 Jul 2026 23:27:55 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000szyb"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szyb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000szxx",
       "hazardType": "EQ",
       "title": "167 km SSE of Sarangani, Philippines",
@@ -318,7 +407,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000szxx"
       ],
