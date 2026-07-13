@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T07:32:22.381Z",
+  "generatedAt": "2026-07-13T10:41:03.764Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "8 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "275 in-scope event(s)"
+      "detail": "276 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-13T03:53:19.820Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-13T07:32:22.381Z",
+    "changes": []
   },
   "stories": [
     {
@@ -193,7 +185,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104011"
       ],
@@ -312,40 +304,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szq0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sznp",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 4.3516,
-      "lon": 95.109,
-      "timeUtc": "Sat, 11 Jul 2026 07:41:18 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sznp",
-        "1551266"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551266&episodeid=1717568&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sznp"
         }
       ],
       "supplementary": [],
@@ -541,6 +499,33 @@
       "imagery": null
     },
     {
+      "id": "us7000sznp",
+      "hazardType": "EQ",
+      "title": "115 km WNW of Meulaboh, Indonesia",
+      "countries": [],
+      "lat": 4.3516,
+      "lon": 95.109,
+      "timeUtc": "Sat, 11 Jul 2026 07:41:18 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000sznp"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sznp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000szm5",
       "hazardType": "EQ",
       "title": "54 km NNW of Masohi, Indonesia",
@@ -554,7 +539,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000szm5"
       ],
@@ -4850,6 +4835,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t868"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t860",
+      "hazardType": "EQ",
+      "title": "142 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.7085,
+      "lon": 127.9978,
+      "timeUtc": "Fri, 19 Jun 2026 11:10:15 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t860"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t860"
         }
       ],
       "supplementary": [],
