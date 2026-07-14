@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T14:07:19.377Z",
+  "generatedAt": "2026-07-14T15:51:35.001Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,18 +27,58 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-14T11:59:41.290Z",
+    "priorRunAt": "2026-07-14T14:07:19.377Z",
     "changes": [
       {
         "kind": "new",
-        "storyId": "1103996",
-        "title": "Flood in Thailand",
-        "hazardType": "FL",
+        "storyId": "1018545",
+        "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
+        "hazardType": "DR",
         "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
+      "countries": [
+        "China",
+        "Indonesia",
+        "Cambodia",
+        "Laos",
+        "Malaysia",
+        "Philippines",
+        "Thailand",
+        "Vietnam"
+      ],
+      "lat": 13.027,
+      "lon": 105.544,
+      "timeUtc": "2026-01-21T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=8&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-01-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.544,10.027,108.544,16.027&t=2026-01-21",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000t0bm",
       "hazardType": "EQ",
@@ -55,7 +95,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0bm",
         "1551813"
@@ -292,7 +332,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1103996"
       ],
@@ -411,41 +451,6 @@
       "imagery": null
     },
     {
-      "id": "us7000szyr",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 12.7921,
-      "lon": 123.0436,
-      "timeUtc": "Mon, 13 Jul 2026 00:54:02 GMT",
-      "mag": 5.4,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szyr",
-        "usauto7000szyr",
-        "1551528"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551528&episodeid=1717819&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szyr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000t0ag",
       "hazardType": "EQ",
       "title": "25 km SE of Tambolaka, Indonesia",
@@ -521,6 +526,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szz4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000szyr",
+      "hazardType": "EQ",
+      "title": "24 km W of Mabiton, Philippines",
+      "countries": [],
+      "lat": 12.7921,
+      "lon": 123.0436,
+      "timeUtc": "Mon, 13 Jul 2026 00:54:02 GMT",
+      "mag": 5.4,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000szyr",
+        "usauto7000szyr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szyr"
         }
       ],
       "supplementary": [],
