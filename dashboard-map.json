@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T01:05:53.671Z",
+  "generatedAt": "2026-07-14T04:14:18.882Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "268 in-scope event(s)"
+      "detail": "271 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,86 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-13T23:38:15.499Z",
-    "changes": []
+    "priorRunAt": "2026-07-14T01:05:53.671Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104011",
+        "title": "Flood in Myanmar",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us7000t085",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.1842,
+      "lon": 125.6791,
+      "timeUtc": "Tue, 14 Jul 2026 01:38:24 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t085",
+        "1551722"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551722&episodeid=1718031&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t085"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t07r",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 13.1309,
+      "lon": 122.9157,
+      "timeUtc": "Tue, 14 Jul 2026 01:03:15 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t07r",
+        "1551716"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551716&episodeid=1718028&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t07r"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t06f",
       "hazardType": "EQ",
@@ -204,112 +280,6 @@
       "imagery": null
     },
     {
-      "id": "us7000szus",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 0.2198,
-      "lon": 122.4111,
-      "timeUtc": "Sun, 12 Jul 2026 10:05:37 GMT",
-      "mag": 4.7,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szus",
-        "1551435"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551435&episodeid=1717711&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szus"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104011",
-      "hazardType": "FL",
-      "title": "Flood in Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": 16.9897,
-      "lon": 95.3728,
-      "timeUtc": "2026-07-04T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104011"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=4&eventtype=FL"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "imagery": {
-        "imageDate": "2026-07-04",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=94.6228,16.2397,96.1228,17.7397&t=2026-07-04",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us7000szsv",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 3.6769,
-      "lon": 127.0246,
-      "timeUtc": "Sun, 12 Jul 2026 00:43:30 GMT",
-      "mag": 4.9,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szsv",
-        "1551370"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551370&episodeid=1717644&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szsv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000szz4",
       "hazardType": "EQ",
       "title": "8 km SE of Bojonegoro, Indonesia",
@@ -418,6 +388,33 @@
       "imagery": null
     },
     {
+      "id": "us7000szus",
+      "hazardType": "EQ",
+      "title": "80 km WSW of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": 0.2198,
+      "lon": 122.4111,
+      "timeUtc": "Sun, 12 Jul 2026 10:05:37 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000szus"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szus"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000szth",
       "hazardType": "EQ",
       "title": "123 km SSE of Miyakojima, Japan",
@@ -439,6 +436,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szth"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000szsv",
+      "hazardType": "EQ",
+      "title": "241 km NNW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.6769,
+      "lon": 127.0246,
+      "timeUtc": "Sun, 12 Jul 2026 00:43:30 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000szsv"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szsv"
         }
       ],
       "supplementary": [],
@@ -1908,6 +1932,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9r5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000sz68",
+      "hazardType": "EQ",
+      "title": "106 km W of Macabuboni, Philippines",
+      "countries": [],
+      "lat": 16.3604,
+      "lon": 118.7989,
+      "timeUtc": "Fri, 03 Jul 2026 00:29:33 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000sz68"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz68"
         }
       ],
       "supplementary": [],
@@ -7386,6 +7437,40 @@
         }
       ],
       "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
+      "hazardType": "OTHER",
+      "title": "Myanmar: Floods - Jun 2026 (fixture)",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": null,
+      "lon": null,
+      "timeUtc": null,
+      "mag": null,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
+      ],
+      "sources": [
+        {
+          "feed": "reliefweb",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
       "imagery": null
     }
   ]
