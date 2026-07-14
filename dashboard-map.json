@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:26:59.987Z",
+  "generatedAt": "2026-07-14T11:59:41.290Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,12 +27,12 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-14T08:39:47.674Z",
+    "priorRunAt": "2026-07-14T10:26:59.987Z",
     "changes": [
       {
         "kind": "new",
-        "storyId": "1103942",
-        "title": "Flood in Philippines",
+        "storyId": "1104020",
+        "title": "Flood in Malaysia",
         "hazardType": "FL",
         "detail": "new green-tier story"
       }
@@ -123,7 +123,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t09h",
         "1551768"
@@ -210,6 +210,39 @@
       "imagery": null
     },
     {
+      "id": "1104020",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "lat": 2.1943,
+      "lon": 102.2487,
+      "timeUtc": "2026-07-11T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104020"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1103942",
       "hazardType": "FL",
       "title": "Flood in Philippines",
@@ -225,7 +258,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1103942"
       ],
@@ -359,7 +392,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0ag"
       ],
