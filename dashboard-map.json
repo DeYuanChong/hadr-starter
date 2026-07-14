@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T08:39:47.674Z",
+  "generatedAt": "2026-07-14T10:26:59.987Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "9 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "275 in-scope event(s)"
+      "detail": "277 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-14T06:29:54.664Z",
-    "changes": []
+    "priorRunAt": "2026-07-14T08:39:47.674Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1103942",
+        "title": "Flood in Philippines",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +55,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t09r",
         "1551772"
@@ -81,7 +89,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t09m",
         "1551769"
@@ -94,6 +102,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09m"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t09h",
+      "hazardType": "EQ",
+      "title": "Earthquake in Viet Nam",
+      "countries": [
+        "Viet Nam"
+      ],
+      "lat": 14.7321,
+      "lon": 108.227,
+      "timeUtc": "Tue, 14 Jul 2026 06:48:05 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t09h",
+        "1551768"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551768&episodeid=1718100&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09h"
         }
       ],
       "supplementary": [],
@@ -115,7 +157,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t085",
         "1551722"
@@ -149,7 +191,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t07r",
         "1551716"
@@ -168,6 +210,39 @@
       "imagery": null
     },
     {
+      "id": "1103942",
+      "hazardType": "FL",
+      "title": "Flood in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 7.7992,
+      "lon": 122.6181,
+      "timeUtc": "2026-06-13T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1103942"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=6&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-06-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.8681,7.0492,123.3681,8.5492&t=2026-06-13",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us7000t06f",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -183,7 +258,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t06f",
         "1551703"
@@ -217,7 +292,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t048",
         "1551672"
@@ -251,7 +326,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000szyr",
         "usauto7000szyr",
@@ -271,6 +346,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t0ag",
+      "hazardType": "EQ",
+      "title": "25 km SE of Tambolaka, Indonesia",
+      "countries": [],
+      "lat": -9.5899,
+      "lon": 119.3992,
+      "timeUtc": "Tue, 14 Jul 2026 09:52:36 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t0ag"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0ag"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t09g",
       "hazardType": "EQ",
       "title": "191 km N of Tobelo, Indonesia",
@@ -284,7 +386,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t09g"
       ],
@@ -4221,7 +4323,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000sv3q"
       ],
