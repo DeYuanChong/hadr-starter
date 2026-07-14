@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T15:51:35.001Z",
+  "generatedAt": "2026-07-14T16:59:14.758Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "278 in-scope event(s)"
+      "detail": "279 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,46 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-14T14:07:19.377Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1018545",
-        "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-14T15:51:35.001Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t0d0",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.3269,
+      "lon": 125.1655,
+      "timeUtc": "Tue, 14 Jul 2026 15:49:41 GMT",
+      "mag": 6.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t0d0",
+        "usauto7000t0d0",
+        "atti69au",
+        "1551846"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1551846&episodeid=1718171&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1018545",
       "hazardType": "DR",
@@ -62,7 +90,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1018545"
       ],
@@ -545,7 +573,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000szyr",
         "usauto7000szyr"
