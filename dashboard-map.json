@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T06:31:58.557Z",
+  "generatedAt": "2026-07-15T08:57:07.961Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-15T04:14:09.385Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1018545",
-        "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-07-15T06:31:58.557Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000t0d0",
         "usauto7000t0d0",
@@ -91,7 +83,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t0bm",
         "1551813"
@@ -125,7 +117,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09r",
         "1551772"
@@ -159,7 +151,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09m",
         "1551769"
@@ -193,7 +185,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09h",
         "1551768"
@@ -227,7 +219,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t085",
         "1551722"
@@ -261,7 +253,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t07r",
         "1551716"
@@ -313,39 +305,6 @@
       }
     },
     {
-      "id": "1103996",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 19.759,
-      "lon": 99.6735,
-      "timeUtc": "2026-07-01T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1103996"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103996&episodeid=6&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-01",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.9235,19.009,100.4235,20.509&t=2026-07-01",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1103942",
       "hazardType": "FL",
       "title": "Flood in Philippines",
@@ -379,6 +338,39 @@
       }
     },
     {
+      "id": "1103996",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 19.759,
+      "lon": 99.6735,
+      "timeUtc": "2026-07-01T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1103996"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103996&episodeid=6&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-01",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.9235,19.009,100.4235,20.509&t=2026-07-01",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us7000t06f",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -394,7 +386,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t06f",
         "1551703"
@@ -428,7 +420,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t048",
         "1551672"
