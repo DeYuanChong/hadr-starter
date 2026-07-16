@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T08:37:26.599Z",
+  "generatedAt": "2026-07-16T10:33:00.037Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "15 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "256 in-scope event(s)"
+      "detail": "261 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,92 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T06:07:22.648Z",
+    "priorRunAt": "2026-07-16T08:37:26.599Z",
     "changes": [
       {
-        "kind": "new",
-        "storyId": "1000144",
-        "title": "Eruption  Mayon",
-        "hazardType": "VO",
-        "detail": "new orange-tier story"
+        "kind": "revised",
+        "storyId": "1018545",
+        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "affected: China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam → Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam"
       }
     ]
   },
   "stories": [
+    {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
+      "countries": [
+        "Australia",
+        "Indonesia",
+        "Cambodia",
+        "Laos",
+        "Papua New Guinea",
+        "Philippines",
+        "Thailand",
+        "Vietnam"
+      ],
+      "lat": 13.613,
+      "lon": 105.388,
+      "timeUtc": "2026-01-11T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=9&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-01-11",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.388,10.613,108.388,16.613&t=2026-01-11",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "us7000t0wh",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 4.6883,
+      "lon": 125.1513,
+      "timeUtc": "Thu, 16 Jul 2026 05:55:44 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t0wh",
+        "1552142"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552142&episodeid=1718509&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0wh"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1000144",
       "hazardType": "VO",
@@ -55,7 +129,7 @@
       "triageSeverity": "orange",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1000144"
       ],
@@ -472,46 +546,6 @@
       "imagery": {
         "imageDate": "2026-07-10",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1018545",
-      "hazardType": "DR",
-      "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
-      "countries": [
-        "China",
-        "Indonesia",
-        "Cambodia",
-        "Laos",
-        "Malaysia",
-        "Philippines",
-        "Thailand",
-        "Vietnam"
-      ],
-      "lat": 13.027,
-      "lon": 105.544,
-      "timeUtc": "2026-01-21T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1018545"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=8&eventtype=DR"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-01-21",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.544,10.027,108.544,16.027&t=2026-01-21",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -2608,6 +2642,60 @@
       "imagery": null
     },
     {
+      "id": "us6000taz5",
+      "hazardType": "EQ",
+      "title": "59 km WNW of Catuday, Philippines",
+      "countries": [],
+      "lat": 16.4012,
+      "lon": 119.2629,
+      "timeUtc": "Thu, 02 Jul 2026 08:32:37 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taz5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taz5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000taz4",
+      "hazardType": "EQ",
+      "title": "66 km WNW of Catuday, Philippines",
+      "countries": [],
+      "lat": 16.4126,
+      "lon": 119.1981,
+      "timeUtc": "Thu, 02 Jul 2026 08:21:59 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taz4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taz4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t9kr",
       "hazardType": "EQ",
       "title": "96 km WSW of Gorontalo, Indonesia",
@@ -3993,6 +4081,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t9vc",
+      "hazardType": "EQ",
+      "title": "73 km WNW of Macabuboni, Philippines",
+      "countries": [],
+      "lat": 16.3862,
+      "lon": 119.1201,
+      "timeUtc": "Wed, 24 Jun 2026 05:26:29 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9vc"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9vc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t9va",
       "hazardType": "EQ",
       "title": "90 km WNW of Ternate, Indonesia",
@@ -4501,6 +4616,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7ks"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t90m",
+      "hazardType": "EQ",
+      "title": "154 km SSW of Pagar Alam, Indonesia",
+      "countries": [],
+      "lat": -5.3258,
+      "lon": 102.7277,
+      "timeUtc": "Tue, 23 Jun 2026 07:43:02 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t90m"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90m"
         }
       ],
       "supplementary": [],
