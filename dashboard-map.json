@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:43:25.366Z",
+  "generatedAt": "2026-07-16T06:07:22.648Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T00:13:31.110Z",
-    "changes": []
+    "priorRunAt": "2026-07-16T03:43:25.366Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1018545",
+        "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +55,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0uy",
         "1552103"
@@ -439,6 +447,46 @@
       }
     },
     {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
+      "countries": [
+        "China",
+        "Indonesia",
+        "Cambodia",
+        "Laos",
+        "Malaysia",
+        "Philippines",
+        "Thailand",
+        "Vietnam"
+      ],
+      "lat": 13.027,
+      "lon": 105.544,
+      "timeUtc": "2026-01-21T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=8&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-01-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.544,10.027,108.544,16.027&t=2026-01-21",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us7000t0ag",
       "hazardType": "EQ",
       "title": "25 km SE of Tambolaka, Indonesia",
@@ -506,7 +554,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t06f"
       ],
