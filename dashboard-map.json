@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T23:16:25.225Z",
+  "generatedAt": "2026-07-16T00:13:31.110Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "267 in-scope event(s)"
+      "detail": "255 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-15T22:17:04.881Z",
+    "priorRunAt": "2026-07-15T23:16:25.225Z",
     "changes": []
   },
   "stories": [
@@ -306,39 +306,6 @@
       "imagery": null
     },
     {
-      "id": "1104020",
-      "hazardType": "FL",
-      "title": "Flood in Malaysia",
-      "countries": [
-        "Malaysia"
-      ],
-      "lat": 2.1943,
-      "lon": 102.2487,
-      "timeUtc": "2026-07-11T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104020"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1103942",
       "hazardType": "FL",
       "title": "Flood in Philippines",
@@ -401,6 +368,39 @@
       "imagery": {
         "imageDate": "2026-07-01",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.9235,19.009,100.4235,20.509&t=2026-07-01",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1104020",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "lat": 2.1943,
+      "lon": 102.2487,
+      "timeUtc": "2026-07-11T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104020"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -3339,6 +3339,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8me"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000taec",
+      "hazardType": "EQ",
+      "title": "24 km WSW of Liuzhou, China",
+      "countries": [],
+      "lat": 24.2781,
+      "lon": 109.171,
+      "timeUtc": "Sat, 27 Jun 2026 04:09:18 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taec"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taec"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000taeb",
+      "hazardType": "EQ",
+      "title": "74 km SSE of Blangpidie, Indonesia",
+      "countries": [],
+      "lat": 3.135,
+      "lon": 97.1266,
+      "timeUtc": "Sat, 27 Jun 2026 04:01:50 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taeb"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taeb"
         }
       ],
       "supplementary": [],
@@ -7053,386 +7107,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sv4q"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sumk",
-      "hazardType": "EQ",
-      "title": "66 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9013,
-      "lon": 125.1334,
-      "timeUtc": "Mon, 15 Jun 2026 23:52:34 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sumk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sumk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st6l",
-      "hazardType": "EQ",
-      "title": "10 km W of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5743,
-      "lon": 125.2603,
-      "timeUtc": "Mon, 15 Jun 2026 20:16:15 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st6l"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st6l"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sumb",
-      "hazardType": "EQ",
-      "title": "65 km S of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.8105,
-      "lon": 125.4387,
-      "timeUtc": "Mon, 15 Jun 2026 17:39:03 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sumb"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sumb"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000suma",
-      "hazardType": "EQ",
-      "title": "7 km NW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.4507,
-      "lon": 125.4162,
-      "timeUtc": "Mon, 15 Jun 2026 16:34:37 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000suma"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suma"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st48",
-      "hazardType": "EQ",
-      "title": "6 km SSW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.6677,
-      "lon": 125.2324,
-      "timeUtc": "Mon, 15 Jun 2026 15:30:24 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st48",
-        "usauto7000st48"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st48"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st40",
-      "hazardType": "EQ",
-      "title": "18 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3032,
-      "lon": 125.3247,
-      "timeUtc": "Mon, 15 Jun 2026 14:49:11 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st40"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st40"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sum6",
-      "hazardType": "EQ",
-      "title": "99 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.649,
-      "lon": 124.9814,
-      "timeUtc": "Mon, 15 Jun 2026 14:26:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sum6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sum6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st30",
-      "hazardType": "EQ",
-      "title": "33 km ESE of Venilale, Timor Leste",
-      "countries": [],
-      "lat": -8.7489,
-      "lon": 126.6625,
-      "timeUtc": "Mon, 15 Jun 2026 10:32:37 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st30"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st30"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st1c",
-      "hazardType": "EQ",
-      "title": "68 km ESE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 6.2076,
-      "lon": 126.7773,
-      "timeUtc": "Mon, 15 Jun 2026 09:18:36 GMT",
-      "mag": 6.2,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st1c",
-        "usauto7000st1c"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st1c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000suly",
-      "hazardType": "EQ",
-      "title": "81 km SE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.8029,
-      "lon": 126.6588,
-      "timeUtc": "Mon, 15 Jun 2026 08:50:04 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000suly"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suly"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sulx",
-      "hazardType": "EQ",
-      "title": "139 km ESE of Modisi, Indonesia",
-      "countries": [],
-      "lat": -0.195,
-      "lon": 125.5146,
-      "timeUtc": "Mon, 15 Jun 2026 08:22:19 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sulx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sulx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sult",
-      "hazardType": "EQ",
-      "title": "29 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5517,
-      "lon": 125.0448,
-      "timeUtc": "Mon, 15 Jun 2026 07:59:08 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sult"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sult"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sulv",
-      "hazardType": "EQ",
-      "title": "95 km SSE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.5997,
-      "lon": 126.581,
-      "timeUtc": "Mon, 15 Jun 2026 07:57:10 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sulv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sulv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000st0n",
-      "hazardType": "EQ",
-      "title": "34 km N of Komodo, Indonesia",
-      "countries": [],
-      "lat": -8.2869,
-      "lon": 119.5495,
-      "timeUtc": "Mon, 15 Jun 2026 06:58:32 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000st0n"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st0n"
         }
       ],
       "supplementary": [],
