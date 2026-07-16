@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T12:06:01.078Z",
+  "generatedAt": "2026-07-16T14:17:40.061Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "261 in-scope event(s)"
+      "detail": "264 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T10:33:00.037Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1104026",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-16T12:06:01.078Z",
+    "changes": []
   },
   "stories": [
     {
@@ -192,7 +184,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104026"
       ],
@@ -480,15 +472,15 @@
       "imagery": null
     },
     {
-      "id": "1103942",
+      "id": "1104020",
       "hazardType": "FL",
-      "title": "Flood in Philippines",
+      "title": "Flood in Malaysia",
       "countries": [
-        "Philippines"
+        "Malaysia"
       ],
-      "lat": 7.7992,
-      "lon": 122.6181,
-      "timeUtc": "2026-06-13T01:00:00",
+      "lat": 2.1943,
+      "lon": 102.2487,
+      "timeUtc": "2026-07-11T01:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -497,18 +489,18 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1103942"
+        "1104020"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=6&eventtype=FL"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-06-13",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.8681,7.0492,123.3681,8.5492&t=2026-06-13",
+        "imageDate": "2026-07-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -546,15 +538,15 @@
       }
     },
     {
-      "id": "1104020",
+      "id": "1103942",
       "hazardType": "FL",
-      "title": "Flood in Malaysia",
+      "title": "Flood in Philippines",
       "countries": [
-        "Malaysia"
+        "Philippines"
       ],
-      "lat": 2.1943,
-      "lon": 102.2487,
-      "timeUtc": "2026-07-11T01:00:00",
+      "lat": 7.7992,
+      "lon": 122.6181,
+      "timeUtc": "2026-06-13T01:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -563,18 +555,18 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1104020"
+        "1103942"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=6&eventtype=FL"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-07-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
+        "imageDate": "2026-06-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.8681,7.0492,123.3681,8.5492&t=2026-06-13",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -2346,11 +2338,11 @@
     {
       "id": "us6000t9ta",
       "hazardType": "EQ",
-      "title": "67 km W of Tobelo, Indonesia",
+      "title": "56 km W of Tobelo, Indonesia",
       "countries": [],
-      "lat": 1.6895,
-      "lon": 127.4042,
-      "timeUtc": "Fri, 03 Jul 2026 08:11:39 GMT",
+      "lat": 1.7236,
+      "lon": 127.4992,
+      "timeUtc": "Fri, 03 Jul 2026 08:11:37 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -5868,6 +5860,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t85n",
+      "hazardType": "EQ",
+      "title": "21 km S of Maasim, Philippines",
+      "countries": [],
+      "lat": 5.6643,
+      "lon": 125.0059,
+      "timeUtc": "Fri, 19 Jun 2026 05:42:19 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t85n"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t85n"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t85c",
       "hazardType": "EQ",
       "title": "92 km SW of Sarangani, Philippines",
@@ -6187,6 +6206,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000subc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000suaz",
+      "hazardType": "EQ",
+      "title": "150 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.7047,
+      "lon": 128.0927,
+      "timeUtc": "Thu, 18 Jun 2026 12:50:24 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000suaz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suaz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t7vh",
+      "hazardType": "EQ",
+      "title": "20 km WSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.3634,
+      "lon": 125.2829,
+      "timeUtc": "Thu, 18 Jun 2026 12:17:07 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t7vh"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7vh"
         }
       ],
       "supplementary": [],
