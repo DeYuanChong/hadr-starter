@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:57:42.116Z",
+  "generatedAt": "2026-07-16T18:15:13.272Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "264 in-scope event(s)"
+      "detail": "265 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T15:50:53.562Z",
+    "priorRunAt": "2026-07-16T16:57:42.116Z",
     "changes": []
   },
   "stories": [
@@ -238,9 +238,9 @@
       "countries": [
         "Philippines"
       ],
-      "lat": 5.3269,
-      "lon": 125.1655,
-      "timeUtc": "Tue, 14 Jul 2026 15:49:41 GMT",
+      "lat": 5.3226,
+      "lon": 125.1801,
+      "timeUtc": "Tue, 14 Jul 2026 15:49:39 GMT",
       "mag": 6.2,
       "gdacsAlert": "Green",
       "pagerAlert": "green",
@@ -1432,6 +1432,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz31"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tayg",
+      "hazardType": "EQ",
+      "title": "149 km S of Miyakojima, Japan",
+      "countries": [],
+      "lat": 23.4589,
+      "lon": 125.5677,
+      "timeUtc": "Wed, 08 Jul 2026 13:58:58 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tayg"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tayg"
         }
       ],
       "supplementary": [],
