@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T06:07:22.648Z",
+  "generatedAt": "2026-07-16T08:37:26.599Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,18 +27,47 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T03:43:25.366Z",
+    "priorRunAt": "2026-07-16T06:07:22.648Z",
     "changes": [
       {
         "kind": "new",
-        "storyId": "1018545",
-        "title": "Drought in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "new green-tier story"
+        "storyId": "1000144",
+        "title": "Eruption  Mayon",
+        "hazardType": "VO",
+        "detail": "new orange-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "1000144",
+      "hazardType": "VO",
+      "title": "Eruption  Mayon",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 13.257,
+      "lon": 123.685,
+      "timeUtc": "2026-07-16T01:59:00",
+      "mag": null,
+      "gdacsAlert": "Orange",
+      "pagerAlert": null,
+      "triageSeverity": "orange",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1000144"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000144&episodeid=1&eventtype=VO"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t0uy",
       "hazardType": "EQ",
@@ -469,7 +498,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1018545"
       ],
@@ -2581,11 +2610,11 @@
     {
       "id": "us6000t9kr",
       "hazardType": "EQ",
-      "title": "88 km WSW of Gorontalo, Indonesia",
+      "title": "96 km WSW of Gorontalo, Indonesia",
       "countries": [],
-      "lat": 0.2429,
-      "lon": 122.3186,
-      "timeUtc": "Thu, 02 Jul 2026 05:50:15 GMT",
+      "lat": 0.2136,
+      "lon": 122.255,
+      "timeUtc": "Thu, 02 Jul 2026 05:50:16 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
