@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T10:33:00.037Z",
+  "generatedAt": "2026-07-16T12:06:01.078Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "16 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,14 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T08:37:26.599Z",
+    "priorRunAt": "2026-07-16T10:33:00.037Z",
     "changes": [
       {
-        "kind": "revised",
-        "storyId": "1018545",
-        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "affected: China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam → Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam"
+        "kind": "new",
+        "storyId": "1104026",
+        "title": "Flood in Indonesia",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
       }
     ]
   },
@@ -62,7 +62,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "1018545"
       ],
@@ -95,7 +95,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0wh",
         "1552142"
@@ -171,6 +171,35 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0uy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104026",
+      "hazardType": "FL",
+      "title": "Flood in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.8024,
+      "lon": 120.1711,
+      "timeUtc": "2026-07-12T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104026"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104026&episodeid=2&eventtype=FL"
         }
       ],
       "supplementary": [],
@@ -2655,7 +2684,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000taz5"
       ],
@@ -2682,7 +2711,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000taz4"
       ],
@@ -4094,7 +4123,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9vc"
       ],
@@ -4635,7 +4664,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t90m"
       ],
