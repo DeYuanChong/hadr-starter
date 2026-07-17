@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T01:15:44.462Z",
+  "generatedAt": "2026-07-17T04:29:51.416Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "16 in-scope record(s)"
+      "detail": "17 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "238 in-scope event(s)"
+      "detail": "241 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-16T23:43:07.818Z",
+    "priorRunAt": "2026-07-17T01:15:44.462Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t173",
+      "hazardType": "EQ",
+      "title": "Earthquake in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": 22.8587,
+      "lon": 95.9644,
+      "timeUtc": "Fri, 17 Jul 2026 01:26:06 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t173",
+        "1552317"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552317&episodeid=1718701&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t173"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1018545",
       "hazardType": "DR",
@@ -2798,6 +2832,60 @@
       "imagery": null
     },
     {
+      "id": "us6000tax4",
+      "hazardType": "EQ",
+      "title": "37 km SW of Burias, Philippines",
+      "countries": [],
+      "lat": 5.4786,
+      "lon": 125.0078,
+      "timeUtc": "Wed, 01 Jul 2026 01:57:29 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tax4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tax4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tax1",
+      "hazardType": "EQ",
+      "title": "50 km WSW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.3652,
+      "lon": 124.9478,
+      "timeUtc": "Wed, 01 Jul 2026 01:12:41 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tax1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tax1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t9ad",
       "hazardType": "EQ",
       "title": "6 km SE of Pangyan, Philippines",
@@ -4699,10 +4787,10 @@
     {
       "id": "us6000t7jl",
       "hazardType": "EQ",
-      "title": "171 km WNW of Tobelo, Indonesia",
+      "title": "172 km WNW of Tobelo, Indonesia",
       "countries": [],
-      "lat": 2.4816,
-      "lon": 126.6655,
+      "lat": 2.535,
+      "lon": 126.6824,
       "timeUtc": "Tue, 23 Jun 2026 04:53:36 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -4726,11 +4814,11 @@
     {
       "id": "us6000t7it",
       "hazardType": "EQ",
-      "title": "186 km N of Fais, Micronesia",
+      "title": "187 km N of Fais, Micronesia",
       "countries": [],
-      "lat": 11.4493,
-      "lon": 140.6086,
-      "timeUtc": "Tue, 23 Jun 2026 01:56:49 GMT",
+      "lat": 11.4577,
+      "lon": 140.5295,
+      "timeUtc": "Tue, 23 Jun 2026 01:56:48 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4765,7 +4853,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t90e"
       ],
