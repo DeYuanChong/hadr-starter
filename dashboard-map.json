@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T18:14:05.632Z",
+  "generatedAt": "2026-07-17T19:36:26.262Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "18 in-scope record(s)"
+      "detail": "17 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,19 +27,12 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-17T16:53:43.233Z",
+    "priorRunAt": "2026-07-17T18:14:05.632Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1103942",
-        "title": "Flood in Philippines",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1103996",
-        "title": "Flood in Thailand",
+        "storyId": "1104020",
+        "title": "Flood in Malaysia",
         "hazardType": "FL",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
@@ -53,16 +46,16 @@
       "countries": [
         "Philippines"
       ],
-      "lat": 5.7419,
-      "lon": 125.3523,
-      "timeUtc": "Fri, 17 Jul 2026 16:12:56 GMT",
-      "mag": 5.3,
+      "lat": 5.7602,
+      "lon": 125.378,
+      "timeUtc": "Fri, 17 Jul 2026 16:12:57 GMT",
+      "mag": 5.2,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t1e8",
         "1552432"
@@ -70,7 +63,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1552432&episodeid=1718839&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552432&episodeid=1718876&eventtype=EQ"
         },
         {
           "feed": "usgs",
@@ -621,39 +614,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1104020",
-      "hazardType": "FL",
-      "title": "Flood in Malaysia",
-      "countries": [
-        "Malaysia"
-      ],
-      "lat": 2.1943,
-      "lon": 102.2487,
-      "timeUtc": "2026-07-11T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104020"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104020&episodeid=1&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.4987,1.4443,102.9987,2.9443&t=2026-07-10",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000t1b6",
