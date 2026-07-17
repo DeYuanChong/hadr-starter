@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T12:18:17.298Z",
+  "generatedAt": "2026-07-17T14:07:53.673Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "18 in-scope record(s)"
+      "detail": "19 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "242 in-scope event(s)"
+      "detail": "243 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-17T10:59:23.678Z",
+    "priorRunAt": "2026-07-17T12:18:17.298Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t19a",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 19.2636,
+      "lon": 121.0461,
+      "timeUtc": "Fri, 17 Jul 2026 09:40:51 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t19a",
+        "1552375"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552375&episodeid=1718783&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19a"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t18g",
       "hazardType": "EQ",
