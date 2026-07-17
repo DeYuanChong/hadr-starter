@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:07:53.673Z",
+  "generatedAt": "2026-07-17T15:47:59.545Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "243 in-scope event(s)"
+      "detail": "244 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-17T12:18:17.298Z",
+    "priorRunAt": "2026-07-17T14:07:53.673Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t19a",
         "1552375"
@@ -607,6 +607,39 @@
       }
     },
     {
+      "id": "1103942",
+      "hazardType": "FL",
+      "title": "Flood in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 7.7992,
+      "lon": 122.6181,
+      "timeUtc": "2026-06-13T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1103942"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=6&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-06-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.8681,7.0492,123.3681,8.5492&t=2026-06-13",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1103996",
       "hazardType": "FL",
       "title": "Flood in Thailand",
@@ -640,37 +673,31 @@
       }
     },
     {
-      "id": "1103942",
-      "hazardType": "FL",
-      "title": "Flood in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 7.7992,
-      "lon": 122.6181,
-      "timeUtc": "2026-06-13T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
+      "id": "us7000t1b6",
+      "hazardType": "EQ",
+      "title": "170 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.4921,
+      "lon": 128.1524,
+      "timeUtc": "Fri, 17 Jul 2026 13:38:12 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
+      "triageSeverity": "none",
+      "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1103942"
+        "us7000t1b6"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=6&eventtype=FL"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b6"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-06-13",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.8681,7.0492,123.3681,8.5492&t=2026-06-13",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us7000t0ag",
