@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:24:49.613Z",
+  "generatedAt": "2026-07-18T10:02:25.633Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "15 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "236 in-scope event(s)"
+      "detail": "237 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,25 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-18T06:23:38.156Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1104029",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1103942",
-        "title": "Flood in Philippines",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-18T08:24:49.613Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t1kf",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -6.6034,
+      "lon": 103.7876,
+      "timeUtc": "Sat, 18 Jul 2026 08:21:42 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t1kf",
+        "1552607"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552607&episodeid=1719043&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t1it",
       "hazardType": "EQ",
@@ -267,7 +286,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104029"
       ],
@@ -296,7 +315,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1103942"
       ],
