@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T04:09:28.613Z",
+  "generatedAt": "2026-07-18T06:23:38.156Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "12 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "235 in-scope event(s)"
+      "detail": "236 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-18T01:02:02.638Z",
+    "priorRunAt": "2026-07-18T04:09:28.613Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1it",
         "usauto7000t1it",
@@ -61,6 +61,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1it"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t1ig",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.4136,
+      "lon": 98.8487,
+      "timeUtc": "Sat, 18 Jul 2026 00:50:05 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t1ig",
+        "1552565"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552565&episodeid=1718992&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig"
         }
       ],
       "supplementary": [],
@@ -329,40 +363,6 @@
       "imagery": null
     },
     {
-      "id": "us7000t0tp",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 19.7348,
-      "lon": 121.3591,
-      "timeUtc": "Wed, 15 Jul 2026 21:33:38 GMT",
-      "mag": 4.7,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0tp",
-        "1552078"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1552078&episodeid=1718422&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0tp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "1018545",
       "hazardType": "DR",
       "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
@@ -403,52 +403,16 @@
       }
     },
     {
-      "id": "us7000t0d0",
+      "id": "us7000t0tp",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
         "Philippines"
       ],
-      "lat": 5.3226,
-      "lon": 125.1801,
-      "timeUtc": "Tue, 14 Jul 2026 15:49:39 GMT",
-      "mag": 6.2,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0d0",
-        "usauto7000t0d0",
-        "atti69au",
-        "1551846"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551846&episodeid=1718656&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t0bm",
-      "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 5.6727,
-      "lon": 125.3976,
-      "timeUtc": "Tue, 14 Jul 2026 13:15:06 GMT",
-      "mag": 5.2,
+      "lat": 19.7348,
+      "lon": 121.3591,
+      "timeUtc": "Wed, 15 Jul 2026 21:33:38 GMT",
+      "mag": 4.7,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
@@ -456,17 +420,17 @@
       "reconciled": true,
       "state": "unchanged",
       "aliases": [
-        "us7000t0bm",
-        "1551813"
+        "us7000t0tp",
+        "1552078"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1551813&episodeid=1718657&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552078&episodeid=1718422&eventtype=EQ"
         },
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0bm"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0tp"
         }
       ],
       "supplementary": [],
@@ -527,6 +491,62 @@
       "imagery": null
     },
     {
+      "id": "us7000t0d0",
+      "hazardType": "EQ",
+      "title": "32 km WSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.3226,
+      "lon": 125.1801,
+      "timeUtc": "Tue, 14 Jul 2026 15:49:39 GMT",
+      "mag": 6.2,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000t0d0",
+        "usauto7000t0d0",
+        "atti69au"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t0bm",
+      "hazardType": "EQ",
+      "title": "6 km NW of Nuing, Philippines",
+      "countries": [],
+      "lat": 5.6727,
+      "lon": 125.3976,
+      "timeUtc": "Tue, 14 Jul 2026 13:15:06 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t0bm"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0bm"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t0ag",
       "hazardType": "EQ",
       "title": "25 km SE of Tambolaka, Indonesia",
@@ -567,7 +587,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09r"
       ],
@@ -594,7 +614,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09m"
       ],
@@ -621,7 +641,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t09h"
       ],
@@ -675,7 +695,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t085"
       ],
@@ -2278,7 +2298,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000szek"
       ],
