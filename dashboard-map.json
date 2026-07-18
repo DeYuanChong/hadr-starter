@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:46:44.611Z",
+  "generatedAt": "2026-07-18T20:32:46.092Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "238 in-scope event(s)"
+      "detail": "241 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-18T18:31:54.208Z",
+    "priorRunAt": "2026-07-18T19:46:44.611Z",
     "changes": []
   },
   "stories": [
@@ -1367,6 +1367,60 @@
       "imagery": null
     },
     {
+      "id": "us7000t10r",
+      "hazardType": "EQ",
+      "title": "1 km E of Caraga, Philippines",
+      "countries": [],
+      "lat": 7.331,
+      "lon": 126.5826,
+      "timeUtc": "Fri, 10 Jul 2026 15:25:11 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t10r"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t10r"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t10q",
+      "hazardType": "EQ",
+      "title": "54 km ESE of Mawlaik, Burma (Myanmar)",
+      "countries": [],
+      "lat": 23.5239,
+      "lon": 94.927,
+      "timeUtc": "Fri, 10 Jul 2026 13:29:44 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t10q"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t10q"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000szfz",
       "hazardType": "EQ",
       "title": "7 km SE of Sarangani, Philippines",
@@ -1504,18 +1558,18 @@
     {
       "id": "us7000sz8l",
       "hazardType": "EQ",
-      "title": "19 km ENE of Abuyog, Philippines",
+      "title": "28 km ESE of Dulag, Philippines",
       "countries": [],
-      "lat": 10.8094,
-      "lon": 125.179,
-      "timeUtc": "Thu, 09 Jul 2026 16:46:49 GMT",
-      "mag": 5,
+      "lat": 10.8295,
+      "lon": 125.2563,
+      "timeUtc": "Thu, 09 Jul 2026 16:46:51 GMT",
+      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000sz8l"
       ],
@@ -1523,6 +1577,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz8l"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t0zh",
+      "hazardType": "EQ",
+      "title": "43 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.0686,
+      "lon": 125.2613,
+      "timeUtc": "Thu, 09 Jul 2026 16:36:23 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t0zh"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0zh"
         }
       ],
       "supplementary": [],
