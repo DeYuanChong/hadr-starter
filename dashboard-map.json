@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T18:34:16.442Z",
+  "generatedAt": "2026-07-19T19:48:58.300Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "229 in-scope event(s)"
+      "detail": "230 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-19T17:36:09.528Z",
+    "priorRunAt": "2026-07-19T18:34:16.442Z",
     "changes": []
   },
   "stories": [
@@ -1908,11 +1908,11 @@
     {
       "id": "us6000tase",
       "hazardType": "EQ",
-      "title": "7 km SSE of Calatagan, Philippines",
+      "title": "12 km S of Calatagan, Philippines",
       "countries": [],
-      "lat": 13.7713,
-      "lon": 120.6627,
-      "timeUtc": "Tue, 07 Jul 2026 20:37:40 GMT",
+      "lat": 13.7187,
+      "lon": 120.6409,
+      "timeUtc": "Tue, 07 Jul 2026 20:37:39 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1933,12 +1933,39 @@
       "imagery": null
     },
     {
+      "id": "us6000tasz",
+      "hazardType": "EQ",
+      "title": "11 km N of Xunchang, China",
+      "countries": [],
+      "lat": 28.5546,
+      "lon": 104.6926,
+      "timeUtc": "Tue, 07 Jul 2026 20:01:29 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tasz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tasz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tary",
       "hazardType": "EQ",
-      "title": "95 km WSW of Labuan, Indonesia",
+      "title": "87 km WSW of Labuan, Indonesia",
       "countries": [],
-      "lat": -6.7717,
-      "lon": 105.0646,
+      "lat": -6.628,
+      "lon": 105.0792,
       "timeUtc": "Tue, 07 Jul 2026 19:44:52 GMT",
       "mag": 5.3,
       "gdacsAlert": null,
