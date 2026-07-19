@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:05:56.265Z",
+  "generatedAt": "2026-07-19T04:31:39.460Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "226 in-scope event(s)"
+      "detail": "227 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-18T23:32:18.419Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1018545",
-        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-07-19T01:05:56.265Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t1q4",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 2.7477,
+      "lon": 128.5538,
+      "timeUtc": "Sun, 19 Jul 2026 01:57:56 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t1q4",
+        "1552747"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552747&episodeid=1719198&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t1kf",
       "hazardType": "EQ",
