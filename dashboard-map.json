@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:48:58.300Z",
+  "generatedAt": "2026-07-19T20:33:54.573Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "231 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-19T18:34:16.442Z",
+    "priorRunAt": "2026-07-19T19:48:58.300Z",
     "changes": []
   },
   "stories": [
@@ -1769,6 +1769,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t0q3",
+      "hazardType": "EQ",
+      "title": "85 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.0879,
+      "lon": 124.7479,
+      "timeUtc": "Wed, 08 Jul 2026 13:35:28 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t0q3"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0q3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tavx",
       "hazardType": "EQ",
       "title": "64 km W of Tobelo, Indonesia",
@@ -1946,7 +1973,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tasz"
       ],
