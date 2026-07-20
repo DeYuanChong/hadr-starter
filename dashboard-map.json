@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T17:04:16.183Z",
+  "generatedAt": "2026-07-20T19:04:35.299Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "226 in-scope event(s)"
+      "detail": "227 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-20T15:24:28.284Z",
+    "priorRunAt": "2026-07-20T17:04:16.183Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t1y6",
+      "hazardType": "EQ",
+      "title": "38 km ENE of Chongzuo, China",
+      "countries": [],
+      "lat": 22.4719,
+      "lon": 107.7304,
+      "timeUtc": "Mon, 20 Jul 2026 14:40:49 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t1y6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1y6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t1xr",
       "hazardType": "EQ",
@@ -45,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1xr"
       ],
