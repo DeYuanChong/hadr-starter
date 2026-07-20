@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:34:09.346Z",
+  "generatedAt": "2026-07-20T01:09:21.793Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "232 in-scope event(s)"
+      "detail": "221 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-19T22:29:57.917Z",
+    "priorRunAt": "2026-07-19T23:34:09.346Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t1v5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.2283,
+      "lon": 130.771,
+      "timeUtc": "Mon, 20 Jul 2026 00:27:46 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t1v5",
+        "1552918"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1552918&episodeid=1719398&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1v5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t1rh",
       "hazardType": "EQ",
@@ -3480,6 +3514,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tape",
+      "hazardType": "EQ",
+      "title": "90 km N of Hirara, Japan",
+      "countries": [],
+      "lat": 25.6162,
+      "lon": 125.2493,
+      "timeUtc": "Tue, 30 Jun 2026 04:59:14 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tape"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tape"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tan8",
       "hazardType": "EQ",
       "title": "155 km NW of Tobelo, Indonesia",
@@ -6130,358 +6191,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t87g"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t86v",
-      "hazardType": "EQ",
-      "title": "22 km SSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2062,
-      "lon": 125.418,
-      "timeUtc": "Fri, 19 Jun 2026 21:56:23 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t86v"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86v"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t86w",
-      "hazardType": "EQ",
-      "title": "4 km SE of Komodo, Indonesia",
-      "countries": [],
-      "lat": -8.6185,
-      "lon": 119.5158,
-      "timeUtc": "Fri, 19 Jun 2026 21:50:07 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t86w"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86w"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t86p",
-      "hazardType": "EQ",
-      "title": "123 km S of Itoman, Japan",
-      "countries": [],
-      "lat": 25.0284,
-      "lon": 127.898,
-      "timeUtc": "Fri, 19 Jun 2026 19:41:52 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t86p"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86p"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000supp",
-      "hazardType": "EQ",
-      "title": "127 km SSE of Itoman, Japan",
-      "countries": [],
-      "lat": 25.0026,
-      "lon": 127.9523,
-      "timeUtc": "Fri, 19 Jun 2026 19:36:30 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000supp",
-        "usauto7000supp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000supp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000supe",
-      "hazardType": "EQ",
-      "title": "24 km NW of Manado, Indonesia",
-      "countries": [],
-      "lat": 1.6606,
-      "lon": 124.7179,
-      "timeUtc": "Fri, 19 Jun 2026 18:53:07 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000supe"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000supe"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sup8",
-      "hazardType": "EQ",
-      "title": "58 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.9835,
-      "lon": 125.1439,
-      "timeUtc": "Fri, 19 Jun 2026 18:38:23 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sup8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sup8"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t86j",
-      "hazardType": "EQ",
-      "title": "17 km S of Calatagan, Philippines",
-      "countries": [],
-      "lat": 13.6782,
-      "lon": 120.601,
-      "timeUtc": "Fri, 19 Jun 2026 18:18:19 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t86j"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t86j"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t868",
-      "hazardType": "EQ",
-      "title": "1 km SW of Bukid, Philippines",
-      "countries": [],
-      "lat": 5.5623,
-      "lon": 125.3944,
-      "timeUtc": "Fri, 19 Jun 2026 14:35:07 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t868"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t868"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t865",
-      "hazardType": "EQ",
-      "title": "198 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.8216,
-      "lon": 138.865,
-      "timeUtc": "Fri, 19 Jun 2026 12:51:20 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t865"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t865"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t860",
-      "hazardType": "EQ",
-      "title": "142 km NE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.7085,
-      "lon": 127.9978,
-      "timeUtc": "Fri, 19 Jun 2026 11:10:15 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t860"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t860"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t85n",
-      "hazardType": "EQ",
-      "title": "21 km S of Maasim, Philippines",
-      "countries": [],
-      "lat": 5.6643,
-      "lon": 125.0059,
-      "timeUtc": "Fri, 19 Jun 2026 05:42:19 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t85n"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t85n"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t85c",
-      "hazardType": "EQ",
-      "title": "92 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.7274,
-      "lon": 124.97,
-      "timeUtc": "Fri, 19 Jun 2026 00:32:50 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t85c"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t85c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sugw",
-      "hazardType": "EQ",
-      "title": "176 km NNW of Likisá, Timor Leste",
-      "countries": [],
-      "lat": -7.0299,
-      "lon": 125.0076,
-      "timeUtc": "Fri, 19 Jun 2026 00:31:19 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sugw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sugw"
         }
       ],
       "supplementary": [],
