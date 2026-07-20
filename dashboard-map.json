@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T15:24:28.284Z",
+  "generatedAt": "2026-07-20T17:04:16.183Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "225 in-scope event(s)"
+      "detail": "226 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-20T13:20:23.716Z",
+    "priorRunAt": "2026-07-20T15:24:28.284Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t1xr",
+      "hazardType": "EQ",
+      "title": "156 km WNW of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": 0.9885,
+      "lon": 121.7341,
+      "timeUtc": "Mon, 20 Jul 2026 13:36:01 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t1xr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1xr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t1wm",
       "hazardType": "EQ",
@@ -4196,7 +4223,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9yb"
       ],
