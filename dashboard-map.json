@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T00:14:52.547Z",
+  "generatedAt": "2026-07-21T03:52:18.633Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "218 in-scope event(s)"
+      "detail": "219 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-20T23:10:20.260Z",
+    "priorRunAt": "2026-07-21T00:14:52.547Z",
     "changes": []
   },
   "stories": [
@@ -207,7 +207,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t1v5"
       ],
@@ -234,7 +234,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t1rh"
       ],
@@ -261,7 +261,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t1q4"
       ],
@@ -343,7 +343,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t1ig"
       ],
@@ -3741,6 +3741,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8x6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tams",
+      "hazardType": "EQ",
+      "title": "49 km WNW of Macabuboni, Philippines",
+      "countries": [],
+      "lat": 16.2835,
+      "lon": 119.326,
+      "timeUtc": "Mon, 29 Jun 2026 03:58:40 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tams"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tams"
         }
       ],
       "supplementary": [],
