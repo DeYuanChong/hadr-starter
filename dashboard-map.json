@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T12:47:07.402Z",
+  "generatedAt": "2026-07-21T14:50:44.637Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "224 in-scope event(s)"
+      "detail": "226 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-21T11:17:18.679Z",
+    "priorRunAt": "2026-07-21T12:47:07.402Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t26j",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.5778,
+      "lon": 138.8732,
+      "timeUtc": "Tue, 21 Jul 2026 13:47:12 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t26j",
+        "1553213"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1553213&episodeid=1719728&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t26j"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t25t",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t25t",
         "1553189"
@@ -446,6 +480,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t26k",
+      "hazardType": "EQ",
+      "title": "18 km SSE of Talisay, Philippines",
+      "countries": [],
+      "lat": 13.0193,
+      "lon": 122.6735,
+      "timeUtc": "Tue, 21 Jul 2026 13:48:06 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t26k"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t26k"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t25s",
       "hazardType": "EQ",
       "title": "78 km NE of Simao, China",
@@ -459,7 +520,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t25s",
         "usauto7000t25s"
@@ -4246,11 +4307,11 @@
     {
       "id": "us6000t8ta",
       "hazardType": "EQ",
-      "title": "225 km NE of Lospalos, Timor Leste",
+      "title": "215 km NE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.38,
-      "lon": 128.695,
-      "timeUtc": "Sun, 28 Jun 2026 11:35:31 GMT",
+      "lat": -7.4108,
+      "lon": 128.6002,
+      "timeUtc": "Sun, 28 Jun 2026 11:35:30 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4436,11 +4497,11 @@
     {
       "id": "us6000t8me",
       "hazardType": "EQ",
-      "title": "114 km SSW of Trenggalek, Indonesia",
+      "title": "86 km SW of Trenggalek, Indonesia",
       "countries": [],
-      "lat": -8.9563,
-      "lon": 111.1499,
-      "timeUtc": "Sat, 27 Jun 2026 07:47:23 GMT",
+      "lat": -8.7198,
+      "lon": 111.2648,
+      "timeUtc": "Sat, 27 Jun 2026 07:47:24 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4694,7 +4755,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9xx"
       ],
