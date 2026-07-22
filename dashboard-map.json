@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T01:10:37.433Z",
+  "generatedAt": "2026-07-22T04:38:05.976Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "220 in-scope event(s)"
+      "detail": "221 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-21T23:43:52.292Z",
+    "priorRunAt": "2026-07-22T01:10:37.433Z",
     "changes": []
   },
   "stories": [
@@ -514,34 +514,28 @@
       "imagery": null
     },
     {
-      "id": "us7000t1ig",
+      "id": "us7000t2dz",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -0.4136,
-      "lon": 98.8487,
-      "timeUtc": "Sat, 18 Jul 2026 00:50:05 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
+      "title": "55 km WSW of Langsa, Indonesia",
+      "countries": [],
+      "lat": 4.2441,
+      "lon": 97.5238,
+      "timeUtc": "Wed, 22 Jul 2026 04:18:22 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "new",
       "aliases": [
-        "us7000t1ig",
-        "1552565"
+        "us7000t2dz",
+        "usauto7000t2dz"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1552565&episodeid=1718992&eventtype=EQ"
-        },
-        {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2dz"
         }
       ],
       "supplementary": [],
@@ -732,6 +726,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1xr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t1ig",
+      "hazardType": "EQ",
+      "title": "143 km W of Pariaman, Indonesia",
+      "countries": [],
+      "lat": -0.4136,
+      "lon": 98.8487,
+      "timeUtc": "Sat, 18 Jul 2026 00:50:05 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t1ig"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig"
         }
       ],
       "supplementary": [],
