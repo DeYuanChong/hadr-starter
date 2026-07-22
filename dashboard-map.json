@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:26:12.527Z",
+  "generatedAt": "2026-07-22T10:03:42.157Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "223 in-scope event(s)"
+      "detail": "225 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-22T04:38:05.976Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-07-22T07:26:12.527Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000t2ei",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.6349,
+      "lon": 138.7604,
+      "timeUtc": "Wed, 22 Jul 2026 06:46:40 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us7000t2ei",
+        "1553349"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1553349&episodeid=1719883&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ei"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t2dz",
       "hazardType": "EQ",
@@ -55,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t2dz",
         "usauto7000t2dz",
@@ -328,7 +354,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104011"
       ],
@@ -526,47 +552,13 @@
       }
     },
     {
-      "id": "us7000t1kf",
+      "id": "us7000t2fj",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -6.6034,
-      "lon": 103.7876,
-      "timeUtc": "Sat, 18 Jul 2026 08:21:42 GMT",
-      "mag": 4.9,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1kf",
-        "1552607"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1552607&episodeid=1719043&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2ei",
-      "hazardType": "EQ",
-      "title": "208 km W of Abepura, Indonesia",
+      "title": "11 km NW of Sugal, Philippines",
       "countries": [],
-      "lat": -2.6349,
-      "lon": 138.7604,
-      "timeUtc": "Wed, 22 Jul 2026 06:46:40 GMT",
+      "lat": 5.733,
+      "lon": 125.3902,
+      "timeUtc": "Wed, 22 Jul 2026 09:47:20 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -575,12 +567,12 @@
       "reconciled": false,
       "state": "new",
       "aliases": [
-        "us7000t2ei"
+        "us7000t2fj"
       ],
       "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ei"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fj"
         }
       ],
       "supplementary": [],
@@ -777,6 +769,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t1kf",
+      "hazardType": "EQ",
+      "title": "208 km SW of Bandar Lampung, Indonesia",
+      "countries": [],
+      "lat": -6.6034,
+      "lon": 103.7876,
+      "timeUtc": "Sat, 18 Jul 2026 08:21:42 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t1kf"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t1it",
       "hazardType": "EQ",
       "title": "119 km SW of Sarangani, Philippines",
@@ -790,7 +809,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t1it",
         "usauto7000t1it"
@@ -4931,6 +4950,33 @@
       "imagery": null
     },
     {
+      "id": "us6000t9y5",
+      "hazardType": "EQ",
+      "title": "81 km NE of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 2.3184,
+      "lon": 128.4412,
+      "timeUtc": "Fri, 26 Jun 2026 09:14:31 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9y5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9y5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t9xx",
       "hazardType": "EQ",
       "title": "Banda Sea",
@@ -5080,7 +5126,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9ws"
       ],
