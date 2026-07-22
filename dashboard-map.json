@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T22:28:26.422Z",
+  "generatedAt": "2026-07-22T23:34:13.253Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "231 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-22T21:18:06.496Z",
+    "priorRunAt": "2026-07-22T22:28:26.422Z",
     "changes": []
   },
   "stories": [
@@ -182,7 +182,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t2iy"
       ],
@@ -4637,6 +4637,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8qv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000taet",
+      "hazardType": "EQ",
+      "title": "285 km WSW of Tual, Indonesia",
+      "countries": [],
+      "lat": -6.5143,
+      "lon": 130.3316,
+      "timeUtc": "Sat, 27 Jun 2026 14:50:02 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taet"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taet"
         }
       ],
       "supplementary": [],
