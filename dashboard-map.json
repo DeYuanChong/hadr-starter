@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T19:51:48.459Z",
+  "generatedAt": "2026-07-23T20:49:00.999Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "status": "live",
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "231 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,86 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T18:20:05.383Z",
-    "changes": []
+    "priorRunAt": "2026-07-23T19:51:48.459Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1001294",
+        "title": "Tropical Cyclone NOUL-26",
+        "hazardType": "TC",
+        "detail": "new orange-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us7000t2uz",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.6381,
+      "lon": 138.7352,
+      "timeUtc": "Thu, 23 Jul 2026 20:15:13 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000t2uz",
+        "1553640"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1553640&episodeid=1720226&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2uz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1001294",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NOUL-26",
+      "countries": [
+        "Philippines",
+        "China"
+      ],
+      "lat": 18.3,
+      "lon": 125.1,
+      "timeUtc": "2026-07-23T06:00:00",
+      "mag": null,
+      "gdacsAlert": "Orange",
+      "pagerAlert": null,
+      "triageSeverity": "orange",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1001294"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=3&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-22",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.1,15.3,128.1,21.3&t=2026-07-22",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000t2n3",
       "hazardType": "EQ",
@@ -1807,7 +1883,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t10v"
       ],
@@ -4032,7 +4108,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tapv"
       ],
