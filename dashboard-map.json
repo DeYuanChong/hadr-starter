@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:12:09.276Z",
+  "generatedAt": "2026-07-23T09:41:50.030Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "223 in-scope event(s)"
+      "detail": "224 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T04:29:23.959Z",
+    "priorRunAt": "2026-07-23T07:12:09.276Z",
     "changes": []
   },
   "stories": [
@@ -1781,7 +1781,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t111"
       ],
@@ -2804,10 +2804,10 @@
     {
       "id": "us6000ta3g",
       "hazardType": "EQ",
-      "title": "16 km ESE of Pianjiao, China",
+      "title": "8 km SE of Pianjiao, China",
       "countries": [],
-      "lat": 25.9834,
-      "lon": 100.7432,
+      "lat": 25.9651,
+      "lon": 100.6404,
       "timeUtc": "Sat, 04 Jul 2026 10:28:54 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
@@ -2829,12 +2829,39 @@
       "imagery": null
     },
     {
+      "id": "us7000szez",
+      "hazardType": "EQ",
+      "title": "119 km NW of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.4118,
+      "lon": 126.5098,
+      "timeUtc": "Sat, 04 Jul 2026 10:11:34 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000szez"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szez"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000ta3d",
       "hazardType": "EQ",
-      "title": "13 km E of Pianjiao, China",
+      "title": "7 km E of Pianjiao, China",
       "countries": [],
-      "lat": 25.994,
-      "lon": 100.713,
+      "lat": 26.0138,
+      "lon": 100.6608,
       "timeUtc": "Sat, 04 Jul 2026 10:07:37 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -2858,18 +2885,18 @@
     {
       "id": "us6000ta34",
       "hazardType": "EQ",
-      "title": "64 km W of Tobelo, Indonesia",
+      "title": "68 km W of Tobelo, Indonesia",
       "countries": [],
-      "lat": 1.7873,
-      "lon": 127.4364,
+      "lat": 1.7953,
+      "lon": 127.3992,
       "timeUtc": "Sat, 04 Jul 2026 09:02:14 GMT",
-      "mag": 5,
+      "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000ta34"
       ],
