@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:14:08.981Z",
+  "generatedAt": "2026-07-23T15:28:20.613Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "227 in-scope event(s)"
+      "detail": "228 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T11:42:49.203Z",
+    "priorRunAt": "2026-07-23T13:14:08.981Z",
     "changes": []
   },
   "stories": [
@@ -133,7 +133,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t2fj"
       ],
@@ -160,7 +160,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t2ei"
       ],
@@ -187,7 +187,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000t2dz",
         "usauto7000t2dz"
@@ -4026,6 +4026,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tapr",
+      "hazardType": "EQ",
+      "title": "219 km NW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.2273,
+      "lon": 126.7098,
+      "timeUtc": "Tue, 30 Jun 2026 14:11:41 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tapr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tapr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t96r",
       "hazardType": "EQ",
       "title": "161 km SSE of Koshima, Japan",
@@ -5208,7 +5235,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9wx"
       ],
