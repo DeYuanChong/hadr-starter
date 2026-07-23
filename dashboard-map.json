@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:28:20.613Z",
+  "generatedAt": "2026-07-23T17:02:32.403Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "1 in-scope record(s)"
+      "detail": "0 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,44 +27,10 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T13:14:08.981Z",
+    "priorRunAt": "2026-07-23T15:28:20.613Z",
     "changes": []
   },
   "stories": [
-    {
-      "id": "us7000t2gh",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.5597,
-      "lon": 138.8297,
-      "timeUtc": "Wed, 22 Jul 2026 14:50:42 GMT",
-      "mag": 4.9,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2gh",
-        "1553412"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553412&episodeid=1719957&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2gh"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
     {
       "id": "us7000t2n3",
       "hazardType": "EQ",
@@ -114,6 +80,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2iy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t2gh",
+      "hazardType": "EQ",
+      "title": "200 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.5597,
+      "lon": 138.8297,
+      "timeUtc": "Wed, 22 Jul 2026 14:50:42 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t2gh"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2gh"
         }
       ],
       "supplementary": [],
@@ -4001,18 +3994,18 @@
     {
       "id": "us6000t977",
       "hazardType": "EQ",
-      "title": "221 km NNE of Bitung, Indonesia",
+      "title": "234 km NNE of Bitung, Indonesia",
       "countries": [],
-      "lat": 3.2669,
-      "lon": 125.9464,
-      "timeUtc": "Tue, 30 Jun 2026 14:26:47 GMT",
-      "mag": 4.6,
+      "lat": 3.333,
+      "lon": 126.0711,
+      "timeUtc": "Tue, 30 Jun 2026 14:26:41 GMT",
+      "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000t977"
       ],
@@ -4039,7 +4032,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tapr"
       ],
