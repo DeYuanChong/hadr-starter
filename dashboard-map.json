@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:20:05.383Z",
+  "generatedAt": "2026-07-23T19:51:48.459Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "0 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: fetch failed"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "228 in-scope event(s)"
+      "detail": "230 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T17:02:32.403Z",
+    "priorRunAt": "2026-07-23T18:20:05.383Z",
     "changes": []
   },
   "stories": [
@@ -1788,6 +1788,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t111"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t10v",
+      "hazardType": "EQ",
+      "title": "48 km S of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.9649,
+      "lon": 125.4432,
+      "timeUtc": "Fri, 10 Jul 2026 18:43:56 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t10v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t10v"
         }
       ],
       "supplementary": [],
@@ -3992,6 +4019,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tapv",
+      "hazardType": "EQ",
+      "title": "25 km ESE of San Ignacio, Philippines",
+      "countries": [],
+      "lat": 7.0047,
+      "lon": 126.6885,
+      "timeUtc": "Tue, 30 Jun 2026 16:30:00 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tapv"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tapv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000t977",
       "hazardType": "EQ",
       "title": "234 km NNE of Bitung, Indonesia",
@@ -5406,10 +5460,10 @@
     {
       "id": "us6000t9vp",
       "hazardType": "EQ",
-      "title": "24 km SSE of Tambolaka, Indonesia",
+      "title": "22 km SSE of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -9.6275,
-      "lon": 119.3249,
+      "lat": -9.6126,
+      "lon": 119.3303,
       "timeUtc": "Wed, 24 Jun 2026 15:42:09 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
