@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:50:24.866Z",
+  "generatedAt": "2026-07-23T22:42:27.819Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "232 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T20:49:00.999Z",
+    "priorRunAt": "2026-07-23T21:50:24.866Z",
     "changes": []
   },
   "stories": [
@@ -3844,6 +3844,33 @@
       "imagery": null
     },
     {
+      "id": "us6000taxt",
+      "hazardType": "EQ",
+      "title": "66 km SSW of Katubao, Philippines",
+      "countries": [],
+      "lat": 5.3056,
+      "lon": 124.6689,
+      "timeUtc": "Wed, 01 Jul 2026 18:10:26 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000taxt"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxt"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000taxs",
       "hazardType": "EQ",
       "title": "1 km S of Anda, Philippines",
@@ -3857,7 +3884,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000taxs"
       ],
