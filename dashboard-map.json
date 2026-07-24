@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T23:43:44.910Z",
+  "generatedAt": "2026-07-24T01:14:23.135Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "235 in-scope event(s)"
+      "detail": "224 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-23T22:42:27.819Z",
+    "priorRunAt": "2026-07-23T23:43:44.910Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t2w3",
         "usauto7000t2w3",
@@ -129,10 +129,37 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-07-22",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.1,15.3,128.1,21.3&t=2026-07-22",
+        "imageDate": "2026-07-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.1,15.3,128.1,21.3&t=2026-07-23",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us7000t2w1",
+      "hazardType": "EQ",
+      "title": "southwest of Sumatra, Indonesia",
+      "countries": [],
+      "lat": -6.1688,
+      "lon": 100.6411,
+      "timeUtc": "Thu, 23 Jul 2026 22:50:23 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t2w1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us7000t2n3",
@@ -1531,7 +1558,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1ay"
       ],
@@ -6123,331 +6150,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9v1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t7rf",
-      "hazardType": "EQ",
-      "title": "64 km WNW of Macabuboni, Philippines",
-      "countries": [],
-      "lat": 16.3579,
-      "lon": 119.2051,
-      "timeUtc": "Tue, 23 Jun 2026 23:55:17 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t7rf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7rf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t919",
-      "hazardType": "EQ",
-      "title": "68 km W of Macabuboni, Philippines",
-      "countries": [],
-      "lat": 16.2389,
-      "lon": 119.14,
-      "timeUtc": "Tue, 23 Jun 2026 23:52:59 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t919"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t919"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t915",
-      "hazardType": "EQ",
-      "title": "94 km SE of Caburan, Philippines",
-      "countries": [],
-      "lat": 5.4266,
-      "lon": 126.336,
-      "timeUtc": "Tue, 23 Jun 2026 20:35:37 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t915"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t915"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t7pq",
-      "hazardType": "EQ",
-      "title": "241 km W of Tual, Indonesia",
-      "countries": [],
-      "lat": -5.947,
-      "lon": 130.5924,
-      "timeUtc": "Tue, 23 Jun 2026 20:09:08 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t7pq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7pq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t90u",
-      "hazardType": "EQ",
-      "title": "20 km SSW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5578,
-      "lon": 125.1672,
-      "timeUtc": "Tue, 23 Jun 2026 15:19:42 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t90u"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t90s",
-      "hazardType": "EQ",
-      "title": "73 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1319,
-      "lon": 124.8622,
-      "timeUtc": "Tue, 23 Jun 2026 14:06:43 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t90s"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90s"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t7ks",
-      "hazardType": "EQ",
-      "title": "Halmahera, Indonesia",
-      "countries": [],
-      "lat": 2.5565,
-      "lon": 128.5949,
-      "timeUtc": "Tue, 23 Jun 2026 12:13:23 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t7ks"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7ks"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t90m",
-      "hazardType": "EQ",
-      "title": "154 km SSW of Pagar Alam, Indonesia",
-      "countries": [],
-      "lat": -5.3258,
-      "lon": 102.7277,
-      "timeUtc": "Tue, 23 Jun 2026 07:43:02 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t90m"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90m"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t7jl",
-      "hazardType": "EQ",
-      "title": "172 km WNW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 2.535,
-      "lon": 126.6824,
-      "timeUtc": "Tue, 23 Jun 2026 04:53:36 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t7jl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7jl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t7it",
-      "hazardType": "EQ",
-      "title": "187 km N of Fais, Micronesia",
-      "countries": [],
-      "lat": 11.4577,
-      "lon": 140.5295,
-      "timeUtc": "Tue, 23 Jun 2026 01:56:48 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t7it",
-        "usauto6000t7it"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7it"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t90e",
-      "hazardType": "EQ",
-      "title": "4 km ESE of Lalawigan, Philippines",
-      "countries": [],
-      "lat": 11.57,
-      "lon": 125.505,
-      "timeUtc": "Tue, 23 Jun 2026 01:22:29 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t90e"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t90c",
-      "hazardType": "EQ",
-      "title": "2 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5553,
-      "lon": 125.335,
-      "timeUtc": "Tue, 23 Jun 2026 00:24:10 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t90c"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t90c"
         }
       ],
       "supplementary": [],
