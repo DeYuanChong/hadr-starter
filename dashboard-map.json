@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T18:39:47.715Z",
+  "generatedAt": "2026-07-24T20:05:28.210Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-24T16:53:23.232Z",
+    "priorRunAt": "2026-07-24T18:39:47.715Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t35r",
         "1553819"
@@ -204,110 +204,6 @@
       "imagery": null
     },
     {
-      "id": "us7000t2w3",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 0.592,
-      "lon": 126.2244,
-      "timeUtc": "Thu, 23 Jul 2026 22:58:36 GMT",
-      "mag": 5.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2w3",
-        "usauto7000t2w3",
-        "1553664"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553664&episodeid=1720251&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2w1",
-      "hazardType": "EQ",
-      "title": "Earthquake in Southwest Of Sumatera, Indonesia",
-      "countries": [
-        "Southwest Of Sumatera",
-        "Indonesia"
-      ],
-      "lat": -6.1688,
-      "lon": 100.6411,
-      "timeUtc": "Thu, 23 Jul 2026 22:50:23 GMT",
-      "mag": 4.7,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2w1",
-        "1553684"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553684&episodeid=1720271&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2uz",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.6381,
-      "lon": 138.7352,
-      "timeUtc": "Thu, 23 Jul 2026 20:15:13 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2uz",
-        "1553640"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553640&episodeid=1720226&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2uz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000t2wu",
       "hazardType": "EQ",
       "title": "228 km ENE of Lospalos, Timor Leste",
@@ -329,6 +225,88 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2wu"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t2w3",
+      "hazardType": "EQ",
+      "title": "130 km W of Ternate, Indonesia",
+      "countries": [],
+      "lat": 0.592,
+      "lon": 126.2244,
+      "timeUtc": "Thu, 23 Jul 2026 22:58:36 GMT",
+      "mag": 5.8,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000t2w3",
+        "usauto7000t2w3"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t2w1",
+      "hazardType": "EQ",
+      "title": "southwest of Sumatra, Indonesia",
+      "countries": [],
+      "lat": -6.1688,
+      "lon": 100.6411,
+      "timeUtc": "Thu, 23 Jul 2026 22:50:23 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t2w1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t2uz",
+      "hazardType": "EQ",
+      "title": "211 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.6381,
+      "lon": 138.7352,
+      "timeUtc": "Thu, 23 Jul 2026 20:15:13 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t2uz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2uz"
         }
       ],
       "supplementary": [],
@@ -1910,18 +1888,18 @@
     {
       "id": "us7000szru",
       "hazardType": "EQ",
-      "title": "281 km ENE of Lospalos, Timor Leste",
+      "title": "287 km ENE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.2807,
-      "lon": 129.2308,
+      "lat": -7.2264,
+      "lon": 129.2554,
       "timeUtc": "Sat, 11 Jul 2026 19:52:11 GMT",
-      "mag": 4.2,
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000szru"
       ],
@@ -1937,11 +1915,11 @@
     {
       "id": "us7000szri",
       "hazardType": "EQ",
-      "title": "56 km SSW of Sarangani, Philippines",
+      "title": "57 km SSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 4.9407,
-      "lon": 125.2447,
-      "timeUtc": "Sat, 11 Jul 2026 17:49:31 GMT",
+      "lat": 4.953,
+      "lon": 125.2097,
+      "timeUtc": "Sat, 11 Jul 2026 17:49:30 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
       "pagerAlert": null,
