@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T19:48:50.631Z",
+  "generatedAt": "2026-07-25T20:37:00.757Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "221 in-scope event(s)"
+      "detail": "222 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T18:32:22.369Z",
+    "priorRunAt": "2026-07-25T19:48:50.631Z",
     "changes": []
   },
   "stories": [
@@ -194,7 +194,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t31u"
       ],
@@ -1315,6 +1315,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t173"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t28v",
+      "hazardType": "EQ",
+      "title": "37 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.3632,
+      "lon": 125.0902,
+      "timeUtc": "Thu, 16 Jul 2026 16:46:32 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t28v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t28v"
         }
       ],
       "supplementary": [],
