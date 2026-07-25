@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T17:26:04.577Z",
+  "generatedAt": "2026-07-25T18:32:22.369Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "219 in-scope event(s)"
+      "detail": "220 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T16:14:18.419Z",
+    "priorRunAt": "2026-07-25T17:26:04.577Z",
     "changes": []
   },
   "stories": [
@@ -94,6 +94,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t3c6",
+      "hazardType": "EQ",
+      "title": "241 km ENE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.3555,
+      "lon": 128.8506,
+      "timeUtc": "Sat, 25 Jul 2026 17:42:59 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t3c6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3c6"
         }
       ],
       "supplementary": [],
@@ -1064,7 +1091,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1fs"
       ],
