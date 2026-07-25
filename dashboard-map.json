@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T18:32:22.369Z",
+  "generatedAt": "2026-07-25T19:48:50.631Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "220 in-scope event(s)"
+      "detail": "221 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T17:26:04.577Z",
+    "priorRunAt": "2026-07-25T18:32:22.369Z",
     "changes": []
   },
   "stories": [
@@ -113,7 +113,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t3c6"
       ],
@@ -175,6 +175,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t35r"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t31u",
+      "hazardType": "EQ",
+      "title": "Banda Sea",
+      "countries": [],
+      "lat": -6.819,
+      "lon": 129.5542,
+      "timeUtc": "Fri, 24 Jul 2026 14:09:52 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t31u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t31u"
         }
       ],
       "supplementary": [],
