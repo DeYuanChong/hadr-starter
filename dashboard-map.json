@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:14:18.419Z",
+  "generatedAt": "2026-07-25T17:26:04.577Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "218 in-scope event(s)"
+      "detail": "219 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T15:14:38.974Z",
+    "priorRunAt": "2026-07-25T16:14:18.419Z",
     "changes": []
   },
   "stories": [
@@ -1045,6 +1045,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t1fs",
+      "hazardType": "EQ",
+      "title": "285 km WSW of Tual, Indonesia",
+      "countries": [],
+      "lat": -6.6043,
+      "lon": 130.3617,
+      "timeUtc": "Fri, 17 Jul 2026 18:50:20 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t1fs"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1fs"
         }
       ],
       "supplementary": [],
