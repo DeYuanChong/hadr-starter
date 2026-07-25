@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T10:47:45.991Z",
+  "generatedAt": "2026-07-25T11:53:18.439Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T09:07:56.412Z",
-    "changes": []
+    "priorRunAt": "2026-07-25T10:47:45.991Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104029",
+        "title": "Flood in Vietnam",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -102,29 +110,22 @@
     {
       "id": "us7000t36g",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
+      "title": "54 km S of Sarangani, Philippines",
+      "countries": [],
       "lat": 4.9092,
       "lon": 125.4751,
       "timeUtc": "Fri, 24 Jul 2026 19:06:27 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000t36g",
-        "1553840"
+        "us7000t36g"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553840&episodeid=1720445&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t36g"
@@ -136,29 +137,22 @@
     {
       "id": "us7000t35r",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "133 km SW of Kotabumi, Indonesia",
+      "countries": [],
       "lat": -5.5376,
       "lon": 103.9042,
       "timeUtc": "Fri, 24 Jul 2026 17:28:05 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000t35r",
-        "1553819"
+        "us7000t35r"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553819&episodeid=1720420&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t35r"
@@ -170,29 +164,22 @@
     {
       "id": "us7000t30v",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "194 km W of Abepura, Indonesia",
+      "countries": [],
       "lat": -2.6055,
       "lon": 138.8797,
       "timeUtc": "Fri, 24 Jul 2026 12:27:02 GMT",
       "mag": 5.1,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000t30v",
-        "1553767"
+        "us7000t30v"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553767&episodeid=1720363&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t30v"
@@ -204,30 +191,23 @@
     {
       "id": "us7000t30r",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "202 km W of Abepura, Indonesia",
+      "countries": [],
       "lat": -2.5572,
       "lon": 138.8159,
       "timeUtc": "Fri, 24 Jul 2026 12:14:28 GMT",
       "mag": 5.4,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us7000t30r",
-        "usauto7000t30r",
-        "1553764"
+        "usauto7000t30r"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553764&episodeid=1720359&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t30r"
@@ -239,62 +219,26 @@
     {
       "id": "us7000t309",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "197 km W of Abepura, Indonesia",
+      "countries": [],
       "lat": -2.5436,
       "lon": 138.8612,
       "timeUtc": "Fri, 24 Jul 2026 11:11:34 GMT",
       "mag": 5.3,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
         "us7000t309",
-        "usauto7000t309",
-        "1553744"
+        "usauto7000t309"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553744&episodeid=1720338&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t309"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104029",
-      "hazardType": "FL",
-      "title": "Flood in Vietnam",
-      "countries": [
-        "Vietnam"
-      ],
-      "lat": 21.6547,
-      "lon": 103.2169,
-      "timeUtc": "2026-07-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104029"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104029&episodeid=2&eventtype=FL"
         }
       ],
       "supplementary": [],
@@ -2039,11 +1983,11 @@
     {
       "id": "us7000szq0",
       "hazardType": "EQ",
-      "title": "41 km S of Sarangani, Philippines",
+      "title": "35 km S of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.0334,
-      "lon": 125.4897,
-      "timeUtc": "Sat, 11 Jul 2026 10:51:12 GMT",
+      "lat": 5.0829,
+      "lon": 125.5168,
+      "timeUtc": "Sat, 11 Jul 2026 10:51:13 GMT",
       "mag": 5.4,
       "gdacsAlert": null,
       "pagerAlert": "green",
@@ -2320,7 +2264,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t10e"
       ],
@@ -2563,7 +2507,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0z5"
       ],
