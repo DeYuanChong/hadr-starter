@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T01:07:46.898Z",
+  "generatedAt": "2026-07-25T04:32:46.446Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-24T23:36:44.166Z",
+    "priorRunAt": "2026-07-25T01:07:46.898Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1001294",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NOUL-26",
+      "countries": [
+        "China",
+        "Philippines"
+      ],
+      "lat": 20.8,
+      "lon": 118.3,
+      "timeUtc": "2026-07-23T06:00:00",
+      "mag": null,
+      "gdacsAlert": "Orange",
+      "pagerAlert": null,
+      "triageSeverity": "orange",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001294"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=8&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=115.3,17.8,121.3,23.8&t=2026-07-23",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000t36g",
       "hazardType": "EQ",
@@ -64,40 +98,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1001294",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NOUL-26",
-      "countries": [
-        "China",
-        "Philippines"
-      ],
-      "lat": 20,
-      "lon": 119.3,
-      "timeUtc": "2026-07-23T06:00:00",
-      "mag": null,
-      "gdacsAlert": "Orange",
-      "pagerAlert": null,
-      "triageSeverity": "orange",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001294"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=7&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=116.3,17,122.3,23&t=2026-07-23",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000t35r",
