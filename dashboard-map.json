@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T13:56:01.264Z",
+  "generatedAt": "2026-07-25T15:14:38.974Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "217 in-scope event(s)"
+      "detail": "218 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T11:53:18.439Z",
+    "priorRunAt": "2026-07-25T13:56:01.264Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1001294",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NOUL-26",
+      "countries": [
+        "China",
+        "Philippines"
+      ],
+      "lat": 21.8,
+      "lon": 115.9,
+      "timeUtc": "2026-07-23T06:00:00",
+      "mag": null,
+      "gdacsAlert": "Orange",
+      "pagerAlert": null,
+      "triageSeverity": "orange",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001294"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=10&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.9,18.8,118.9,24.8&t=2026-07-23",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000t3a4",
       "hazardType": "EQ",
@@ -64,40 +98,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1001294",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NOUL-26",
-      "countries": [
-        "China",
-        "Philippines"
-      ],
-      "lat": 21.3,
-      "lon": 116.6,
-      "timeUtc": "2026-07-23T06:00:00",
-      "mag": null,
-      "gdacsAlert": "Orange",
-      "pagerAlert": null,
-      "triageSeverity": "orange",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001294"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=9&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.6,18.3,119.6,24.3&t=2026-07-23",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000t36g",
@@ -1051,6 +1051,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t1fi",
+      "hazardType": "EQ",
+      "title": "34 km WSW of Mabiton, Philippines",
+      "countries": [],
+      "lat": 12.7148,
+      "lon": 122.9648,
+      "timeUtc": "Fri, 17 Jul 2026 18:10:17 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t1fi"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1fi"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t1e8",
       "hazardType": "EQ",
       "title": "11 km SE of Kiupo, Philippines",
@@ -1986,7 +2013,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t120"
       ],
