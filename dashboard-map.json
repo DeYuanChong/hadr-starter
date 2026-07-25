@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T04:32:46.446Z",
+  "generatedAt": "2026-07-25T06:58:49.029Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "212 in-scope event(s)"
+      "detail": "213 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T01:07:46.898Z",
-    "changes": []
+    "priorRunAt": "2026-07-25T04:32:46.446Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1104029",
+        "title": "Flood in Vietnam",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -232,6 +240,35 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t309"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104029",
+      "hazardType": "FL",
+      "title": "Flood in Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "lat": 21.6547,
+      "lon": 103.2169,
+      "timeUtc": "2026-07-15T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104029"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104029&episodeid=2&eventtype=FL"
         }
       ],
       "supplementary": [],
@@ -3164,6 +3201,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szgz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000szf5",
+      "hazardType": "EQ",
+      "title": "16 km SW of Burias, Philippines",
+      "countries": [],
+      "lat": 5.5935,
+      "lon": 125.1679,
+      "timeUtc": "Sat, 04 Jul 2026 12:47:20 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000szf5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szf5"
         }
       ],
       "supplementary": [],
