@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:07:45.157Z",
+  "generatedAt": "2026-07-26T12:33:27.606Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "213 in-scope event(s)"
+      "detail": "214 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,107 +27,74 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-26T09:37:04.582Z",
-    "changes": []
+    "priorRunAt": "2026-07-26T11:07:45.157Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1001294",
+        "title": "Tropical Cyclone NOUL-26",
+        "hazardType": "TC",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
-      "id": "1001294",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NOUL-26",
-      "countries": [
-        "China",
-        "Philippines"
-      ],
-      "lat": 22.9,
-      "lon": 114.5,
-      "timeUtc": "2026-07-23T06:00:00",
-      "mag": null,
-      "gdacsAlert": "Orange",
-      "pagerAlert": null,
-      "triageSeverity": "orange",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001294"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=13&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.5,19.9,117.5,25.9&t=2026-07-23",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us7000t3di",
+      "id": "us7000t3g4",
       "hazardType": "EQ",
-      "title": "Earthquake in Myanmar",
+      "title": "Earthquake in Indonesia",
       "countries": [
-        "Myanmar"
+        "Indonesia"
       ],
-      "lat": 25.9804,
-      "lon": 95.294,
-      "timeUtc": "Sat, 25 Jul 2026 23:09:29 GMT",
-      "mag": 4.5,
+      "lat": -10.007,
+      "lon": 123.4402,
+      "timeUtc": "Sun, 26 Jul 2026 10:57:37 GMT",
+      "mag": 5.3,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "us7000t3di",
-        "1554059"
+        "us7000t3g4",
+        "1554151"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1554059&episodeid=1720680&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554151&episodeid=1720781&eventtype=EQ"
         },
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3di"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3g4"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "us7000t3a4",
+      "id": "us7000t3di",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 4.8793,
-      "lon": 125.4791,
-      "timeUtc": "Sat, 25 Jul 2026 06:46:06 GMT",
-      "mag": 5,
-      "gdacsAlert": "Green",
+      "title": "56 km SE of Tuensang, India",
+      "countries": [],
+      "lat": 25.9804,
+      "lon": 95.294,
+      "timeUtc": "Sat, 25 Jul 2026 23:09:29 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000t3a4",
-        "1553936"
+        "us7000t3di"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1553936&episodeid=1720549&eventtype=EQ"
-        },
-        {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3di"
         }
       ],
       "supplementary": [],
@@ -155,6 +122,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3c6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t3a4",
+      "hazardType": "EQ",
+      "title": "57 km S of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.8793,
+      "lon": 125.4791,
+      "timeUtc": "Sat, 25 Jul 2026 06:46:06 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000t3a4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4"
         }
       ],
       "supplementary": [],
