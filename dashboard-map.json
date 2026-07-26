@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T01:11:47.829Z",
+  "generatedAt": "2026-07-26T04:47:05.090Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-25T23:36:12.956Z",
+    "priorRunAt": "2026-07-26T01:11:47.829Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1001294",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NOUL-26",
+      "countries": [
+        "China",
+        "Philippines"
+      ],
+      "lat": 22.9,
+      "lon": 114.5,
+      "timeUtc": "2026-07-23T06:00:00",
+      "mag": null,
+      "gdacsAlert": "Orange",
+      "pagerAlert": null,
+      "triageSeverity": "orange",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001294"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=13&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.5,19.9,117.5,25.9&t=2026-07-23",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000t3di",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t3di",
         "1554059"
@@ -64,40 +98,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1001294",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NOUL-26",
-      "countries": [
-        "China",
-        "Philippines"
-      ],
-      "lat": 22.4,
-      "lon": 115.1,
-      "timeUtc": "2026-07-23T06:00:00",
-      "mag": null,
-      "gdacsAlert": "Orange",
-      "pagerAlert": null,
-      "triageSeverity": "orange",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001294"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=11&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1,19.4,118.1,25.4&t=2026-07-23",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000t3a4",
@@ -1764,10 +1764,10 @@
     {
       "id": "us7000szz4",
       "hazardType": "EQ",
-      "title": "8 km SE of Bojonegoro, Indonesia",
+      "title": "9 km SE of Bojonegoro, Indonesia",
       "countries": [],
-      "lat": -7.2151,
-      "lon": 111.9269,
+      "lat": -7.2084,
+      "lon": 111.9426,
       "timeUtc": "Mon, 13 Jul 2026 02:54:43 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
@@ -3021,7 +3021,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0e7"
       ],
@@ -3048,7 +3048,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tatd",
         "usauto6000tatd"
