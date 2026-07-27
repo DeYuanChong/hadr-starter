@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T13:56:33.727Z",
+  "generatedAt": "2026-07-27T16:30:11.301Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "0 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-27T11:35:25.914Z",
+    "priorRunAt": "2026-07-27T13:56:33.727Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tg2t",
+      "hazardType": "EQ",
+      "title": "206 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.5548,
+      "lon": 138.7744,
+      "timeUtc": "Mon, 27 Jul 2026 15:51:33 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tg2t"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000t3kn",
       "hazardType": "EQ",
@@ -1496,6 +1523,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t1yx",
+      "hazardType": "EQ",
+      "title": "4 km WNW of Butulan, Philippines",
+      "countries": [],
+      "lat": 5.6296,
+      "lon": 125.3915,
+      "timeUtc": "Tue, 14 Jul 2026 19:18:00 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t1yx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1yx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t0d0",
       "hazardType": "EQ",
       "title": "32 km WSW of Sarangani, Philippines",
@@ -1808,7 +1862,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1dn"
       ],
@@ -1835,7 +1889,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1d3"
       ],
@@ -1862,7 +1916,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1d2"
       ],
@@ -1889,7 +1943,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1d1"
       ],
@@ -2134,7 +2188,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1am"
       ],
@@ -2161,7 +2215,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1al"
       ],
@@ -2188,7 +2242,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1ak"
       ],
@@ -2418,6 +2472,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t11v",
+      "hazardType": "EQ",
+      "title": "south of Sumbawa, Indonesia",
+      "countries": [],
+      "lat": -11.6294,
+      "lon": 117.5139,
+      "timeUtc": "Sat, 11 Jul 2026 08:47:43 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t11v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t11v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000sznp",
       "hazardType": "EQ",
       "title": "115 km WNW of Meulaboh, Indonesia",
@@ -2458,7 +2539,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t11t"
       ],
