@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T16:30:11.301Z",
+  "generatedAt": "2026-07-27T18:09:16.181Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,29 +27,36 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-27T13:56:33.727Z",
+    "priorRunAt": "2026-07-27T16:30:11.301Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us6000tg2t",
       "hazardType": "EQ",
-      "title": "206 km W of Abepura, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -2.5548,
       "lon": 138.7744,
       "timeUtc": "Mon, 27 Jul 2026 15:51:33 GMT",
       "mag": 4.9,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "new",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tg2t"
+        "us6000tg2t",
+        "1554401"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554401&episodeid=1721066&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t"
@@ -1536,7 +1543,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1yx"
       ],
@@ -2485,7 +2492,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t11v"
       ],
