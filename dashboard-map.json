@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:08:34.503Z",
+  "generatedAt": "2026-07-27T07:56:54.961Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "219 in-scope event(s)"
+      "detail": "221 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-27T00:16:23.226Z",
+    "priorRunAt": "2026-07-27T04:08:34.503Z",
     "changes": []
   },
   "stories": [
@@ -79,7 +79,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t3kn"
       ],
@@ -3143,7 +3143,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0e6"
       ],
@@ -3785,11 +3785,11 @@
     {
       "id": "us6000ta32",
       "hazardType": "EQ",
-      "title": "264 km W of Abepura, Indonesia",
+      "title": "261 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.5131,
-      "lon": 138.2529,
-      "timeUtc": "Sat, 04 Jul 2026 08:55:54 GMT",
+      "lat": -2.441,
+      "lon": 138.2901,
+      "timeUtc": "Sat, 04 Jul 2026 08:55:49 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3812,10 +3812,10 @@
     {
       "id": "us6000ta31",
       "hazardType": "EQ",
-      "title": "51 km SW of Sarangani, Philippines",
+      "title": "47 km SW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.0994,
-      "lon": 125.1161,
+      "lat": 5.1302,
+      "lon": 125.128,
       "timeUtc": "Sat, 04 Jul 2026 08:53:23 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -3866,11 +3866,11 @@
     {
       "id": "us6000ta2j",
       "hazardType": "EQ",
-      "title": "129 km WSW of Ambon, Indonesia",
+      "title": "137 km WSW of Ambon, Indonesia",
       "countries": [],
-      "lat": -4.2511,
-      "lon": 127.1542,
-      "timeUtc": "Sat, 04 Jul 2026 07:05:32 GMT",
+      "lat": -4.3137,
+      "lon": 127.1101,
+      "timeUtc": "Sat, 04 Jul 2026 07:05:31 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4752,6 +4752,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9kr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tayt",
+      "hazardType": "EQ",
+      "title": "66 km ESE of Bandar Lampung, Indonesia",
+      "countries": [],
+      "lat": -5.5798,
+      "lon": 105.8391,
+      "timeUtc": "Thu, 02 Jul 2026 02:42:27 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tayt"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tayt"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tayr",
+      "hazardType": "EQ",
+      "title": "78 km SW of Abepura, Indonesia",
+      "countries": [],
+      "lat": -3.0197,
+      "lon": 140.0694,
+      "timeUtc": "Thu, 02 Jul 2026 01:21:11 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tayr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tayr"
         }
       ],
       "supplementary": [],
