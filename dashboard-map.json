@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:31:13.261Z",
+  "generatedAt": "2026-07-28T16:19:52.512Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-28T12:05:59.595Z",
+    "priorRunAt": "2026-07-28T14:31:13.261Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgbx",
         "1554602"
@@ -66,7 +66,7 @@
       "imagery": null
     },
     {
-      "id": "us6000tg94",
+      "id": "1554464",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -74,27 +74,21 @@
       ],
       "lat": 7.6738,
       "lon": 126.7653,
-      "timeUtc": "Mon, 27 Jul 2026 23:06:34 GMT",
-      "mag": 5.3,
+      "timeUtc": "2026-07-27T23:06:34",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
-      "state": "escalated",
+      "reconciled": false,
+      "state": "unchanged",
       "aliases": [
-        "us6000tg94",
-        "usauto6000tg94",
         "1554464"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1554464&episodeid=1721135&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94"
         }
       ],
       "supplementary": [],
@@ -116,7 +110,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tg2t",
         "1554401"
@@ -156,6 +150,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg99"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tg94",
+      "hazardType": "EQ",
+      "title": "23 km E of Kinablangan, Philippines",
+      "countries": [],
+      "lat": 7.6738,
+      "lon": 126.7653,
+      "timeUtc": "Mon, 27 Jul 2026 23:06:34 GMT",
+      "mag": 5.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tg94",
+        "usauto6000tg94"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94"
         }
       ],
       "supplementary": [],
