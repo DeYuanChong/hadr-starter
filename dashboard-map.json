@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:05:59.595Z",
+  "generatedAt": "2026-07-28T14:31:13.261Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,32 +27,108 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-28T10:00:28.761Z",
+    "priorRunAt": "2026-07-28T12:05:59.595Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us6000tgbx",
       "hazardType": "EQ",
-      "title": "10 km SE of Kawalu, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -7.4435,
       "lon": 108.2848,
       "timeUtc": "Tue, 28 Jul 2026 09:21:24 GMT",
       "mag": 4.9,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "new",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tgbx"
+        "us6000tgbx",
+        "1554602"
       ],
       "sources": [
         {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554602&episodeid=1721296&eventtype=EQ"
+        },
+        {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tg94",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 7.6738,
+      "lon": 126.7653,
+      "timeUtc": "Mon, 27 Jul 2026 23:06:34 GMT",
+      "mag": 5.3,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tg94",
+        "usauto6000tg94",
+        "1554464"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554464&episodeid=1721135&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tg2t",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.5548,
+      "lon": 138.7744,
+      "timeUtc": "Mon, 27 Jul 2026 15:51:33 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tg2t",
+        "1554401"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554401&episodeid=1721066&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t"
         }
       ],
       "supplementary": [],
@@ -86,34 +162,6 @@
       "imagery": null
     },
     {
-      "id": "us6000tg94",
-      "hazardType": "EQ",
-      "title": "23 km E of Kinablangan, Philippines",
-      "countries": [],
-      "lat": 7.6738,
-      "lon": 126.7653,
-      "timeUtc": "Mon, 27 Jul 2026 23:06:34 GMT",
-      "mag": 5.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tg94",
-        "usauto6000tg94"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tg6e",
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
@@ -135,33 +183,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg6e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tg2t",
-      "hazardType": "EQ",
-      "title": "206 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.5548,
-      "lon": 138.7744,
-      "timeUtc": "Mon, 27 Jul 2026 15:51:33 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tg2t"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t"
         }
       ],
       "supplementary": [],
@@ -1836,7 +1857,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000t09h"
       ],
@@ -2405,7 +2426,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000szus"
       ],
@@ -3421,10 +3442,10 @@
     {
       "id": "us6000taui",
       "hazardType": "EQ",
-      "title": "10 km NW of Xunchang, China",
+      "title": "6 km ENE of Wenjiang, China",
       "countries": [],
-      "lat": 28.5224,
-      "lon": 104.6418,
+      "lat": 28.4021,
+      "lon": 104.6234,
       "timeUtc": "Wed, 08 Jul 2026 02:08:48 GMT",
       "mag": 5,
       "gdacsAlert": null,
