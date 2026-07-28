@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:00:28.761Z",
+  "generatedAt": "2026-07-28T12:05:59.595Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "229 in-scope event(s)"
+      "detail": "230 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-28T07:20:01.113Z",
+    "priorRunAt": "2026-07-28T10:00:28.761Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tgbx",
+      "hazardType": "EQ",
+      "title": "10 km SE of Kawalu, Indonesia",
+      "countries": [],
+      "lat": -7.4435,
+      "lon": 108.2848,
+      "timeUtc": "Tue, 28 Jul 2026 09:21:24 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgbx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tg99",
       "hazardType": "EQ",
@@ -72,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tg94",
         "usauto6000tg94"
@@ -127,7 +154,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tg2t"
       ],
@@ -1798,18 +1825,18 @@
     {
       "id": "us7000t09h",
       "hazardType": "EQ",
-      "title": "48 km NNE of Kon Tum, Vietnam",
+      "title": "47 km NE of Kon Tum, Vietnam",
       "countries": [],
-      "lat": 14.7321,
-      "lon": 108.227,
+      "lat": 14.6989,
+      "lon": 108.2755,
       "timeUtc": "Tue, 14 Jul 2026 06:48:05 GMT",
-      "mag": 4.6,
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t09h"
       ],
@@ -1827,8 +1854,8 @@
       "hazardType": "EQ",
       "title": "191 km N of Tobelo, Indonesia",
       "countries": [],
-      "lat": 3.4609,
-      "lon": 128.0077,
+      "lat": 3.4636,
+      "lon": 128.0293,
       "timeUtc": "Tue, 14 Jul 2026 06:37:37 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -2367,18 +2394,18 @@
     {
       "id": "us7000szus",
       "hazardType": "EQ",
-      "title": "80 km WSW of Gorontalo, Indonesia",
+      "title": "88 km WSW of Gorontalo, Indonesia",
       "countries": [],
-      "lat": 0.2198,
-      "lon": 122.4111,
-      "timeUtc": "Sun, 12 Jul 2026 10:05:37 GMT",
-      "mag": 4.7,
+      "lat": 0.2049,
+      "lon": 122.34,
+      "timeUtc": "Sun, 12 Jul 2026 10:05:36 GMT",
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000szus"
       ],
@@ -2610,10 +2637,10 @@
     {
       "id": "us7000sznp",
       "hazardType": "EQ",
-      "title": "115 km WNW of Meulaboh, Indonesia",
+      "title": "115 km SSW of Banda Aceh, Indonesia",
       "countries": [],
-      "lat": 4.3516,
-      "lon": 95.109,
+      "lat": 4.5233,
+      "lon": 95.0891,
       "timeUtc": "Sat, 11 Jul 2026 07:41:18 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -2864,7 +2891,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000szfz"
       ],
