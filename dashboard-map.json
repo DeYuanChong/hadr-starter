@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T04:31:09.354Z",
+  "generatedAt": "2026-07-28T07:20:01.113Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "228 in-scope event(s)"
+      "detail": "229 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-28T01:09:36.782Z",
+    "priorRunAt": "2026-07-28T04:31:09.354Z",
     "changes": []
   },
   "stories": [
@@ -114,7 +114,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tg99"
       ],
@@ -4894,6 +4894,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9si"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000sz7g",
+      "hazardType": "EQ",
+      "title": "51 km W of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 1.6808,
+      "lon": 127.5509,
+      "timeUtc": "Fri, 03 Jul 2026 02:38:40 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000sz7g"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz7g"
         }
       ],
       "supplementary": [],
