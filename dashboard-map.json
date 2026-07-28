@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:40:11.551Z",
+  "generatedAt": "2026-07-28T01:09:36.782Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "1 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "235 in-scope event(s)"
+      "detail": "227 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,45 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-27T22:31:08.172Z",
+    "priorRunAt": "2026-07-27T23:40:11.551Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tg94",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 7.6738,
+      "lon": 126.7653,
+      "timeUtc": "Mon, 27 Jul 2026 23:06:34 GMT",
+      "mag": 5.3,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tg94",
+        "usauto6000tg94",
+        "1554464"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554464&episodeid=1721135&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tg2t",
       "hazardType": "EQ",
@@ -6158,251 +6193,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tage"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taex",
-      "hazardType": "EQ",
-      "title": "61 km N of Modisi, Indonesia",
-      "countries": [],
-      "lat": 0.9963,
-      "lon": 124.3343,
-      "timeUtc": "Sat, 27 Jun 2026 23:37:34 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taex"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taex"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t8re",
-      "hazardType": "EQ",
-      "title": "198 km N of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -6.747,
-      "lon": 127.2741,
-      "timeUtc": "Sat, 27 Jun 2026 23:29:10 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t8re"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8re"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t8qv",
-      "hazardType": "EQ",
-      "title": "86 km SW of Bandar Lampung, Indonesia",
-      "countries": [],
-      "lat": -6.0545,
-      "lon": 104.7911,
-      "timeUtc": "Sat, 27 Jun 2026 21:10:33 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t8qv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8qv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taet",
-      "hazardType": "EQ",
-      "title": "285 km WSW of Tual, Indonesia",
-      "countries": [],
-      "lat": -6.5143,
-      "lon": 130.3316,
-      "timeUtc": "Sat, 27 Jun 2026 14:50:02 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taet"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taet"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t8nf",
-      "hazardType": "EQ",
-      "title": "193 km N of Metinaro, Timor Leste",
-      "countries": [],
-      "lat": -6.7876,
-      "lon": 125.6325,
-      "timeUtc": "Sat, 27 Jun 2026 10:37:01 GMT",
-      "mag": 5.9,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t8nf",
-        "usauto6000t8nf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8nf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t8me",
-      "hazardType": "EQ",
-      "title": "86 km SW of Trenggalek, Indonesia",
-      "countries": [],
-      "lat": -8.7198,
-      "lon": 111.2648,
-      "timeUtc": "Sat, 27 Jun 2026 07:47:24 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t8me",
-        "usauto6000t8me"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8me"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taef",
-      "hazardType": "EQ",
-      "title": "62 km SE of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": 0.073,
-      "lon": 123.3774,
-      "timeUtc": "Sat, 27 Jun 2026 07:17:29 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taef"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taef"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taec",
-      "hazardType": "EQ",
-      "title": "24 km WSW of Liuzhou, China",
-      "countries": [],
-      "lat": 24.2781,
-      "lon": 109.171,
-      "timeUtc": "Sat, 27 Jun 2026 04:09:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taec"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taec"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taeb",
-      "hazardType": "EQ",
-      "title": "74 km SSE of Blangpidie, Indonesia",
-      "countries": [],
-      "lat": 3.135,
-      "lon": 97.1266,
-      "timeUtc": "Sat, 27 Jun 2026 04:01:50 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taeb"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taeb"
         }
       ],
       "supplementary": [],
