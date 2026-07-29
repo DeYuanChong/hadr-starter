@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T16:37:01.551Z",
+  "generatedAt": "2026-07-29T17:52:31.085Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "233 in-scope event(s)"
+      "detail": "234 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-29T14:55:31.709Z",
+    "priorRunAt": "2026-07-29T16:37:01.551Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgpr",
         "usauto6000tgpr",
@@ -204,8 +204,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-01-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.388,10.613,108.388,16.613&t=2026-01-10",
+        "imageDate": "2026-01-11",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.388,10.613,108.388,16.613&t=2026-01-11",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -278,6 +278,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tgrb",
+      "hazardType": "EQ",
+      "title": "64 km WNW of Tomohon, Indonesia",
+      "countries": [],
+      "lat": 1.4659,
+      "lon": 124.2466,
+      "timeUtc": "Wed, 29 Jul 2026 16:12:02 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgrb"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgrb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tgnj",
       "hazardType": "EQ",
       "title": "9 km NNW of Mandalay, Burma (Myanmar)",
@@ -291,7 +318,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgnj"
       ],
