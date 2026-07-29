@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T01:13:07.613Z",
+  "generatedAt": "2026-07-29T04:35:45.802Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "1 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "220 in-scope event(s)"
+      "detail": "222 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-28T23:45:10.125Z",
+    "priorRunAt": "2026-07-29T01:13:07.613Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tgjx",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.5506,
+      "lon": 138.8737,
+      "timeUtc": "Wed, 29 Jul 2026 02:40:15 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tgjx",
+        "1554798"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554798&episodeid=1721506&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgjx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgjc",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 10.2364,
+      "lon": 126.0529,
+      "timeUtc": "Wed, 29 Jul 2026 00:39:36 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tgjc",
+        "1554765"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1554765&episodeid=1721474&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgjc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tgbx",
       "hazardType": "EQ",
@@ -4895,9 +4963,9 @@
       "hazardType": "EQ",
       "title": "78 km W of Tobelo, Indonesia",
       "countries": [],
-      "lat": 1.6511,
-      "lon": 127.3076,
-      "timeUtc": "Fri, 03 Jul 2026 04:17:53 GMT",
+      "lat": 1.6981,
+      "lon": 127.3068,
+      "timeUtc": "Fri, 03 Jul 2026 04:17:52 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4920,10 +4988,10 @@
     {
       "id": "us6000t9sj",
       "hazardType": "EQ",
-      "title": "136 km NNE of Hirara, Japan",
+      "title": "147 km NNE of Hirara, Japan",
       "countries": [],
-      "lat": 25.9501,
-      "lon": 125.7941,
+      "lat": 26.0711,
+      "lon": 125.7417,
       "timeUtc": "Fri, 03 Jul 2026 04:04:48 GMT",
       "mag": 6.1,
       "gdacsAlert": null,
@@ -4948,10 +5016,10 @@
     {
       "id": "us6000t9si",
       "hazardType": "EQ",
-      "title": "149 km NNE of Hirara, Japan",
+      "title": "138 km NNE of Hirara, Japan",
       "countries": [],
-      "lat": 26.0523,
-      "lon": 125.8671,
+      "lat": 25.9579,
+      "lon": 125.8391,
       "timeUtc": "Fri, 03 Jul 2026 03:53:22 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -5003,11 +5071,11 @@
     {
       "id": "us6000t9r5",
       "hazardType": "EQ",
-      "title": "58 km W of Tobelo, Indonesia",
+      "title": "61 km W of Tobelo, Indonesia",
       "countries": [],
-      "lat": 1.8205,
-      "lon": 127.4916,
-      "timeUtc": "Fri, 03 Jul 2026 02:31:28 GMT",
+      "lat": 1.7826,
+      "lon": 127.4596,
+      "timeUtc": "Fri, 03 Jul 2026 02:31:27 GMT",
       "mag": 6.2,
       "gdacsAlert": null,
       "pagerAlert": "green",
