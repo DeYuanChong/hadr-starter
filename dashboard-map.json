@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T07:26:49.563Z",
+  "generatedAt": "2026-07-29T10:14:35.063Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "223 in-scope event(s)"
+      "detail": "226 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-29T04:35:45.802Z",
+    "priorRunAt": "2026-07-29T07:26:49.563Z",
     "changes": []
   },
   "stories": [
@@ -3852,9 +3852,9 @@
       "hazardType": "EQ",
       "title": "162 km NNW of Tobelo, Indonesia",
       "countries": [],
-      "lat": 3.1239,
-      "lon": 127.5573,
-      "timeUtc": "Tue, 07 Jul 2026 07:16:26 GMT",
+      "lat": 3.1189,
+      "lon": 127.533,
+      "timeUtc": "Tue, 07 Jul 2026 07:16:28 GMT",
       "mag": 5.4,
       "gdacsAlert": null,
       "pagerAlert": "green",
@@ -4324,7 +4324,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ta37"
       ],
@@ -4980,6 +4980,87 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ta"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000sz6n",
+      "hazardType": "EQ",
+      "title": "145 km NNE of Hirara, Japan",
+      "countries": [],
+      "lat": 26.0634,
+      "lon": 125.7206,
+      "timeUtc": "Fri, 03 Jul 2026 07:33:10 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000sz6n"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6n"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000sz6l",
+      "hazardType": "EQ",
+      "title": "141 km NNE of Hirara, Japan",
+      "countries": [],
+      "lat": 25.973,
+      "lon": 125.8784,
+      "timeUtc": "Fri, 03 Jul 2026 07:32:08 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000sz6l"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6l"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t9t2",
+      "hazardType": "EQ",
+      "title": "158 km NNE of Hirara, Japan",
+      "countries": [],
+      "lat": 26.1183,
+      "lon": 125.9218,
+      "timeUtc": "Fri, 03 Jul 2026 07:22:14 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9t2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9t2"
         }
       ],
       "supplementary": [],
