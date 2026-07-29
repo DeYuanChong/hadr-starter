@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:14:35.063Z",
+  "generatedAt": "2026-07-29T12:24:58.019Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-29T07:26:49.563Z",
+    "priorRunAt": "2026-07-29T10:14:35.063Z",
     "changes": []
   },
   "stories": [
@@ -102,29 +102,22 @@
     {
       "id": "us6000tgbx",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "10 km SE of Kawalu, Indonesia",
+      "countries": [],
       "lat": -7.4435,
       "lon": 108.2848,
       "timeUtc": "Tue, 28 Jul 2026 09:21:24 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tgbx",
-        "1554602"
+        "us6000tgbx"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1554602&episodeid=1721296&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx"
@@ -4999,7 +4992,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sz6n"
       ],
@@ -5026,7 +5019,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sz6l"
       ],
@@ -5053,7 +5046,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000t9t2"
       ],
