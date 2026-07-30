@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:26:31.428Z",
+  "generatedAt": "2026-07-30T17:06:26.444Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "241 in-scope event(s)"
+      "detail": "242 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-30T13:11:16.984Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1018545",
-        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "hazardType": "DR",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-07-30T15:26:31.428Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgw4",
         "1555046"
@@ -89,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tgvu",
         "usauto6000tgvu",
@@ -1886,7 +1878,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t28y"
       ],
@@ -4284,6 +4276,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t0ds",
+      "hazardType": "EQ",
+      "title": "240 km SSW of Ambon, Indonesia",
+      "countries": [],
+      "lat": -5.7754,
+      "lon": 127.5599,
+      "timeUtc": "Tue, 07 Jul 2026 14:06:08 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t0ds"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0ds"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000talg",
       "hazardType": "EQ",
       "title": "162 km NNW of Tobelo, Indonesia",
@@ -4541,7 +4560,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t035"
       ],
@@ -5435,7 +5454,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000sz6u"
       ],
@@ -5978,7 +5997,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000t9lc"
       ],
