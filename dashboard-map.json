@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T22:44:04.593Z",
+  "generatedAt": "2026-07-30T23:45:05.135Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "status": "live",
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,10 +27,102 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-30T21:36:01.460Z",
+    "priorRunAt": "2026-07-30T22:44:04.593Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1555184",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.3977,
+      "lon": 129.0625,
+      "timeUtc": "2026-07-30T18:11:03",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1555184"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1555184&episodeid=1721937&eventtype=EQ"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgw4",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.5747,
+      "lon": 138.9512,
+      "timeUtc": "Thu, 30 Jul 2026 05:55:54 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tgw4",
+        "1555046"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1555046&episodeid=1721788&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgw4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1555029",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.6018,
+      "lon": 138.8205,
+      "timeUtc": "2026-07-30T04:42:12",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1555029"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1555029&episodeid=1721769&eventtype=EQ"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000th1p",
       "hazardType": "EQ",
@@ -45,7 +137,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000th1p"
       ],
@@ -168,33 +260,6 @@
       "imagery": null
     },
     {
-      "id": "us6000tgw4",
-      "hazardType": "EQ",
-      "title": "186 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.5747,
-      "lon": 138.9512,
-      "timeUtc": "Thu, 30 Jul 2026 05:55:54 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tgw4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgw4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tgvu",
       "hazardType": "EQ",
       "title": "201 km W of Abepura, Indonesia",
@@ -208,7 +273,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tgvu",
         "usauto6000tgvu"
