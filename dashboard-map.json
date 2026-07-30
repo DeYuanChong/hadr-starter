@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T06:45:29.499Z",
+  "generatedAt": "2026-07-30T09:21:21.874Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "234 in-scope event(s)"
+      "detail": "236 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-30T04:16:02.240Z",
+    "priorRunAt": "2026-07-30T06:45:29.499Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgw4"
       ],
@@ -72,7 +72,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgvu",
         "usauto6000tgvu"
@@ -127,7 +127,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tgpr",
         "usauto6000tgpr"
@@ -155,7 +155,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgnu",
         "usauto6000tgnu"
@@ -210,7 +210,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgn0"
       ],
@@ -237,7 +237,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgmy"
       ],
@@ -264,7 +264,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgjx"
       ],
@@ -291,7 +291,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tgjc"
       ],
@@ -1466,6 +1466,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1rh"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t321",
+      "hazardType": "EQ",
+      "title": "57 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.946,
+      "lon": 125.2228,
+      "timeUtc": "Sun, 19 Jul 2026 05:14:25 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t321"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t321"
         }
       ],
       "supplementary": [],
@@ -4427,18 +4454,18 @@
     {
       "id": "us6000tadj",
       "hazardType": "EQ",
-      "title": "65 km SSW of Sarangani, Philippines",
+      "title": "58 km SSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 4.9091,
-      "lon": 125.1424,
+      "lat": 4.9333,
+      "lon": 125.2275,
       "timeUtc": "Mon, 06 Jul 2026 08:41:38 GMT",
-      "mag": 5.4,
+      "mag": 5.2,
       "gdacsAlert": null,
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tadj",
         "usauto6000tadj"
@@ -4455,18 +4482,18 @@
     {
       "id": "us6000tadc",
       "hazardType": "EQ",
-      "title": "48 km SSW of Sarangani, Philippines",
+      "title": "50 km SSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 4.9886,
-      "lon": 125.326,
-      "timeUtc": "Mon, 06 Jul 2026 08:11:11 GMT",
-      "mag": 5.8,
+      "lat": 4.9956,
+      "lon": 125.258,
+      "timeUtc": "Mon, 06 Jul 2026 08:11:10 GMT",
+      "mag": 5.9,
       "gdacsAlert": null,
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tadc",
         "usauto6000tadc",
@@ -5294,10 +5321,10 @@
     {
       "id": "us6000t9tw",
       "hazardType": "EQ",
-      "title": "18 km SW of Sarangani, Philippines",
+      "title": "15 km SW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.2762,
-      "lon": 125.3575,
+      "lat": 5.3276,
+      "lon": 125.3511,
       "timeUtc": "Fri, 03 Jul 2026 10:10:39 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -5340,6 +5367,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9tv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000t9tm",
+      "hazardType": "EQ",
+      "title": "146 km N of Hirara, Japan",
+      "countries": [],
+      "lat": 26.1073,
+      "lon": 125.5747,
+      "timeUtc": "Fri, 03 Jul 2026 09:01:33 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000t9tm"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9tm"
         }
       ],
       "supplementary": [],
