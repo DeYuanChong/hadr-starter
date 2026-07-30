@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:06:26.444Z",
+  "generatedAt": "2026-07-30T18:41:54.329Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "242 in-scope event(s)"
+      "detail": "244 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-30T15:26:31.428Z",
+    "priorRunAt": "2026-07-30T17:06:26.444Z",
     "changes": []
   },
   "stories": [
@@ -95,6 +95,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgvu"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000th1h",
+      "hazardType": "EQ",
+      "title": "247 km NNE of Colonia, Micronesia",
+      "countries": [],
+      "lat": 11.5807,
+      "lon": 138.9989,
+      "timeUtc": "Thu, 30 Jul 2026 17:55:59 GMT",
+      "mag": 5.9,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000th1h",
+        "usauto6000th1h"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th1h"
         }
       ],
       "supplementary": [],
@@ -4222,20 +4250,47 @@
       "imagery": null
     },
     {
-      "id": "us6000tapb",
+      "id": "us7000t0dw",
       "hazardType": "EQ",
-      "title": "76 km NNW of Singkil, Indonesia",
+      "title": "72 km N of Ternate, Indonesia",
       "countries": [],
-      "lat": 2.9494,
-      "lon": 97.5803,
-      "timeUtc": "Tue, 07 Jul 2026 15:36:07 GMT",
-      "mag": 4.2,
+      "lat": 1.4485,
+      "lon": 127.3466,
+      "timeUtc": "Tue, 07 Jul 2026 16:07:24 GMT",
+      "mag": 4.1,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
+      "aliases": [
+        "us7000t0dw"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0dw"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tapb",
+      "hazardType": "EQ",
+      "title": "70 km NNW of Singkil, Indonesia",
+      "countries": [],
+      "lat": 2.9049,
+      "lon": 97.625,
+      "timeUtc": "Tue, 07 Jul 2026 15:36:06 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us6000tapb"
       ],
@@ -4251,18 +4306,18 @@
     {
       "id": "us6000tant",
       "hazardType": "EQ",
-      "title": "172 km NNW of Tobelo, Indonesia",
+      "title": "166 km NNW of Tobelo, Indonesia",
       "countries": [],
-      "lat": 3.1116,
-      "lon": 127.2906,
-      "timeUtc": "Tue, 07 Jul 2026 14:21:22 GMT",
-      "mag": 4.5,
+      "lat": 3.1228,
+      "lon": 127.4433,
+      "timeUtc": "Tue, 07 Jul 2026 14:21:24 GMT",
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tant"
       ],
@@ -4289,7 +4344,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0ds"
       ],
