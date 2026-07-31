@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T22:38:00.880Z",
+  "generatedAt": "2026-07-31T23:46:34.545Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "1 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "252 in-scope event(s)"
+      "detail": "254 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,40 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-31T21:32:09.680Z",
+    "priorRunAt": "2026-07-31T22:38:00.880Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "us6000thbq",
+      "id": "us6000thcs",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.8451,
-      "lon": 130.1548,
-      "timeUtc": "Fri, 31 Jul 2026 20:19:26 GMT",
-      "mag": 5.2,
-      "gdacsAlert": "Green",
+      "title": "132 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -3.0027,
+      "lon": 130.1237,
+      "timeUtc": "Fri, 31 Jul 2026 23:17:37 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "escalated",
+      "reconciled": false,
+      "state": "new",
       "aliases": [
-        "us6000thbq",
-        "usauto6000thbq",
-        "1555377"
+        "us6000thcs"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1555377&episodeid=1722153&eventtype=EQ"
-        },
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcs"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thc9",
+      "hazardType": "EQ",
+      "title": "54 km NE of Simao, China",
+      "countries": [],
+      "lat": 23.1907,
+      "lon": 101.2878,
+      "timeUtc": "Fri, 31 Jul 2026 21:24:10 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thc9"
+      ],
+      "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thc9"
         }
       ],
       "supplementary": [],
@@ -80,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thca"
       ],
@@ -107,7 +126,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thc6"
       ],
@@ -115,6 +134,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thc6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thbq",
+      "hazardType": "EQ",
+      "title": "141 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.8451,
+      "lon": 130.1548,
+      "timeUtc": "Fri, 31 Jul 2026 20:19:26 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000thbq",
+        "usauto6000thbq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq"
         }
       ],
       "supplementary": [],
