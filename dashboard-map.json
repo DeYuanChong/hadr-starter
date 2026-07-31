@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:11:53.464Z",
+  "generatedAt": "2026-07-31T21:32:09.680Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "249 in-scope event(s)"
+      "detail": "250 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,38 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-31T18:40:14.907Z",
+    "priorRunAt": "2026-07-31T20:11:53.464Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000thbq",
+      "hazardType": "EQ",
+      "title": "141 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.8451,
+      "lon": 130.1548,
+      "timeUtc": "Fri, 31 Jul 2026 20:19:26 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thbq",
+        "usauto6000thbq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000th7y",
       "hazardType": "EQ",
