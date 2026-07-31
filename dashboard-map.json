@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T21:32:09.680Z",
+  "generatedAt": "2026-07-31T22:38:00.880Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "250 in-scope event(s)"
+      "detail": "252 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,19 +27,54 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-31T20:11:53.464Z",
+    "priorRunAt": "2026-07-31T21:32:09.680Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us6000thbq",
       "hazardType": "EQ",
-      "title": "141 km ENE of Masohi, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -2.8451,
       "lon": 130.1548,
       "timeUtc": "Fri, 31 Jul 2026 20:19:26 GMT",
       "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000thbq",
+        "usauto6000thbq",
+        "1555377"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1555377&episodeid=1722153&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thca",
+      "hazardType": "EQ",
+      "title": "105 km ESE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.8905,
+      "lon": 126.2704,
+      "timeUtc": "Fri, 31 Jul 2026 21:23:58 GMT",
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
@@ -47,13 +82,39 @@
       "reconciled": false,
       "state": "new",
       "aliases": [
-        "us6000thbq",
-        "usauto6000thbq"
+        "us6000thca"
       ],
       "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thca"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thc6",
+      "hazardType": "EQ",
+      "title": "144 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.9075,
+      "lon": 130.2088,
+      "timeUtc": "Fri, 31 Jul 2026 21:10:36 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thc6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thc6"
         }
       ],
       "supplementary": [],
