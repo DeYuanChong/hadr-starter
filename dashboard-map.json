@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T01:19:27.798Z",
+  "generatedAt": "2026-08-01T04:43:04.648Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "248 in-scope event(s)"
+      "detail": "249 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-31T23:46:34.545Z",
+    "priorRunAt": "2026-08-01T01:19:27.798Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000thef",
+      "hazardType": "EQ",
+      "title": "25 km S of Daliao, Philippines",
+      "countries": [],
+      "lat": 5.6352,
+      "lon": 124.9258,
+      "timeUtc": "Sat, 01 Aug 2026 03:42:50 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thef"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thef"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000thcu",
       "hazardType": "EQ",
@@ -45,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thcu"
       ],
