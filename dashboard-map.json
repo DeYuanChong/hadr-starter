@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:17:07.383Z",
+  "generatedAt": "2026-08-01T17:26:26.442Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "250 in-scope event(s)"
+      "detail": "252 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-01T15:11:49.146Z",
+    "priorRunAt": "2026-08-01T16:17:07.383Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000thgp",
+      "hazardType": "EQ",
+      "title": "Banda Sea",
+      "countries": [],
+      "lat": -6.7517,
+      "lon": 129.7032,
+      "timeUtc": "Sat, 01 Aug 2026 14:35:11 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thgp"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000thef",
       "hazardType": "EQ",
@@ -194,6 +221,33 @@
       "imagery": null
     },
     {
+      "id": "us6000thbu",
+      "hazardType": "EQ",
+      "title": "132 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.9125,
+      "lon": 130.0959,
+      "timeUtc": "Fri, 31 Jul 2026 20:29:10 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thbu"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbu"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000thbq",
       "hazardType": "EQ",
       "title": "140 km ENE of Masohi, Indonesia",
@@ -207,7 +261,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000thbq",
         "usauto6000thbq"
