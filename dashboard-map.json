@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T23:46:34.545Z",
+  "generatedAt": "2026-08-01T01:19:27.798Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "254 in-scope event(s)"
+      "detail": "248 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-07-31T22:38:00.880Z",
+    "priorRunAt": "2026-07-31T23:46:34.545Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000thcu",
+      "hazardType": "EQ",
+      "title": "40 km ESE of Sulangan, Philippines",
+      "countries": [],
+      "lat": 10.7428,
+      "lon": 126.1452,
+      "timeUtc": "Fri, 31 Jul 2026 23:36:03 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thcu"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcu"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000thcs",
       "hazardType": "EQ",
@@ -45,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thcs"
       ],
@@ -72,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thc9"
       ],
@@ -153,7 +180,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000thbq",
         "usauto6000thbq"
@@ -6722,195 +6749,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tayr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taxt",
-      "hazardType": "EQ",
-      "title": "66 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.3056,
-      "lon": 124.6689,
-      "timeUtc": "Wed, 01 Jul 2026 18:10:26 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taxt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxt"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taxs",
-      "hazardType": "EQ",
-      "title": "1 km S of Anda, Philippines",
-      "countries": [],
-      "lat": 16.2741,
-      "lon": 119.9524,
-      "timeUtc": "Wed, 01 Jul 2026 17:57:36 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taxs"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxs"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taxk",
-      "hazardType": "EQ",
-      "title": "Bonin Islands, Japan region",
-      "countries": [],
-      "lat": 27.9874,
-      "lon": 139.9594,
-      "timeUtc": "Wed, 01 Jul 2026 14:47:19 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taxk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taxd",
-      "hazardType": "EQ",
-      "title": "46 km SE of Caburan, Philippines",
-      "countries": [],
-      "lat": 5.6734,
-      "lon": 125.9839,
-      "timeUtc": "Wed, 01 Jul 2026 09:22:40 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taxd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000taxe",
-      "hazardType": "EQ",
-      "title": "76 km SE of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": -0.0145,
-      "lon": 123.4757,
-      "timeUtc": "Wed, 01 Jul 2026 09:21:55 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000taxe"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxe"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tax4",
-      "hazardType": "EQ",
-      "title": "37 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.4786,
-      "lon": 125.0078,
-      "timeUtc": "Wed, 01 Jul 2026 01:57:29 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tax4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tax4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tax1",
-      "hazardType": "EQ",
-      "title": "50 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3652,
-      "lon": 124.9478,
-      "timeUtc": "Wed, 01 Jul 2026 01:12:41 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tax1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tax1"
         }
       ],
       "supplementary": [],
