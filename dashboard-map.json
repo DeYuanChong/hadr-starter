@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T01:10:20.500Z",
+  "generatedAt": "2026-08-02T04:43:23.688Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "244 in-scope event(s)"
+      "detail": "245 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-01T23:33:27.013Z",
+    "priorRunAt": "2026-08-02T01:10:20.500Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thi4"
       ],
@@ -2068,6 +2068,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t2zd",
+      "hazardType": "EQ",
+      "title": "123 km SE of Miyakojima, Japan",
+      "countries": [],
+      "lat": 23.8679,
+      "lon": 125.9873,
+      "timeUtc": "Sat, 18 Jul 2026 22:39:29 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t2zd"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2zd"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t1kf",
       "hazardType": "EQ",
       "title": "208 km SW of Bandar Lampung, Indonesia",
@@ -2840,7 +2867,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1yc"
       ],
@@ -2867,7 +2894,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t08d"
       ],
