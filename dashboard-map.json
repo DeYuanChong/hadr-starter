@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:16:54.234Z",
+  "generatedAt": "2026-08-02T17:27:24.146Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "detail": "fetch failed: fetch failed"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "246 in-scope event(s)"
+      "detail": "247 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-02T15:12:30.883Z",
+    "priorRunAt": "2026-08-02T16:16:54.234Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000thmn",
+      "hazardType": "EQ",
+      "title": "170 km SE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.1753,
+      "lon": 126.3895,
+      "timeUtc": "Sun, 02 Aug 2026 16:27:02 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thmn"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thmn"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000thm6",
       "hazardType": "EQ",
