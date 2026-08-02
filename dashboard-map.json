@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T17:27:24.146Z",
+  "generatedAt": "2026-08-02T18:35:28.437Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-02T16:16:54.234Z",
+    "priorRunAt": "2026-08-02T17:27:24.146Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thmn"
       ],
