@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T22:43:54.946Z",
+  "generatedAt": "2026-08-03T23:53:53.806Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "228 in-scope event(s)"
+      "detail": "229 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-03T21:46:16.462Z",
+    "priorRunAt": "2026-08-03T22:43:54.946Z",
     "changes": []
   },
   "stories": [
@@ -2717,6 +2717,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t0il",
+      "hazardType": "EQ",
+      "title": "179 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.4352,
+      "lon": 139.0222,
+      "timeUtc": "Tue, 14 Jul 2026 23:58:01 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t0il"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0il"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t1z2",
       "hazardType": "EQ",
       "title": "93 km WNW of Chauk, Burma (Myanmar)",
@@ -2730,7 +2757,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1z2"
       ],
@@ -3110,7 +3137,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t099"
       ],
@@ -3137,7 +3164,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t1y9"
       ],
