@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T23:44:44.449Z",
+  "generatedAt": "2026-08-03T01:18:19.887Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "248 in-scope event(s)"
+      "detail": "223 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-02T22:41:14.724Z",
+    "priorRunAt": "2026-08-02T23:44:44.449Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thp0",
         "1555792"
@@ -2470,18 +2470,18 @@
     {
       "id": "us7000t173",
       "hazardType": "EQ",
-      "title": "42 km NE of Shwebo, Burma (Myanmar)",
+      "title": "43 km NE of Shwebo, Burma (Myanmar)",
       "countries": [],
-      "lat": 22.8587,
-      "lon": 95.9644,
+      "lat": 22.8649,
+      "lon": 95.977,
       "timeUtc": "Fri, 17 Jul 2026 01:26:06 GMT",
-      "mag": 5.2,
+      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t173"
       ],
@@ -3310,18 +3310,18 @@
     {
       "id": "us7000szyb",
       "hazardType": "EQ",
-      "title": "16 km N of Xunchang, China",
+      "title": "8 km NNE of Xunchang, China",
       "countries": [],
-      "lat": 28.6046,
-      "lon": 104.701,
-      "timeUtc": "Sun, 12 Jul 2026 23:27:55 GMT",
-      "mag": 4.4,
+      "lat": 28.5226,
+      "lon": 104.759,
+      "timeUtc": "Sun, 12 Jul 2026 23:27:48 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000szyb"
       ],
@@ -3337,11 +3337,11 @@
     {
       "id": "us7000szxx",
       "hazardType": "EQ",
-      "title": "167 km SSE of Sarangani, Philippines",
+      "title": "170 km SSE of Sarangani, Philippines",
       "countries": [],
-      "lat": 3.9585,
-      "lon": 125.9229,
-      "timeUtc": "Sun, 12 Jul 2026 22:10:51 GMT",
+      "lat": 3.9346,
+      "lon": 125.9349,
+      "timeUtc": "Sun, 12 Jul 2026 22:10:50 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -6092,684 +6092,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta1y"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz7j",
-      "hazardType": "EQ",
-      "title": "69 km NE of Masohi, Indonesia",
-      "countries": [],
-      "lat": -2.897,
-      "lon": 129.4494,
-      "timeUtc": "Fri, 03 Jul 2026 23:03:59 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz7j"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz7j"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz7e",
-      "hazardType": "EQ",
-      "title": "114 km S of Boyolangu, Indonesia",
-      "countries": [],
-      "lat": -9.1541,
-      "lon": 111.9751,
-      "timeUtc": "Fri, 03 Jul 2026 23:02:17 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz7e"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz7e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz7d",
-      "hazardType": "EQ",
-      "title": "122 km WNW of Sabang, Indonesia",
-      "countries": [],
-      "lat": 6.2927,
-      "lon": 94.2825,
-      "timeUtc": "Fri, 03 Jul 2026 22:23:42 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz7d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz7d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz77",
-      "hazardType": "EQ",
-      "title": "22 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4191,
-      "lon": 125.228,
-      "timeUtc": "Fri, 03 Jul 2026 19:50:23 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz77"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz77"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9zf",
-      "hazardType": "EQ",
-      "title": "44 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.4427,
-      "lon": 124.9634,
-      "timeUtc": "Fri, 03 Jul 2026 19:09:17 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9zf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9zf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9zc",
-      "hazardType": "EQ",
-      "title": "252 km WSW of Tual, Indonesia",
-      "countries": [],
-      "lat": -6.1169,
-      "lon": 130.5272,
-      "timeUtc": "Fri, 03 Jul 2026 19:00:32 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9zc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9zc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9yy",
-      "hazardType": "EQ",
-      "title": "30 km SE of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.5876,
-      "lon": 119.4682,
-      "timeUtc": "Fri, 03 Jul 2026 17:14:52 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9yy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9yy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz71",
-      "hazardType": "EQ",
-      "title": "18 km WNW of Mawlaik, Burma (Myanmar)",
-      "countries": [],
-      "lat": 23.7064,
-      "lon": 94.2425,
-      "timeUtc": "Fri, 03 Jul 2026 12:09:44 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz71"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz71"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz6z",
-      "hazardType": "EQ",
-      "title": "50 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.198,
-      "lon": 125.0613,
-      "timeUtc": "Fri, 03 Jul 2026 11:51:37 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz6z"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6z"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9u2",
-      "hazardType": "EQ",
-      "title": "127 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 25.854,
-      "lon": 125.8119,
-      "timeUtc": "Fri, 03 Jul 2026 11:33:53 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9u2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9u2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz6y",
-      "hazardType": "EQ",
-      "title": "26 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4221,
-      "lon": 125.1695,
-      "timeUtc": "Fri, 03 Jul 2026 11:21:03 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz6y"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6y"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz6u",
-      "hazardType": "EQ",
-      "title": "8 km SSE of Kamanga, Philippines",
-      "countries": [],
-      "lat": 5.7857,
-      "lon": 125.0899,
-      "timeUtc": "Fri, 03 Jul 2026 10:17:24 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz6u"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9tw",
-      "hazardType": "EQ",
-      "title": "15 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3276,
-      "lon": 125.3511,
-      "timeUtc": "Fri, 03 Jul 2026 10:10:39 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9tw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9tw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9tv",
-      "hazardType": "EQ",
-      "title": "36 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2608,
-      "lon": 125.1646,
-      "timeUtc": "Fri, 03 Jul 2026 10:08:41 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9tv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9tv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9tm",
-      "hazardType": "EQ",
-      "title": "146 km N of Hirara, Japan",
-      "countries": [],
-      "lat": 26.1073,
-      "lon": 125.5747,
-      "timeUtc": "Fri, 03 Jul 2026 09:01:33 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9tm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9tm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9ta",
-      "hazardType": "EQ",
-      "title": "56 km W of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.7236,
-      "lon": 127.4992,
-      "timeUtc": "Fri, 03 Jul 2026 08:11:37 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9ta"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ta"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz6n",
-      "hazardType": "EQ",
-      "title": "145 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 26.0634,
-      "lon": 125.7206,
-      "timeUtc": "Fri, 03 Jul 2026 07:33:10 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz6n"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6n"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz6l",
-      "hazardType": "EQ",
-      "title": "141 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 25.973,
-      "lon": 125.8784,
-      "timeUtc": "Fri, 03 Jul 2026 07:32:08 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz6l"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz6l"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9t2",
-      "hazardType": "EQ",
-      "title": "158 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 26.1183,
-      "lon": 125.9218,
-      "timeUtc": "Fri, 03 Jul 2026 07:22:14 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9t2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9t2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9sk",
-      "hazardType": "EQ",
-      "title": "78 km W of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.6981,
-      "lon": 127.3068,
-      "timeUtc": "Fri, 03 Jul 2026 04:17:52 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9sk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9sk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9sj",
-      "hazardType": "EQ",
-      "title": "147 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 26.0711,
-      "lon": 125.7417,
-      "timeUtc": "Fri, 03 Jul 2026 04:04:48 GMT",
-      "mag": 6.1,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9sj",
-        "usauto6000t9sj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9sj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9si",
-      "hazardType": "EQ",
-      "title": "138 km NNE of Hirara, Japan",
-      "countries": [],
-      "lat": 25.9579,
-      "lon": 125.8391,
-      "timeUtc": "Fri, 03 Jul 2026 03:53:22 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9si",
-        "usauto6000t9si"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9si"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz7g",
-      "hazardType": "EQ",
-      "title": "51 km W of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.6808,
-      "lon": 127.5509,
-      "timeUtc": "Fri, 03 Jul 2026 02:38:40 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz7g"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz7g"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000t9r5",
-      "hazardType": "EQ",
-      "title": "61 km W of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.7826,
-      "lon": 127.4596,
-      "timeUtc": "Fri, 03 Jul 2026 02:31:27 GMT",
-      "mag": 6.2,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000t9r5",
-        "usauto6000t9r5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9r5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000sz68",
-      "hazardType": "EQ",
-      "title": "106 km W of Macabuboni, Philippines",
-      "countries": [],
-      "lat": 16.3604,
-      "lon": 118.7989,
-      "timeUtc": "Fri, 03 Jul 2026 00:29:33 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000sz68"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sz68"
         }
       ],
       "supplementary": [],
