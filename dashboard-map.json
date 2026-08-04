@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:53:53.806Z",
+  "generatedAt": "2026-08-04T03:30:34.051Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "0 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "229 in-scope event(s)"
+      "detail": "215 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-03T22:43:54.946Z",
+    "priorRunAt": "2026-08-03T23:53:53.806Z",
     "changes": []
   },
   "stories": [
@@ -1825,6 +1825,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tg3k",
+      "hazardType": "EQ",
+      "title": "5 km ESE of Silago, Philippines",
+      "countries": [],
+      "lat": 10.5051,
+      "lon": 125.2076,
+      "timeUtc": "Tue, 21 Jul 2026 03:56:03 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tg3k"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg3k"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t21u",
       "hazardType": "EQ",
       "title": "Banda Sea",
@@ -2611,18 +2638,18 @@
     {
       "id": "us7000t0tp",
       "hazardType": "EQ",
-      "title": "101 km SW of Basco, Philippines",
+      "title": "101 km SSW of Basco, Philippines",
       "countries": [],
-      "lat": 19.7348,
-      "lon": 121.3591,
+      "lat": 19.6639,
+      "lon": 121.4727,
       "timeUtc": "Wed, 15 Jul 2026 21:33:38 GMT",
-      "mag": 4.7,
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t0tp"
       ],
@@ -2730,7 +2757,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0il"
       ],
@@ -5828,411 +5855,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szgw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000szf5",
-      "hazardType": "EQ",
-      "title": "16 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5935,
-      "lon": 125.1679,
-      "timeUtc": "Sat, 04 Jul 2026 12:47:20 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szf5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szf5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta3g",
-      "hazardType": "EQ",
-      "title": "8 km SE of Pianjiao, China",
-      "countries": [],
-      "lat": 25.9651,
-      "lon": 100.6404,
-      "timeUtc": "Sat, 04 Jul 2026 10:28:54 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta3g"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta3g"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000szez",
-      "hazardType": "EQ",
-      "title": "119 km NW of Ternate, Indonesia",
-      "countries": [],
-      "lat": 1.4118,
-      "lon": 126.5098,
-      "timeUtc": "Sat, 04 Jul 2026 10:11:34 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szez"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szez"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta3d",
-      "hazardType": "EQ",
-      "title": "7 km E of Pianjiao, China",
-      "countries": [],
-      "lat": 26.0138,
-      "lon": 100.6608,
-      "timeUtc": "Sat, 04 Jul 2026 10:07:37 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta3d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta3d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta37",
-      "hazardType": "EQ",
-      "title": "28 km E of Pianjiao, China",
-      "countries": [],
-      "lat": 26.0576,
-      "lon": 100.8627,
-      "timeUtc": "Sat, 04 Jul 2026 09:33:47 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta37"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta37"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta34",
-      "hazardType": "EQ",
-      "title": "68 km W of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.7953,
-      "lon": 127.3992,
-      "timeUtc": "Sat, 04 Jul 2026 09:02:14 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta34"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta34"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta32",
-      "hazardType": "EQ",
-      "title": "261 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.441,
-      "lon": 138.2901,
-      "timeUtc": "Sat, 04 Jul 2026 08:55:49 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta32"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta32"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta31",
-      "hazardType": "EQ",
-      "title": "47 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1302,
-      "lon": 125.128,
-      "timeUtc": "Sat, 04 Jul 2026 08:53:23 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta31"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta31"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000szex",
-      "hazardType": "EQ",
-      "title": "9 km WSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.5379,
-      "lon": 125.2743,
-      "timeUtc": "Sat, 04 Jul 2026 08:30:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szex"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szex"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta2j",
-      "hazardType": "EQ",
-      "title": "137 km WSW of Ambon, Indonesia",
-      "countries": [],
-      "lat": -4.3137,
-      "lon": 127.1101,
-      "timeUtc": "Sat, 04 Jul 2026 07:05:31 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta2j"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta2j"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000szes",
-      "hazardType": "EQ",
-      "title": "13 km SSE of Cabacao, Philippines",
-      "countries": [],
-      "lat": 13.2294,
-      "lon": 120.7251,
-      "timeUtc": "Sat, 04 Jul 2026 04:33:27 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szes"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szes"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta1t",
-      "hazardType": "EQ",
-      "title": "24 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4471,
-      "lon": 125.1732,
-      "timeUtc": "Sat, 04 Jul 2026 04:26:30 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta1t"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta1t"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta14",
-      "hazardType": "EQ",
-      "title": "14 km SSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4641,
-      "lon": 125.2867,
-      "timeUtc": "Sat, 04 Jul 2026 02:21:22 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta14"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta14"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000szek",
-      "hazardType": "EQ",
-      "title": "30 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.5083,
-      "lon": 125.0803,
-      "timeUtc": "Sat, 04 Jul 2026 02:13:07 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000szek"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szek"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ta1y",
-      "hazardType": "EQ",
-      "title": "12 km E of Kanbe, Burma (Myanmar)",
-      "countries": [],
-      "lat": 16.6943,
-      "lon": 96.1159,
-      "timeUtc": "Sat, 04 Jul 2026 00:21:06 GMT",
-      "mag": 3.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ta1y"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta1y"
         }
       ],
       "supplementary": [],
