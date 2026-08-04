@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:46:07.712Z",
+  "generatedAt": "2026-08-04T21:59:37.194Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "217 in-scope event(s)"
+      "detail": "219 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-04T19:10:14.969Z",
+    "priorRunAt": "2026-08-04T20:46:07.712Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti49",
         "usauto6000ti49",
@@ -106,6 +106,60 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.345,10.048,108.345,16.048&t=2025-11-21",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000ti1d",
+      "hazardType": "EQ",
+      "title": "179 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.6019,
+      "lon": 128.3355,
+      "timeUtc": "Tue, 04 Aug 2026 17:30:51 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti1d"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti1d"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti0y",
+      "hazardType": "EQ",
+      "title": "10 km NNE of Xunchang, China",
+      "countries": [],
+      "lat": 28.5388,
+      "lon": 104.7613,
+      "timeUtc": "Tue, 04 Aug 2026 15:58:34 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti0y"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0y"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000thqf",
