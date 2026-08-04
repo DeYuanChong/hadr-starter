@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:35:21.873Z",
+  "generatedAt": "2026-08-04T13:20:58.461Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "0 in-scope record(s)"
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,10 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-04T09:14:47.893Z",
-    "changes": []
+    "priorRunAt": "2026-08-04T11:35:21.873Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1018545",
+        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+      "countries": [
+        "Australia",
+        "Indonesia",
+        "Cambodia",
+        "Laos",
+        "Papua New Guinea",
+        "Philippines",
+        "Solomon Is.",
+        "Thailand",
+        "Vietnam"
+      ],
+      "lat": 13.048,
+      "lon": 105.345,
+      "timeUtc": "2025-11-21T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=11&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2025-11-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.345,10.048,108.345,16.048&t=2025-11-21",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000thqf",
       "hazardType": "EQ",
@@ -2910,10 +2959,10 @@
     {
       "id": "us7000t0ag",
       "hazardType": "EQ",
-      "title": "25 km SE of Tambolaka, Indonesia",
+      "title": "22 km SE of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -9.5899,
-      "lon": 119.3992,
+      "lat": -9.5874,
+      "lon": 119.3644,
       "timeUtc": "Tue, 14 Jul 2026 09:52:36 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -2937,18 +2986,18 @@
     {
       "id": "us7000t09r",
       "hazardType": "EQ",
-      "title": "18 km WSW of Mabiton, Philippines",
+      "title": "35 km WSW of Mabiton, Philippines",
       "countries": [],
-      "lat": 12.7846,
-      "lon": 123.0967,
+      "lat": 12.7533,
+      "lon": 122.9477,
       "timeUtc": "Tue, 14 Jul 2026 07:18:47 GMT",
-      "mag": 4.8,
+      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t09r"
       ],
