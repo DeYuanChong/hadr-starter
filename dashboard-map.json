@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T03:30:34.051Z",
+  "generatedAt": "2026-08-04T06:13:15.570Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "0 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-03T23:53:53.806Z",
+    "priorRunAt": "2026-08-04T03:30:34.051Z",
     "changes": []
   },
   "stories": [
@@ -1838,7 +1838,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tg3k"
       ],
@@ -2287,11 +2287,11 @@
     {
       "id": "us7000t1ig",
       "hazardType": "EQ",
-      "title": "143 km W of Pariaman, Indonesia",
+      "title": "138 km WNW of Pariaman, Indonesia",
       "countries": [],
-      "lat": -0.4136,
-      "lon": 98.8487,
-      "timeUtc": "Sat, 18 Jul 2026 00:50:05 GMT",
+      "lat": -0.3257,
+      "lon": 98.9133,
+      "timeUtc": "Sat, 18 Jul 2026 00:50:06 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2649,7 +2649,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000t0tp"
       ],
