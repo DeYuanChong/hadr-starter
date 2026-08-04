@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T21:59:37.194Z",
+  "generatedAt": "2026-08-04T23:14:21.482Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "2 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-04T20:46:07.712Z",
-    "changes": []
+    "priorRunAt": "2026-08-04T21:59:37.194Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1001298",
+        "title": "Tropical Cyclone KUJIRA-26",
+        "hazardType": "TC",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -65,6 +73,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 17.5,
+      "lon": 118.9,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=1&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-02",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=115.9,14.5,121.9,20.5&t=2026-08-02",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "1018545",
@@ -121,7 +162,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti1d"
       ],
@@ -148,7 +189,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti0y"
       ],
@@ -5068,11 +5109,11 @@
     {
       "id": "us7000t0pe",
       "hazardType": "EQ",
-      "title": "165 km N of Maubara, Timor Leste",
+      "title": "160 km NNW of Maubara, Timor Leste",
       "countries": [],
-      "lat": -7.1307,
-      "lon": 125.0069,
-      "timeUtc": "Wed, 08 Jul 2026 03:38:07 GMT",
+      "lat": -7.2715,
+      "lon": 124.6473,
+      "timeUtc": "Wed, 08 Jul 2026 03:38:08 GMT",
       "mag": 4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -5095,10 +5136,10 @@
     {
       "id": "us6000taui",
       "hazardType": "EQ",
-      "title": "6 km ENE of Wenjiang, China",
+      "title": "13 km NNE of Xunchang, China",
       "countries": [],
-      "lat": 28.4021,
-      "lon": 104.6234,
+      "lat": 28.5672,
+      "lon": 104.7657,
       "timeUtc": "Wed, 08 Jul 2026 02:08:48 GMT",
       "mag": 5,
       "gdacsAlert": null,
