@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T18:46:16.698Z",
+  "generatedAt": "2026-08-05T20:17:42.246Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T17:06:01.637Z",
+    "priorRunAt": "2026-08-05T18:46:16.698Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tics",
         "usauto6000tics",
@@ -466,41 +466,6 @@
       "imagery": null
     },
     {
-      "id": "us6000ti49",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 1.5066,
-      "lon": 126.4856,
-      "timeUtc": "Tue, 04 Aug 2026 20:16:37 GMT",
-      "mag": 5.7,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ti49",
-        "usauto6000ti49",
-        "1556149"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1556149&episodeid=1723005&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000ti9q",
       "hazardType": "EQ",
       "title": "46 km SSW of Sarangani, Philippines",
@@ -522,6 +487,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9q"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti49",
+      "hazardType": "EQ",
+      "title": "127 km NW of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.5066,
+      "lon": 126.4856,
+      "timeUtc": "Tue, 04 Aug 2026 20:16:37 GMT",
+      "mag": 5.7,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us6000ti49",
+        "usauto6000ti49"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
         }
       ],
       "supplementary": [],
@@ -4877,7 +4870,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t10t"
       ],
