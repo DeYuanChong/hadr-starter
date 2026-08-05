@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T00:17:00.268Z",
+  "generatedAt": "2026-08-05T03:39:43.808Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,19 +18,73 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "216 in-scope event(s)"
+      "detail": "218 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-04T23:14:21.482Z",
+    "priorRunAt": "2026-08-05T00:17:00.268Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000ti6f",
+      "hazardType": "EQ",
+      "title": "Banda Sea",
+      "countries": [],
+      "lat": -6.4991,
+      "lon": 128.9345,
+      "timeUtc": "Wed, 05 Aug 2026 03:16:07 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti6f"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti5u",
+      "hazardType": "EQ",
+      "title": "55 km WSW of Monywa, Burma (Myanmar)",
+      "countries": [],
+      "lat": 21.9032,
+      "lon": 94.6478,
+      "timeUtc": "Wed, 05 Aug 2026 00:11:57 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti5u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000ti49",
       "hazardType": "EQ",
@@ -45,7 +99,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000ti49",
         "usauto6000ti49"
@@ -1594,7 +1648,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgeh"
       ],
