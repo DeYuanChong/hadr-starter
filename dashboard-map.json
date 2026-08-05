@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:32:21.142Z",
+  "generatedAt": "2026-08-05T17:06:01.637Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "229 in-scope event(s)"
+      "detail": "230 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T13:16:50.177Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104029",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-05T15:32:21.142Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tial",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 1.2938,
+      "lon": 126.2646,
+      "timeUtc": "Wed, 05 Aug 2026 14:16:50 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tial",
+        "1556307"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556307&episodeid=1723229&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1001298",
       "hazardType": "TC",
@@ -5005,7 +5031,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000szdd"
       ],
