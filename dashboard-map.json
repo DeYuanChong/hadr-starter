@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T13:16:50.177Z",
+  "generatedAt": "2026-08-05T15:32:21.142Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "12 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,10 +27,47 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T11:32:39.290Z",
-    "changes": []
+    "priorRunAt": "2026-08-05T13:16:50.177Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104029",
+        "title": "Flood in Vietnam",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 17.8,
+      "lon": 119.8,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=4&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000ti9k",
       "hazardType": "EQ",
@@ -60,35 +97,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9k"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone KUJIRA-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 17.8,
-      "lon": 119,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=3&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -426,35 +434,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104029",
-      "hazardType": "FL",
-      "title": "Flood in Vietnam",
-      "countries": [
-        "Vietnam"
-      ],
-      "lat": 22.3382,
-      "lon": 105.0716,
-      "timeUtc": "2026-07-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104029"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104029&episodeid=5&eventtype=FL"
         }
       ],
       "supplementary": [],
@@ -2528,8 +2507,8 @@
       "hazardType": "EQ",
       "title": "38 km ENE of Chongzuo, China",
       "countries": [],
-      "lat": 22.4719,
-      "lon": 107.7304,
+      "lat": 22.5516,
+      "lon": 107.6944,
       "timeUtc": "Mon, 20 Jul 2026 14:40:49 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
@@ -5015,18 +4994,18 @@
     {
       "id": "us7000szdd",
       "hazardType": "EQ",
-      "title": "187 km W of Abepura, Indonesia",
+      "title": "185 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.764,
-      "lon": 138.9541,
-      "timeUtc": "Fri, 10 Jul 2026 05:16:10 GMT",
-      "mag": 4.4,
+      "lat": -2.6354,
+      "lon": 138.9683,
+      "timeUtc": "Fri, 10 Jul 2026 05:16:07 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000szdd"
       ],
