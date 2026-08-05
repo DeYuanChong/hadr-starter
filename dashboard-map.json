@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:37:20.783Z",
+  "generatedAt": "2026-08-05T22:41:00.229Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "232 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,45 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T20:17:42.246Z",
+    "priorRunAt": "2026-08-05T21:37:20.783Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tif5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.1757,
+      "lon": 125.2809,
+      "timeUtc": "Wed, 05 Aug 2026 21:41:28 GMT",
+      "mag": 5.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tif5",
+        "usauto6000tif5",
+        "1556391"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556391&episodeid=1723270&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tif5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1001298",
       "hazardType": "TC",
@@ -2261,10 +2296,10 @@
     {
       "id": "us7000t2a7",
       "hazardType": "EQ",
-      "title": "7 km WNW of Kalbay, Philippines",
+      "title": "6 km NW of Sugal, Philippines",
       "countries": [],
-      "lat": 5.739,
-      "lon": 125.4295,
+      "lat": 5.7108,
+      "lon": 125.422,
       "timeUtc": "Tue, 21 Jul 2026 18:33:27 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
