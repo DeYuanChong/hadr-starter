@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T03:39:43.808Z",
+  "generatedAt": "2026-08-05T06:14:07.602Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "status": "live",
+      "detail": "8 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "218 in-scope event(s)"
+      "detail": "222 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,29 +27,181 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T00:17:00.268Z",
-    "changes": []
+    "priorRunAt": "2026-08-05T03:39:43.808Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1018545",
+        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
+      "id": "us6000ti7t",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.0859,
+      "lon": 125.1979,
+      "timeUtc": "Wed, 05 Aug 2026 05:13:04 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ti7t",
+        "1556226"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556226&episodeid=1723092&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7t"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti7f",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.0397,
+      "lon": 125.0047,
+      "timeUtc": "Wed, 05 Aug 2026 04:34:11 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ti7f",
+        "1556223"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556223&episodeid=1723088&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7f"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti71",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.1275,
+      "lon": 125.412,
+      "timeUtc": "Wed, 05 Aug 2026 04:25:04 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ti71",
+        "1556222"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556222&episodeid=1723086&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti71"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti6x",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.1812,
+      "lon": 125.276,
+      "timeUtc": "Wed, 05 Aug 2026 04:14:06 GMT",
+      "mag": 6.3,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ti6x",
+        "usauto6000ti6x",
+        "1556215"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000ti6f",
       "hazardType": "EQ",
-      "title": "Banda Sea",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -6.4991,
       "lon": 128.9345,
       "timeUtc": "Wed, 05 Aug 2026 03:16:07 GMT",
       "mag": 4.9,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "new",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000ti6f"
+        "us6000ti6f",
+        "1556206"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556206&episodeid=1723067&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f"
@@ -61,22 +213,29 @@
     {
       "id": "us6000ti5u",
       "hazardType": "EQ",
-      "title": "55 km WSW of Monywa, Burma (Myanmar)",
-      "countries": [],
+      "title": "Earthquake in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
       "lat": 21.9032,
       "lon": 94.6478,
       "timeUtc": "Wed, 05 Aug 2026 00:11:57 GMT",
       "mag": 4.8,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "new",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000ti5u"
+        "us6000ti5u",
+        "1556172"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556172&episodeid=1723030&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
@@ -86,25 +245,61 @@
       "imagery": null
     },
     {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 17.6,
+      "lon": 118.7,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=2&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000ti49",
       "hazardType": "EQ",
-      "title": "127 km NW of Ternate, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": 1.5066,
       "lon": 126.4856,
       "timeUtc": "Tue, 04 Aug 2026 20:16:37 GMT",
       "mag": 5.7,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "revised",
       "aliases": [
         "us6000ti49",
-        "usauto6000ti49"
+        "usauto6000ti49",
+        "1556149"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556149&episodeid=1723005&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
