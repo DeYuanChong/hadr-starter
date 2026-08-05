@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:17:42.246Z",
+  "generatedAt": "2026-08-05T21:37:20.783Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,10 +27,39 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-05T18:46:16.698Z",
+    "priorRunAt": "2026-08-05T20:17:42.246Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 17.7,
+      "lon": 120.2,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=5&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tics",
       "hazardType": "EQ",
@@ -95,35 +124,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone KUJIRA-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 17.8,
-      "lon": 119.8,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=4&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -506,7 +506,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000ti49",
         "usauto6000ti49"
@@ -4129,10 +4129,10 @@
     {
       "id": "us7000szxx",
       "hazardType": "EQ",
-      "title": "170 km SSE of Sarangani, Philippines",
+      "title": "173 km SSE of Sarangani, Philippines",
       "countries": [],
-      "lat": 3.9346,
-      "lon": 125.9349,
+      "lat": 3.9127,
+      "lon": 125.9524,
       "timeUtc": "Sun, 12 Jul 2026 22:10:50 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
