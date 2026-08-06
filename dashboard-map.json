@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T04:32:45.171Z",
+  "generatedAt": "2026-08-06T07:21:42.458Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "226 in-scope event(s)"
+      "detail": "228 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-06T01:08:34.848Z",
+    "priorRunAt": "2026-08-06T04:32:45.171Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tihf",
         "1556446"
@@ -110,7 +110,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tifh",
         "1556397"
@@ -144,7 +144,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tif5",
         "usauto6000tif5",
@@ -1276,11 +1276,11 @@
     {
       "id": "us6000tgw4",
       "hazardType": "EQ",
-      "title": "186 km W of Abepura, Indonesia",
+      "title": "205 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.5747,
-      "lon": 138.9512,
-      "timeUtc": "Thu, 30 Jul 2026 05:55:54 GMT",
+      "lat": -2.6538,
+      "lon": 138.7818,
+      "timeUtc": "Thu, 30 Jul 2026 05:55:55 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1295,6 +1295,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgw4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti21",
+      "hazardType": "EQ",
+      "title": "192 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.8311,
+      "lon": 138.9176,
+      "timeUtc": "Thu, 30 Jul 2026 05:43:41 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti21"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti21"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti1x",
+      "hazardType": "EQ",
+      "title": "182 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.6135,
+      "lon": 138.9957,
+      "timeUtc": "Thu, 30 Jul 2026 05:18:53 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti1x"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti1x"
         }
       ],
       "supplementary": [],
@@ -2556,16 +2610,16 @@
       "hazardType": "EQ",
       "title": "Banda Sea",
       "countries": [],
-      "lat": -6.9496,
-      "lon": 130.1029,
+      "lat": -6.9771,
+      "lon": 130.0514,
       "timeUtc": "Mon, 20 Jul 2026 21:26:49 GMT",
-      "mag": 4.5,
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t21u"
       ],
@@ -2970,7 +3024,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t2y2"
       ],
