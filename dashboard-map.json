@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T07:21:42.458Z",
+  "generatedAt": "2026-08-06T10:04:53.831Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "16 in-scope record(s)"
+      "detail": "17 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "228 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,47 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-06T04:32:45.171Z",
-    "changes": []
+    "priorRunAt": "2026-08-06T07:21:42.458Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1104067",
+        "title": "Flood in Thailand",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 17,
+      "lon": 121.7,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=7&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tihf",
       "hazardType": "EQ",
@@ -60,35 +97,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tihf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone KUJIRA-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 17.4,
-      "lon": 120.7,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=6&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -533,6 +541,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104067",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 17.1904,
+      "lon": 103.9731,
+      "timeUtc": "2026-07-30T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104067"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=3&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-30",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.2231,16.4404,104.7231,17.9404&t=2026-07-30",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000ti5u",
@@ -1111,6 +1152,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tibj",
+      "hazardType": "EQ",
+      "title": "157 km SSW of Hengchun, Taiwan",
+      "countries": [],
+      "lat": 20.8038,
+      "lon": 119.9255,
+      "timeUtc": "Fri, 31 Jul 2026 08:11:07 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tibj"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tibj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000th1p",
       "hazardType": "EQ",
       "title": "211 km SSE of Ambon, Indonesia",
@@ -1274,6 +1342,114 @@
       "imagery": null
     },
     {
+      "id": "us6000ti29",
+      "hazardType": "EQ",
+      "title": "208 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.7077,
+      "lon": 138.7574,
+      "timeUtc": "Thu, 30 Jul 2026 08:23:45 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti29"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti29"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti26",
+      "hazardType": "EQ",
+      "title": "191 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.5001,
+      "lon": 138.914,
+      "timeUtc": "Thu, 30 Jul 2026 08:19:06 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti26"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti26"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti28",
+      "hazardType": "EQ",
+      "title": "179 km W of Abepura, Indonesia",
+      "countries": [],
+      "lat": -2.5273,
+      "lon": 139.0159,
+      "timeUtc": "Thu, 30 Jul 2026 08:16:16 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti28"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti28"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ti23",
+      "hazardType": "EQ",
+      "title": "117 km WNW of Ie, Japan",
+      "countries": [],
+      "lat": 26.9657,
+      "lon": 126.6572,
+      "timeUtc": "Thu, 30 Jul 2026 06:30:17 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ti23"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti23"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tgw4",
       "hazardType": "EQ",
       "title": "205 km W of Abepura, Indonesia",
@@ -1314,7 +1490,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti21"
       ],
@@ -1341,7 +1517,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti1x"
       ],
@@ -2619,7 +2795,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000t21u"
       ],
