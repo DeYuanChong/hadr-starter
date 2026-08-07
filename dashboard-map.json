@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T12:01:12.413Z",
+  "generatedAt": "2026-08-07T13:24:09.060Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "status": "live",
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "229 in-scope event(s)"
+      "detail": "230 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,29 +27,36 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-07T11:11:06.261Z",
+    "priorRunAt": "2026-08-07T12:01:12.413Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us6000tiwj",
       "hazardType": "EQ",
-      "title": "51 km WSW of Sarangani, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 5.1687,
       "lon": 125.0613,
       "timeUtc": "Fri, 07 Aug 2026 08:43:42 GMT",
       "mag": 4.6,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tiwj"
+        "us6000tiwj",
+        "1556683"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556683&episodeid=1723588&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj"
@@ -61,23 +68,30 @@
     {
       "id": "us6000tivb",
       "hazardType": "EQ",
-      "title": "7 km NW of Cabacao, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 13.3855,
       "lon": 120.6108,
       "timeUtc": "Fri, 07 Aug 2026 02:38:10 GMT",
       "mag": 5,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
         "us6000tivb",
-        "usauto6000tivb"
+        "usauto6000tivb",
+        "1556654"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556654&episodeid=1723558&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tivb"
@@ -85,6 +99,140 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone KUJIRA-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 16.7,
+      "lon": 122.9,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=8&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tihf",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.2096,
+      "lon": 125.0756,
+      "timeUtc": "Thu, 06 Aug 2026 03:12:11 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tihf",
+        "1556446"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556446&episodeid=1723335&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tihf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104011",
+      "hazardType": "FL",
+      "title": "Flood in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": 25.6916,
+      "lon": 96.5357,
+      "timeUtc": "2026-07-04T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104011"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=9&eventtype=FL"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
+      "imagery": {
+        "imageDate": "2026-07-04",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=95.7857,24.9416,97.2857,26.4416&t=2026-07-04",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1103942",
+      "hazardType": "FL",
+      "title": "Flood in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 16.4498,
+      "lon": 120.5901,
+      "timeUtc": "2026-06-13T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1103942"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=14&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-06-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=119.8401,15.6998,121.3401,17.1998&t=2026-06-13",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tiq3",
@@ -135,33 +283,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tipc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tihf",
-      "hazardType": "EQ",
-      "title": "48 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2096,
-      "lon": 125.0756,
-      "timeUtc": "Thu, 06 Aug 2026 03:12:11 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tihf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tihf"
         }
       ],
       "supplementary": [],
@@ -752,7 +873,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tin4"
       ],
@@ -3802,6 +3923,33 @@
       "imagery": null
     },
     {
+      "id": "us7000t27h",
+      "hazardType": "EQ",
+      "title": "43 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.2879,
+      "lon": 125.08,
+      "timeUtc": "Wed, 15 Jul 2026 10:45:04 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t27h"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t27h"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t279",
       "hazardType": "EQ",
       "title": "44 km E of Union, Philippines",
@@ -6235,40 +6383,6 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jun 2026 (fixture)",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
       "imagery": null
     }
   ]
