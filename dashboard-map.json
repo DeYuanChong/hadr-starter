@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T16:28:14.602Z",
+  "generatedAt": "2026-08-07T17:28:14.540Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "234 in-scope event(s)"
+      "detail": "235 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-07T15:30:47.415Z",
+    "priorRunAt": "2026-08-07T16:28:14.602Z",
     "changes": []
   },
   "stories": [
@@ -327,6 +327,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tif5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tidz",
+      "hazardType": "EQ",
+      "title": "31 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.1249,
+      "lon": 125.3857,
+      "timeUtc": "Wed, 05 Aug 2026 19:32:26 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tidz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tidz"
         }
       ],
       "supplementary": [],
@@ -3898,7 +3925,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t27x"
       ],
@@ -4186,8 +4213,8 @@
       "hazardType": "EQ",
       "title": "32 km WSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.3226,
-      "lon": 125.1801,
+      "lat": 5.3206,
+      "lon": 125.181,
       "timeUtc": "Tue, 14 Jul 2026 15:49:39 GMT",
       "mag": 6.2,
       "gdacsAlert": null,
