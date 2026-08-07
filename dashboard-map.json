@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:24:09.060Z",
+  "generatedAt": "2026-08-07T14:34:51.114Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "8 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "232 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-07T12:01:12.413Z",
+    "priorRunAt": "2026-08-07T13:24:09.060Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tixn",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.6385,
+      "lon": 110.2192,
+      "timeUtc": "Fri, 07 Aug 2026 14:07:39 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tixn",
+        "1556732"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556732&episodeid=1723639&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixn"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tiwj",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tiwj",
         "1556683"
@@ -60,6 +94,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tiw5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 4.4892,
+      "lon": 125.941,
+      "timeUtc": "Fri, 07 Aug 2026 06:23:02 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tiw5",
+        "1556671"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556671&episodeid=1723620&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiw5"
         }
       ],
       "supplementary": [],
@@ -81,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tivb",
         "usauto6000tivb",
@@ -145,7 +213,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tihf",
         "1556446"
@@ -3936,7 +4004,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t27h"
       ],
