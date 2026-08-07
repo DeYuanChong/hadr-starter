@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T15:30:47.415Z",
+  "generatedAt": "2026-08-07T16:28:14.602Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "233 in-scope event(s)"
+      "detail": "234 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,30 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-07T14:34:51.114Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1001298",
-        "title": "Tropical Cyclone KUJIRA-26",
-        "hazardType": "TC",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1103942",
-        "title": "Flood in Philippines",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-07T15:30:47.415Z",
+    "changes": []
   },
   "stories": [
     {
@@ -204,7 +182,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tivz",
         "usauto6000tivz"
@@ -286,7 +264,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tihf"
       ],
@@ -3901,6 +3879,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0tp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t27x",
+      "hazardType": "EQ",
+      "title": "56 km W of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 1.7509,
+      "lon": 127.5062,
+      "timeUtc": "Wed, 15 Jul 2026 18:41:36 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t27x"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t27x"
         }
       ],
       "supplementary": [],
