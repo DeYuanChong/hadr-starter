@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:37:11.808Z",
+  "generatedAt": "2026-08-08T11:59:30.411Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: fetch failed"
+      "status": "live",
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,29 +27,36 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-08T10:55:03.626Z",
+    "priorRunAt": "2026-08-08T11:37:11.808Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us6000tj8e",
       "hazardType": "EQ",
-      "title": "54 km SW of Sarangani, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 5.095,
       "lon": 125.0834,
       "timeUtc": "Sat, 08 Aug 2026 10:20:46 GMT",
       "mag": 4.8,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tj8e"
+        "us6000tj8e",
+        "1556886"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556886&episodeid=1723811&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8e"
@@ -61,22 +68,29 @@
     {
       "id": "us6000tj65",
       "hazardType": "EQ",
-      "title": "33 km SSW of Sarangani, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 5.1189,
       "lon": 125.3651,
       "timeUtc": "Sat, 08 Aug 2026 02:44:59 GMT",
       "mag": 4.6,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tj65"
+        "us6000tj65",
+        "1556841"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556841&episodeid=1723758&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj65"
@@ -84,6 +98,44 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104011",
+      "hazardType": "FL",
+      "title": "Flood in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": 20.0645,
+      "lon": 93.5378,
+      "timeUtc": "2026-07-04T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104011"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=10&eventtype=FL"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
+      "imagery": {
+        "imageDate": "2026-07-04",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=92.7878,19.3145,94.2878,20.8145&t=2026-07-04",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tj4x",
@@ -99,7 +151,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tj4x"
       ],
@@ -126,7 +178,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tj4i"
       ],
@@ -180,7 +232,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tj2p"
       ],
@@ -207,7 +259,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tixn"
       ],
@@ -234,7 +286,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tiwj"
       ],
@@ -261,7 +313,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tiw5"
       ],
@@ -316,7 +368,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tivb",
         "usauto6000tivb"
@@ -1050,7 +1102,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000timu"
       ],
@@ -6369,40 +6421,6 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jun 2026 (fixture)",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
       "imagery": null
     }
   ]
