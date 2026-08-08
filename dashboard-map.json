@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T10:16:38.621Z",
+  "generatedAt": "2026-08-08T10:55:03.626Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "230 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-08T09:49:36.210Z",
+    "priorRunAt": "2026-08-08T10:16:38.621Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tj8e",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.095,
+      "lon": 125.0834,
+      "timeUtc": "Sat, 08 Aug 2026 10:20:46 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tj8e",
+        "1556886"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556886&episodeid=1723811&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8e"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tj65",
       "hazardType": "EQ",
@@ -1152,6 +1186,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thgf",
+      "hazardType": "EQ",
+      "title": "170 km WSW of Fakfak, Indonesia",
+      "countries": [],
+      "lat": -3.2875,
+      "lon": 130.8088,
+      "timeUtc": "Sat, 01 Aug 2026 12:30:49 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thgf"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thgc",
+      "hazardType": "EQ",
+      "title": "152 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.8888,
+      "lon": 130.2762,
+      "timeUtc": "Sat, 01 Aug 2026 12:12:07 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thgc"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgc"
         }
       ],
       "supplementary": [],
