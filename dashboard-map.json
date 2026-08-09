@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T20:13:32.590Z",
+  "generatedAt": "2026-08-09T20:55:56.154Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-09T19:45:38.713Z",
+    "priorRunAt": "2026-08-09T20:13:32.590Z",
     "changes": []
   },
   "stories": [
@@ -63,6 +63,35 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 20.5,
+      "lon": 145.8,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=12&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tjgd",
@@ -162,35 +191,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfb"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 20.8,
-      "lon": 144,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=11&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -2497,7 +2497,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000th0e"
       ],
