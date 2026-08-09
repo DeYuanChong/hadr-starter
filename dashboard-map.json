@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T06:03:04.661Z",
+  "generatedAt": "2026-08-09T07:10:22.023Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,10 +27,51 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-09T05:15:24.570Z",
-    "changes": []
+    "priorRunAt": "2026-08-09T06:03:04.661Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1104067",
+        "title": "Flood in Thailand",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1104067",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 18.7883,
+      "lon": 98.9859,
+      "timeUtc": "2026-07-30T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104067"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=8&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-30",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "1001298",
       "hazardType": "TC",
