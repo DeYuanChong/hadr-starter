@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T10:57:04.950Z",
+  "generatedAt": "2026-08-09T11:38:34.912Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "225 in-scope event(s)"
+      "detail": "226 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-09T10:19:10.430Z",
+    "priorRunAt": "2026-08-09T10:57:04.950Z",
     "changes": []
   },
   "stories": [
@@ -232,6 +232,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=92.7878,19.3145,94.2878,20.8145&t=2026-07-04",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tje3",
+      "hazardType": "EQ",
+      "title": "96 km S of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.5364,
+      "lon": 125.3517,
+      "timeUtc": "Sun, 09 Aug 2026 10:04:31 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tje3"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tje3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tjcl",
