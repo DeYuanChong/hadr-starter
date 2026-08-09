@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T21:42:19.997Z",
+  "generatedAt": "2026-08-09T22:13:45.510Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "232 in-scope event(s)"
+      "detail": "233 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-09T20:55:56.154Z",
+    "priorRunAt": "2026-08-09T21:42:19.997Z",
     "changes": []
   },
   "stories": [
@@ -63,6 +63,40 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tjhn",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 4.1349,
+      "lon": 126.95,
+      "timeUtc": "Sun, 09 Aug 2026 21:42:38 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tjhn",
+        "1557136"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557136&episodeid=1724092&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjhn"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "1001298",
@@ -2470,7 +2504,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t3pe"
       ],
