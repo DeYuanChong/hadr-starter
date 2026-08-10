@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T00:38:21.768Z",
+  "generatedAt": "2026-08-10T03:01:56.731Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-09T23:40:53.903Z",
+    "priorRunAt": "2026-08-10T00:38:21.768Z",
     "changes": []
   },
   "stories": [
@@ -63,6 +63,35 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 20.5,
+      "lon": 148.3,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=13&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tji3",
@@ -105,16 +134,16 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 4.1349,
-      "lon": 126.95,
+      "lat": 4.1847,
+      "lon": 126.9362,
       "timeUtc": "Sun, 09 Aug 2026 21:42:38 GMT",
-      "mag": 4.8,
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tjhn",
         "1557136"
@@ -122,40 +151,11 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557136&episodeid=1724092&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557136&episodeid=1724138&eventtype=EQ"
         },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjhn"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 20.5,
-      "lon": 145.8,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=12&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -2625,7 +2625,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000th6c"
       ],
