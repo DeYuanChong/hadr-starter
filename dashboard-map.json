@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:03:29.624Z",
+  "generatedAt": "2026-08-10T07:59:21.333Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "224 in-scope event(s)"
+      "detail": "225 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,73 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-10T04:47:58.333Z",
+    "priorRunAt": "2026-08-10T06:03:29.624Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 21.1,
+      "lon": 151,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=14&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tjjh",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 8.9207,
+      "lon": 126.0577,
+      "timeUtc": "Mon, 10 Aug 2026 05:35:51 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tjjh",
+        "1557200"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557200&episodeid=1724169&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjh"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1104067",
       "hazardType": "FL",
@@ -65,15 +128,15 @@
       }
     },
     {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
+      "id": "1030303",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
       "countries": [
-        "Philippines"
+        "Indonesia"
       ],
-      "lat": 20.5,
-      "lon": 148.3,
-      "timeUtc": "2026-08-04T18:00:00",
+      "lat": -1.1026,
+      "lon": 109.7135,
+      "timeUtc": "2026-07-31T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -82,16 +145,20 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1001298"
+        "1030303"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030303&episodeid=2&eventtype=WF"
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-07-31",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.9635,-1.8526,110.4635,-0.3526&t=2026-07-31",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tji3",
@@ -297,39 +364,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1030303",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.1033,
-      "lon": 109.7133,
-      "timeUtc": "2026-07-31T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1030303"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030303&episodeid=1&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-31",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.9633,-1.8533,110.4633,-0.3533&t=2026-07-31",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000tjcl",
