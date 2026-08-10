@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:38:44.378Z",
+  "generatedAt": "2026-08-10T12:35:03.488Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "11 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-10T10:51:21.971Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1030313",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030312",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-10T11:38:44.378Z",
+    "changes": []
   },
   "stories": [
     {
@@ -158,7 +143,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030313"
       ],
@@ -191,7 +176,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030312"
       ],
@@ -415,29 +400,22 @@
     {
       "id": "us6000tje3",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
+      "title": "96 km S of Sarangani, Philippines",
+      "countries": [],
       "lat": 4.5364,
       "lon": 125.3517,
       "timeUtc": "Sun, 09 Aug 2026 10:04:31 GMT",
       "mag": 4.6,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tje3",
-        "1557056"
+        "us6000tje3"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557056&episodeid=1724009&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tje3"
