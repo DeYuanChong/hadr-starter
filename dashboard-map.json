@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T22:50:47.064Z",
+  "generatedAt": "2026-08-10T23:21:37.106Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "4 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: fetch failed"
     },
     {
       "feed": "usgs",
@@ -27,65 +27,29 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-10T21:52:42.786Z",
+    "priorRunAt": "2026-08-10T22:50:47.064Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 22.4,
-      "lon": 154.1,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=16&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tjqj",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "232 km SSW of Pagar Alam, Indonesia",
+      "countries": [],
       "lat": -5.9347,
       "lon": 102.3607,
       "timeUtc": "Mon, 10 Aug 2026 17:08:06 GMT",
       "mag": 5.1,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "escalated",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tjqj",
-        "1557281"
+        "us6000tjqj"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557281&episodeid=1724257&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjqj"
@@ -97,29 +61,22 @@
     {
       "id": "us6000tjjh",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
+      "title": "13 km ESE of San Miguel, Philippines",
+      "countries": [],
       "lat": 8.9207,
       "lon": 126.0577,
       "timeUtc": "Mon, 10 Aug 2026 05:35:51 GMT",
       "mag": 4.6,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "escalated",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tjjh",
-        "1557200"
+        "us6000tjjh"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557200&episodeid=1724169&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjh"
@@ -127,39 +84,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1104067",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 18.7883,
-      "lon": 98.9859,
-      "timeUtc": "2026-07-30T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104067"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=8&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-30",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000tji3",
