@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:01:44.239Z",
+  "generatedAt": "2026-08-11T15:10:24.277Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-11T12:26:50.950Z",
+    "priorRunAt": "2026-08-11T14:01:44.239Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjxa",
         "1557440"
@@ -60,6 +60,35 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjxa"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 26.1,
+      "lon": 159.5,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=19&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -94,35 +123,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 26,
-      "lon": 158,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=18&eventtype=TC"
         }
       ],
       "supplementary": [],
@@ -4077,18 +4077,18 @@
     {
       "id": "us7000t1wm",
       "hazardType": "EQ",
-      "title": "83 km W of Tobelo, Indonesia",
+      "title": "73 km W of Tobelo, Indonesia",
       "countries": [],
-      "lat": 1.6021,
-      "lon": 127.2659,
-      "timeUtc": "Mon, 20 Jul 2026 09:40:43 GMT",
-      "mag": 5.1,
+      "lat": 1.6026,
+      "lon": 127.3619,
+      "timeUtc": "Mon, 20 Jul 2026 09:40:46 GMT",
+      "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000t1wm"
       ],
@@ -4142,7 +4142,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t32g"
       ],
