@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:42:02.487Z",
+  "generatedAt": "2026-08-11T08:39:23.588Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,29 +27,80 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-11T06:08:39.289Z",
-    "changes": []
+    "priorRunAt": "2026-08-11T07:42:02.487Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030303",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1030312",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 26,
+      "lon": 158,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=18&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tjug",
       "hazardType": "EQ",
-      "title": "81 km SSE of Bengkulu, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -4.4801,
       "lon": 102.5519,
       "timeUtc": "Tue, 11 Aug 2026 01:12:46 GMT",
       "mag": 4.7,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tjug"
+        "us6000tjug",
+        "1557352"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557352&episodeid=1724330&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjug"
@@ -57,6 +108,140 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104067",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 17.9301,
+      "lon": 102.465,
+      "timeUtc": "2026-07-30T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104067"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=4&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-30",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.715,17.1801,103.215,18.6801&t=2026-07-30",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "us6000tjqj",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.9347,
+      "lon": 102.3607,
+      "timeUtc": "Mon, 10 Aug 2026 17:08:06 GMT",
+      "mag": 5.1,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tjqj",
+        "1557281"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557281&episodeid=1724257&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjqj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tjjh",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 8.9207,
+      "lon": 126.0577,
+      "timeUtc": "Mon, 10 Aug 2026 05:35:51 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tjjh",
+        "1557200"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557200&episodeid=1724169&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjh"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1030313",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.0747,
+      "lon": 110.4508,
+      "timeUtc": "2026-08-02T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1030313"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030313&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-02",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.7008,-0.6753,111.2008,0.8247&t=2026-08-02",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tjt8",
@@ -80,60 +265,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjt8"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tjqj",
-      "hazardType": "EQ",
-      "title": "232 km SSW of Pagar Alam, Indonesia",
-      "countries": [],
-      "lat": -5.9347,
-      "lon": 102.3607,
-      "timeUtc": "Mon, 10 Aug 2026 17:08:06 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tjqj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjqj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tjjh",
-      "hazardType": "EQ",
-      "title": "13 km ESE of San Miguel, Philippines",
-      "countries": [],
-      "lat": 8.9207,
-      "lon": 126.0577,
-      "timeUtc": "Mon, 10 Aug 2026 05:35:51 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tjjh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjh"
         }
       ],
       "supplementary": [],
