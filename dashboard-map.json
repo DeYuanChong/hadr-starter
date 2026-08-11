@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T03:57:52.100Z",
+  "generatedAt": "2026-08-11T05:17:16.918Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "217 in-scope event(s)"
+      "detail": "218 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-11T02:21:20.736Z",
+    "priorRunAt": "2026-08-11T03:57:52.100Z",
     "changes": []
   },
   "stories": [
@@ -194,6 +194,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.2359,18.0383,99.7359,19.5383&t=2026-07-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tjt8",
+      "hazardType": "EQ",
+      "title": "12 km SE of Baixi, China",
+      "countries": [],
+      "lat": 28.6111,
+      "lon": 104.6343,
+      "timeUtc": "Mon, 10 Aug 2026 21:31:44 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjt8"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjt8"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tji3",
