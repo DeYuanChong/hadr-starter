@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:46:07.760Z",
+  "generatedAt": "2026-08-12T08:54:09.971Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,30 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-12T06:02:09.026Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1030303",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104029",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-12T07:46:07.760Z",
+    "changes": []
   },
   "stories": [
     {
@@ -60,8 +38,8 @@
       "countries": [
         "Philippines"
       ],
-      "lat": 29.4,
-      "lon": 162.1,
+      "lat": 30.1,
+      "lon": 162.7,
       "timeUtc": "2026-08-04T18:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -76,13 +54,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=21&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=22&eventtype=TC"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-03",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=159.1,26.4,165.1,32.4&t=2026-08-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=159.7,27.1,165.7,33.1&t=2026-08-03",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -102,7 +80,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030303"
       ],
@@ -290,39 +268,6 @@
       "imagery": null
     },
     {
-      "id": "1104067",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 17.9301,
-      "lon": 102.465,
-      "timeUtc": "2026-07-30T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104067"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=4&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-30",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.715,17.1801,103.215,18.6801&t=2026-07-30",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1104011",
       "hazardType": "FL",
       "title": "Flood in Myanmar",
@@ -338,7 +283,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104011"
       ],
@@ -376,7 +321,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104029"
       ],
@@ -388,6 +333,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104067",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 17.9301,
+      "lon": 102.465,
+      "timeUtc": "2026-07-30T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104067"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=4&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-30",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.715,17.1801,103.215,18.6801&t=2026-07-30",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tk52",
@@ -1326,7 +1304,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti86"
       ],
