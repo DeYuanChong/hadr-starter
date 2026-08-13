@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:43:16.020Z",
+  "generatedAt": "2026-08-13T16:40:10.289Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "218 in-scope event(s)"
+      "detail": "219 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T14:47:04.338Z",
+    "priorRunAt": "2026-08-13T15:43:16.020Z",
     "changes": []
   },
   "stories": [
@@ -180,7 +180,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tkax"
       ],
@@ -234,7 +234,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tk9q"
       ],
@@ -261,7 +261,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tk6n"
       ],
@@ -1923,6 +1923,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thi4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thhj",
+      "hazardType": "EQ",
+      "title": "28 km S of Sulangan, Philippines",
+      "countries": [],
+      "lat": 10.6831,
+      "lon": 125.8721,
+      "timeUtc": "Sat, 01 Aug 2026 18:59:58 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thhj"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhj"
         }
       ],
       "supplementary": [],
