@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:03:23.694Z",
+  "generatedAt": "2026-08-13T13:38:46.835Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,25 +27,43 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T11:13:51.008Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030460",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-13T12:03:23.694Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 32.9,
+      "lon": 169.1,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=27&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=166.1,29.9,172.1,35.9&t=2026-08-03",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000tkg4",
       "hazardType": "EQ",
@@ -62,7 +80,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tkg4",
         "1557790"
@@ -116,39 +134,6 @@
       "imagery": null
     },
     {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 32,
-      "lon": 168,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=26&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-03",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=165,29,171,35&t=2026-08-03",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1030460",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -164,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030460"
       ],
@@ -3951,7 +3936,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000t2fj"
       ],
@@ -4520,7 +4505,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t34v"
       ],
@@ -5223,7 +5208,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t0y9"
       ],
