@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:02:47.659Z",
+  "generatedAt": "2026-08-13T07:47:27.927Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,29 +27,77 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T04:32:19.468Z",
-    "changes": []
+    "priorRunAt": "2026-08-13T06:02:47.659Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1104011",
+        "title": "Flood in Myanmar",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
+      "id": "1001298",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone PEILOU-26",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 31.1,
+      "lon": 166.6,
+      "timeUtc": "2026-08-04T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001298"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=25&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=163.6,28.1,169.6,34.1&t=2026-08-03",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us6000tkax",
       "hazardType": "EQ",
-      "title": "31 km E of Basco, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 20.4966,
       "lon": 122.2726,
       "timeUtc": "Wed, 12 Aug 2026 21:25:20 GMT",
       "mag": 4.7,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tkax"
+        "us6000tkax",
+        "1557702"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557702&episodeid=1724738&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkax"
@@ -61,22 +109,29 @@
     {
       "id": "us6000tk6n",
       "hazardType": "EQ",
-      "title": "125 km NNW of Ambon, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -2.6342,
       "lon": 127.7768,
       "timeUtc": "Wed, 12 Aug 2026 10:15:28 GMT",
       "mag": 4.5,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000tk6n"
+        "us6000tk6n",
+        "1557618"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557618&episodeid=1724656&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk6n"
@@ -84,6 +139,44 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104011",
+      "hazardType": "FL",
+      "title": "Flood in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": 17.1154,
+      "lon": 97.5729,
+      "timeUtc": "2026-07-04T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104011"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=13&eventtype=FL"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
+      "imagery": {
+        "imageDate": "2026-07-04",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.8229,16.3654,98.3229,17.8654&t=2026-07-04",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tk52",
@@ -5720,40 +5813,6 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jun 2026 (fixture)",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
       "imagery": null
     }
   ]
