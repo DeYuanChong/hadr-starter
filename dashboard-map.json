@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:47:04.241Z",
+  "generatedAt": "2026-08-13T20:24:23.545Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "222 in-scope event(s)"
+      "detail": "224 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T18:41:35.570Z",
+    "priorRunAt": "2026-08-13T19:47:04.241Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkig",
         "usauto6000tkig",
@@ -73,8 +73,8 @@
       "countries": [
         "Philippines"
       ],
-      "lat": 32.9,
-      "lon": 169.1,
+      "lat": 33.8,
+      "lon": 170.2,
       "timeUtc": "2026-08-04T18:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -89,13 +89,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=27&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=28&eventtype=TC"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-03",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=166.1,29.9,172.1,35.9&t=2026-08-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=167.2,30.8,173.2,36.8&t=2026-08-03",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1829,6 +1829,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tink",
+      "hazardType": "EQ",
+      "title": "2 km ENE of Qingfu, China",
+      "countries": [],
+      "lat": 28.4435,
+      "lon": 104.5433,
+      "timeUtc": "Sun, 02 Aug 2026 19:29:23 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tink"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tink"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000thmn",
       "hazardType": "EQ",
       "title": "170 km SE of Sarangani, Philippines",
@@ -1977,7 +2004,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tim2"
       ],
@@ -2533,20 +2560,47 @@
       "imagery": null
     },
     {
-      "id": "us6000tgy6",
+      "id": "us6000ti2n",
       "hazardType": "EQ",
-      "title": "140 km NNW of Baukau, Timor Leste",
+      "title": "200 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -7.242,
-      "lon": 126.1607,
-      "timeUtc": "Thu, 30 Jul 2026 13:14:31 GMT",
+      "lat": -2.8401,
+      "lon": 138.8456,
+      "timeUtc": "Thu, 30 Jul 2026 13:21:53 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
+      "aliases": [
+        "us6000ti2n"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti2n"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgy6",
+      "hazardType": "EQ",
+      "title": "148 km NNW of Baukau, Timor Leste",
+      "countries": [],
+      "lat": -7.1724,
+      "lon": 126.1476,
+      "timeUtc": "Thu, 30 Jul 2026 13:14:30 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us6000tgy6"
       ],
