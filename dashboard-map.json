@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:40:10.289Z",
+  "generatedAt": "2026-08-13T17:45:16.664Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "219 in-scope event(s)"
+      "detail": "220 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T15:43:16.020Z",
+    "priorRunAt": "2026-08-13T16:40:10.289Z",
     "changes": []
   },
   "stories": [
@@ -1942,7 +1942,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thhj"
       ],
@@ -4850,6 +4850,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2zd"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000t2ys",
+      "hazardType": "EQ",
+      "title": "75 km SSE of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": -0.0708,
+      "lon": 123.3785,
+      "timeUtc": "Sat, 18 Jul 2026 13:45:29 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000t2ys"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ys"
         }
       ],
       "supplementary": [],
