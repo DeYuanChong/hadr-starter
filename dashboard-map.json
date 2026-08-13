@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T04:32:19.468Z",
+  "generatedAt": "2026-08-13T06:02:47.659Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "3 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
@@ -27,69 +27,29 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T02:40:01.790Z",
+    "priorRunAt": "2026-08-13T04:32:19.468Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "1001298",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone PEILOU-26",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 31.1,
-      "lon": 166.6,
-      "timeUtc": "2026-08-04T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001298"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=25&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-03",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=163.6,28.1,169.6,34.1&t=2026-08-03",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us6000tkax",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
+      "title": "31 km E of Basco, Philippines",
+      "countries": [],
       "lat": 20.4966,
       "lon": 122.2726,
       "timeUtc": "Wed, 12 Aug 2026 21:25:20 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tkax",
-        "1557702"
+        "us6000tkax"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557702&episodeid=1724738&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkax"
@@ -101,29 +61,22 @@
     {
       "id": "us6000tk6n",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "125 km NNW of Ambon, Indonesia",
+      "countries": [],
       "lat": -2.6342,
       "lon": 127.7768,
       "timeUtc": "Wed, 12 Aug 2026 10:15:28 GMT",
       "mag": 4.5,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tk6n",
-        "1557618"
+        "us6000tk6n"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1557618&episodeid=1724656&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk6n"
