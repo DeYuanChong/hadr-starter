@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:33:59.640Z",
+  "generatedAt": "2026-08-14T22:55:05.071Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "225 in-scope event(s)"
+      "detail": "228 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T22:02:11.281Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "us6000tkt2",
-        "title": "Earthquake in Indonesia",
-        "hazardType": "EQ",
-        "detail": "new red-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-14T22:33:59.640Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tku7",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.3406,
+      "lon": 121.4284,
+      "timeUtc": "Fri, 14 Aug 2026 22:18:06 GMT",
+      "mag": 5.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tku7",
+        "1558065"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558065&episodeid=1725116&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tku7"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tkta",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2849,
+      "lon": 120.1465,
+      "timeUtc": "Fri, 14 Aug 2026 22:13:50 GMT",
+      "mag": 5.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkta",
+        "1558062"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558062&episodeid=1725117&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkta"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tkt2",
       "hazardType": "EQ",
@@ -55,7 +115,7 @@
       "triageSeverity": "red",
       "suppressed": false,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkt2",
         "usauto6000tkt2",
@@ -213,6 +273,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.963,-1.8389,110.463,-0.3389&t=2026-07-31",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tkuc",
+      "hazardType": "EQ",
+      "title": "58 km N of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.3186,
+      "lon": 121.5717,
+      "timeUtc": "Fri, 14 Aug 2026 22:28:37 GMT",
+      "mag": 6.1,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tkuc"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkuc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tklc",
