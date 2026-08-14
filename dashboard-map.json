@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T00:01:51.592Z",
+  "generatedAt": "2026-08-14T02:37:52.843Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "208 in-scope event(s)"
+      "detail": "211 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T23:09:00.073Z",
+    "priorRunAt": "2026-08-14T00:01:51.592Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tkkw",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.3865,
+      "lon": 125.1585,
+      "timeUtc": "Fri, 14 Aug 2026 01:14:53 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkkw",
+        "1557908"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557908&episodeid=1724950&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkkw"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tkig",
       "hazardType": "EQ",
@@ -1804,11 +1838,11 @@
     {
       "id": "us6000thp0",
       "hazardType": "EQ",
-      "title": "6 km W of Sarangani, Philippines",
+      "title": "11 km WSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.4131,
-      "lon": 125.4077,
-      "timeUtc": "Sun, 02 Aug 2026 22:48:30 GMT",
+      "lat": 5.37,
+      "lon": 125.3647,
+      "timeUtc": "Sun, 02 Aug 2026 22:48:37 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1842,7 +1876,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tinr"
       ],
@@ -1869,7 +1903,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tinn"
       ],
@@ -3130,6 +3164,33 @@
       "imagery": null
     },
     {
+      "id": "us6000thtk",
+      "hazardType": "EQ",
+      "title": "12 km SSE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.2959,
+      "lon": 125.4922,
+      "timeUtc": "Wed, 29 Jul 2026 01:10:47 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thtk"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thtk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tgjc",
       "hazardType": "EQ",
       "title": "25 km N of Santa Monica, Philippines",
@@ -3563,13 +3624,40 @@
       "imagery": null
     },
     {
+      "id": "us6000th00",
+      "hazardType": "EQ",
+      "title": "162 km ESE of Modisi, Indonesia",
+      "countries": [],
+      "lat": 0.0628,
+      "lon": 125.8475,
+      "timeUtc": "Sun, 26 Jul 2026 04:21:43 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000th00"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th00"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000t3di",
       "hazardType": "EQ",
-      "title": "56 km SE of Tuensang, India",
+      "title": "54 km SE of Tuensang, India",
       "countries": [],
-      "lat": 25.9804,
-      "lon": 95.294,
-      "timeUtc": "Sat, 25 Jul 2026 23:09:29 GMT",
+      "lat": 25.9839,
+      "lon": 95.2638,
+      "timeUtc": "Sat, 25 Jul 2026 23:09:26 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
