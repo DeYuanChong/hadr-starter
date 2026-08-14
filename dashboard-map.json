@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T16:00:40.077Z",
+  "generatedAt": "2026-08-14T17:04:07.323Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "220 in-scope event(s)"
+      "detail": "222 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T15:01:53.471Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1030303",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-14T16:00:40.077Z",
+    "changes": []
   },
   "stories": [
     {
@@ -122,7 +114,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030303"
       ],
@@ -2031,7 +2023,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tinl"
       ],
@@ -2255,6 +2247,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000thhe",
+      "hazardType": "EQ",
+      "title": "150 km ENE of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.7767,
+      "lon": 130.2218,
+      "timeUtc": "Sat, 01 Aug 2026 17:30:01 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000thhe"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhe"
         }
       ],
       "supplementary": [],
@@ -4376,6 +4395,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tgeb",
+      "hazardType": "EQ",
+      "title": "220 km NNE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -6.6462,
+      "lon": 127.6812,
+      "timeUtc": "Wed, 22 Jul 2026 18:27:16 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgeb"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgeb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tgea",
       "hazardType": "EQ",
       "title": "133 km WSW of Banda Aceh, Indonesia",
@@ -4389,7 +4435,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgea"
       ],
@@ -4416,7 +4462,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tge6"
       ],
