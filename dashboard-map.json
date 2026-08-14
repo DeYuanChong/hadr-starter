@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:43:40.365Z",
+  "generatedAt": "2026-08-14T11:33:01.603Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,12 +27,12 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T09:47:30.365Z",
+    "priorRunAt": "2026-08-14T10:43:40.365Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "1557908",
+      "id": "us6000tkkw",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -40,21 +40,26 @@
       ],
       "lat": 5.3865,
       "lon": 125.1585,
-      "timeUtc": "2026-08-14T01:14:53",
-      "mag": null,
+      "timeUtc": "Fri, 14 Aug 2026 01:14:53 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tkkw",
         "1557908"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1557908&episodeid=1724950&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkkw"
         }
       ],
       "supplementary": [],
@@ -229,7 +234,7 @@
       "imagery": null
     },
     {
-      "id": "1557779",
+      "id": "us6000tkfh",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -237,21 +242,27 @@
       ],
       "lat": 6.2479,
       "lon": 125.8789,
-      "timeUtc": "2026-08-13T09:22:58",
-      "mag": null,
+      "timeUtc": "Thu, 13 Aug 2026 09:22:58 GMT",
+      "mag": 5.1,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tkfh",
+        "usauto6000tkfh",
         "1557779"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1557779&episodeid=1724807&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh"
         }
       ],
       "supplementary": [],
@@ -279,61 +290,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tklc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tkkw",
-      "hazardType": "EQ",
-      "title": "29 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3865,
-      "lon": 125.1585,
-      "timeUtc": "Fri, 14 Aug 2026 01:14:53 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tkkw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkkw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tkfh",
-      "hazardType": "EQ",
-      "title": "22 km ENE of Lapuan, Philippines",
-      "countries": [],
-      "lat": 6.2479,
-      "lon": 125.8789,
-      "timeUtc": "Thu, 13 Aug 2026 09:22:58 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tkfh",
-        "usauto6000tkfh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh"
         }
       ],
       "supplementary": [],
