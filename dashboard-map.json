@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:02:11.281Z",
+  "generatedAt": "2026-08-14T22:33:59.640Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "224 in-scope event(s)"
+      "detail": "225 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,58 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T21:43:58.812Z",
-    "changes": []
+    "priorRunAt": "2026-08-14T22:02:11.281Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "us6000tkt2",
+        "title": "Earthquake in Indonesia",
+        "hazardType": "EQ",
+        "detail": "new red-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000tkt2",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.3101,
+      "lon": 121.3517,
+      "timeUtc": "Fri, 14 Aug 2026 21:58:21 GMT",
+      "mag": 7.7,
+      "gdacsAlert": "Red",
+      "pagerAlert": "yellow",
+      "triageSeverity": "red",
+      "suppressed": false,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkt2",
+        "usauto6000tkt2",
+        "attjs51g",
+        "1558059"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558059&episodeid=1725109&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.6017,-9.0601,122.1017,-7.5601&t=2026-08-13",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000tkrs",
       "hazardType": "EQ",
