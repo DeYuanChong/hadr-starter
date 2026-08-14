@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:09:00.073Z",
+  "generatedAt": "2026-08-14T00:01:51.592Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "225 in-scope event(s)"
+      "detail": "208 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-13T22:21:37.957Z",
+    "priorRunAt": "2026-08-13T23:09:00.073Z",
     "changes": []
   },
   "stories": [
@@ -175,8 +175,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.9812,
-      "lon": 112.8866,
+      "lat": -2.9789,
+      "lon": 112.8862,
       "timeUtc": "2026-08-03T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -191,13 +191,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030460&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030460&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-02",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1366,-3.7312,113.6366,-2.2312&t=2026-08-02",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1362,-3.7289,113.6362,-2.2289&t=2026-08-02",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1823,6 +1823,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thp0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tinr",
+      "hazardType": "EQ",
+      "title": "11 km SE of Hinundayan, Philippines",
+      "countries": [],
+      "lat": 10.2795,
+      "lon": 125.3268,
+      "timeUtc": "Sun, 02 Aug 2026 22:22:08 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tinr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tinn",
+      "hazardType": "EQ",
+      "title": "134 km ESE of Teluk Dalam, Indonesia",
+      "countries": [],
+      "lat": 0.2025,
+      "lon": 98.9508,
+      "timeUtc": "Sun, 02 Aug 2026 22:14:33 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tinn"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinn"
         }
       ],
       "supplementary": [],
@@ -5696,521 +5750,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t272"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t0il",
-      "hazardType": "EQ",
-      "title": "188 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.3584,
-      "lon": 138.9578,
-      "timeUtc": "Tue, 14 Jul 2026 23:57:57 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0il"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0il"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1z2",
-      "hazardType": "EQ",
-      "title": "95 km WNW of Chauk, Burma (Myanmar)",
-      "countries": [],
-      "lat": 21.2974,
-      "lon": 93.9997,
-      "timeUtc": "Tue, 14 Jul 2026 21:42:39 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1z2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1z2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1z0",
-      "hazardType": "EQ",
-      "title": "165 km N of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": 2.0024,
-      "lon": 122.7741,
-      "timeUtc": "Tue, 14 Jul 2026 20:56:07 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1z0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1z0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1yx",
-      "hazardType": "EQ",
-      "title": "4 km WNW of Butulan, Philippines",
-      "countries": [],
-      "lat": 5.6296,
-      "lon": 125.3915,
-      "timeUtc": "Tue, 14 Jul 2026 19:18:00 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1yx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1yx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1z6",
-      "hazardType": "EQ",
-      "title": "54 km WSW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 1.5222,
-      "lon": 127.5597,
-      "timeUtc": "Tue, 14 Jul 2026 15:54:57 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1z6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1z6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t0d0",
-      "hazardType": "EQ",
-      "title": "32 km WSW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3206,
-      "lon": 125.181,
-      "timeUtc": "Tue, 14 Jul 2026 15:49:39 GMT",
-      "mag": 6.2,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0d0",
-        "usauto7000t0d0",
-        "atti69au"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t0bm",
-      "hazardType": "EQ",
-      "title": "6 km NW of Nuing, Philippines",
-      "countries": [],
-      "lat": 5.6727,
-      "lon": 125.3976,
-      "timeUtc": "Tue, 14 Jul 2026 13:15:06 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0bm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0bm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t0ag",
-      "hazardType": "EQ",
-      "title": "22 km SE of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.5874,
-      "lon": 119.3644,
-      "timeUtc": "Tue, 14 Jul 2026 09:52:36 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t0ag"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0ag"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t09r",
-      "hazardType": "EQ",
-      "title": "22 km WSW of Mabiton, Philippines",
-      "countries": [],
-      "lat": 12.7392,
-      "lon": 123.0803,
-      "timeUtc": "Tue, 14 Jul 2026 07:18:47 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t09r"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09r"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t09m",
-      "hazardType": "EQ",
-      "title": "14 km WSW of Mabiton, Philippines",
-      "countries": [],
-      "lat": 12.7967,
-      "lon": 123.136,
-      "timeUtc": "Tue, 14 Jul 2026 07:04:54 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t09m"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09m"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1yg",
-      "hazardType": "EQ",
-      "title": "83 km ESE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.163,
-      "lon": 126.1757,
-      "timeUtc": "Tue, 14 Jul 2026 07:02:00 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1yg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1yg"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t09h",
-      "hazardType": "EQ",
-      "title": "47 km NE of Kon Tum, Vietnam",
-      "countries": [],
-      "lat": 14.6989,
-      "lon": 108.2755,
-      "timeUtc": "Tue, 14 Jul 2026 06:48:05 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t09h"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09h"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t09g",
-      "hazardType": "EQ",
-      "title": "191 km N of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 3.4636,
-      "lon": 128.0293,
-      "timeUtc": "Tue, 14 Jul 2026 06:37:37 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t09g"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09g"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1yc",
-      "hazardType": "EQ",
-      "title": "194 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.5698,
-      "lon": 138.8877,
-      "timeUtc": "Tue, 14 Jul 2026 02:58:40 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1yc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1yc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t08d",
-      "hazardType": "EQ",
-      "title": "5 km WSW of Balatero, Philippines",
-      "countries": [],
-      "lat": 13.4836,
-      "lon": 120.8776,
-      "timeUtc": "Tue, 14 Jul 2026 01:59:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t08d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t08d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t085",
-      "hazardType": "EQ",
-      "title": "34 km SE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.1842,
-      "lon": 125.6791,
-      "timeUtc": "Tue, 14 Jul 2026 01:38:24 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t085"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t085"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t07r",
-      "hazardType": "EQ",
-      "title": "7 km ESE of San Rafael, Philippines",
-      "countries": [],
-      "lat": 13.0544,
-      "lon": 123.0212,
-      "timeUtc": "Tue, 14 Jul 2026 01:03:15 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t07r"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t07r"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t099",
-      "hazardType": "EQ",
-      "title": "38 km SSW of Trà My, Vietnam",
-      "countries": [],
-      "lat": 15.0016,
-      "lon": 108.1426,
-      "timeUtc": "Tue, 14 Jul 2026 00:17:52 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t099"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t099"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1y9",
-      "hazardType": "EQ",
-      "title": "44 km WNW of Palauig, Philippines",
-      "countries": [],
-      "lat": 15.5313,
-      "lon": 119.5016,
-      "timeUtc": "Tue, 14 Jul 2026 00:04:33 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1y9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1y9"
         }
       ],
       "supplementary": [],
