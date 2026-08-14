@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T15:01:53.471Z",
+  "generatedAt": "2026-08-14T16:00:40.077Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "8 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "217 in-scope event(s)"
+      "detail": "220 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T13:58:06.507Z",
-    "changes": []
+    "priorRunAt": "2026-08-14T15:01:53.471Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1030303",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -99,14 +107,47 @@
       }
     },
     {
+      "id": "1030303",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -1.0889,
+      "lon": 109.713,
+      "timeUtc": "2026-07-31T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1030303"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030303&episodeid=14&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-07-31",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.963,-1.8389,110.463,-0.3389&t=2026-07-31",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1030460",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.9783,
-      "lon": 112.8837,
+      "lat": -2.9781,
+      "lon": 112.8836,
       "timeUtc": "2026-08-03T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -121,13 +162,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030460&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030460&episodeid=5&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-02",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1337,-3.7283,113.6337,-2.2283&t=2026-08-02",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1336,-3.7281,113.6336,-2.2281&t=2026-08-02",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1971,6 +2012,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinn"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tinl",
+      "hazardType": "EQ",
+      "title": "14 km SE of Baixi, China",
+      "countries": [],
+      "lat": 28.5952,
+      "lon": 104.644,
+      "timeUtc": "Sun, 02 Aug 2026 19:54:02 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tinl"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinl"
         }
       ],
       "supplementary": [],
@@ -4302,6 +4370,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2iy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgea",
+      "hazardType": "EQ",
+      "title": "133 km WSW of Banda Aceh, Indonesia",
+      "countries": [],
+      "lat": 5.2175,
+      "lon": 94.1733,
+      "timeUtc": "Wed, 22 Jul 2026 18:08:54 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgea"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgea"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tge6",
+      "hazardType": "EQ",
+      "title": "12 km NNE of Blangpidie, Indonesia",
+      "countries": [],
+      "lat": 3.8435,
+      "lon": 96.879,
+      "timeUtc": "Wed, 22 Jul 2026 17:36:36 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tge6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tge6"
         }
       ],
       "supplementary": [],
