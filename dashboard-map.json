@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:25:30.686Z",
+  "generatedAt": "2026-08-15T04:06:12.713Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "21 in-scope record(s)"
+      "detail": "22 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "234 in-scope event(s)"
+      "detail": "235 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T02:39:47.395Z",
-    "changes": [
-      {
-        "kind": "revised",
-        "storyId": "us6000tkt2",
-        "title": "Earthquake in Indonesia",
-        "hazardType": "EQ",
-        "detail": "PAGER pending → orange"
-      }
-    ]
+    "priorRunAt": "2026-08-15T03:25:30.686Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkw2",
         "1558194"
@@ -89,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkw0",
         "1558186"
@@ -244,6 +236,40 @@
       "imagery": null
     },
     {
+      "id": "us6000tkvg",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.6065,
+      "lon": 121.2789,
+      "timeUtc": "Sat, 15 Aug 2026 00:20:27 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkvg",
+        "1558207"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558207&episodeid=1725281&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvg"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tkvd",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -259,7 +285,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkvd",
         "1558184"
@@ -599,7 +625,7 @@
       "triageSeverity": "red",
       "suppressed": false,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tkt2",
         "usauto6000tkt2",
