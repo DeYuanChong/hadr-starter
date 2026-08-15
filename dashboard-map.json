@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:32:44.395Z",
+  "generatedAt": "2026-08-15T10:53:23.399Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "245 in-scope event(s)"
+      "detail": "246 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T10:02:35.345Z",
+    "priorRunAt": "2026-08-15T10:32:44.395Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkya",
         "1558335"
@@ -1055,6 +1055,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.963,-1.8389,110.463,-0.3389&t=2026-07-31",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tkyg",
+      "hazardType": "EQ",
+      "title": "39 km NNW of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.264,
+      "lon": 120.3675,
+      "timeUtc": "Sat, 15 Aug 2026 10:31:30 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tkyg"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyg"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tklc",
