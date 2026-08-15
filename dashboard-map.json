@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T21:50:42.599Z",
+  "generatedAt": "2026-08-15T22:02:24.043Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "30 in-scope record(s)"
+      "detail": "31 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "266 in-scope event(s)"
+      "detail": "267 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T21:29:57.543Z",
+    "priorRunAt": "2026-08-15T21:50:42.599Z",
     "changes": []
   },
   "stories": [
@@ -196,6 +196,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2p"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl2c",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.795,
+      "lon": 120.6878,
+      "timeUtc": "Sat, 15 Aug 2026 16:58:05 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl2c",
+        "1558515"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558515&episodeid=1725745&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2c"
         }
       ],
       "supplementary": [],
