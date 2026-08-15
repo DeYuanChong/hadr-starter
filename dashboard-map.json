@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:05:04.238Z",
+  "generatedAt": "2026-08-15T17:32:06.611Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "25 in-scope record(s)"
+      "detail": "26 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "257 in-scope event(s)"
+      "detail": "258 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T16:44:57.412Z",
+    "priorRunAt": "2026-08-15T17:05:04.238Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tl1s",
         "usauto6000tl1s",
@@ -62,6 +62,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl19",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -6.5656,
+      "lon": 129.8692,
+      "timeUtc": "Sat, 15 Aug 2026 13:56:26 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl19",
+        "1558526"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558526&episodeid=1725629&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl19"
         }
       ],
       "supplementary": [],
@@ -3206,7 +3240,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000thn0",
         "usauto6000thn0"
