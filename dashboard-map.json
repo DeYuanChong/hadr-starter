@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T22:02:24.043Z",
+  "generatedAt": "2026-08-15T22:32:32.650Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T21:50:42.599Z",
-    "changes": []
+    "priorRunAt": "2026-08-15T22:02:24.043Z",
+    "changes": [
+      {
+        "kind": "de-escalated",
+        "storyId": "us6000tkt2",
+        "title": "68 km NNW of Ende, Indonesia",
+        "hazardType": "EQ",
+        "detail": "orange → yellow"
+      }
+    ]
   },
   "stories": [
     {
@@ -217,7 +225,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl2c",
         "1558515"
@@ -1503,11 +1511,11 @@
       "timeUtc": "Fri, 14 Aug 2026 21:58:21 GMT",
       "mag": 7.7,
       "gdacsAlert": null,
-      "pagerAlert": "orange",
-      "triageSeverity": "orange",
+      "pagerAlert": "yellow",
+      "triageSeverity": "yellow",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "de-escalated",
       "aliases": [
         "us6000tkt2",
         "usauto6000tkt2",
