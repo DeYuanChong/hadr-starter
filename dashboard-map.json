@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T19:12:05.016Z",
+  "generatedAt": "2026-08-15T19:39:14.296Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "28 in-scope record(s)"
+      "detail": "29 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "261 in-scope event(s)"
+      "detail": "264 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,11 +27,11 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T18:50:47.642Z",
+    "priorRunAt": "2026-08-15T19:12:05.016Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1030303",
+        "storyId": "1030532",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
@@ -39,6 +39,40 @@
     ]
   },
   "stories": [
+    {
+      "id": "us6000tl31",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2203,
+      "lon": 120.6399,
+      "timeUtc": "Sat, 15 Aug 2026 18:40:21 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl31",
+        "1558564"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558564&episodeid=1725685&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl31"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tl2u",
       "hazardType": "EQ",
@@ -172,6 +206,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl1p",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2101,
+      "lon": 121.3861,
+      "timeUtc": "Sat, 15 Aug 2026 15:52:32 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl1p",
+        "1558572"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558572&episodeid=1725680&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1p"
         }
       ],
       "supplementary": [],
@@ -961,37 +1029,31 @@
       }
     },
     {
-      "id": "1030532",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.0067,
-      "lon": 110.2043,
-      "timeUtc": "2026-08-02T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
+      "id": "us6000tl33",
+      "hazardType": "EQ",
+      "title": "45 km N of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2027,
+      "lon": 120.5418,
+      "timeUtc": "Sat, 15 Aug 2026 18:43:05 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
+      "triageSeverity": "none",
+      "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1030532"
+        "us6000tl33"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030532&episodeid=1&eventtype=WF"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl33"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-02",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4543,-2.7567,110.9543,-1.2567&t=2026-08-02",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us6000tl0a",
