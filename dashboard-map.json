@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:02:27.236Z",
+  "generatedAt": "2026-08-15T13:37:32.048Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "30 in-scope record(s)"
+      "detail": "31 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T12:10:11.162Z",
+    "priorRunAt": "2026-08-15T13:02:27.236Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl0v",
         "1558400"
@@ -204,6 +204,40 @@
       "imagery": null
     },
     {
+      "id": "us6000tky5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1297,
+      "lon": 120.4925,
+      "timeUtc": "Sat, 15 Aug 2026 09:08:22 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tky5",
+        "1558323"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558323&episodeid=1725510&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tky5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tkx5",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -253,7 +287,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkwz",
         "1558294"
@@ -1087,33 +1121,6 @@
       "imagery": null
     },
     {
-      "id": "us6000tky5",
-      "hazardType": "EQ",
-      "title": "53 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1297,
-      "lon": 120.4925,
-      "timeUtc": "Sat, 15 Aug 2026 09:08:22 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "us6000tky5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tky5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tkxc",
       "hazardType": "EQ",
       "title": "42 km NNW of Ruteng, Indonesia",
@@ -1127,7 +1134,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkxc"
       ],
@@ -1154,7 +1161,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tkrs"
       ],
