@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:50:47.642Z",
+  "generatedAt": "2026-08-15T19:12:05.016Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "29 in-scope record(s)"
+      "detail": "28 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T18:12:41.512Z",
-    "changes": []
+    "priorRunAt": "2026-08-15T18:50:47.642Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030303",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +55,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl2u",
         "1558539"
@@ -81,7 +89,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl2t",
         "1558536"
@@ -982,39 +990,6 @@
       "imagery": {
         "imageDate": "2026-08-02",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4543,-2.7567,110.9543,-1.2567&t=2026-08-02",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1030303",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.0892,
-      "lon": 109.7129,
-      "timeUtc": "2026-07-31T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1030303"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030303&episodeid=15&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-31",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.9629,-1.8392,110.4629,-0.3392&t=2026-07-31",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -4036,10 +4011,10 @@
     {
       "id": "us6000tgyg",
       "hazardType": "EQ",
-      "title": "194 km W of Abepura, Indonesia",
+      "title": "207 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.7043,
-      "lon": 138.888,
+      "lat": -2.7073,
+      "lon": 138.7721,
       "timeUtc": "Thu, 30 Jul 2026 14:37:35 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
