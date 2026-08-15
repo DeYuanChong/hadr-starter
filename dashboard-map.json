@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:12:41.512Z",
+  "generatedAt": "2026-08-15T18:50:47.642Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "27 in-scope record(s)"
+      "detail": "29 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "259 in-scope event(s)"
+      "detail": "261 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T17:52:00.719Z",
+    "priorRunAt": "2026-08-15T18:12:41.512Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tl2u",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.7671,
+      "lon": 120.6775,
+      "timeUtc": "Sat, 15 Aug 2026 17:51:27 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl2u",
+        "1558539"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558539&episodeid=1725659&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl2t",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.9256,
+      "lon": 120.4122,
+      "timeUtc": "Sat, 15 Aug 2026 17:44:14 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl2t",
+        "1558536"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558536&episodeid=1725656&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2t"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tl2p",
       "hazardType": "EQ",
@@ -47,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl2p",
         "1558527"
