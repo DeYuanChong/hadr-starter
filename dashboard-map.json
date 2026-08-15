@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T01:44:55.586Z",
+  "generatedAt": "2026-08-15T02:39:47.395Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "18 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "228 in-scope event(s)"
+      "detail": "231 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,86 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-14T23:54:05.207Z",
-    "changes": []
+    "priorRunAt": "2026-08-15T01:44:55.586Z",
+    "changes": [
+      {
+        "kind": "revised",
+        "storyId": "us6000tkt2",
+        "title": "Earthquake in Indonesia",
+        "hazardType": "EQ",
+        "detail": "PAGER yellow → pending"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000tkvy",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1754,
+      "lon": 121.2637,
+      "timeUtc": "Sat, 15 Aug 2026 02:03:45 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkvy",
+        "1558160"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558160&episodeid=1725249&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tkvt",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.0505,
+      "lon": 120.5052,
+      "timeUtc": "Sat, 15 Aug 2026 01:37:40 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkvt",
+        "1558155"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558155&episodeid=1725224&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvt"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tkvp",
       "hazardType": "EQ",
@@ -47,7 +123,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkvp",
         "1558144"
@@ -81,7 +157,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkvh",
         "1558124"
@@ -94,6 +170,40 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvh"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tkvc",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1975,
+      "lon": 121.5158,
+      "timeUtc": "Fri, 14 Aug 2026 23:52:55 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tkvc",
+        "1558177"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558177&episodeid=1725246&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvc"
         }
       ],
       "supplementary": [],
@@ -115,7 +225,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkvb",
         "1558145"
@@ -383,11 +493,11 @@
       "timeUtc": "Fri, 14 Aug 2026 21:58:21 GMT",
       "mag": 7.7,
       "gdacsAlert": "Red",
-      "pagerAlert": "yellow",
+      "pagerAlert": "pending",
       "triageSeverity": "red",
       "suppressed": false,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tkt2",
         "usauto6000tkt2",
