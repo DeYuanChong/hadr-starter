@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:08:20.259Z",
+  "generatedAt": "2026-08-15T16:44:57.412Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "255 in-scope event(s)"
+      "detail": "256 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-15T15:51:13.936Z",
+    "priorRunAt": "2026-08-15T16:08:20.259Z",
     "changes": []
   },
   "stories": [
@@ -845,6 +845,35 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=108.9629,-1.8392,110.4629,-0.3392&t=2026-07-31",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tl1s",
+      "hazardType": "EQ",
+      "title": "125 km NNE of Palu, Indonesia",
+      "countries": [],
+      "lat": 0.1542,
+      "lon": 120.2573,
+      "timeUtc": "Sat, 15 Aug 2026 16:25:18 GMT",
+      "mag": 5.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tl1s",
+        "usauto6000tl1s",
+        "attjtka8"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tl0a",
