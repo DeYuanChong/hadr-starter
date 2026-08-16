@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T02:08:12.538Z",
+  "generatedAt": "2026-08-16T03:15:50.758Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "268 in-scope event(s)"
+      "detail": "269 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-16T00:25:43.936Z",
+    "priorRunAt": "2026-08-16T02:08:12.538Z",
     "changes": []
   },
   "stories": [
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tl3n",
         "1558691"
@@ -1179,6 +1179,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl43"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl3u",
+      "hazardType": "EQ",
+      "title": "74 km ESE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.173,
+      "lon": 126.0929,
+      "timeUtc": "Sat, 15 Aug 2026 22:10:03 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tl3u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl3u"
         }
       ],
       "supplementary": [],
@@ -5948,7 +5975,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000t2lg"
       ],
