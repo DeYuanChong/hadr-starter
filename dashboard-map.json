@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T22:32:13.399Z",
+  "generatedAt": "2026-08-16T22:52:11.014Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "278 in-scope event(s)"
+      "detail": "279 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-16T22:01:39.912Z",
+    "priorRunAt": "2026-08-16T22:32:13.399Z",
     "changes": []
   },
   "stories": [
@@ -403,6 +403,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1306,-3.7186,113.6306,-2.2186&t=2026-08-02",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "usd0015ea9",
+      "hazardType": "EQ",
+      "title": "Kepulauan Babar, Indonesia",
+      "countries": [],
+      "lat": -7.1047,
+      "lon": 129.5762,
+      "timeUtc": "Sun, 16 Aug 2026 21:28:18 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "usd0015ea9"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ea9"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tl44",
