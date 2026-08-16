@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:04:17.223Z",
+  "generatedAt": "2026-08-16T07:40:13.717Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "270 in-scope event(s)"
+      "detail": "271 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,53 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-16T06:15:07.023Z",
-    "changes": []
+    "priorRunAt": "2026-08-16T07:04:17.223Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030532",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000tl6a",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.9322,
+      "lon": 120.5855,
+      "timeUtc": "Sun, 16 Aug 2026 06:51:47 GMT",
+      "mag": 5.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tl6a",
+        "usauto6000tl6a",
+        "1558840"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558840&episodeid=1725966&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl6a"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tl55",
       "hazardType": "EQ",
@@ -1156,39 +1199,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1030532",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.0067,
-      "lon": 110.2043,
-      "timeUtc": "2026-08-02T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1030532"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030532&episodeid=1&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-02",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4543,-2.7567,110.9543,-1.2567&t=2026-08-02",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000tl43",
