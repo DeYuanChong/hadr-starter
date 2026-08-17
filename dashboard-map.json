@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:56:25.818Z",
+  "generatedAt": "2026-08-17T23:32:01.553Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "293 in-scope event(s)"
+      "detail": "294 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-17T22:35:33.942Z",
-    "changes": []
+    "priorRunAt": "2026-08-17T22:56:25.818Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030610",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1030532",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -583,37 +598,65 @@
       "imagery": null
     },
     {
-      "id": "1030610",
+      "id": "1030532",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -8.2683,
-      "lon": 137.7797,
-      "timeUtc": "2026-08-15T00:00:00",
+      "lat": -2.0111,
+      "lon": 110.2013,
+      "timeUtc": "2026-08-02T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1030610"
+        "1030532"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030610&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030532&episodeid=6&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0297,-9.0183,138.5297,-7.5183&t=2026-08-15",
+        "imageDate": "2026-08-02",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4513,-2.7611,110.9513,-1.2611&t=2026-08-02",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tlgm",
+      "hazardType": "EQ",
+      "title": "59 km ENE of Colonia, Micronesia",
+      "countries": [],
+      "lat": 9.7621,
+      "lon": 138.6056,
+      "timeUtc": "Mon, 17 Aug 2026 22:53:11 GMT",
+      "mag": 5.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tlgm",
+        "usauto6000tlgm"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlgm"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "usd0015efc",
