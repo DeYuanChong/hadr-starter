@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:56:12.174Z",
+  "generatedAt": "2026-08-17T09:52:57.930Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "20 in-scope record(s)"
+      "detail": "22 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "282 in-scope event(s)"
+      "detail": "283 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,93 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-17T08:04:00.786Z",
-    "changes": []
+    "priorRunAt": "2026-08-17T08:56:12.174Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1018545",
+        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+      "countries": [
+        "Australia",
+        "Indonesia",
+        "Cambodia",
+        "Laos",
+        "Papua New Guinea",
+        "Philippines",
+        "Solomon Is.",
+        "Thailand",
+        "Vietnam"
+      ],
+      "lat": 13.048,
+      "lon": 105.345,
+      "timeUtc": "2025-11-21T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=12&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2025-11-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.345,10.048,108.345,16.048&t=2025-11-21",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "usd0015ed1",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.3911,
+      "lon": 121.5192,
+      "timeUtc": "Mon, 17 Aug 2026 09:16:05 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "usd0015ed1",
+        "1559390"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1559390&episodeid=1726548&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "usd0015ech",
       "hazardType": "EQ",
