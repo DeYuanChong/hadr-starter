@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:52:29.424Z",
+  "generatedAt": "2026-08-18T01:45:50.677Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "294 in-scope event(s)"
+      "detail": "288 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-17T23:32:01.553Z",
-    "changes": []
+    "priorRunAt": "2026-08-17T23:52:29.424Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030532",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1030610",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -583,35 +598,35 @@
       "imagery": null
     },
     {
-      "id": "1030532",
+      "id": "1030610",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.0111,
-      "lon": 110.2013,
-      "timeUtc": "2026-08-02T00:00:00",
+      "lat": -8.2685,
+      "lon": 137.7797,
+      "timeUtc": "2026-08-15T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1030532"
+        "1030610"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030532&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030610&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-02",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4513,-2.7611,110.9513,-1.2611&t=2026-08-02",
+        "imageDate": "2026-08-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0297,-9.0185,138.5297,-7.5185&t=2026-08-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -4122,11 +4137,11 @@
     {
       "id": "us6000ti5u",
       "hazardType": "EQ",
-      "title": "55 km WSW of Monywa, Burma (Myanmar)",
+      "title": "56 km WSW of Monywa, Burma (Myanmar)",
       "countries": [],
-      "lat": 21.9032,
-      "lon": 94.6478,
-      "timeUtc": "Wed, 05 Aug 2026 00:11:57 GMT",
+      "lat": 21.8724,
+      "lon": 94.6484,
+      "timeUtc": "Wed, 05 Aug 2026 00:11:58 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4141,6 +4156,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tj0k",
+      "hazardType": "EQ",
+      "title": "105 km NW of Bukittinggi, Indonesia",
+      "countries": [],
+      "lat": 0.4693,
+      "lon": 99.8157,
+      "timeUtc": "Tue, 04 Aug 2026 23:32:17 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tj0k"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj0k"
         }
       ],
       "supplementary": [],
@@ -7988,196 +8030,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2zk",
-      "hazardType": "EQ",
-      "title": "79 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.1947,
-      "lon": 124.6586,
-      "timeUtc": "Sat, 18 Jul 2026 23:53:42 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2zk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2zk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2zd",
-      "hazardType": "EQ",
-      "title": "123 km SE of Miyakojima, Japan",
-      "countries": [],
-      "lat": 23.8679,
-      "lon": 125.9873,
-      "timeUtc": "Sat, 18 Jul 2026 22:39:29 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2zd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2zd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2ys",
-      "hazardType": "EQ",
-      "title": "75 km SSE of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": -0.0708,
-      "lon": 123.3785,
-      "timeUtc": "Sat, 18 Jul 2026 13:45:29 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2ys"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ys"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1kf",
-      "hazardType": "EQ",
-      "title": "198 km SW of Bandar Lampung, Indonesia",
-      "countries": [],
-      "lat": -6.5748,
-      "lon": 103.8765,
-      "timeUtc": "Sat, 18 Jul 2026 08:21:42 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1kf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2y2",
-      "hazardType": "EQ",
-      "title": "121 km SE of Modisi, Indonesia",
-      "countries": [],
-      "lat": -0.3602,
-      "lon": 125.1744,
-      "timeUtc": "Sat, 18 Jul 2026 03:28:06 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2y2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2y2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1it",
-      "hazardType": "EQ",
-      "title": "119 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.5057,
-      "lon": 124.8574,
-      "timeUtc": "Sat, 18 Jul 2026 02:23:40 GMT",
-      "mag": 5.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1it",
-        "usauto7000t1it"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1it"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t1ig",
-      "hazardType": "EQ",
-      "title": "138 km WNW of Pariaman, Indonesia",
-      "countries": [],
-      "lat": -0.3257,
-      "lon": 98.9133,
-      "timeUtc": "Sat, 18 Jul 2026 00:50:06 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t1ig"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig"
         }
       ],
       "supplementary": [],
