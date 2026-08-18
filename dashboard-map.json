@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T22:56:27.988Z",
+  "generatedAt": "2026-08-18T23:30:54.429Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "310 in-scope event(s)"
+      "detail": "312 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-18T22:35:08.611Z",
-    "changes": []
+    "priorRunAt": "2026-08-18T22:56:27.988Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030610",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1030660",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -338,35 +353,35 @@
       }
     },
     {
-      "id": "1030610",
+      "id": "1030660",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -8.2685,
-      "lon": 137.7797,
-      "timeUtc": "2026-08-15T00:00:00",
+      "lat": -1.9981,
+      "lon": 110.5397,
+      "timeUtc": "2026-08-07T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1030610"
+        "1030660"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030610&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030660&episodeid=2&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0297,-9.0185,138.5297,-7.5185&t=2026-08-15",
+        "imageDate": "2026-08-07",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.7897,-2.7481,111.2897,-1.2481&t=2026-08-07",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -3926,6 +3941,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tjpr",
+      "hazardType": "EQ",
+      "title": "35 km SE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.1501,
+      "lon": 125.6592,
+      "timeUtc": "Wed, 05 Aug 2026 22:50:24 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjpr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjpr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tifh",
       "hazardType": "EQ",
       "title": "35 km SSW of Sarangani, Philippines",
@@ -5059,6 +5101,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thef"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tili",
+      "hazardType": "EQ",
+      "title": "51 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.0135,
+      "lon": 125.2117,
+      "timeUtc": "Sat, 01 Aug 2026 02:42:39 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tili"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tili"
         }
       ],
       "supplementary": [],
