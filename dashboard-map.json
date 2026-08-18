@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:19:46.825Z",
+  "generatedAt": "2026-08-18T19:45:20.965Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "306 in-scope event(s)"
+      "detail": "307 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-18T18:51:46.486Z",
+    "priorRunAt": "2026-08-18T19:19:46.825Z",
     "changes": []
   },
   "stories": [
@@ -301,6 +301,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0297,-9.0185,138.5297,-7.5185&t=2026-08-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tlqk",
+      "hazardType": "EQ",
+      "title": "76 km NW of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.2942,
+      "lon": 121.2432,
+      "timeUtc": "Tue, 18 Aug 2026 19:03:07 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tlqk"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tll0",
