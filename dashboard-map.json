@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T04:56:11.078Z",
+  "generatedAt": "2026-08-18T05:38:24.807Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "18 in-scope record(s)"
+      "detail": "17 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-18T04:17:46.807Z",
-    "changes": []
+    "priorRunAt": "2026-08-18T04:56:11.078Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1018545",
+        "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -268,47 +276,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1018545",
-      "hazardType": "DR",
-      "title": "Drought in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
-      "countries": [
-        "Australia",
-        "Indonesia",
-        "Cambodia",
-        "Laos",
-        "Papua New Guinea",
-        "Philippines",
-        "Solomon Is.",
-        "Thailand",
-        "Vietnam"
-      ],
-      "lat": 13.048,
-      "lon": 105.345,
-      "timeUtc": "2025-11-21T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1018545"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=12&eventtype=DR"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2025-11-21",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=102.345,10.048,108.345,16.048&t=2025-11-21",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "usd0015ed1",
@@ -555,16 +522,16 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -8.2665,
-      "lon": 121.5148,
-      "timeUtc": "Mon, 17 Aug 2026 00:46:45 GMT",
-      "mag": 5.7,
+      "lat": -8.3149,
+      "lon": 121.4724,
+      "timeUtc": "Mon, 17 Aug 2026 00:46:41 GMT",
+      "mag": 5.5,
       "gdacsAlert": "Green",
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "usd0015eay",
         "1559203"
@@ -589,16 +556,16 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -7.9505,
-      "lon": 120.2426,
+      "lat": -7.9578,
+      "lon": 120.2244,
       "timeUtc": "Mon, 17 Aug 2026 00:27:36 GMT",
-      "mag": 4.5,
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "usd0015eav",
         "1559211"
@@ -799,7 +766,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "usd0015eaf"
       ],
