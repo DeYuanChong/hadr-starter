@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:44:45.242Z",
+  "generatedAt": "2026-08-19T22:08:47.038Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "10 in-scope record(s)"
+      "detail": "11 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "324 in-scope event(s)"
+      "detail": "326 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-19T21:11:25.355Z",
+    "priorRunAt": "2026-08-19T21:44:45.242Z",
     "changes": []
   },
   "stories": [
@@ -239,6 +239,40 @@
       "imagery": null
     },
     {
+      "id": "us6000tlss",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2229,
+      "lon": 121.0211,
+      "timeUtc": "Wed, 19 Aug 2026 01:44:50 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tlss",
+        "1560060"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560060&episodeid=1727619&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlss"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tls7",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -370,6 +404,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0301,-9.0183,138.5301,-7.5183&t=2026-08-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tlz6",
+      "hazardType": "EQ",
+      "title": "40 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2605,
+      "lon": 120.5649,
+      "timeUtc": "Wed, 19 Aug 2026 18:34:16 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tlz6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tlvn",
@@ -5025,7 +5086,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tiyc"
       ],
