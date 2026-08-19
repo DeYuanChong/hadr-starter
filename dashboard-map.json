@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:50:04.834Z",
+  "generatedAt": "2026-08-19T09:18:52.698Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "316 in-scope event(s)"
+      "detail": "317 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-19T07:56:43.225Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1104104",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-19T08:50:04.834Z",
+    "changes": []
   },
   "stories": [
     {
@@ -567,7 +559,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104104"
       ],
@@ -1472,6 +1464,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl6a"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl61",
+      "hazardType": "EQ",
+      "title": "90 km NE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -7.9518,
+      "lon": 120.9491,
+      "timeUtc": "Sun, 16 Aug 2026 06:25:11 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tl61"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl61"
         }
       ],
       "supplementary": [],
