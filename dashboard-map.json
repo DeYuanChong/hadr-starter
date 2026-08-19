@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:56:43.225Z",
+  "generatedAt": "2026-08-19T08:50:04.834Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "16 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,20 +27,13 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-19T07:10:11.656Z",
+    "priorRunAt": "2026-08-19T07:56:43.225Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1030460",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
         "kind": "new",
-        "storyId": "1030660",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
+        "storyId": "1104104",
+        "title": "Flood in Indonesia",
+        "hazardType": "FL",
         "detail": "new green-tier story"
       }
     ]
@@ -166,7 +159,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030660"
       ],
@@ -557,6 +550,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1104104",
+      "hazardType": "FL",
+      "title": "Flood in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.5569,
+      "lon": 120.816,
+      "timeUtc": "2026-08-15T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104104"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104104&episodeid=1&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.066,-0.1931,121.566,1.3069&t=2026-08-15",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tll0",
