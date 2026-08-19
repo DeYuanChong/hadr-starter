@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T11:10:22.374Z",
+  "generatedAt": "2026-08-19T11:44:24.842Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "17 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "318 in-scope event(s)"
+      "detail": "319 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,11 +27,18 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-19T10:39:01.751Z",
+    "priorRunAt": "2026-08-19T11:10:22.374Z",
     "changes": [
       {
+        "kind": "deleted",
+        "storyId": "1104104",
+        "title": "Flood in Indonesia",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
         "kind": "new",
-        "storyId": "1030610",
+        "storyId": "1030705",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "new green-tier story"
@@ -39,6 +46,74 @@
     ]
   },
   "stories": [
+    {
+      "id": "us6000tlun",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 5.4275,
+      "lon": 125.2714,
+      "timeUtc": "Wed, 19 Aug 2026 11:01:37 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tlun",
+        "1560212"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560212&episodeid=1727438&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlun"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tlum",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.8858,
+      "lon": 120.4442,
+      "timeUtc": "Wed, 19 Aug 2026 10:44:59 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tlum",
+        "1560205"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560205&episodeid=1727434&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlum"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tlta",
       "hazardType": "EQ",
@@ -144,14 +219,47 @@
       "imagery": null
     },
     {
+      "id": "1030705",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.477,
+      "lon": 139.4113,
+      "timeUtc": "2026-08-11T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1030705"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030705&episodeid=2&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-11",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=138.6613,-8.227,140.1613,-6.727&t=2026-08-11",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1030660",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -1.9901,
-      "lon": 110.5555,
+      "lat": -1.9896,
+      "lon": 110.5542,
       "timeUtc": "2026-08-07T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -166,13 +274,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030660&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030660&episodeid=5&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-07",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.8055,-2.7401,111.3055,-1.2401&t=2026-08-07",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.8042,-2.7396,111.3042,-1.2396&t=2026-08-07",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -192,7 +300,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030610"
       ],
@@ -280,29 +388,22 @@
     {
       "id": "us6000tlre",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "77 km NNW of Ende, Indonesia",
+      "countries": [],
       "lat": -8.1867,
       "lon": 121.4255,
       "timeUtc": "Tue, 18 Aug 2026 21:11:40 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlre",
-        "1559986"
+        "us6000tlre"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559986&episodeid=1727305&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlre"
@@ -314,29 +415,22 @@
     {
       "id": "us6000tlqv",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "72 km NW of Ende, Indonesia",
+      "countries": [],
       "lat": -8.306,
       "lon": 121.2814,
       "timeUtc": "Tue, 18 Aug 2026 20:15:46 GMT",
       "mag": 4.8,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlqv",
-        "1559970"
+        "us6000tlqv"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559970&episodeid=1727174&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqv"
@@ -348,29 +442,22 @@
     {
       "id": "us6000tlqk",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "76 km NW of Ende, Indonesia",
+      "countries": [],
       "lat": -8.2942,
       "lon": 121.2432,
       "timeUtc": "Tue, 18 Aug 2026 19:03:07 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlqk",
-        "1559949"
+        "us6000tlqk"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559949&episodeid=1727161&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqk"
@@ -382,29 +469,22 @@
     {
       "id": "us6000tlnv",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "79 km N of Ruteng, Indonesia",
+      "countries": [],
       "lat": -7.9051,
       "lon": 120.5751,
       "timeUtc": "Tue, 18 Aug 2026 12:03:50 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlnv",
-        "1559855"
+        "us6000tlnv"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559855&episodeid=1727086&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlnv"
@@ -416,29 +496,22 @@
     {
       "id": "us6000tlmz",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "72 km NNE of Ruteng, Indonesia",
+      "countries": [],
       "lat": -7.9812,
       "lon": 120.6328,
       "timeUtc": "Tue, 18 Aug 2026 12:00:13 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlmz",
-        "1559851"
+        "us6000tlmz"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559851&episodeid=1727051&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmz"
@@ -450,29 +523,22 @@
     {
       "id": "us6000tlmt",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "80 km N of Ruteng, Indonesia",
+      "countries": [],
       "lat": -7.8898,
       "lon": 120.3661,
       "timeUtc": "Tue, 18 Aug 2026 11:06:50 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlmt",
-        "1559816"
+        "us6000tlmt"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559816&episodeid=1727014&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmt"
@@ -484,161 +550,25 @@
     {
       "id": "us6000tlm3",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "74 km N of Ruteng, Indonesia",
+      "countries": [],
       "lat": -7.9353,
       "lon": 120.4656,
       "timeUtc": "Tue, 18 Aug 2026 09:01:39 GMT",
       "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlm3",
-        "1559791"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559791&episodeid=1726984&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlkt",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -0.6858,
-      "lon": 98.416,
-      "timeUtc": "Tue, 18 Aug 2026 06:02:20 GMT",
-      "mag": 5.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlkt",
-        "usauto6000tlkt",
-        "1559738"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559738&episodeid=1726926&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkt"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlk5",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.2434,
-      "lon": 120.2573,
-      "timeUtc": "Tue, 18 Aug 2026 02:42:38 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlk5",
-        "1559684"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1559684&episodeid=1726865&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlk5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104104",
-      "hazardType": "FL",
-      "title": "Flood in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 0.5569,
-      "lon": 120.816,
-      "timeUtc": "2026-08-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104104"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104104&episodeid=1&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.066,-0.1931,121.566,1.3069&t=2026-08-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us6000tlum",
-      "hazardType": "EQ",
-      "title": "80 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.8858,
-      "lon": 120.4442,
-      "timeUtc": "Wed, 19 Aug 2026 10:44:59 GMT",
-      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "de-escalated",
       "aliases": [
-        "us6000tlum"
+        "us6000tlm3"
       ],
       "sources": [
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlum"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm3"
         }
       ],
       "supplementary": [],
@@ -666,6 +596,61 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tll0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tlkt",
+      "hazardType": "EQ",
+      "title": "154 km SSE of Teluk Dalam, Indonesia",
+      "countries": [],
+      "lat": -0.6858,
+      "lon": 98.416,
+      "timeUtc": "Tue, 18 Aug 2026 06:02:20 GMT",
+      "mag": 5.6,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us6000tlkt",
+        "usauto6000tlkt"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkt"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tlk5",
+      "hazardType": "EQ",
+      "title": "46 km NNW of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2434,
+      "lon": 120.2573,
+      "timeUtc": "Tue, 18 Aug 2026 02:42:38 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tlk5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlk5"
         }
       ],
       "supplementary": [],
