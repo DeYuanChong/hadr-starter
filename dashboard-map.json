@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:14:55.904Z",
+  "generatedAt": "2026-08-19T16:51:21.105Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "9 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "320 in-scope event(s)"
+      "detail": "321 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,45 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-19T15:50:17.831Z",
+    "priorRunAt": "2026-08-19T16:14:55.904Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tlxq",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1769,
+      "lon": 120.6643,
+      "timeUtc": "Wed, 19 Aug 2026 16:17:38 GMT",
+      "mag": 5.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tlxq",
+        "usauto6000tlxq",
+        "1560289"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560289&episodeid=1727526&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlxq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tlun",
       "hazardType": "EQ",
@@ -5757,10 +5792,10 @@
     {
       "id": "us6000th1p",
       "hazardType": "EQ",
-      "title": "211 km SSE of Ambon, Indonesia",
+      "title": "206 km SSE of Ambon, Indonesia",
       "countries": [],
-      "lat": -5.3977,
-      "lon": 129.0625,
+      "lat": -5.3962,
+      "lon": 128.9502,
       "timeUtc": "Thu, 30 Jul 2026 18:11:03 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
