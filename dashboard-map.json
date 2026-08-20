@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:11:34.009Z",
+  "generatedAt": "2026-08-20T20:50:35.038Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "16 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "337 in-scope event(s)"
+      "detail": "339 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-20T19:40:51.040Z",
+    "priorRunAt": "2026-08-20T20:11:34.009Z",
     "changes": []
   },
   "stories": [
@@ -65,6 +65,40 @@
       }
     },
     {
+      "id": "us6000tm9h",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.214,
+      "lon": 121.3299,
+      "timeUtc": "Thu, 20 Aug 2026 19:53:51 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tm9h",
+        "1560762"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560762&episodeid=1728033&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm9h"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tm93",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -80,7 +114,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm93",
         "1560752"
@@ -7271,6 +7305,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tha9",
+      "hazardType": "EQ",
+      "title": "83 km S of Dampit, Indonesia",
+      "countries": [],
+      "lat": -8.9665,
+      "lon": 112.8235,
+      "timeUtc": "Tue, 28 Jul 2026 13:29:48 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tha9"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tha9"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tgbx",
       "hazardType": "EQ",
       "title": "16 km S of Ciamis, Indonesia",
@@ -7717,7 +7778,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgz2"
       ],
@@ -7744,7 +7805,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tgz1"
       ],
