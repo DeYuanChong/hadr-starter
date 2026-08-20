@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:40:51.040Z",
+  "generatedAt": "2026-08-20T20:11:34.009Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "15 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "335 in-scope event(s)"
+      "detail": "337 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-20T19:05:30.311Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030660",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1030705",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-20T19:40:51.040Z",
+    "changes": []
   },
   "stories": [
     {
@@ -80,6 +65,40 @@
       }
     },
     {
+      "id": "us6000tm93",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.423,
+      "lon": 121.2709,
+      "timeUtc": "Thu, 20 Aug 2026 19:24:03 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us6000tm93",
+        "1560752"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560752&episodeid=1728023&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm93"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tm8h",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -95,7 +114,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tm8h",
         "1560739"
@@ -129,7 +148,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm44",
         "1560711"
@@ -163,7 +182,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm31",
         "1560644"
@@ -197,7 +216,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm2v",
         "usauto6000tm2v",
@@ -232,7 +251,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm2t",
         "1560626"
@@ -266,7 +285,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm2k",
         "1560606"
@@ -300,7 +319,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm2j",
         "1560607"
@@ -334,7 +353,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm22",
         "1560553"
@@ -368,7 +387,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm1y",
         "1560550"
@@ -402,7 +421,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tm1l",
         "1560502"
@@ -436,7 +455,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tm1j",
         "usauto6000tm1j",
@@ -520,33 +539,6 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.5765,-3.0597,111.0765,-1.5597&t=2026-08-08",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
-    },
-    {
-      "id": "us6000tm93",
-      "hazardType": "EQ",
-      "title": "63 km NW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.423,
-      "lon": 121.2709,
-      "timeUtc": "Thu, 20 Aug 2026 19:24:03 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "us6000tm93"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm93"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
     },
     {
       "id": "us6000tm10",
@@ -6576,11 +6568,11 @@
     {
       "id": "us6000th0z",
       "hazardType": "EQ",
-      "title": "98 km E of Yujing, Taiwan",
+      "title": "98 km S of Hualien City, Taiwan",
       "countries": [],
-      "lat": 23.0993,
-      "lon": 121.4235,
-      "timeUtc": "Thu, 30 Jul 2026 16:58:35 GMT",
+      "lat": 23.0923,
+      "lon": 121.4756,
+      "timeUtc": "Thu, 30 Jul 2026 16:58:34 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -7706,6 +7698,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3c6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgz2",
+      "hazardType": "EQ",
+      "title": "181 km N of Metinaro, Timor Leste",
+      "countries": [],
+      "lat": -6.9026,
+      "lon": 125.5611,
+      "timeUtc": "Sat, 25 Jul 2026 16:51:34 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgz2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgz2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tgz1",
+      "hazardType": "EQ",
+      "title": "73 km WNW of Izena, Japan",
+      "countries": [],
+      "lat": 27.152,
+      "lon": 127.2437,
+      "timeUtc": "Sat, 25 Jul 2026 15:59:15 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tgz1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgz1"
         }
       ],
       "supplementary": [],
