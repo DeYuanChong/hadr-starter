@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T16:46:19.869Z",
+  "generatedAt": "2026-08-20T17:14:22.233Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "332 in-scope event(s)"
+      "detail": "333 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-20T15:53:24.244Z",
+    "priorRunAt": "2026-08-20T16:46:19.869Z",
     "changes": []
   },
   "stories": [
@@ -4124,6 +4124,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tjri",
+      "hazardType": "EQ",
+      "title": "11 km NNW of Xunchang, China",
+      "countries": [],
+      "lat": 28.5462,
+      "lon": 104.6536,
+      "timeUtc": "Mon, 10 Aug 2026 18:40:24 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjri"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjri"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tjqj",
       "hazardType": "EQ",
       "title": "232 km SSW of Pagar Alam, Indonesia",
@@ -4326,7 +4353,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjhi"
       ],
