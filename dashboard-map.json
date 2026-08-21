@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T00:25:17.991Z",
+  "generatedAt": "2026-08-21T02:10:13.530Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "16 in-scope record(s)"
+      "detail": "17 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "330 in-scope event(s)"
+      "detail": "334 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-20T23:44:06.370Z",
+    "priorRunAt": "2026-08-21T00:25:17.991Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tmcj",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2183,
+      "lon": 120.5956,
+      "timeUtc": "Fri, 21 Aug 2026 01:18:05 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tmcj",
+        "1560821"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560821&episodeid=1728099&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1104067",
       "hazardType": "FL",
@@ -573,6 +607,60 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.5765,-3.0597,111.0765,-1.5597&t=2026-08-08",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tmcn",
+      "hazardType": "EQ",
+      "title": "75 km NW of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.2838,
+      "lon": 121.2731,
+      "timeUtc": "Fri, 21 Aug 2026 01:38:42 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tmcn"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcn"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tmbl",
+      "hazardType": "EQ",
+      "title": "51 km NNE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -8.0474,
+      "lon": 120.0081,
+      "timeUtc": "Thu, 20 Aug 2026 23:01:37 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tmbl"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmbl"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tm10",
@@ -3946,11 +4034,11 @@
     {
       "id": "us6000tk41",
       "hazardType": "EQ",
-      "title": "167 km SSW of Abepura, Indonesia",
+      "title": "170 km SSW of Abepura, Indonesia",
       "countries": [],
-      "lat": -3.9381,
-      "lon": 139.9386,
-      "timeUtc": "Tue, 11 Aug 2026 23:33:14 GMT",
+      "lat": -3.9425,
+      "lon": 139.8821,
+      "timeUtc": "Tue, 11 Aug 2026 23:33:13 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3965,6 +4053,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk41"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tkqn",
+      "hazardType": "EQ",
+      "title": "96 km E of Santiago, Philippines",
+      "countries": [],
+      "lat": 7.1554,
+      "lon": 127.4354,
+      "timeUtc": "Tue, 11 Aug 2026 23:14:42 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tkqn"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkqn"
         }
       ],
       "supplementary": [],
@@ -5420,7 +5535,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjnr"
       ],
@@ -5447,7 +5562,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjns"
       ],
