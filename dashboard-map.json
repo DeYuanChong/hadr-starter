@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T03:25:20.634Z",
+  "generatedAt": "2026-08-21T04:19:26.428Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "17 in-scope record(s)"
+      "detail": "18 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "337 in-scope event(s)"
+      "detail": "338 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-21T02:10:13.530Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030791",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-21T03:25:20.634Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tmd2",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.3786,
+      "lon": 120.5112,
+      "timeUtc": "Fri, 21 Aug 2026 02:33:07 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tmd2",
+        "1560845"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1560845&episodeid=1728130&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmd2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tmcn",
       "hazardType": "EQ",
@@ -55,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmcn",
         "1560840"
@@ -631,7 +657,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmcv"
       ],
@@ -658,7 +684,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmc4"
       ],
@@ -3937,8 +3963,8 @@
       "hazardType": "EQ",
       "title": "31 km E of Basco, Philippines",
       "countries": [],
-      "lat": 20.4966,
-      "lon": 122.2726,
+      "lat": 20.4747,
+      "lon": 122.2673,
       "timeUtc": "Wed, 12 Aug 2026 21:25:20 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
@@ -5652,7 +5678,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjpz"
       ],
