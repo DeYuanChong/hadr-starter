@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:47:49.515Z",
+  "generatedAt": "2026-08-21T10:14:35.288Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-21T08:52:43.522Z",
+    "priorRunAt": "2026-08-21T09:47:49.515Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmes",
         "1560906"
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmer",
         "1560904"
@@ -269,7 +269,7 @@
       }
     },
     {
-      "id": "1560762",
+      "id": "us6000tm9h",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -277,21 +277,26 @@
       ],
       "lat": -8.214,
       "lon": 121.3299,
-      "timeUtc": "2026-08-20T19:53:51",
-      "mag": null,
+      "timeUtc": "Thu, 20 Aug 2026 19:53:51 GMT",
+      "mag": 5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tm9h",
         "1560762"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560762&episodeid=1728033&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm9h"
         }
       ],
       "supplementary": [],
@@ -503,7 +508,7 @@
       "imagery": null
     },
     {
-      "id": "1560606",
+      "id": "us6000tm2k",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -511,21 +516,26 @@
       ],
       "lat": -8.2196,
       "lon": 120.4879,
-      "timeUtc": "2026-08-20T08:01:33",
-      "mag": null,
+      "timeUtc": "Thu, 20 Aug 2026 08:01:33 GMT",
+      "mag": 5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tm2k",
         "1560606"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560606&episodeid=1727871&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2k"
         }
       ],
       "supplementary": [],
@@ -566,7 +576,7 @@
       "imagery": null
     },
     {
-      "id": "1560553",
+      "id": "us6000tm22",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -574,21 +584,26 @@
       ],
       "lat": -7.9704,
       "lon": 120.3917,
-      "timeUtc": "2026-08-20T04:33:23",
-      "mag": null,
+      "timeUtc": "Thu, 20 Aug 2026 04:33:23 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tm22",
         "1560553"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560553&episodeid=1727806&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm22"
         }
       ],
       "supplementary": [],
@@ -663,7 +678,7 @@
       "imagery": null
     },
     {
-      "id": "1560491",
+      "id": "us6000tm1j",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -671,21 +686,27 @@
       ],
       "lat": -8.3582,
       "lon": 120.6104,
-      "timeUtc": "2026-08-20T02:46:59",
-      "mag": null,
+      "timeUtc": "Thu, 20 Aug 2026 02:46:59 GMT",
+      "mag": 5.7,
       "gdacsAlert": "Green",
-      "pagerAlert": null,
+      "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
+      "reconciled": true,
       "state": "revised",
       "aliases": [
+        "us6000tm1j",
+        "usauto6000tm1j",
         "1560491"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560491&episodeid=1727741&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j"
         }
       ],
       "supplementary": [],
@@ -767,115 +788,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmbl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm9h",
-      "hazardType": "EQ",
-      "title": "78 km NNW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.214,
-      "lon": 121.3299,
-      "timeUtc": "Thu, 20 Aug 2026 19:53:51 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tm9h"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm9h"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm2k",
-      "hazardType": "EQ",
-      "title": "43 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2196,
-      "lon": 120.4879,
-      "timeUtc": "Thu, 20 Aug 2026 08:01:33 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tm2k"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2k"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm22",
-      "hazardType": "EQ",
-      "title": "71 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.9704,
-      "lon": 120.3917,
-      "timeUtc": "Thu, 20 Aug 2026 04:33:23 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tm22"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm22"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm1j",
-      "hazardType": "EQ",
-      "title": "32 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3582,
-      "lon": 120.6104,
-      "timeUtc": "Thu, 20 Aug 2026 02:46:59 GMT",
-      "mag": 5.7,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "revised",
-      "aliases": [
-        "us6000tm1j",
-        "usauto6000tm1j"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j"
         }
       ],
       "supplementary": [],
@@ -7977,7 +7889,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000th6r"
       ],
