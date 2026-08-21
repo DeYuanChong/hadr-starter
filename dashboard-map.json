@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T20:11:26.145Z",
+  "generatedAt": "2026-08-21T20:43:58.680Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "20 in-scope record(s)"
+      "detail": "21 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "356 in-scope event(s)"
+      "detail": "357 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,52 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-21T19:51:35.690Z",
-    "changes": []
+    "priorRunAt": "2026-08-21T20:11:26.145Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1001307",
+        "title": "Tropical Cyclone EIGHTEEN-26",
+        "hazardType": "TC",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1001307",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone EIGHTEEN-26",
+      "countries": [
+        "China",
+        "Viet Nam"
+      ],
+      "lat": 21,
+      "lon": 108.8,
+      "timeUtc": "2026-08-20T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1001307"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "no reportlink found"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.8,18,111.8,24&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000tmlu",
       "hazardType": "EQ",
@@ -117,7 +159,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmkv",
         "1560992"
@@ -151,7 +193,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmfl",
         "1560940"
@@ -185,7 +227,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmfc",
         "1560938"
@@ -219,7 +261,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmfd",
         "1560951"
@@ -390,7 +432,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmeq",
         "1560903"
@@ -6681,6 +6723,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tina",
+      "hazardType": "EQ",
+      "title": "11 km SE of Parapat, Indonesia",
+      "countries": [],
+      "lat": 2.576,
+      "lon": 98.9984,
+      "timeUtc": "Sun, 02 Aug 2026 13:06:19 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tina"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tina"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tin4",
       "hazardType": "EQ",
       "title": "13 km NNW of China, Japan",
@@ -7181,7 +7250,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tibw"
       ],
