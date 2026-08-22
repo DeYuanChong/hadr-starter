@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:39:56.490Z",
+  "generatedAt": "2026-08-22T14:02:00.090Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-22T13:04:37.635Z",
+    "priorRunAt": "2026-08-22T13:39:56.490Z",
     "changes": []
   },
   "stories": [
@@ -236,7 +236,7 @@
       "imagery": null
     },
     {
-      "id": "us6000tmq5",
+      "id": "1561087",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -244,27 +244,21 @@
       ],
       "lat": -8.2752,
       "lon": 120.5614,
-      "timeUtc": "Sat, 22 Aug 2026 01:30:59 GMT",
-      "mag": 5.2,
+      "timeUtc": "2026-08-22T01:30:59",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us6000tmq5",
-        "usauto6000tmq5",
         "1561087"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561087&episodeid=1728395&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq5"
         }
       ],
       "supplementary": [],
@@ -490,6 +484,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmqf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tmq5",
+      "hazardType": "EQ",
+      "title": "38 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2752,
+      "lon": 120.5614,
+      "timeUtc": "Sat, 22 Aug 2026 01:30:59 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tmq5",
+        "usauto6000tmq5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq5"
         }
       ],
       "supplementary": [],
@@ -7093,11 +7115,11 @@
     {
       "id": "us6000thm6",
       "hazardType": "EQ",
-      "title": "65 km NW of Ende, Indonesia",
+      "title": "72 km NW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.453,
-      "lon": 121.2141,
-      "timeUtc": "Sun, 02 Aug 2026 14:17:41 GMT",
+      "lat": -8.3793,
+      "lon": 121.1954,
+      "timeUtc": "Sun, 02 Aug 2026 14:17:36 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
