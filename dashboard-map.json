@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T07:39:15.350Z",
+  "generatedAt": "2026-08-22T08:11:30.150Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "24 in-scope record(s)"
+      "detail": "21 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,42 +27,28 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-22T06:54:43.571Z",
+    "priorRunAt": "2026-08-22T07:39:15.350Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1030809",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1030876",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1030879",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
         "storyId": "1104011",
         "title": "Flood in Myanmar",
         "hazardType": "FL",
-        "detail": "new green-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       },
       {
-        "kind": "new",
+        "kind": "deleted",
         "storyId": "1104029",
         "title": "Flood in Vietnam",
         "hazardType": "FL",
-        "detail": "new green-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1104067",
+        "title": "Flood in Thailand",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
@@ -83,7 +69,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmrf",
         "1561130"
@@ -102,7 +88,7 @@
       "imagery": null
     },
     {
-      "id": "1561126",
+      "id": "us6000tmr7",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -110,21 +96,26 @@
       ],
       "lat": -8.2301,
       "lon": 121.4575,
-      "timeUtc": "2026-08-22T05:45:11",
-      "mag": null,
+      "timeUtc": "Sat, 22 Aug 2026 05:45:11 GMT",
+      "mag": 4.7,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmr7",
         "1561126"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561126&episodeid=1728439&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr7"
         }
       ],
       "supplementary": [],
@@ -234,7 +225,7 @@
       "imagery": null
     },
     {
-      "id": "1561010",
+      "id": "us6000tmlu",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -242,28 +233,35 @@
       ],
       "lat": -7.5836,
       "lon": 104.5501,
-      "timeUtc": "2026-08-21T17:41:44",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 17:41:44 GMT",
+      "mag": 5.7,
       "gdacsAlert": "Green",
-      "pagerAlert": null,
+      "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
+      "reconciled": true,
       "state": "revised",
       "aliases": [
+        "us6000tmlu",
+        "usauto6000tmlu",
+        "attk4rtn",
         "1561010"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561010&episodeid=1728315&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmlu"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1561007",
+      "id": "us6000tmlk",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -271,28 +269,33 @@
       ],
       "lat": -7.7653,
       "lon": 120.4576,
-      "timeUtc": "2026-08-21T17:06:37",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 17:06:37 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmlk",
         "1561007"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561007&episodeid=1728308&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmlk"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560992",
+      "id": "us6000tmkv",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -300,28 +303,33 @@
       ],
       "lat": -8.3813,
       "lon": 120.2714,
-      "timeUtc": "2026-08-21T16:05:28",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 16:05:28 GMT",
+      "mag": 4.5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmkv",
         "1560992"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560992&episodeid=1728297&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmkv"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560940",
+      "id": "us6000tmfl",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -329,21 +337,26 @@
       ],
       "lat": -3.4075,
       "lon": 131.0401,
-      "timeUtc": "2026-08-21T12:32:50",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 12:32:50 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmfl",
         "1560940"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560940&episodeid=1728233&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfl"
         }
       ],
       "supplementary": [],
@@ -384,7 +397,7 @@
       "imagery": null
     },
     {
-      "id": "1560951",
+      "id": "us6000tmfd",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -392,28 +405,33 @@
       ],
       "lat": -8.3093,
       "lon": 120.9404,
-      "timeUtc": "2026-08-21T11:54:49",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 11:54:49 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmfd",
         "1560951"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560951&episodeid=1728247&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfd"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560926",
+      "id": "us6000tmf7",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -421,28 +439,33 @@
       ],
       "lat": -8.1896,
       "lon": 120.5325,
-      "timeUtc": "2026-08-21T11:16:52",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 11:16:52 GMT",
+      "mag": 4.5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmf7",
         "1560926"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560926&episodeid=1728222&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf7"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560931",
+      "id": "us6000tmf5",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -450,28 +473,33 @@
       ],
       "lat": -8.213,
       "lon": 120.5403,
-      "timeUtc": "2026-08-21T11:03:03",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 11:03:03 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmf5",
         "1560931"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560931&episodeid=1728218&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf5"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560906",
+      "id": "us6000tmes",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -479,28 +507,33 @@
       ],
       "lat": 9.4833,
       "lon": 125.5784,
-      "timeUtc": "2026-08-21T09:22:36",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 09:22:36 GMT",
+      "mag": 5.1,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmes",
         "1560906"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560906&episodeid=1728192&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmes"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560904",
+      "id": "us6000tmer",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -508,28 +541,34 @@
       ],
       "lat": 9.3382,
       "lon": 125.342,
-      "timeUtc": "2026-08-21T09:12:20",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 09:12:20 GMT",
+      "mag": 5.2,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmer",
+        "usauto6000tmer",
         "1560904"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560904&episodeid=1728189&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmer"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560903",
+      "id": "us6000tmeq",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -537,28 +576,33 @@
       ],
       "lat": -8.3581,
       "lon": 120.6565,
-      "timeUtc": "2026-08-21T08:54:58",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 08:54:58 GMT",
+      "mag": 4.5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmeq",
         "1560903"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560903&episodeid=1728237&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmeq"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560900",
+      "id": "us6000tmek",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -566,28 +610,33 @@
       ],
       "lat": -8.106,
       "lon": 120.5246,
-      "timeUtc": "2026-08-21T08:30:16",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 08:30:16 GMT",
+      "mag": 4.5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmek",
         "1560900"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560900&episodeid=1728425&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmek"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560901",
+      "id": "us6000tmej",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -595,28 +644,33 @@
       ],
       "lat": -7.8156,
       "lon": 120.5155,
-      "timeUtc": "2026-08-21T08:14:00",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 08:14:00 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmej",
         "1560901"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560901&episodeid=1728183&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmej"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1560845",
+      "id": "us6000tmd2",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -624,21 +678,26 @@
       ],
       "lat": -8.3786,
       "lon": 120.5112,
-      "timeUtc": "2026-08-21T02:33:07",
-      "mag": null,
+      "timeUtc": "Fri, 21 Aug 2026 02:33:07 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tmd2",
         "1560845"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1560845&episodeid=1728130&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmd2"
         }
       ],
       "supplementary": [],
@@ -713,133 +772,6 @@
       "imagery": null
     },
     {
-      "id": "1104011",
-      "hazardType": "FL",
-      "title": "Flood in Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": 16.565,
-      "lon": 98.4945,
-      "timeUtc": "2026-07-04T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1104011"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=16&eventtype=FL"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "imagery": {
-        "imageDate": "2026-07-04",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=97.7445,15.815,99.2445,17.315&t=2026-07-04",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1104029",
-      "hazardType": "FL",
-      "title": "Flood in Vietnam",
-      "countries": [
-        "Vietnam"
-      ],
-      "lat": 19.2263,
-      "lon": 104.5327,
-      "timeUtc": "2026-07-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1104029"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104029&episodeid=10&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104067",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 18.7545,
-      "lon": 100.6248,
-      "timeUtc": "2026-07-30T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104067"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=13&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-07-30",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=99.8748,18.0045,101.3748,19.5045&t=2026-07-30",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us6000tmr7",
-      "hazardType": "EQ",
-      "title": "71 km NNW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.2301,
-      "lon": 121.4575,
-      "timeUtc": "Sat, 22 Aug 2026 05:45:11 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmr7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr7"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tmqf",
       "hazardType": "EQ",
       "title": "49 km SE of Yilan, Taiwan",
@@ -888,360 +820,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmm3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmlu",
-      "hazardType": "EQ",
-      "title": "194 km SW of Labuan, Indonesia",
-      "countries": [],
-      "lat": -7.5836,
-      "lon": 104.5501,
-      "timeUtc": "Fri, 21 Aug 2026 17:41:44 GMT",
-      "mag": 5.7,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "revised",
-      "aliases": [
-        "us6000tmlu",
-        "usauto6000tmlu",
-        "attk4rtn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmlu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmlk",
-      "hazardType": "EQ",
-      "title": "93 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.7653,
-      "lon": 120.4576,
-      "timeUtc": "Fri, 21 Aug 2026 17:06:37 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmlk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmlk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmkv",
-      "hazardType": "EQ",
-      "title": "33 km NW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3813,
-      "lon": 120.2714,
-      "timeUtc": "Fri, 21 Aug 2026 16:05:28 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmkv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmkv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmfl",
-      "hazardType": "EQ",
-      "title": "149 km WSW of Fakfak, Indonesia",
-      "countries": [],
-      "lat": -3.4075,
-      "lon": 131.0401,
-      "timeUtc": "Fri, 21 Aug 2026 12:32:50 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmfl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmfd",
-      "hazardType": "EQ",
-      "title": "62 km ENE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3093,
-      "lon": 120.9404,
-      "timeUtc": "Fri, 21 Aug 2026 11:54:49 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmfd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmf7",
-      "hazardType": "EQ",
-      "title": "47 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1896,
-      "lon": 120.5325,
-      "timeUtc": "Fri, 21 Aug 2026 11:16:52 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmf7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf7"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmf5",
-      "hazardType": "EQ",
-      "title": "44 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.213,
-      "lon": 120.5403,
-      "timeUtc": "Fri, 21 Aug 2026 11:03:03 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmf5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmes",
-      "hazardType": "EQ",
-      "title": "1 km N of Alegria, Philippines",
-      "countries": [],
-      "lat": 9.4833,
-      "lon": 125.5784,
-      "timeUtc": "Fri, 21 Aug 2026 09:22:36 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmes"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmes"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmer",
-      "hazardType": "EQ",
-      "title": "19 km W of Jabonga, Philippines",
-      "countries": [],
-      "lat": 9.3382,
-      "lon": 125.342,
-      "timeUtc": "Fri, 21 Aug 2026 09:12:20 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmer",
-        "usauto6000tmer"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmer"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmeq",
-      "hazardType": "EQ",
-      "title": "35 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3581,
-      "lon": 120.6565,
-      "timeUtc": "Fri, 21 Aug 2026 08:54:58 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmeq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmeq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmek",
-      "hazardType": "EQ",
-      "title": "56 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.106,
-      "lon": 120.5246,
-      "timeUtc": "Fri, 21 Aug 2026 08:30:16 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmek"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmek"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmej",
-      "hazardType": "EQ",
-      "title": "88 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.8156,
-      "lon": 120.5155,
-      "timeUtc": "Fri, 21 Aug 2026 08:14:00 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmej"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmej"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tmd2",
-      "hazardType": "EQ",
-      "title": "26 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3786,
-      "lon": 120.5112,
-      "timeUtc": "Fri, 21 Aug 2026 02:33:07 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tmd2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmd2"
         }
       ],
       "supplementary": [],
@@ -10303,6 +9881,40 @@
         }
       ],
       "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
+      "hazardType": "OTHER",
+      "title": "Myanmar: Floods - Jun 2026 (fixture)",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": null,
+      "lon": null,
+      "timeUtc": null,
+      "mag": null,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
+      ],
+      "sources": [
+        {
+          "feed": "reliefweb",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
       "imagery": null
     }
   ]
