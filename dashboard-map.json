@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T17:31:15.080Z",
+  "generatedAt": "2026-08-22T17:52:19.839Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "363 in-scope event(s)"
+      "detail": "364 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-22T17:03:33.992Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030909",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-22T17:31:15.080Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tmt7",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.2971,
+      "lon": 100.4875,
+      "timeUtc": "Sat, 22 Aug 2026 16:33:04 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tmt7",
+        "1561194"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561194&episodeid=1728517&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmt7"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1001307",
       "hazardType": "TC",
