@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T01:45:36.446Z",
+  "generatedAt": "2026-08-22T02:42:22.861Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "20 in-scope record(s)"
+      "detail": "21 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "348 in-scope event(s)"
+      "detail": "350 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,51 +27,86 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-21T23:54:13.313Z",
+    "priorRunAt": "2026-08-22T01:45:36.446Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1030705",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
+        "storyId": "1001307",
+        "title": "Tropical Cyclone EIGHTEEN-26",
+        "hazardType": "TC",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
   "stories": [
     {
-      "id": "1001307",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone EIGHTEEN-26",
+      "id": "us6000tmq8",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
       "countries": [
-        "China",
-        "Viet Nam"
+        "Indonesia"
       ],
-      "lat": 21,
-      "lon": 108.8,
-      "timeUtc": "2026-08-20T18:00:00",
-      "mag": null,
+      "lat": -8.3069,
+      "lon": 120.6927,
+      "timeUtc": "Sat, 22 Aug 2026 01:59:28 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
       "aliases": [
-        "1001307"
+        "us6000tmq8",
+        "1561099"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561099&episodeid=1728410&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq8"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.8,18,111.8,24&t=2026-08-20",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
+    },
+    {
+      "id": "us6000tmq5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2752,
+      "lon": 120.5614,
+      "timeUtc": "Sat, 22 Aug 2026 01:30:59 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tmq5",
+        "usauto6000tmq5",
+        "1561087"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561087&episodeid=1728395&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tmlu",
@@ -125,7 +160,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmlk",
         "1561007"
@@ -193,7 +228,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmfl",
         "1560940"
@@ -227,7 +262,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmfc",
         "1560938"
@@ -500,7 +535,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmd2",
         "1560845"
@@ -6214,7 +6249,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000ti7f"
       ],
@@ -6284,10 +6319,10 @@
     {
       "id": "us6000ti6x",
       "hazardType": "EQ",
-      "title": "32 km SW of Sarangani, Philippines",
+      "title": "28 km SW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.1812,
-      "lon": 125.276,
+      "lat": 5.1995,
+      "lon": 125.3134,
       "timeUtc": "Wed, 05 Aug 2026 04:14:06 GMT",
       "mag": 6.3,
       "gdacsAlert": null,
@@ -6341,16 +6376,16 @@
       "hazardType": "EQ",
       "title": "Banda Sea",
       "countries": [],
-      "lat": -6.4991,
-      "lon": 128.9345,
-      "timeUtc": "Wed, 05 Aug 2026 03:16:07 GMT",
-      "mag": 4.9,
+      "lat": -6.4486,
+      "lon": 128.9069,
+      "timeUtc": "Wed, 05 Aug 2026 03:16:06 GMT",
+      "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000ti6f"
       ],
