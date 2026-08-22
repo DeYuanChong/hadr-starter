@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:10:36.901Z",
+  "generatedAt": "2026-08-22T19:40:57.260Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "366 in-scope event(s)"
+      "detail": "368 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-22T18:43:54.879Z",
+    "priorRunAt": "2026-08-22T19:10:36.901Z",
     "changes": []
   },
   "stories": [
@@ -536,6 +536,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.7352,-2.9642,111.2352,-1.4642&t=2026-08-10",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tmtp",
+      "hazardType": "EQ",
+      "title": "50 km NW of Amagi, Japan",
+      "countries": [],
+      "lat": 28.1901,
+      "lon": 128.6145,
+      "timeUtc": "Sat, 22 Aug 2026 18:44:57 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tmtp"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tmqf",
@@ -6123,6 +6150,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tipc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tjyh",
+      "hazardType": "EQ",
+      "title": "224 km N of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.7551,
+      "lon": 127.9427,
+      "timeUtc": "Thu, 06 Aug 2026 13:40:50 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjyh"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjyh"
         }
       ],
       "supplementary": [],
