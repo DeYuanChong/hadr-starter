@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:51:27.837Z",
+  "generatedAt": "2026-08-23T00:31:18.373Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "370 in-scope event(s)"
+      "detail": "357 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-22T23:30:01.501Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030705",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1030876",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-22T23:51:27.837Z",
+    "changes": []
   },
   "stories": [
     {
@@ -96,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmtu",
         "1561207"
@@ -143,8 +128,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-19",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.3,18,111.3,24&t=2026-08-19",
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.3,18,111.3,24&t=2026-08-20",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -164,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmte",
         "1561195"
@@ -266,7 +251,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmrx",
         "1561145"
@@ -300,7 +285,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmrf",
         "1561130"
@@ -334,7 +319,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmr7",
         "1561126"
@@ -368,7 +353,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmr2",
         "1561116"
@@ -402,7 +387,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmq8",
         "1561099"
@@ -436,7 +421,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmq5",
         "usauto6000tmq5",
@@ -482,7 +467,11 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-08-07",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.8022,-2.735,111.3022,-1.235&t=2026-08-07",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "1030610",
@@ -511,11 +500,7 @@
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.0312,-9.02,138.5312,-7.52&t=2026-08-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us6000tmtp",
@@ -4748,8 +4733,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.6017,-9.0601,122.1017,-7.5601&t=2026-08-14",
+        "imageDate": "2026-08-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.6017,-9.0601,122.1017,-7.5601&t=2026-08-13",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -9896,358 +9881,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2wu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgpe",
-      "hazardType": "EQ",
-      "title": "205 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.592,
-      "lon": 138.7843,
-      "timeUtc": "Thu, 23 Jul 2026 23:43:35 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgpe"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgpe"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2w3",
-      "hazardType": "EQ",
-      "title": "131 km W of Ternate, Indonesia",
-      "countries": [],
-      "lat": 0.5968,
-      "lon": 126.2207,
-      "timeUtc": "Thu, 23 Jul 2026 22:58:35 GMT",
-      "mag": 5.7,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2w3",
-        "usauto7000t2w3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2w1",
-      "hazardType": "EQ",
-      "title": "southwest of Sumatra, Indonesia",
-      "countries": [],
-      "lat": -6.2136,
-      "lon": 100.615,
-      "timeUtc": "Thu, 23 Jul 2026 22:50:23 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2w1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgp9",
-      "hazardType": "EQ",
-      "title": "38 km SSW of Bandar, Indonesia",
-      "countries": [],
-      "lat": 1.7524,
-      "lon": 99.5657,
-      "timeUtc": "Thu, 23 Jul 2026 21:57:05 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgp9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgp9"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgp6",
-      "hazardType": "EQ",
-      "title": "211 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.6503,
-      "lon": 138.7355,
-      "timeUtc": "Thu, 23 Jul 2026 21:13:42 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgp6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgp6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgp7",
-      "hazardType": "EQ",
-      "title": "193 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.622,
-      "lon": 138.8908,
-      "timeUtc": "Thu, 23 Jul 2026 21:09:49 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgp7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgp7"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgp5",
-      "hazardType": "EQ",
-      "title": "186 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.7833,
-      "lon": 138.9673,
-      "timeUtc": "Thu, 23 Jul 2026 20:19:08 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgp5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgp5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2uz",
-      "hazardType": "EQ",
-      "title": "217 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.5707,
-      "lon": 138.6812,
-      "timeUtc": "Thu, 23 Jul 2026 20:15:13 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2uz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2uz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgp3",
-      "hazardType": "EQ",
-      "title": "58 km WSW of Pyay, Burma (Myanmar)",
-      "countries": [],
-      "lat": 18.672,
-      "lon": 94.6933,
-      "timeUtc": "Thu, 23 Jul 2026 18:21:37 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgp3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgp3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2n3",
-      "hazardType": "EQ",
-      "title": "79 km SE of Tatsugō, Japan",
-      "countries": [],
-      "lat": 27.8995,
-      "lon": 130.1205,
-      "timeUtc": "Thu, 23 Jul 2026 09:22:22 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2n3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2n3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t2lg",
-      "hazardType": "EQ",
-      "title": "71 km ESE of Mawlaik, Burma (Myanmar)",
-      "countries": [],
-      "lat": 23.3303,
-      "lon": 95.0165,
-      "timeUtc": "Thu, 23 Jul 2026 04:06:14 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t2lg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2lg"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgnd",
-      "hazardType": "EQ",
-      "title": "198 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.7115,
-      "lon": 138.8489,
-      "timeUtc": "Thu, 23 Jul 2026 03:04:40 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgnd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgnd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgnc",
-      "hazardType": "EQ",
-      "title": "130 km NNW of Agats, Indonesia",
-      "countries": [],
-      "lat": -4.3925,
-      "lon": 137.8757,
-      "timeUtc": "Thu, 23 Jul 2026 02:32:15 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgnc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgnc"
         }
       ],
       "supplementary": [],
