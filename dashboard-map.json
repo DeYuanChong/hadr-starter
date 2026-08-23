@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:11:08.328Z",
+  "generatedAt": "2026-08-23T03:25:02.499Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,10 +27,52 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T00:31:18.373Z",
-    "changes": []
+    "priorRunAt": "2026-08-23T02:11:08.328Z",
+    "changes": [
+      {
+        "kind": "revised",
+        "storyId": "1001307",
+        "title": "Tropical Cyclone NARRA-26",
+        "hazardType": "TC",
+        "detail": "affected: China, Viet Nam → Viet Nam, China"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1001307",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NARRA-26",
+      "countries": [
+        "Viet Nam",
+        "China"
+      ],
+      "lat": 20.8,
+      "lon": 107.9,
+      "timeUtc": "2026-08-20T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "1001307"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=10&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.9,17.8,110.9,23.8&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000tmut",
       "hazardType": "EQ",
@@ -98,40 +140,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1001307",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NARRA-26",
-      "countries": [
-        "China",
-        "Viet Nam"
-      ],
-      "lat": 21,
-      "lon": 108.3,
-      "timeUtc": "2026-08-20T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001307"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=9&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.3,18,111.3,24&t=2026-08-20",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000tmte",
