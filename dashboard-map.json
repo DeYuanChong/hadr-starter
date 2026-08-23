@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:06:06.222Z",
+  "generatedAt": "2026-08-23T13:41:46.273Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T12:17:16.473Z",
+    "priorRunAt": "2026-08-23T13:06:06.222Z",
     "changes": []
   },
   "stories": [
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "us6000tmwk",
+      "id": "1561280",
       "hazardType": "EQ",
       "title": "Earthquake in Myanmar",
       "countries": [
@@ -74,26 +74,21 @@
       ],
       "lat": 17.7854,
       "lon": 96.0025,
-      "timeUtc": "Sun, 23 Aug 2026 03:44:57 GMT",
-      "mag": 4.6,
+      "timeUtc": "2026-08-23T03:44:57",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us6000tmwk",
         "1561280"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561280&episodeid=1728616&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwk"
         }
       ],
       "supplementary": [],
@@ -297,6 +292,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.3531,-3.6006,115.8531,-2.1006&t=2026-08-14",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000tmwk",
+      "hazardType": "EQ",
+      "title": "26 km E of Letpandan, Burma (Myanmar)",
+      "countries": [],
+      "lat": 17.7854,
+      "lon": 96.0025,
+      "timeUtc": "Sun, 23 Aug 2026 03:44:57 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tmwk"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000tmut",
