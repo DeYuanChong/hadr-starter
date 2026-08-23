@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:58:13.128Z",
+  "generatedAt": "2026-08-23T17:29:31.425Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "364 in-scope event(s)"
+      "detail": "365 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T16:36:39.142Z",
+    "priorRunAt": "2026-08-23T16:58:13.128Z",
     "changes": []
   },
   "stories": [
@@ -5783,18 +5783,18 @@
     {
       "id": "us6000tjfb",
       "hazardType": "EQ",
-      "title": "68 km SSE of Sarangani, Philippines",
+      "title": "66 km SSE of Sarangani, Philippines",
       "countries": [],
-      "lat": 4.814,
-      "lon": 125.6593,
-      "timeUtc": "Sun, 09 Aug 2026 13:47:06 GMT",
-      "mag": 4.6,
+      "lat": 4.8378,
+      "lon": 125.6626,
+      "timeUtc": "Sun, 09 Aug 2026 13:47:05 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tjfb"
       ],
@@ -6568,6 +6568,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tib1",
+      "hazardType": "EQ",
+      "title": "124 km ESE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.0356,
+      "lon": 126.5277,
+      "timeUtc": "Wed, 05 Aug 2026 15:17:36 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tib1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tib1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tiat",
       "hazardType": "EQ",
       "title": "90 km SSW of Singaparna, Indonesia",
@@ -6581,7 +6608,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tiat"
       ],
