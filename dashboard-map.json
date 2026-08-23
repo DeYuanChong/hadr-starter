@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:14:06.724Z",
+  "generatedAt": "2026-08-23T19:40:22.992Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "368 in-scope event(s)"
+      "detail": "370 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T18:52:01.451Z",
+    "priorRunAt": "2026-08-23T19:14:06.724Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tn0a",
+      "hazardType": "EQ",
+      "title": "61 km ESE of Mangili, Philippines",
+      "countries": [],
+      "lat": 5.7891,
+      "lon": 126.1936,
+      "timeUtc": "Sun, 23 Aug 2026 18:57:38 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tn0a"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0a"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tmwk",
       "hazardType": "EQ",
@@ -45,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmwk"
       ],
@@ -5513,6 +5540,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tjga",
+      "hazardType": "EQ",
+      "title": "128 km WNW of Manado, Indonesia",
+      "countries": [],
+      "lat": 2.0417,
+      "lon": 123.8409,
+      "timeUtc": "Sun, 09 Aug 2026 16:45:00 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjga"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjga"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tkf0",
       "hazardType": "EQ",
       "title": "202 km SSW of Pagar Alam, Indonesia",
@@ -5526,7 +5580,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkf0"
       ],
