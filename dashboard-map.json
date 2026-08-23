@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:44:07.634Z",
+  "generatedAt": "2026-08-23T08:12:06.860Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "358 in-scope event(s)"
+      "detail": "359 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T07:06:12.649Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030610",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-23T07:44:07.634Z",
+    "changes": []
   },
   "stories": [
     {
@@ -3685,6 +3677,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl0v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tm5y",
+      "hazardType": "EQ",
+      "title": "76 km N of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.1638,
+      "lon": 121.531,
+      "timeUtc": "Sat, 15 Aug 2026 11:52:51 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tm5y"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm5y"
         }
       ],
       "supplementary": [],
