@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:01:52.889Z",
+  "generatedAt": "2026-08-23T23:30:44.310Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "375 in-scope event(s)"
+      "detail": "377 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T22:42:27.351Z",
+    "priorRunAt": "2026-08-23T23:01:52.889Z",
     "changes": []
   },
   "stories": [
@@ -99,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn0a"
       ],
@@ -2884,16 +2884,16 @@
       "hazardType": "EQ",
       "title": "Kepulauan Babar, Indonesia",
       "countries": [],
-      "lat": -7.1018,
-      "lon": 129.5786,
+      "lat": -7.0957,
+      "lon": 129.5388,
       "timeUtc": "Sun, 16 Aug 2026 21:28:19 GMT",
-      "mag": 4.5,
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "usd0015ea9"
       ],
@@ -7870,6 +7870,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tica",
+      "hazardType": "EQ",
+      "title": "123 km WNW of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.2343,
+      "lon": 126.3647,
+      "timeUtc": "Fri, 31 Jul 2026 22:47:30 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tica"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tica"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000thck",
       "hazardType": "EQ",
       "title": "157 km ENE of Masohi, Indonesia",
@@ -7891,6 +7918,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thck"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tic8",
+      "hazardType": "EQ",
+      "title": "36 km SE of Sulangan, Philippines",
+      "countries": [],
+      "lat": 10.6675,
+      "lon": 126.0173,
+      "timeUtc": "Fri, 31 Jul 2026 22:07:11 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tic8"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tic8"
         }
       ],
       "supplementary": [],
