@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T08:52:28.215Z",
+  "generatedAt": "2026-08-23T09:37:08.000Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "359 in-scope event(s)"
+      "detail": "360 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T08:12:06.860Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030660",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030610",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-23T08:52:28.215Z",
+    "changes": []
   },
   "stories": [
     {
@@ -505,7 +490,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030610"
       ],
@@ -3671,20 +3656,47 @@
       "imagery": null
     },
     {
-      "id": "us6000tl0v",
+      "id": "us6000tl0y",
       "hazardType": "EQ",
-      "title": "78 km NW of Ende, Indonesia",
+      "title": "68 km NW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.2575,
-      "lon": 121.2565,
-      "timeUtc": "Sat, 15 Aug 2026 12:14:39 GMT",
-      "mag": 5.2,
+      "lat": -8.3434,
+      "lon": 121.2985,
+      "timeUtc": "Sat, 15 Aug 2026 12:46:10 GMT",
+      "mag": 4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
+      "aliases": [
+        "us6000tl0y"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl0y"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tl0v",
+      "hazardType": "EQ",
+      "title": "76 km NNW of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.2578,
+      "lon": 121.2937,
+      "timeUtc": "Sat, 15 Aug 2026 12:14:40 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us6000tl0v"
       ],
