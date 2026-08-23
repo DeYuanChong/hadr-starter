@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:36:39.142Z",
+  "generatedAt": "2026-08-23T16:58:13.128Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "363 in-scope event(s)"
+      "detail": "364 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-23T15:52:57.315Z",
+    "priorRunAt": "2026-08-23T16:36:39.142Z",
     "changes": []
   },
   "stories": [
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmwk",
         "1561280"
@@ -6568,6 +6568,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tiat",
+      "hazardType": "EQ",
+      "title": "90 km SSW of Singaparna, Indonesia",
+      "countries": [],
+      "lat": -8.1305,
+      "lon": 107.8541,
+      "timeUtc": "Wed, 05 Aug 2026 14:55:41 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tiat"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiat"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tiar",
       "hazardType": "EQ",
       "title": "127 km WNW of Ternate, Indonesia",
@@ -6581,7 +6608,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tiar"
       ],
