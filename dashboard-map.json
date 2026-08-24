@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:07:25.468Z",
+  "generatedAt": "2026-08-24T10:56:53.183Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "12 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "367 in-scope event(s)"
+      "detail": "368 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,45 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T09:07:55.800Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1030705",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-24T10:07:25.468Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tn33",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.0525,
+      "lon": 129.6871,
+      "timeUtc": "Mon, 24 Aug 2026 10:02:58 GMT",
+      "mag": 5.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tn33",
+        "usauto6000tn33",
+        "1561504"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561504&episodeid=1728874&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn33"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1001307",
       "hazardType": "TC",
@@ -89,7 +116,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn25",
         "1561473"
@@ -123,7 +150,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1v",
         "1561458"
@@ -157,7 +184,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1k",
         "1561430"
@@ -191,7 +218,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn14",
         "1561432"
@@ -259,7 +286,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn0a",
         "1561387"
@@ -293,7 +320,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmwk",
         "1561280"
@@ -389,7 +416,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030705"
       ],
