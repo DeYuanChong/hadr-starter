@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:39:02.638Z",
+  "generatedAt": "2026-08-24T18:16:40.341Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T17:01:27.114Z",
+    "priorRunAt": "2026-08-24T17:39:02.638Z",
     "changes": []
   },
   "stories": [
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn41",
         "usauto6000tn41",
@@ -151,7 +151,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn33",
         "usauto6000tn33",
@@ -186,7 +186,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn25",
         "1561473"
@@ -220,7 +220,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1v",
         "1561458"
@@ -239,7 +239,7 @@
       "imagery": null
     },
     {
-      "id": "1561430",
+      "id": "us6000tn1k",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -247,21 +247,26 @@
       ],
       "lat": -8.2203,
       "lon": 120.4857,
-      "timeUtc": "2026-08-24T01:12:59",
-      "mag": null,
+      "timeUtc": "Mon, 24 Aug 2026 01:12:59 GMT",
+      "mag": 4.6,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tn1k",
         "1561430"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561430&episodeid=1728795&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1k"
         }
       ],
       "supplementary": [],
@@ -516,33 +521,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn4p"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tn1k",
-      "hazardType": "EQ",
-      "title": "43 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2203,
-      "lon": 120.4857,
-      "timeUtc": "Mon, 24 Aug 2026 01:12:59 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tn1k"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1k"
         }
       ],
       "supplementary": [],
