@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:12:15.789Z",
+  "generatedAt": "2026-08-24T20:52:31.418Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "12 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "372 in-scope event(s)"
+      "detail": "373 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,39 +27,11 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T19:38:48.039Z",
+    "priorRunAt": "2026-08-24T20:12:15.789Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1030997",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
+        "kind": "new",
         "storyId": "1031040",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030610",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030705",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030809",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "new green-tier story"
@@ -67,6 +39,40 @@
     ]
   },
   "stories": [
+    {
+      "id": "us6000tn80",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -6.6912,
+      "lon": 127.5019,
+      "timeUtc": "Mon, 24 Aug 2026 19:00:03 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tn80",
+        "1561578"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561578&episodeid=1728963&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn80"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1001307",
       "hazardType": "TC",
@@ -309,6 +315,39 @@
       "imagery": null
     },
     {
+      "id": "1031040",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.1815,
+      "lon": 130.5017,
+      "timeUtc": "2026-08-10T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031040"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031040&episodeid=2&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=129.7517,-3.9315,131.2517,-2.4315&t=2026-08-10",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1031046",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -390,7 +429,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030610"
       ],
@@ -423,7 +462,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030705"
       ],
@@ -456,7 +495,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030809"
       ],
