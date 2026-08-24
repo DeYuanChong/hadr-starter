@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:10:14.130Z",
+  "generatedAt": "2026-08-24T23:40:58.094Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "15 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "376 in-scope event(s)"
+      "detail": "377 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T22:47:41.660Z",
-    "changes": []
+    "priorRunAt": "2026-08-24T23:10:14.130Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1031092",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -406,6 +414,39 @@
       }
     },
     {
+      "id": "1031092",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -1.6275,
+      "lon": 134.0436,
+      "timeUtc": "2026-08-17T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031092"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-17",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=133.2936,-2.3775,134.7936,-0.8775&t=2026-08-17",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1030610",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -498,11 +539,7 @@
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.3532,-3.5999,115.8532,-2.0999&t=2026-08-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us6000tn4p",
@@ -7904,6 +7941,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tixx",
+      "hazardType": "EQ",
+      "title": "128 km E of Sulangan, Philippines",
+      "countries": [],
+      "lat": 10.7429,
+      "lon": 126.9878,
+      "timeUtc": "Mon, 03 Aug 2026 02:11:43 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tixx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixx"
         }
       ],
       "supplementary": [],
