@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:09:20.998Z",
+  "generatedAt": "2026-08-24T22:47:41.660Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "375 in-scope event(s)"
+      "detail": "376 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T21:38:06.219Z",
+    "priorRunAt": "2026-08-24T22:09:20.998Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn80",
         "1561578"
@@ -115,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn4m",
         "1561550"
@@ -149,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn41",
         "usauto6000tn41",
@@ -185,7 +185,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn33",
         "usauto6000tn33",
@@ -220,7 +220,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn25",
         "1561473"
@@ -254,7 +254,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1v",
         "1561458"
@@ -288,7 +288,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1k",
         "1561430"
@@ -534,10 +534,10 @@
     {
       "id": "us6000tn1h",
       "hazardType": "EQ",
-      "title": "11 km N of Bowangshan, China",
+      "title": "8 km NNE of Bowangshan, China",
       "countries": [],
-      "lat": 28.4135,
-      "lon": 105.0337,
+      "lat": 28.3791,
+      "lon": 105.0691,
       "timeUtc": "Mon, 24 Aug 2026 00:26:26 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
@@ -3374,6 +3374,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eav"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tmi4",
+      "hazardType": "EQ",
+      "title": "28 km E of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.607,
+      "lon": 120.7191,
+      "timeUtc": "Sun, 16 Aug 2026 23:29:07 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tmi4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmi4"
         }
       ],
       "supplementary": [],
