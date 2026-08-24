@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:09:34.621Z",
+  "generatedAt": "2026-08-24T03:27:11.618Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "9 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "364 in-scope event(s)"
+      "detail": "365 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T00:31:54.735Z",
+    "priorRunAt": "2026-08-24T02:09:34.621Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000tn1v",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.9644,
+      "lon": 120.4679,
+      "timeUtc": "Mon, 24 Aug 2026 02:19:39 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tn1v",
+        "1561458"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1561458&episodeid=1728823&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000tn1k",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1k",
         "1561430"
@@ -66,6 +100,40 @@
       "imagery": null
     },
     {
+      "id": "1001307",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NARRA-26",
+      "countries": [
+        "Viet Nam",
+        "China"
+      ],
+      "lat": 20.3,
+      "lon": 107.6,
+      "timeUtc": "2026-08-20T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001307"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=14&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.6,17.3,110.6,23.3&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us6000tn14",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -81,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tn14",
         "1561432"
@@ -115,7 +183,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn0s",
         "1561407"
@@ -149,7 +217,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tn0a",
         "1561387"
@@ -168,40 +236,6 @@
       "imagery": null
     },
     {
-      "id": "1001307",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NARRA-26",
-      "countries": [
-        "Viet Nam",
-        "China"
-      ],
-      "lat": 20.4,
-      "lon": 107.8,
-      "timeUtc": "2026-08-20T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001307"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=13&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.8,17.4,110.8,23.4&t=2026-08-20",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us6000tmwk",
       "hazardType": "EQ",
       "title": "Earthquake in Myanmar",
@@ -217,7 +251,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tmwk",
         "1561280"
@@ -315,7 +349,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tn1h"
       ],
@@ -3055,7 +3089,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmi3"
       ],
