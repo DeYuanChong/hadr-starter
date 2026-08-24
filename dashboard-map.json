@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:16:57.869Z",
+  "generatedAt": "2026-08-24T13:19:21.640Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "368 in-scope event(s)"
+      "detail": "369 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-24T11:38:11.618Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030809",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030913",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-24T12:16:57.869Z",
+    "changes": []
   },
   "stories": [
     {
@@ -365,7 +350,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030913"
       ],
@@ -7682,6 +7667,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0y"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tizx",
+      "hazardType": "EQ",
+      "title": "142 km SSE of Itoman, Japan",
+      "countries": [],
+      "lat": 24.8852,
+      "lon": 128.0303,
+      "timeUtc": "Tue, 04 Aug 2026 05:49:11 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tizx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tizx"
         }
       ],
       "supplementary": [],
