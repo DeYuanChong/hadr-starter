@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:48:58.335Z",
+  "generatedAt": "2026-08-25T23:12:09.381Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T22:09:37.292Z",
-    "changes": []
+    "priorRunAt": "2026-08-25T22:48:58.335Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1031148",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      },
+      {
+        "kind": "new",
+        "storyId": "1031147",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -269,14 +284,80 @@
       "imagery": null
     },
     {
+      "id": "1031148",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.9591,
+      "lon": 133.0019,
+      "timeUtc": "2026-08-20T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031148"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031148&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=132.2519,-3.7091,133.7519,-2.2091&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1031147",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.5964,
+      "lon": 105.714,
+      "timeUtc": "2026-08-20T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031147"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031147&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.964,-4.3464,106.464,-2.8464&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1031109",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -4.2295,
-      "lon": 138.71,
+      "lat": -4.2287,
+      "lon": 138.7097,
       "timeUtc": "2026-08-21T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -291,13 +372,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031109&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031109&episodeid=2&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-21",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.96,-4.9795,139.46,-3.4795&t=2026-08-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.9597,-4.9787,139.4597,-3.4787&t=2026-08-21",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -394,11 +475,7 @@
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-17",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=133.2931,-2.3772,134.7931,-0.8772&t=2026-08-17",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us7000tbtj",
@@ -9283,7 +9360,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tic2"
       ],
