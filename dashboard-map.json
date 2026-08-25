@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:18:08.240Z",
+  "generatedAt": "2026-08-25T19:04:00.798Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "15 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T17:49:56.200Z",
-    "changes": []
+    "priorRunAt": "2026-08-25T18:18:08.240Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1030913",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -486,35 +494,6 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1030997&episodeid=4&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1030913",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.2013,
-      "lon": 113.9962,
-      "timeUtc": "2026-08-13T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1030913"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030913&episodeid=6&eventtype=WF"
         }
       ],
       "supplementary": [],
