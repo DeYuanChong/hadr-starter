@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:49:45.324Z",
+  "generatedAt": "2026-08-25T17:19:25.909Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "389 in-scope event(s)"
+      "detail": "390 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T15:53:42.058Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1030909",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-08-25T16:49:45.324Z",
+    "changes": []
   },
   "stories": [
     {
@@ -489,6 +481,33 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1030913&episodeid=6&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tnd4",
+      "hazardType": "EQ",
+      "title": "54 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.1362,
+      "lon": 120.5816,
+      "timeUtc": "Tue, 25 Aug 2026 14:58:54 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tnd4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd4"
         }
       ],
       "supplementary": [],
