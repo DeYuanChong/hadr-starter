@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:02:43.034Z",
+  "generatedAt": "2026-08-25T08:54:07.059Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T07:13:44.193Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1031099",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-25T08:02:43.034Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "1001307",
+      "hazardType": "TC",
+      "title": "Tropical Cyclone NARRA-26",
+      "countries": [
+        "Viet Nam",
+        "China"
+      ],
+      "lat": 19.4,
+      "lon": 108.2,
+      "timeUtc": "2026-08-20T18:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1001307"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=19&eventtype=TC"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-20",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=105.2,16.4,111.2,22.4&t=2026-08-20",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000tnal",
       "hazardType": "EQ",
@@ -74,7 +100,7 @@
       "imagery": null
     },
     {
-      "id": "1561644",
+      "id": "us6000tnai",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -82,21 +108,26 @@
       ],
       "lat": 9.0329,
       "lon": 126.8546,
-      "timeUtc": "2026-08-25T01:59:04",
-      "mag": null,
+      "timeUtc": "Tue, 25 Aug 2026 01:59:04 GMT",
+      "mag": 4.7,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us6000tnai",
         "1561644"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561644&episodeid=1729029&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnai"
         }
       ],
       "supplementary": [],
@@ -185,7 +216,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031099"
       ],
@@ -265,40 +296,6 @@
       "imagery": {
         "imageDate": "2026-08-22",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=134.8389,-4.6939,136.3389,-3.1939&t=2026-08-22",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1001307",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone NARRA-26",
-      "countries": [
-        "Viet Nam",
-        "China"
-      ],
-      "lat": 19.3,
-      "lon": 107.5,
-      "timeUtc": "2026-08-20T18:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001307"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=18&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.5,16.3,110.5,22.3&t=2026-08-20",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -407,7 +404,7 @@
       "imagery": null
     },
     {
-      "id": "1561504",
+      "id": "us6000tn33",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -415,21 +412,27 @@
       ],
       "lat": -5.0525,
       "lon": 129.6871,
-      "timeUtc": "2026-08-24T10:02:58",
-      "mag": null,
+      "timeUtc": "Mon, 24 Aug 2026 10:02:58 GMT",
+      "mag": 5.5,
       "gdacsAlert": "Green",
-      "pagerAlert": null,
+      "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
+      "reconciled": true,
       "state": "revised",
       "aliases": [
+        "us6000tn33",
+        "usauto6000tn33",
         "1561504"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1561504&episodeid=1728874&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn33"
         }
       ],
       "supplementary": [],
@@ -584,7 +587,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tnbm",
         "usauto6000tnbm"
@@ -626,33 +629,6 @@
       "imagery": null
     },
     {
-      "id": "us6000tnai",
-      "hazardType": "EQ",
-      "title": "61 km ENE of Aras-asan, Philippines",
-      "countries": [],
-      "lat": 9.0329,
-      "lon": 126.8546,
-      "timeUtc": "Tue, 25 Aug 2026 01:59:04 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us6000tnai"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnai"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tn4p",
       "hazardType": "EQ",
       "title": "76 km SE of Taira, Japan",
@@ -674,34 +650,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn4p"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tn33",
-      "hazardType": "EQ",
-      "title": "207 km SSE of Amahai, Indonesia",
-      "countries": [],
-      "lat": -5.0525,
-      "lon": 129.6871,
-      "timeUtc": "Mon, 24 Aug 2026 10:02:58 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "revised",
-      "aliases": [
-        "us6000tn33",
-        "usauto6000tn33"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn33"
         }
       ],
       "supplementary": [],
