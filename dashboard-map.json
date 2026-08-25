@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:12:09.381Z",
+  "generatedAt": "2026-08-25T23:43:00.903Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "392 in-scope event(s)"
+      "detail": "393 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T22:48:58.335Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1031148",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031147",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-25T23:12:09.381Z",
+    "changes": []
   },
   "stories": [
     {
@@ -256,8 +241,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -8.4237,
-      "lon": 120.2166,
+      "lat": -8.3932,
+      "lon": 120.2483,
       "timeUtc": "Tue, 25 Aug 2026 00:05:24 GMT",
       "mag": 4.9,
       "gdacsAlert": "Green",
@@ -299,7 +284,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031148"
       ],
@@ -332,7 +317,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031147"
       ],
@@ -389,8 +374,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -0.2997,
-      "lon": 112.0548,
+      "lat": -0.3001,
+      "lon": 112.055,
       "timeUtc": "2026-08-18T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -405,13 +390,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031106&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031106&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-18",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.3048,-1.0497,112.8048,0.4503&t=2026-08-18",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.305,-1.0501,112.805,0.4499&t=2026-08-18",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -455,8 +440,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -1.6272,
-      "lon": 134.0431,
+      "lat": -1.6269,
+      "lon": 134.0422,
       "timeUtc": "2026-08-17T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -471,7 +456,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -554,6 +539,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tn9r",
+      "hazardType": "EQ",
+      "title": "103 km SSE of Tarama, Japan",
+      "countries": [],
+      "lat": 23.7741,
+      "lon": 124.9935,
+      "timeUtc": "Mon, 24 Aug 2026 23:26:56 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tn9r"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn9r"
         }
       ],
       "supplementary": [],
