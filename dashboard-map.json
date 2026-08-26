@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:24:57.197Z",
+  "generatedAt": "2026-08-26T02:11:26.931Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "390 in-scope event(s)"
+      "detail": "392 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T23:43:00.903Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1031052",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-26T00:24:57.197Z",
+    "changes": []
   },
   "stories": [
     {
@@ -358,7 +350,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031052"
       ],
@@ -3054,12 +3046,39 @@
       "imagery": null
     },
     {
+      "id": "us6000tn4v",
+      "hazardType": "EQ",
+      "title": "39 km NNW of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2749,
+      "lon": 120.3453,
+      "timeUtc": "Tue, 18 Aug 2026 00:03:26 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tn4v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn4v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tlgm",
       "hazardType": "EQ",
-      "title": "24 km ENE of Colonia, Micronesia",
+      "title": "23 km ENE of Colonia, Micronesia",
       "countries": [],
-      "lat": 9.638,
-      "lon": 138.3106,
+      "lat": 9.6219,
+      "lon": 138.3124,
       "timeUtc": "Mon, 17 Aug 2026 22:53:11 GMT",
       "mag": 5.3,
       "gdacsAlert": null,
@@ -3082,6 +3101,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tml2",
+      "hazardType": "EQ",
+      "title": "32 km NNE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -8.2519,
+      "lon": 120.0514,
+      "timeUtc": "Mon, 17 Aug 2026 22:48:40 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tml2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tml2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tml1",
       "hazardType": "EQ",
       "title": "57 km NW of Ende, Indonesia",
@@ -3095,7 +3141,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tml1"
       ],
@@ -3122,7 +3168,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tml0"
       ],
