@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:43:00.903Z",
+  "generatedAt": "2026-08-26T00:24:57.197Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "13 in-scope record(s)"
+      "detail": "14 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "393 in-scope event(s)"
+      "detail": "390 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-25T23:12:09.381Z",
-    "changes": []
+    "priorRunAt": "2026-08-25T23:43:00.903Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1031052",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -269,15 +277,15 @@
       "imagery": null
     },
     {
-      "id": "1031148",
+      "id": "1031099",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.9591,
-      "lon": 133.0019,
-      "timeUtc": "2026-08-20T00:00:00",
+      "lat": -3.1338,
+      "lon": 130.4078,
+      "timeUtc": "2026-08-13T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -286,31 +294,31 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1031148"
+        "1031099"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031148&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031099&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=132.2519,-3.7091,133.7519,-2.2091&t=2026-08-20",
+        "imageDate": "2026-08-13",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=129.6578,-3.8838,131.1578,-2.3838&t=2026-08-13",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
     {
-      "id": "1031147",
+      "id": "1031092",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.5964,
-      "lon": 105.714,
-      "timeUtc": "2026-08-20T00:00:00",
+      "lat": -1.6269,
+      "lon": 134.0422,
+      "timeUtc": "2026-08-17T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -319,18 +327,51 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1031147"
+        "1031092"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031147&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.964,-4.3464,106.464,-2.8464&t=2026-08-20",
+        "imageDate": "2026-08-17",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=133.2922,-2.3769,134.7922,-0.8769&t=2026-08-17",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1031052",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.008,
+      "lon": 110.9539,
+      "timeUtc": "2026-08-14T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031052"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031052&episodeid=5&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-14",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.2039,-3.758,111.7039,-2.258&t=2026-08-14",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -401,15 +442,15 @@
       }
     },
     {
-      "id": "1031099",
+      "id": "1031147",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.1337,
-      "lon": 130.408,
-      "timeUtc": "2026-08-13T00:00:00",
+      "lat": -3.5964,
+      "lon": 105.714,
+      "timeUtc": "2026-08-20T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -418,31 +459,27 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1031099"
+        "1031147"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031099&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031147&episodeid=1&eventtype=WF"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-13",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=129.658,-3.8837,131.158,-2.3837&t=2026-08-13",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
-      "id": "1031092",
+      "id": "1031148",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -1.6269,
-      "lon": 134.0422,
-      "timeUtc": "2026-08-17T00:00:00",
+      "lat": -2.9591,
+      "lon": 133.0019,
+      "timeUtc": "2026-08-20T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -451,12 +488,12 @@
       "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "1031092"
+        "1031148"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=3&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031148&episodeid=1&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -558,7 +595,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tn9r"
       ],
@@ -3039,6 +3076,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlgm"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tml1",
+      "hazardType": "EQ",
+      "title": "57 km NW of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.433,
+      "lon": 121.3439,
+      "timeUtc": "Mon, 17 Aug 2026 22:19:28 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tml1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tml1"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tml0",
+      "hazardType": "EQ",
+      "title": "62 km NNE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -7.9741,
+      "lon": 120.1069,
+      "timeUtc": "Mon, 17 Aug 2026 21:04:57 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tml0"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tml0"
         }
       ],
       "supplementary": [],
@@ -10843,141 +10934,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th6c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000th0e",
-      "hazardType": "EQ",
-      "title": "16 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.3184,
-      "lon": 125.3392,
-      "timeUtc": "Sun, 26 Jul 2026 15:22:38 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000th0e"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th0e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t3gt",
-      "hazardType": "EQ",
-      "title": "14 km ESE of Pinglin, Taiwan",
-      "countries": [],
-      "lat": 24.8895,
-      "lon": 121.8416,
-      "timeUtc": "Sun, 26 Jul 2026 12:36:17 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t3gt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3gt"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000t3g4",
-      "hazardType": "EQ",
-      "title": "36 km NW of Kupang, Indonesia",
-      "countries": [],
-      "lat": -9.9714,
-      "lon": 123.343,
-      "timeUtc": "Sun, 26 Jul 2026 10:57:37 GMT",
-      "mag": 5.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000t3g4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3g4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000th06",
-      "hazardType": "EQ",
-      "title": "68 km E of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.4754,
-      "lon": 126.0766,
-      "timeUtc": "Sun, 26 Jul 2026 08:07:33 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000th06"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th06"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000th00",
-      "hazardType": "EQ",
-      "title": "162 km ESE of Modisi, Indonesia",
-      "countries": [],
-      "lat": 0.0628,
-      "lon": 125.8475,
-      "timeUtc": "Sun, 26 Jul 2026 04:21:43 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000th00"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th00"
         }
       ],
       "supplementary": [],
