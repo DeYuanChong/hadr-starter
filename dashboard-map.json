@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:29:11.876Z",
+  "generatedAt": "2026-08-26T14:21:36.311Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "402 in-scope event(s)"
+      "detail": "403 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,51 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-26T12:20:30.846Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1001307",
-        "title": "Tropical Cyclone NARRA-26",
-        "hazardType": "TC",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030913",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031099",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030809",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1030876",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031052",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-26T13:29:11.876Z",
+    "changes": []
   },
   "stories": [
     {
@@ -90,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tbw5",
         "1561847"
@@ -124,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tbw3",
         "1561853"
@@ -158,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tbw1",
         "1561833"
@@ -357,7 +314,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030913"
       ],
@@ -390,7 +347,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031099"
       ],
@@ -423,7 +380,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030809"
       ],
@@ -452,7 +409,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1030876"
       ],
@@ -481,7 +438,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031052"
       ],
@@ -607,10 +564,10 @@
     {
       "id": "us6000tnd4",
       "hazardType": "EQ",
-      "title": "54 km NNE of Ruteng, Indonesia",
+      "title": "62 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.1362,
-      "lon": 120.5816,
+      "lat": -8.0758,
+      "lon": 120.6333,
       "timeUtc": "Tue, 25 Aug 2026 14:58:54 GMT",
       "mag": 5,
       "gdacsAlert": null,
@@ -8255,6 +8212,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tjnx",
+      "hazardType": "EQ",
+      "title": "55 km SW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.0619,
+      "lon": 125.0982,
+      "timeUtc": "Wed, 05 Aug 2026 06:36:58 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tjnx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjnx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000ti80",
       "hazardType": "EQ",
       "title": "37 km SW of Sarangani, Philippines",
@@ -10244,7 +10228,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ti2f"
       ],
