@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:27:00.888Z",
+  "generatedAt": "2026-08-29T03:20:18.104Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "5 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "441 in-scope event(s)"
+      "detail": "428 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,192 +27,10 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-08-28T11:14:46.709Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1031192",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031254",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-08-28T21:27:00.888Z",
+    "changes": []
   },
   "stories": [
-    {
-      "id": "us7000tcj1",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -6.9733,
-      "lon": 127.3738,
-      "timeUtc": "Fri, 28 Aug 2026 10:23:05 GMT",
-      "mag": 4.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "new",
-      "aliases": [
-        "us7000tcj1",
-        "1562283"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562283&episodeid=1729757&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcj1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tcgq",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 1.7526,
-      "lon": 126.8948,
-      "timeUtc": "Fri, 28 Aug 2026 00:43:06 GMT",
-      "mag": 4.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "escalated",
-      "aliases": [
-        "us7000tcgq",
-        "1562225"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562225&episodeid=1729668&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1031254",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.6842,
-      "lon": 112.8556,
-      "timeUtc": "2026-08-14T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1031254"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031254&episodeid=4&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.1056,-3.4342,113.6056,-1.9342&t=2026-08-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1031217",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.824,
-      "lon": 110.1882,
-      "timeUtc": "2026-08-14T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1031217"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031217&episodeid=5&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.4382,-2.574,110.9382,-1.074&t=2026-08-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1031208",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -7.9337,
-      "lon": 138.0593,
-      "timeUtc": "2026-08-20T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1031208"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031208&episodeid=2&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.3093,-8.6837,138.8093,-7.1837&t=2026-08-20",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
     {
       "id": "us7000tcn8",
       "hazardType": "EQ",
@@ -227,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tcn8"
       ],
@@ -235,6 +53,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcn8"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tcj1",
+      "hazardType": "EQ",
+      "title": "176 km NNE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -6.9733,
+      "lon": 127.3738,
+      "timeUtc": "Fri, 28 Aug 2026 10:23:05 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tcj1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcj1"
         }
       ],
       "supplementary": [],
@@ -254,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tcit"
       ],
@@ -289,6 +134,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tcgq",
+      "hazardType": "EQ",
+      "title": "119 km NNW of Ternate, Indonesia",
+      "countries": [],
+      "lat": 1.7526,
+      "lon": 126.8948,
+      "timeUtc": "Fri, 28 Aug 2026 00:43:06 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tcgq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgq"
         }
       ],
       "supplementary": [],
@@ -362,7 +234,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tcaf"
       ],
@@ -4780,7 +4652,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmha"
       ],
@@ -5349,7 +5221,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tm6b"
       ],
@@ -6845,7 +6717,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tlnk"
       ],
@@ -6872,7 +6744,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tlnj"
       ],
@@ -7916,10 +7788,10 @@
     {
       "id": "us6000tj4x",
       "hazardType": "EQ",
-      "title": "122 km WSW of Gorontalo, Indonesia",
+      "title": "117 km WSW of Gorontalo, Indonesia",
       "countries": [],
-      "lat": 0.2552,
-      "lon": 122.0018,
+      "lat": 0.2431,
+      "lon": 122.0489,
       "timeUtc": "Fri, 07 Aug 2026 23:30:48 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -7943,10 +7815,10 @@
     {
       "id": "us6000tj4i",
       "hazardType": "EQ",
-      "title": "7 km SSW of Caburan, Philippines",
+      "title": "10 km SW of Caburan, Philippines",
       "countries": [],
-      "lat": 5.8489,
-      "lon": 125.622,
+      "lat": 5.8462,
+      "lon": 125.5769,
       "timeUtc": "Fri, 07 Aug 2026 22:53:49 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -7970,11 +7842,11 @@
     {
       "id": "us6000tj42",
       "hazardType": "EQ",
-      "title": "34 km NNE of Laikit, Laikit II (Dimembe), Indonesia",
+      "title": "30 km N of Laikit, Laikit II (Dimembe), Indonesia",
       "countries": [],
-      "lat": 1.7937,
-      "lon": 125.0521,
-      "timeUtc": "Fri, 07 Aug 2026 22:12:55 GMT",
+      "lat": 1.7584,
+      "lon": 124.9323,
+      "timeUtc": "Fri, 07 Aug 2026 22:12:54 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -8470,7 +8342,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjpm"
       ],
@@ -8497,7 +8369,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjpi"
       ],
@@ -8524,7 +8396,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tidz"
       ],
@@ -8551,7 +8423,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tjph"
       ],
@@ -11752,359 +11624,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti1m"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000thuh",
-      "hazardType": "EQ",
-      "title": "220 km S of Pagar Alam, Indonesia",
-      "countries": [],
-      "lat": -6.0097,
-      "lon": 103.0313,
-      "timeUtc": "Wed, 29 Jul 2026 22:16:25 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000thuh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thuh"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgrb",
-      "hazardType": "EQ",
-      "title": "64 km WNW of Tomohon, Indonesia",
-      "countries": [],
-      "lat": 1.4659,
-      "lon": 124.2466,
-      "timeUtc": "Wed, 29 Jul 2026 16:12:02 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgrb"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgrb"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgpr",
-      "hazardType": "EQ",
-      "title": "58 km E of Rapu-Rapu, Philippines",
-      "countries": [],
-      "lat": 13.1473,
-      "lon": 124.665,
-      "timeUtc": "Wed, 29 Jul 2026 15:09:58 GMT",
-      "mag": 5.4,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgpr",
-        "usauto6000tgpr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgpr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgnu",
-      "hazardType": "EQ",
-      "title": "83 km NE of Casuguran, Philippines",
-      "countries": [],
-      "lat": 15.3225,
-      "lon": 122.8423,
-      "timeUtc": "Wed, 29 Jul 2026 14:11:03 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgnu",
-        "usauto6000tgnu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgnu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgnj",
-      "hazardType": "EQ",
-      "title": "7 km WNW of Mandalay, Burma (Myanmar)",
-      "countries": [],
-      "lat": 22.0075,
-      "lon": 96.0221,
-      "timeUtc": "Wed, 29 Jul 2026 14:02:43 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgnj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgnj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgn0",
-      "hazardType": "EQ",
-      "title": "40 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.3185,
-      "lon": 125.0972,
-      "timeUtc": "Wed, 29 Jul 2026 13:23:56 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgn0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgn0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgmy",
-      "hazardType": "EQ",
-      "title": "5 km NNE of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.6147,
-      "lon": 125.3758,
-      "timeUtc": "Wed, 29 Jul 2026 13:16:59 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgmy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000thu2",
-      "hazardType": "EQ",
-      "title": "178 km ESE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.6604,
-      "lon": 127.626,
-      "timeUtc": "Wed, 29 Jul 2026 10:25:46 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000thu2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thu2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000thu0",
-      "hazardType": "EQ",
-      "title": "30 km N of San Vicente, Philippines",
-      "countries": [],
-      "lat": 18.7844,
-      "lon": 122.1741,
-      "timeUtc": "Wed, 29 Jul 2026 09:31:30 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000thu0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thu0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgjx",
-      "hazardType": "EQ",
-      "title": "194 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.6265,
-      "lon": 138.8873,
-      "timeUtc": "Wed, 29 Jul 2026 02:40:15 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgjx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgjx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000thtk",
-      "hazardType": "EQ",
-      "title": "12 km SSE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2959,
-      "lon": 125.4922,
-      "timeUtc": "Wed, 29 Jul 2026 01:10:47 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000thtk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thtk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tgjc",
-      "hazardType": "EQ",
-      "title": "25 km N of Santa Monica, Philippines",
-      "countries": [],
-      "lat": 10.2473,
-      "lon": 126.0314,
-      "timeUtc": "Wed, 29 Jul 2026 00:39:36 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tgjc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgjc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000thti",
-      "hazardType": "EQ",
-      "title": "21 km ESE of Looc, Philippines",
-      "countries": [],
-      "lat": 13.6688,
-      "lon": 120.4443,
-      "timeUtc": "Wed, 29 Jul 2026 00:23:24 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000thti"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thti"
         }
       ],
       "supplementary": [],
