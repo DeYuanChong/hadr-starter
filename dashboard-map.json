@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:45:11.028Z",
+  "generatedAt": "2026-09-03T21:24:36.522Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "456 in-scope event(s)"
+      "detail": "459 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-03T15:14:44.900Z",
+    "priorRunAt": "2026-09-03T18:45:11.028Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tdzn"
       ],
@@ -817,11 +817,11 @@
     {
       "id": "us7000tc37",
       "hazardType": "EQ",
-      "title": "106 km ESE of Yujing, Taiwan",
+      "title": "115 km ESE of Yujing, Taiwan",
       "countries": [],
-      "lat": 22.8296,
-      "lon": 121.4502,
-      "timeUtc": "Wed, 26 Aug 2026 21:47:20 GMT",
+      "lat": 22.8501,
+      "lon": 121.547,
+      "timeUtc": "Wed, 26 Aug 2026 21:47:18 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1085,6 +1085,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tdl3",
+      "hazardType": "EQ",
+      "title": "83 km NNE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -7.7824,
+      "lon": 120.1422,
+      "timeUtc": "Wed, 26 Aug 2026 00:38:33 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tdl3"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdl3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tdl6",
       "hazardType": "EQ",
       "title": "83 km N of Ruteng, Indonesia",
@@ -1287,7 +1314,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tddp"
       ],
@@ -9189,20 +9216,47 @@
       "imagery": null
     },
     {
-      "id": "us6000tka7",
+      "id": "us6000tla2",
       "hazardType": "EQ",
-      "title": "11 km SW of Hengchun, Taiwan",
+      "title": "150 km NE of Tual, Indonesia",
       "countries": [],
-      "lat": 21.9386,
-      "lon": 120.6514,
-      "timeUtc": "Wed, 12 Aug 2026 19:54:21 GMT",
-      "mag": 4.4,
+      "lat": -4.7288,
+      "lon": 133.7719,
+      "timeUtc": "Wed, 12 Aug 2026 20:07:42 GMT",
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
+      "aliases": [
+        "us6000tla2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tla2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tka7",
+      "hazardType": "EQ",
+      "title": "15 km WSW of Hengchun, Taiwan",
+      "countries": [],
+      "lat": 21.9698,
+      "lon": 120.6033,
+      "timeUtc": "Wed, 12 Aug 2026 19:54:23 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
         "us6000tka7"
       ],
@@ -9220,16 +9274,16 @@
       "hazardType": "EQ",
       "title": "Banda Sea",
       "countries": [],
-      "lat": -6.5002,
-      "lon": 129.516,
-      "timeUtc": "Wed, 12 Aug 2026 18:58:25 GMT",
-      "mag": 4.5,
+      "lat": -6.5645,
+      "lon": 129.4623,
+      "timeUtc": "Wed, 12 Aug 2026 18:58:27 GMT",
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tk9q"
       ],
@@ -9432,6 +9486,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tkqf",
+      "hazardType": "EQ",
+      "title": "271 km SSE of Taliwang, Indonesia",
+      "countries": [],
+      "lat": -11.1324,
+      "lon": 117.4388,
+      "timeUtc": "Tue, 11 Aug 2026 16:33:00 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tkqf"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkqf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tkqe",
       "hazardType": "EQ",
       "title": "34 km E of Tuburan, Philippines",
@@ -9445,7 +9526,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkqe"
       ],
@@ -9472,7 +9553,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tkqd"
       ],
@@ -10490,8 +10571,8 @@
       "hazardType": "EQ",
       "title": "208 km SE of Sarangani, Philippines",
       "countries": [],
-      "lat": 4.0671,
-      "lon": 126.7837,
+      "lat": 4.1706,
+      "lon": 126.8913,
       "timeUtc": "Fri, 07 Aug 2026 19:51:17 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
