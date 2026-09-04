@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T23:37:10.010Z",
+  "generatedAt": "2026-09-04T01:20:17.666Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,16 +18,16 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "461 in-scope event(s)"
+      "detail": "455 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-03T21:24:36.522Z",
+    "priorRunAt": "2026-09-03T23:37:10.010Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000te55"
       ],
@@ -72,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000te51"
       ],
@@ -8398,6 +8398,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tm4l",
+      "hazardType": "EQ",
+      "title": "80 km NW of Ende, Indonesia",
+      "countries": [],
+      "lat": -8.3179,
+      "lon": 121.1585,
+      "timeUtc": "Sat, 15 Aug 2026 01:03:44 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tm4l"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm4l"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tkvh",
       "hazardType": "EQ",
       "title": "71 km NNW of Ende, Indonesia",
@@ -12321,196 +12348,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tj0k",
-      "hazardType": "EQ",
-      "title": "106 km NW of Bukittinggi, Indonesia",
-      "countries": [],
-      "lat": 0.47,
-      "lon": 99.8153,
-      "timeUtc": "Tue, 04 Aug 2026 23:32:17 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tj0k"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj0k"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tj0e",
-      "hazardType": "EQ",
-      "title": "91 km SE of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": 0.003,
-      "lon": 123.6924,
-      "timeUtc": "Tue, 04 Aug 2026 21:56:46 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tj0e"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj0e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ti49",
-      "hazardType": "EQ",
-      "title": "125 km NW of Ternate, Indonesia",
-      "countries": [],
-      "lat": 1.5011,
-      "lon": 126.5024,
-      "timeUtc": "Tue, 04 Aug 2026 20:16:37 GMT",
-      "mag": 5.7,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ti49",
-        "usauto6000ti49"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ti1d",
-      "hazardType": "EQ",
-      "title": "179 km NE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.5758,
-      "lon": 128.3192,
-      "timeUtc": "Tue, 04 Aug 2026 17:30:51 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ti1d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti1d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ti0y",
-      "hazardType": "EQ",
-      "title": "9 km N of Xunchang, China",
-      "countries": [],
-      "lat": 28.5423,
-      "lon": 104.7192,
-      "timeUtc": "Tue, 04 Aug 2026 15:58:34 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ti0y"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0y"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tizx",
-      "hazardType": "EQ",
-      "title": "142 km SSE of Itoman, Japan",
-      "countries": [],
-      "lat": 24.8852,
-      "lon": 128.0303,
-      "timeUtc": "Tue, 04 Aug 2026 05:49:11 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tizx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tizx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tizu",
-      "hazardType": "EQ",
-      "title": "6 km NW of Xunchang, China",
-      "countries": [],
-      "lat": 28.495,
-      "lon": 104.6611,
-      "timeUtc": "Tue, 04 Aug 2026 02:25:02 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tizu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tizu"
         }
       ],
       "supplementary": [],
