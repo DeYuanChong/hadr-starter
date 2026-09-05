@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T08:39:28.453Z",
+  "generatedAt": "2026-09-05T12:07:51.730Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,60 +13,25 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "455 in-scope event(s)"
+      "detail": "456 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-05T04:41:58.611Z",
+    "priorRunAt": "2026-09-05T08:39:28.453Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1031427",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031471",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031476",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
         "kind": "new",
-        "storyId": "1104141",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104122",
-        "title": "Flood in Thailand",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031521",
+        "storyId": "1031681",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "new green-tier story"
@@ -75,16 +40,16 @@
   },
   "stories": [
     {
-      "id": "us7000tehs",
+      "id": "us7000teiy",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -0.1498,
-      "lon": 123.1527,
-      "timeUtc": "Sat, 05 Sep 2026 06:34:55 GMT",
-      "mag": 4.5,
+      "lat": -4.4202,
+      "lon": 102.7513,
+      "timeUtc": "Sat, 05 Sep 2026 10:59:15 GMT",
+      "mag": 5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
@@ -92,17 +57,46 @@
       "reconciled": true,
       "state": "new",
       "aliases": [
-        "us7000tehs",
+        "us7000teiy",
+        "1563762"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563762&episodeid=1731395&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teiy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1563749",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.1498,
+      "lon": 123.1527,
+      "timeUtc": "2026-09-05T06:34:55",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
         "1563749"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1563749&episodeid=1731380&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehs"
         }
       ],
       "supplementary": [],
@@ -124,7 +118,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104141"
       ],
@@ -157,7 +151,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104122"
       ],
@@ -171,6 +165,39 @@
       "imagery": {
         "imageDate": "2026-08-18",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=98.9833,17.93,100.4833,19.43&t=2026-08-18",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1031681",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.9054,
+      "lon": 140.879,
+      "timeUtc": "2026-09-01T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1031681"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031681&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-09-01",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=140.129,-9.6554,141.629,-8.1554&t=2026-09-01",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -190,7 +217,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031521"
       ],
@@ -274,7 +301,7 @@
       }
     },
     {
-      "id": "us7000tefr",
+      "id": "1563691",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -282,33 +309,28 @@
       ],
       "lat": -8.2997,
       "lon": 120.6133,
-      "timeUtc": "Fri, 04 Sep 2026 23:17:48 GMT",
-      "mag": 4.5,
+      "timeUtc": "2026-09-04T23:17:48",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us7000tefr",
         "1563691"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1563691&episodeid=1731324&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefr"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "us7000teck",
+      "id": "1563636",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -316,33 +338,28 @@
       ],
       "lat": 1.3758,
       "lon": 99.0453,
-      "timeUtc": "Fri, 04 Sep 2026 16:24:41 GMT",
-      "mag": 5.1,
+      "timeUtc": "2026-09-04T16:24:41",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us7000teck",
         "1563636"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1563636&episodeid=1731253&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "us7000te95",
+      "id": "1563573",
       "hazardType": "EQ",
       "title": "Earthquake in Philippines",
       "countries": [
@@ -350,33 +367,28 @@
       ],
       "lat": 15.1784,
       "lon": 120.0504,
-      "timeUtc": "Fri, 04 Sep 2026 08:48:03 GMT",
-      "mag": 4.7,
+      "timeUtc": "2026-09-04T08:48:03",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us7000te95",
         "1563573"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1563573&episodeid=1731215&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "us7000te82",
+      "id": "1563541",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -384,26 +396,21 @@
       ],
       "lat": -7.9867,
       "lon": 109.0409,
-      "timeUtc": "Fri, 04 Sep 2026 05:04:54 GMT",
-      "mag": 5.2,
+      "timeUtc": "2026-09-04T05:04:54",
+      "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
+      "reconciled": false,
       "state": "unchanged",
       "aliases": [
-        "us7000te82",
         "1563541"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1563541&episodeid=1731150&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
         }
       ],
       "supplementary": [],
@@ -443,6 +450,60 @@
       }
     },
     {
+      "id": "us7000tehs",
+      "hazardType": "EQ",
+      "title": "76 km S of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": -0.1498,
+      "lon": 123.1527,
+      "timeUtc": "Sat, 05 Sep 2026 06:34:55 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tehs"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehs"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tefr",
+      "hazardType": "EQ",
+      "title": "38 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2997,
+      "lon": 120.6133,
+      "timeUtc": "Fri, 04 Sep 2026 23:17:48 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tefr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000teer",
       "hazardType": "EQ",
       "title": "12 km S of Cabcaben, Philippines",
@@ -470,6 +531,33 @@
       "imagery": null
     },
     {
+      "id": "us7000teck",
+      "hazardType": "EQ",
+      "title": "25 km W of Padangsidempuan, Indonesia",
+      "countries": [],
+      "lat": 1.3758,
+      "lon": 99.0453,
+      "timeUtc": "Fri, 04 Sep 2026 16:24:41 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000teck"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000te98",
       "hazardType": "EQ",
       "title": "116 km NE of Hengchun, Taiwan",
@@ -491,6 +579,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te98"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000te95",
+      "hazardType": "EQ",
+      "title": "2 km NNW of Cabangan, Philippines",
+      "countries": [],
+      "lat": 15.1784,
+      "lon": 120.0504,
+      "timeUtc": "Fri, 04 Sep 2026 08:48:03 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000te95"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000te82",
+      "hazardType": "EQ",
+      "title": "28 km S of Cilacap, Indonesia",
+      "countries": [],
+      "lat": -7.9867,
+      "lon": 109.0409,
+      "timeUtc": "Fri, 04 Sep 2026 05:04:54 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000te82"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
         }
       ],
       "supplementary": [],
@@ -7791,7 +7933,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tmge"
       ],
@@ -7818,7 +7960,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tl55"
       ],
@@ -8116,7 +8258,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tl3n"
       ],
