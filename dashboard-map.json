@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T00:17:58.482Z",
+  "generatedAt": "2026-09-07T04:54:41.006Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "462 in-scope event(s)"
+      "detail": "463 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-06T22:27:15.249Z",
+    "priorRunAt": "2026-09-07T00:17:58.482Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000teph",
         "1563917"
@@ -138,8 +138,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.1031,
-      "lon": 114.0563,
+      "lat": -3.103,
+      "lon": 114.0559,
       "timeUtc": "2026-08-24T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -154,13 +154,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031720&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031720&episodeid=7&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-24",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.3063,-3.8531,114.8063,-2.3531&t=2026-08-24",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.3059,-3.853,114.8059,-2.353&t=2026-08-24",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -204,8 +204,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.1153,
-      "lon": 105.2983,
+      "lat": -3.1151,
+      "lon": 105.2978,
       "timeUtc": "2026-08-23T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -220,13 +220,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031729&episodeid=3&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031729&episodeid=4&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.5483,-3.8653,106.0483,-2.3653&t=2026-08-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.5478,-3.8651,106.0478,-2.3651&t=2026-08-23",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -320,6 +320,33 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031701&episodeid=3&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tetc",
+      "hazardType": "EQ",
+      "title": "124 km S of Dampit, Indonesia",
+      "countries": [],
+      "lat": -9.3217,
+      "lon": 112.9125,
+      "timeUtc": "Mon, 07 Sep 2026 02:48:35 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tetc"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tetc"
         }
       ],
       "supplementary": [],
