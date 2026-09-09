@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:15:20.319Z",
+  "generatedAt": "2026-09-09T15:09:56.883Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "488 in-scope event(s)"
+      "detail": "489 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-09T06:05:29.785Z",
+    "priorRunAt": "2026-09-09T11:15:20.319Z",
     "changes": []
   },
   "stories": [
@@ -45,7 +45,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tg06"
       ],
@@ -72,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tfyn"
       ],
@@ -126,7 +126,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tfxd"
       ],
@@ -153,7 +153,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tfum"
       ],
@@ -180,7 +180,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tfr8"
       ],
@@ -5553,6 +5553,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tbqx",
+      "hazardType": "EQ",
+      "title": "24 km SW of Balangonan, Philippines",
+      "countries": [],
+      "lat": 5.4347,
+      "lon": 125.1792,
+      "timeUtc": "Wed, 19 Aug 2026 06:29:45 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tbqx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbqx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tltj",
       "hazardType": "EQ",
       "title": "39 km N of Ruteng, Indonesia",
@@ -6313,10 +6340,10 @@
     {
       "id": "us6000tlmt",
       "hazardType": "EQ",
-      "title": "80 km N of Ruteng, Indonesia",
+      "title": "86 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.8898,
-      "lon": 120.3661,
+      "lat": -7.8287,
+      "lon": 120.4564,
       "timeUtc": "Tue, 18 Aug 2026 11:06:50 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
@@ -6351,7 +6378,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tlm3"
       ],
@@ -7206,10 +7233,10 @@
     {
       "id": "usd0015ed8",
       "hazardType": "EQ",
-      "title": "75 km N of Ruteng, Indonesia",
+      "title": "78 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.9289,
-      "lon": 120.4324,
+      "lat": -7.9023,
+      "lon": 120.4192,
       "timeUtc": "Mon, 17 Aug 2026 10:44:49 GMT",
       "mag": 5.4,
       "gdacsAlert": null,
@@ -7233,18 +7260,18 @@
     {
       "id": "usd0015ed7",
       "hazardType": "EQ",
-      "title": "81 km N of Ruteng, Indonesia",
+      "title": "88 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.8762,
-      "lon": 120.5019,
+      "lat": -7.8141,
+      "lon": 120.4341,
       "timeUtc": "Mon, 17 Aug 2026 10:42:41 GMT",
-      "mag": 5.2,
+      "mag": 5.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "usd0015ed7"
       ],
@@ -7260,18 +7287,18 @@
     {
       "id": "usd0015ed1",
       "hazardType": "EQ",
-      "title": "52 km NNW of Ende, Indonesia",
+      "title": "64 km NNW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.3911,
-      "lon": 121.5192,
-      "timeUtc": "Mon, 17 Aug 2026 09:16:05 GMT",
-      "mag": 4.8,
+      "lat": -8.312,
+      "lon": 121.4184,
+      "timeUtc": "Mon, 17 Aug 2026 09:16:04 GMT",
+      "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "usd0015ed1"
       ],
@@ -7298,7 +7325,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "usd0015ecv"
       ],
@@ -7325,7 +7352,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "usd0015ech"
       ],
@@ -7379,7 +7406,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "usd0015eby"
       ],
