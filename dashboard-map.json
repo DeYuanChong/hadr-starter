@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T01:11:33.275Z",
+  "generatedAt": "2026-09-10T06:04:26.300Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "486 in-scope event(s)"
+      "detail": "488 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,44 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-09T23:20:01.625Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1031350",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031554",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031724",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031701",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031689",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-10T01:11:33.275Z",
+    "changes": []
   },
   "stories": [
     {
@@ -83,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tg06",
         "1564380"
@@ -250,7 +214,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031724"
       ],
@@ -283,7 +247,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031701"
       ],
@@ -316,7 +280,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031689"
       ],
@@ -4914,18 +4878,18 @@
     {
       "id": "us6000tm22",
       "hazardType": "EQ",
-      "title": "71 km N of Ruteng, Indonesia",
+      "title": "70 km NE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -7.9704,
-      "lon": 120.3917,
-      "timeUtc": "Thu, 20 Aug 2026 04:33:23 GMT",
-      "mag": 4.6,
+      "lat": -7.9865,
+      "lon": 120.2661,
+      "timeUtc": "Thu, 20 Aug 2026 04:33:22 GMT",
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tm22"
       ],
@@ -4941,18 +4905,18 @@
     {
       "id": "us6000tm1y",
       "hazardType": "EQ",
-      "title": "26 km NNW of Ruteng, Indonesia",
+      "title": "39 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.386,
-      "lon": 120.3951,
-      "timeUtc": "Thu, 20 Aug 2026 04:23:57 GMT",
-      "mag": 4.6,
+      "lat": -8.2605,
+      "lon": 120.5326,
+      "timeUtc": "Thu, 20 Aug 2026 04:23:56 GMT",
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tm1y"
       ],
@@ -4960,6 +4924,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1y"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tc62",
+      "hazardType": "EQ",
+      "title": "72 km NNE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -7.9434,
+      "lon": 120.2447,
+      "timeUtc": "Thu, 20 Aug 2026 03:59:26 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tc62"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc62"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tm1q",
+      "hazardType": "EQ",
+      "title": "38 km NW of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.3363,
+      "lon": 120.2512,
+      "timeUtc": "Thu, 20 Aug 2026 03:36:45 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tm1q"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1q"
         }
       ],
       "supplementary": [],
@@ -5158,10 +5176,10 @@
     {
       "id": "us7000tbs3",
       "hazardType": "EQ",
-      "title": "20 km ESE of Labuan Bajo, Indonesia",
+      "title": "19 km ESE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.5688,
-      "lon": 120.0558,
+      "lat": -8.5819,
+      "lon": 120.0407,
       "timeUtc": "Wed, 19 Aug 2026 22:55:48 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -5187,8 +5205,8 @@
       "hazardType": "EQ",
       "title": "31 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.3359,
-      "lon": 120.5368,
+      "lat": -8.3418,
+      "lon": 120.5442,
       "timeUtc": "Wed, 19 Aug 2026 22:45:17 GMT",
       "mag": 5.8,
       "gdacsAlert": null,
@@ -5214,10 +5232,10 @@
     {
       "id": "us7000tbs2",
       "hazardType": "EQ",
-      "title": "68 km N of Ruteng, Indonesia",
+      "title": "74 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.9976,
-      "lon": 120.4096,
+      "lat": -7.9443,
+      "lon": 120.4098,
       "timeUtc": "Wed, 19 Aug 2026 22:44:11 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -5243,16 +5261,16 @@
       "hazardType": "EQ",
       "title": "15 km W of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.4837,
-      "lon": 119.744,
+      "lat": -8.4707,
+      "lon": 119.7463,
       "timeUtc": "Wed, 19 Aug 2026 22:37:55 GMT",
-      "mag": 4.1,
+      "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tbs0"
       ],
@@ -5270,8 +5288,8 @@
       "hazardType": "EQ",
       "title": "45 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2027,
-      "lon": 120.4869,
+      "lat": -8.2037,
+      "lon": 120.4936,
       "timeUtc": "Wed, 19 Aug 2026 22:33:24 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -5295,10 +5313,10 @@
     {
       "id": "us6000tm0s",
       "hazardType": "EQ",
-      "title": "33 km N of Ruteng, Indonesia",
+      "title": "36 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.3067,
-      "lon": 120.4487,
+      "lat": -8.2828,
+      "lon": 120.4454,
       "timeUtc": "Wed, 19 Aug 2026 22:28:08 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
@@ -5322,10 +5340,10 @@
     {
       "id": "us7000tbry",
       "hazardType": "EQ",
-      "title": "16 km N of Labuan Bajo, Indonesia",
+      "title": "18 km NNE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.3506,
-      "lon": 119.887,
+      "lat": -8.3345,
+      "lon": 119.9421,
       "timeUtc": "Wed, 19 Aug 2026 21:43:37 GMT",
       "mag": 4.1,
       "gdacsAlert": null,
@@ -5349,11 +5367,11 @@
     {
       "id": "us7000tbrv",
       "hazardType": "EQ",
-      "title": "36 km NE of Labuan Bajo, Indonesia",
+      "title": "33 km NE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.3081,
-      "lon": 120.161,
-      "timeUtc": "Wed, 19 Aug 2026 21:35:34 GMT",
+      "lat": -8.2955,
+      "lon": 120.1115,
+      "timeUtc": "Wed, 19 Aug 2026 21:35:33 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -5376,10 +5394,10 @@
     {
       "id": "us7000tbrx",
       "hazardType": "EQ",
-      "title": "142 km NNW of Ende, Indonesia",
+      "title": "140 km NE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.608,
-      "lon": 121.2913,
+      "lat": -7.6073,
+      "lon": 121.2437,
       "timeUtc": "Wed, 19 Aug 2026 21:32:14 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -5403,18 +5421,18 @@
     {
       "id": "us7000tbrw",
       "hazardType": "EQ",
-      "title": "31 km NE of Labuan Bajo, Indonesia",
+      "title": "10 km NNE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.308,
-      "lon": 120.1007,
+      "lat": -8.409,
+      "lon": 119.9342,
       "timeUtc": "Wed, 19 Aug 2026 21:30:15 GMT",
-      "mag": 4.3,
+      "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tbrw"
       ],
@@ -5430,10 +5448,10 @@
     {
       "id": "us7000tbrs",
       "hazardType": "EQ",
-      "title": "42 km NNW of Ruteng, Indonesia",
+      "title": "36 km NNW of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2742,
-      "lon": 120.2832,
+      "lat": -8.3068,
+      "lon": 120.3433,
       "timeUtc": "Wed, 19 Aug 2026 21:08:37 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
@@ -6000,10 +6018,10 @@
     {
       "id": "us6000tls7",
       "hazardType": "EQ",
-      "title": "76 km NNW of Ende, Indonesia",
+      "title": "66 km NNW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.2072,
-      "lon": 121.3989,
+      "lat": -8.281,
+      "lon": 121.4467,
       "timeUtc": "Wed, 19 Aug 2026 00:11:39 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
@@ -6029,8 +6047,8 @@
       "hazardType": "EQ",
       "title": "75 km NW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.3338,
-      "lon": 121.2068,
+      "lat": -8.2901,
+      "lon": 121.2633,
       "timeUtc": "Tue, 18 Aug 2026 23:59:16 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -6054,10 +6072,10 @@
     {
       "id": "us6000tn6h",
       "hazardType": "EQ",
-      "title": "63 km ENE of Ruteng, Indonesia",
+      "title": "65 km ENE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.4546,
-      "lon": 121.0201,
+      "lat": -8.4597,
+      "lon": 121.0379,
       "timeUtc": "Tue, 18 Aug 2026 23:39:23 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
@@ -6092,7 +6110,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn4w"
       ],
@@ -6146,7 +6164,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tn67"
       ],
@@ -7011,7 +7029,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tn4v"
       ],
