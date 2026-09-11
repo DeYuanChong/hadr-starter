@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T20:04:53.433Z",
+  "generatedAt": "2026-09-11T22:30:55.532Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,26 +13,55 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "10 in-scope record(s)"
+      "detail": "11 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "498 in-scope event(s)"
+      "detail": "500 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-11T17:47:19.766Z",
+    "priorRunAt": "2026-09-11T20:04:53.433Z",
     "changes": []
   },
   "stories": [
     {
-      "id": "us7000tgl2",
+      "id": "1564809",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.0932,
+      "lon": 106.903,
+      "timeUtc": "2026-09-11T21:23:55",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1564809"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564809&episodeid=1732548&eventtype=EQ"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1564759",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -40,27 +69,21 @@
       ],
       "lat": -7.2863,
       "lon": 128.9383,
-      "timeUtc": "Fri, 11 Sep 2026 11:56:23 GMT",
-      "mag": 5.9,
+      "timeUtc": "2026-09-11T11:56:23",
+      "mag": null,
       "gdacsAlert": "Green",
-      "pagerAlert": "green",
+      "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
-        "us7000tgl2",
-        "usauto7000tgl2",
         "1564759"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgl2"
         }
       ],
       "supplementary": [],
@@ -361,6 +384,34 @@
       "imagery": null
     },
     {
+      "id": "us7000tgrk",
+      "hazardType": "EQ",
+      "title": "115 km NNE of Teluknaga, Indonesia",
+      "countries": [],
+      "lat": -5.0932,
+      "lon": 106.903,
+      "timeUtc": "Fri, 11 Sep 2026 21:23:55 GMT",
+      "mag": 6.6,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tgrk",
+        "usauto7000tgrk"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tgq0",
       "hazardType": "EQ",
       "title": "25 km NW of Sarupathar, India",
@@ -374,7 +425,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tgq0"
       ],
@@ -382,6 +433,34 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgq0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tgl2",
+      "hazardType": "EQ",
+      "title": "253 km ENE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.2863,
+      "lon": 128.9383,
+      "timeUtc": "Fri, 11 Sep 2026 11:56:23 GMT",
+      "mag": 5.9,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000tgl2",
+        "usauto7000tgl2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgl2"
         }
       ],
       "supplementary": [],
@@ -679,6 +758,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tetc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tgp7",
+      "hazardType": "EQ",
+      "title": "5 km SE of Ilihan, Philippines",
+      "countries": [],
+      "lat": 13.5914,
+      "lon": 121.0995,
+      "timeUtc": "Sun, 06 Sep 2026 22:13:31 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tgp7"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgp7"
         }
       ],
       "supplementary": [],
