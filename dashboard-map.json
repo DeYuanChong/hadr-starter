@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:47:19.766Z",
+  "generatedAt": "2026-09-11T20:04:53.433Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,16 +18,16 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "497 in-scope event(s)"
+      "detail": "498 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-11T14:20:40.397Z",
+    "priorRunAt": "2026-09-11T17:47:19.766Z",
     "changes": []
   },
   "stories": [
@@ -361,6 +361,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tgq0",
+      "hazardType": "EQ",
+      "title": "25 km NW of Sarupathar, India",
+      "countries": [],
+      "lat": 26.3827,
+      "lon": 96.6409,
+      "timeUtc": "Fri, 11 Sep 2026 17:56:20 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tgq0"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgq0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tgk0",
       "hazardType": "EQ",
       "title": "102 km SSE of Gorontalo, Indonesia",
@@ -428,7 +455,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tgel"
       ],
