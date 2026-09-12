@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T16:13:10.460Z",
+  "generatedAt": "2026-09-12T18:28:48.045Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "500 in-scope event(s)"
+      "detail": "501 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-12T12:55:19.311Z",
+    "priorRunAt": "2026-09-12T16:13:10.460Z",
     "changes": []
   },
   "stories": [
@@ -347,7 +347,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tgrk",
         "usauto7000tgrk",
@@ -848,6 +848,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tey8",
+      "hazardType": "EQ",
+      "title": "27 km SW of Zhaotong, China",
+      "countries": [],
+      "lat": 27.1234,
+      "lon": 103.5392,
+      "timeUtc": "Mon, 07 Sep 2026 17:31:42 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tey8"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tey8"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tew3",
       "hazardType": "EQ",
       "title": "79 km NE of Tobelo, Indonesia",
@@ -942,7 +969,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000ter3"
       ],
@@ -1428,7 +1455,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tgc5"
       ],
@@ -1482,7 +1509,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tgc2"
       ],
