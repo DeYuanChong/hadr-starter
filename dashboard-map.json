@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T00:59:38.615Z",
+  "generatedAt": "2026-09-14T06:07:15.230Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,32 +13,92 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "13 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "470 in-scope event(s)"
+      "detail": "473 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-13T23:05:15.669Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1031956",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-14T00:59:38.615Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000th9m",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -9.2825,
+      "lon": 112.9014,
+      "timeUtc": "Mon, 14 Sep 2026 01:42:08 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000th9m",
+        "1565145"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1565145&episodeid=1732917&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th9m"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000th9i",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1301,
+      "lon": 120.3101,
+      "timeUtc": "Mon, 14 Sep 2026 00:53:47 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000th9i",
+        "1565142"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1565142&episodeid=1732918&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th9i"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000th8u",
       "hazardType": "EQ",
@@ -55,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000th8u",
         "1565133"
@@ -89,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031956"
       ],
@@ -113,8 +173,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -8.2939,
-      "lon": 118.0962,
+      "lat": -8.2948,
+      "lon": 118.0966,
       "timeUtc": "2026-09-09T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -129,15 +189,11 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031925&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031925&episodeid=5&eventtype=WF"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-08",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=117.3462,-9.0439,118.8462,-7.5439&t=2026-09-08",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "1031919",
@@ -179,8 +235,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.7346,
-      "lon": 110.768,
+      "lat": -2.7345,
+      "lon": 110.7678,
       "timeUtc": "2026-09-03T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -195,13 +251,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031917&episodeid=5&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031917&episodeid=6&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-03",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.018,-3.4846,111.518,-1.9846&t=2026-09-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.0178,-3.4845,111.5178,-1.9845&t=2026-09-03",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -212,7 +268,7 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.6618,
+      "lat": -2.6616,
       "lon": 114.3162,
       "timeUtc": "2026-09-01T00:00:00",
       "mag": null,
@@ -228,13 +284,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031910&episodeid=8&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031910&episodeid=9&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-01",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.5662,-3.4118,115.0662,-1.9118&t=2026-09-01",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.5662,-3.4116,115.0662,-1.9116&t=2026-09-01",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -245,8 +301,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.1923,
-      "lon": 111.8395,
+      "lat": -3.1917,
+      "lon": 111.8398,
       "timeUtc": "2026-08-30T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -261,13 +317,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031897&episodeid=9&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031897&episodeid=10&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-08-30",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.0895,-3.9423,112.5895,-2.4423&t=2026-08-30",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.0898,-3.9417,112.5898,-2.4417&t=2026-08-30",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -374,7 +430,7 @@
         "Indonesia"
       ],
       "lat": -0.5008,
-      "lon": 112.1153,
+      "lon": 112.1152,
       "timeUtc": "2026-09-01T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -389,7 +445,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031838&episodeid=13&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031838&episodeid=14&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -3698,10 +3754,10 @@
     {
       "id": "us6000tn1v",
       "hazardType": "EQ",
-      "title": "71 km N of Ruteng, Indonesia",
+      "title": "70 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.9644,
-      "lon": 120.4679,
+      "lat": -7.978,
+      "lon": 120.4269,
       "timeUtc": "Mon, 24 Aug 2026 02:19:39 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
@@ -3736,7 +3792,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tclx"
       ],
@@ -3752,10 +3808,10 @@
     {
       "id": "us6000tn1k",
       "hazardType": "EQ",
-      "title": "43 km N of Ruteng, Indonesia",
+      "title": "45 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2203,
-      "lon": 120.4857,
+      "lat": -8.1972,
+      "lon": 120.4889,
       "timeUtc": "Mon, 24 Aug 2026 01:12:59 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -5158,12 +5214,39 @@
       "imagery": null
     },
     {
+      "id": "us7000tcaa",
+      "hazardType": "EQ",
+      "title": "127 km NE of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 2.6325,
+      "lon": 128.7243,
+      "timeUtc": "Fri, 21 Aug 2026 02:12:27 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tcaa"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcaa"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tmcn",
       "hazardType": "EQ",
-      "title": "75 km NW of Ende, Indonesia",
+      "title": "75 km NNW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.2838,
-      "lon": 121.2731,
+      "lat": -8.2424,
+      "lon": 121.3386,
       "timeUtc": "Fri, 21 Aug 2026 01:38:42 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -5187,10 +5270,10 @@
     {
       "id": "us6000tmcj",
       "hazardType": "EQ",
-      "title": "45 km NNE of Ruteng, Indonesia",
+      "title": "40 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2183,
-      "lon": 120.5956,
+      "lat": -8.2718,
+      "lon": 120.6,
       "timeUtc": "Fri, 21 Aug 2026 01:18:05 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -5214,10 +5297,10 @@
     {
       "id": "us6000tmc4",
       "hazardType": "EQ",
-      "title": "6 km W of Onna, Japan",
+      "title": "10 km W of Onna, Japan",
       "countries": [],
-      "lat": 26.4848,
-      "lon": 127.7859,
+      "lat": 26.504,
+      "lon": 127.747,
       "timeUtc": "Fri, 21 Aug 2026 00:01:20 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
