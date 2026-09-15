@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:55:43.375Z",
+  "generatedAt": "2026-09-15T22:07:23.611Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,24 +13,92 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "17 in-scope record(s)"
+      "detail": "19 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "408 in-scope event(s)"
+      "detail": "410 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-15T15:04:52.005Z",
+    "priorRunAt": "2026-09-15T18:55:43.375Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000thn3",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -4.2614,
+      "lon": 102.0754,
+      "timeUtc": "Tue, 15 Sep 2026 16:12:49 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000thn3",
+        "1566383"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566383&episodeid=1734216&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thn3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000thlq",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.3244,
+      "lon": 129.2771,
+      "timeUtc": "Tue, 15 Sep 2026 14:16:11 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us7000thlq",
+        "1566377"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566377&episodeid=1734193&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thlq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000thjr",
       "hazardType": "EQ",
@@ -588,6 +656,33 @@
       "imagery": null
     },
     {
+      "id": "us7000thp0",
+      "hazardType": "EQ",
+      "title": "45 km N of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.1982,
+      "lon": 120.4443,
+      "timeUtc": "Tue, 15 Sep 2026 18:26:33 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000thp0"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thp0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000thne",
       "hazardType": "EQ",
       "title": "90 km NNW of Ishigaki, Japan",
@@ -601,7 +696,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000thne"
       ],
@@ -609,33 +704,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thne"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000thlq",
-      "hazardType": "EQ",
-      "title": "251 km E of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -8.3244,
-      "lon": 129.2771,
-      "timeUtc": "Tue, 15 Sep 2026 14:16:11 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "us7000thlq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thlq"
         }
       ],
       "supplementary": [],
@@ -790,7 +858,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000th04"
       ],
