@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:30:25.201Z",
+  "generatedAt": "2026-09-15T05:14:22.901Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "398 in-scope event(s)"
+      "detail": "400 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,44 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-14T21:54:05.836Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1031674",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031917",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031962",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031963",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031980",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-15T00:30:25.201Z",
+    "changes": []
   },
   "stories": [
     {
@@ -359,7 +323,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031980"
       ],
@@ -607,7 +571,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000th8u"
       ],
@@ -1157,6 +1121,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tetc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000thec",
+      "hazardType": "EQ",
+      "title": "75 km NE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.1509,
+      "lon": 120.9657,
+      "timeUtc": "Mon, 07 Sep 2026 00:56:57 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000thec"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thec"
         }
       ],
       "supplementary": [],
@@ -2634,7 +2625,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tcgq"
       ],
@@ -2669,6 +2660,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tdxz",
+      "hazardType": "EQ",
+      "title": "29 km NE of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 1.889,
+      "lon": 128.2198,
+      "timeUtc": "Thu, 27 Aug 2026 22:22:45 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tdxz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdxz"
         }
       ],
       "supplementary": [],
