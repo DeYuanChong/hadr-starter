@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:30:02.471Z",
+  "generatedAt": "2026-09-17T21:41:20.485Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "339 in-scope event(s)"
+      "detail": "344 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,74 +27,52 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-17T14:28:30.706Z",
+    "priorRunAt": "2026-09-17T18:30:02.471Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1031917",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031981",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031995",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1031996",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032000",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032030",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032105",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
+        "kind": "new",
         "storyId": "1032110",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032115",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+        "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "us7000ti5c",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.7411,
+      "lon": 104.5828,
+      "timeUtc": "Thu, 17 Sep 2026 19:17:33 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000ti5c",
+        "1566714"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566714&episodeid=1734559&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5c"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000ti03",
       "hazardType": "EQ",
@@ -128,6 +106,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1032110",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.8064,
+      "lon": 123.5846,
+      "timeUtc": "2026-09-09T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1032110"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032110&episodeid=3&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-09-09",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.8346,0.0564,124.3346,1.5564&t=2026-09-09",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "1032036",
@@ -1172,10 +1183,10 @@
     {
       "id": "us7000tey8",
       "hazardType": "EQ",
-      "title": "27 km SW of Zhaotong, China",
+      "title": "30 km SW of Zhaotong, China",
       "countries": [],
-      "lat": 27.1234,
-      "lon": 103.5392,
+      "lat": 27.1287,
+      "lon": 103.4912,
       "timeUtc": "Mon, 07 Sep 2026 17:31:42 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
@@ -3343,7 +3354,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tdlt"
       ],
@@ -3978,12 +3989,39 @@
       "imagery": null
     },
     {
+      "id": "us7000tddl",
+      "hazardType": "EQ",
+      "title": "60 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.1007,
+      "lon": 120.6658,
+      "timeUtc": "Tue, 25 Aug 2026 15:51:11 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tddl"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tddl"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tnd4",
       "hazardType": "EQ",
-      "title": "62 km NNE of Ruteng, Indonesia",
+      "title": "68 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.0758,
-      "lon": 120.6333,
+      "lat": -8.0189,
+      "lon": 120.6395,
       "timeUtc": "Tue, 25 Aug 2026 14:58:54 GMT",
       "mag": 5,
       "gdacsAlert": null,
@@ -4018,7 +4056,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tddk"
       ],
@@ -4045,7 +4083,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tddi"
       ],
@@ -5102,7 +5140,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tmt8"
       ],
@@ -5156,7 +5194,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tcd3"
       ],
@@ -5902,6 +5940,87 @@
       "imagery": null
     },
     {
+      "id": "us7000tcbq",
+      "hazardType": "EQ",
+      "title": "33 km NE of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -8.3159,
+      "lon": 120.1322,
+      "timeUtc": "Fri, 21 Aug 2026 10:34:52 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tcbq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcbq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tcau",
+      "hazardType": "EQ",
+      "title": "0 km SW of Labuan Bajo, Indonesia",
+      "countries": [],
+      "lat": -8.5022,
+      "lon": 119.8814,
+      "timeUtc": "Fri, 21 Aug 2026 10:31:57 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tcau"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcau"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tcat",
+      "hazardType": "EQ",
+      "title": "4 km SW of Cantapoy, Philippines",
+      "countries": [],
+      "lat": 9.4629,
+      "lon": 125.4095,
+      "timeUtc": "Fri, 21 Aug 2026 10:13:54 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tcat"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcat"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tcas",
       "hazardType": "EQ",
       "title": "67 km S of Mawlaik, Burma (Myanmar)",
@@ -5915,7 +6034,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tcas"
       ],
