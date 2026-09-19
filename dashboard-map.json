@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:12:03.802Z",
+  "generatedAt": "2026-09-19T19:22:28.084Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "278 in-scope event(s)"
+      "detail": "279 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,32 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-19T14:00:15.722Z",
+    "priorRunAt": "2026-09-19T17:12:03.802Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032169",
+        "storyId": "1032141",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       },
       {
         "kind": "deleted",
-        "storyId": "1032178",
+        "storyId": "1032227",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1031996",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "us7000tiju",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.1668,
+      "lon": 120.8819,
+      "timeUtc": "Sat, 19 Sep 2026 13:56:00 GMT",
+      "mag": 5.1,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000tiju",
+        "1566999"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566999&episodeid=1734899&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiju"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tiib",
       "hazardType": "EQ",
@@ -203,7 +230,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1031996"
       ],
@@ -353,68 +380,6 @@
       }
     },
     {
-      "id": "1032141",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.8322,
-      "lon": 103.9476,
-      "timeUtc": "2026-09-15T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032141"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032141&episodeid=6&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.1976,-2.5822,104.6976,-1.0822&t=2026-09-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032227",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.1798,
-      "lon": 121.668,
-      "timeUtc": "2026-09-07T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032227"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032227&episodeid=2&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000tidr",
       "hazardType": "EQ",
       "title": "226 km SSW of Pelabuhanratu, Indonesia",
@@ -455,7 +420,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tid2"
       ],
@@ -482,7 +447,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tib8"
       ],
