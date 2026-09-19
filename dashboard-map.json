@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:22:07.457Z",
+  "generatedAt": "2026-09-19T01:19:43.198Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "313 in-scope event(s)"
+      "detail": "274 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,37 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-18T21:12:06.653Z",
-    "changes": []
+    "priorRunAt": "2026-09-18T23:22:07.457Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1032105",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032110",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1032036",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      },
+      {
+        "kind": "new",
+        "storyId": "1032118",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -233,39 +262,6 @@
       }
     },
     {
-      "id": "1032110",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 0.8051,
-      "lon": 123.5841,
-      "timeUtc": "2026-09-09T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032110"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032110&episodeid=5&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-09",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=122.8341,0.0551,124.3341,1.5551&t=2026-09-09",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1031996",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -391,6 +387,68 @@
         }
       ],
       "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-09-07",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.3545,-3.6493,111.8545,-2.1493&t=2026-09-07",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1032036",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -4.0403,
+      "lon": 137.7434,
+      "timeUtc": "2026-09-10T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1032036"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032036&episodeid=6&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1032118",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.3449,
+      "lon": 126.8783,
+      "timeUtc": "2026-09-10T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1032118"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032118&episodeid=4&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
       "imagery": null
     },
     {
@@ -417,35 +475,6 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031981&episodeid=13&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1032105",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9021,
-      "lon": 133.9425,
-      "timeUtc": "2026-09-08T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032105"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032105&episodeid=4&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -2770,6 +2799,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2c"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tewy",
+      "hazardType": "EQ",
+      "title": "58 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.0998,
+      "lon": 120.5941,
+      "timeUtc": "Mon, 31 Aug 2026 02:48:41 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tewy"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tewy"
         }
       ],
       "supplementary": [],
@@ -7775,1091 +7831,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1e"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm15",
-      "hazardType": "EQ",
-      "title": "28 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3732,
-      "lon": 120.3549,
-      "timeUtc": "Wed, 19 Aug 2026 23:52:24 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tm15"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm15"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm10",
-      "hazardType": "EQ",
-      "title": "41 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2614,
-      "lon": 120.5935,
-      "timeUtc": "Wed, 19 Aug 2026 23:20:13 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tm10"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm10"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbs4",
-      "hazardType": "EQ",
-      "title": "46 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1888,
-      "lon": 120.4423,
-      "timeUtc": "Wed, 19 Aug 2026 23:10:17 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbs4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbs4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbs3",
-      "hazardType": "EQ",
-      "title": "19 km ESE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.5819,
-      "lon": 120.0407,
-      "timeUtc": "Wed, 19 Aug 2026 22:55:48 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbs3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbs3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm0u",
-      "hazardType": "EQ",
-      "title": "31 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3418,
-      "lon": 120.5442,
-      "timeUtc": "Wed, 19 Aug 2026 22:45:17 GMT",
-      "mag": 5.8,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tm0u",
-        "usauto6000tm0u",
-        "attk1gjn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbs2",
-      "hazardType": "EQ",
-      "title": "74 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.9443,
-      "lon": 120.4098,
-      "timeUtc": "Wed, 19 Aug 2026 22:44:11 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbs2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbs2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbs0",
-      "hazardType": "EQ",
-      "title": "15 km W of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.4707,
-      "lon": 119.7463,
-      "timeUtc": "Wed, 19 Aug 2026 22:37:55 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbs0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbs0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbs1",
-      "hazardType": "EQ",
-      "title": "45 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2037,
-      "lon": 120.4936,
-      "timeUtc": "Wed, 19 Aug 2026 22:33:24 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbs1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbs1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tm0s",
-      "hazardType": "EQ",
-      "title": "36 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2828,
-      "lon": 120.4454,
-      "timeUtc": "Wed, 19 Aug 2026 22:28:08 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tm0s"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0s"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbry",
-      "hazardType": "EQ",
-      "title": "18 km NNE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.3345,
-      "lon": 119.9421,
-      "timeUtc": "Wed, 19 Aug 2026 21:43:37 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbry"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbry"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrv",
-      "hazardType": "EQ",
-      "title": "33 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.2955,
-      "lon": 120.1115,
-      "timeUtc": "Wed, 19 Aug 2026 21:35:33 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrx",
-      "hazardType": "EQ",
-      "title": "140 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.6073,
-      "lon": 121.2437,
-      "timeUtc": "Wed, 19 Aug 2026 21:32:14 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrw",
-      "hazardType": "EQ",
-      "title": "10 km NNE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.409,
-      "lon": 119.9342,
-      "timeUtc": "Wed, 19 Aug 2026 21:30:15 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrs",
-      "hazardType": "EQ",
-      "title": "36 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.3068,
-      "lon": 120.3433,
-      "timeUtc": "Wed, 19 Aug 2026 21:08:37 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrs"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrs"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrl",
-      "hazardType": "EQ",
-      "title": "41 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2394,
-      "lon": 120.4638,
-      "timeUtc": "Wed, 19 Aug 2026 19:11:18 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlz6",
-      "hazardType": "EQ",
-      "title": "37 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2709,
-      "lon": 120.4334,
-      "timeUtc": "Wed, 19 Aug 2026 18:34:15 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlz6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlyi",
-      "hazardType": "EQ",
-      "title": "78 km SE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.8585,
-      "lon": 126.6757,
-      "timeUtc": "Wed, 19 Aug 2026 17:19:34 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlyi"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyi"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbsh",
-      "hazardType": "EQ",
-      "title": "21 km W of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.4608,
-      "lon": 119.6916,
-      "timeUtc": "Wed, 19 Aug 2026 16:36:17 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbsh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbsh"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrg",
-      "hazardType": "EQ",
-      "title": "38 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.2619,
-      "lon": 120.1421,
-      "timeUtc": "Wed, 19 Aug 2026 16:34:45 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrg"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlxq",
-      "hazardType": "EQ",
-      "title": "45 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2075,
-      "lon": 120.558,
-      "timeUtc": "Wed, 19 Aug 2026 16:17:38 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlxq",
-        "usauto6000tlxq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlxq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlvr",
-      "hazardType": "EQ",
-      "title": "60 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.0736,
-      "lon": 120.5772,
-      "timeUtc": "Wed, 19 Aug 2026 15:19:44 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlvr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbrc",
-      "hazardType": "EQ",
-      "title": "44 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.2374,
-      "lon": 120.1957,
-      "timeUtc": "Wed, 19 Aug 2026 14:47:16 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbrc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbrc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlvn",
-      "hazardType": "EQ",
-      "title": "Banda Sea",
-      "countries": [],
-      "lat": -5.2129,
-      "lon": 125.5023,
-      "timeUtc": "Wed, 19 Aug 2026 14:32:22 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlvn"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvn"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbra",
-      "hazardType": "EQ",
-      "title": "45 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.2579,
-      "lon": 120.2225,
-      "timeUtc": "Wed, 19 Aug 2026 14:31:01 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbra"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbra"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlvm",
-      "hazardType": "EQ",
-      "title": "54 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1452,
-      "lon": 120.6178,
-      "timeUtc": "Wed, 19 Aug 2026 14:16:25 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlvm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlv5",
-      "hazardType": "EQ",
-      "title": "73 km NNE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -7.9247,
-      "lon": 120.223,
-      "timeUtc": "Wed, 19 Aug 2026 13:04:42 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlv5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlv5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbr6",
-      "hazardType": "EQ",
-      "title": "170 km SSW of Baubau, Indonesia",
-      "countries": [],
-      "lat": -6.9221,
-      "lon": 122.0992,
-      "timeUtc": "Wed, 19 Aug 2026 12:21:29 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbr6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbr6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlv2",
-      "hazardType": "EQ",
-      "title": "29 km NNW of Sepatan, Indonesia",
-      "countries": [],
-      "lat": -5.8582,
-      "lon": 106.5092,
-      "timeUtc": "Wed, 19 Aug 2026 12:19:02 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlv2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlv2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlun",
-      "hazardType": "EQ",
-      "title": "20 km SSW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4131,
-      "lon": 125.2676,
-      "timeUtc": "Wed, 19 Aug 2026 11:01:36 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlun"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlun"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlum",
-      "hazardType": "EQ",
-      "title": "82 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.866,
-      "lon": 120.4676,
-      "timeUtc": "Wed, 19 Aug 2026 10:44:59 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlum"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlum"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbr2",
-      "hazardType": "EQ",
-      "title": "59 km N of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.3042,
-      "lon": 121.6413,
-      "timeUtc": "Wed, 19 Aug 2026 08:40:30 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbr2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbr2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbqy",
-      "hazardType": "EQ",
-      "title": "76 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.13,
-      "lon": 120.9579,
-      "timeUtc": "Wed, 19 Aug 2026 06:57:38 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbqy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbqy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbqx",
-      "hazardType": "EQ",
-      "title": "24 km SW of Balangonan, Philippines",
-      "countries": [],
-      "lat": 5.4347,
-      "lon": 125.1792,
-      "timeUtc": "Wed, 19 Aug 2026 06:29:45 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbqx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbqx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbqw",
-      "hazardType": "EQ",
-      "title": "100 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.7292,
-      "lon": 120.6764,
-      "timeUtc": "Wed, 19 Aug 2026 05:01:27 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbqw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbqw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tltj",
-      "hazardType": "EQ",
-      "title": "39 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2516,
-      "lon": 120.4912,
-      "timeUtc": "Wed, 19 Aug 2026 04:57:06 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tltj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlta",
-      "hazardType": "EQ",
-      "title": "62 km N of Namuac, Philippines",
-      "countries": [],
-      "lat": 19.1732,
-      "lon": 121.1037,
-      "timeUtc": "Wed, 19 Aug 2026 04:22:54 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlta",
-        "usauto6000tlta"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlta"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tbqt",
-      "hazardType": "EQ",
-      "title": "62 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.0997,
-      "lon": 120.7052,
-      "timeUtc": "Wed, 19 Aug 2026 03:43:18 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tbqt"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbqt"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlt9",
-      "hazardType": "EQ",
-      "title": "64 km NW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.3648,
-      "lon": 121.3236,
-      "timeUtc": "Wed, 19 Aug 2026 03:13:26 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlt9",
-        "usauto6000tlt9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlt9"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tlss",
-      "hazardType": "EQ",
-      "title": "80 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.194,
-      "lon": 121.0685,
-      "timeUtc": "Wed, 19 Aug 2026 01:44:50 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tlss"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlss"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tls7",
-      "hazardType": "EQ",
-      "title": "66 km NNW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.281,
-      "lon": 121.4467,
-      "timeUtc": "Wed, 19 Aug 2026 00:11:39 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tls7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tls7"
         }
       ],
       "supplementary": [],
