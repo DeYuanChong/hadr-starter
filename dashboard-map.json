@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:14:59.545Z",
+  "generatedAt": "2026-09-20T18:52:39.030Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,32 +18,17 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "256 in-scope event(s)"
+      "detail": "257 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-20T12:16:34.886Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032248",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032118",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-20T16:14:59.545Z",
+    "changes": []
   },
   "stories": [
     {
@@ -471,7 +456,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032118"
       ],
@@ -537,6 +522,33 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1032267&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tisi",
+      "hazardType": "EQ",
+      "title": "69 km SSW of Lembar, Indonesia",
+      "countries": [],
+      "lat": -9.286,
+      "lon": 115.7801,
+      "timeUtc": "Sun, 20 Sep 2026 17:51:32 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tisi"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tisi"
         }
       ],
       "supplementary": [],
