@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T01:51:04.294Z",
+  "generatedAt": "2026-09-25T06:43:58.509Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,53 +13,58 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "17 in-scope record(s)"
+      "detail": "18 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "199 in-scope event(s)"
+      "detail": "200 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-24T23:24:01.042Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1032267",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032344",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032345",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032248",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-25T01:51:04.294Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000txim",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.4036,
+      "lon": 125.6985,
+      "timeUtc": "Fri, 25 Sep 2026 04:27:40 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000txim",
+        "1567951"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567951&episodeid=1735920&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txim"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000txg5",
       "hazardType": "EQ",
@@ -377,7 +382,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032267"
       ],
@@ -434,8 +439,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -1.5926,
-      "lon": 110.4613,
+      "lat": -1.5928,
+      "lon": 110.4615,
       "timeUtc": "2026-09-10T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -450,13 +455,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032334&episodeid=8&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032334&episodeid=9&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.7113,-2.3426,111.2113,-0.8426&t=2026-09-10",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=109.7115,-2.3428,111.2115,-0.8428&t=2026-09-10",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -467,8 +472,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.8424,
-      "lon": 110.3606,
+      "lat": -2.8429,
+      "lon": 110.361,
       "timeUtc": "2026-09-10T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -483,7 +488,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032353&episodeid=8&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032353&episodeid=9&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -496,8 +501,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.0206,
-      "lon": 112.6966,
+      "lat": -3.0209,
+      "lon": 112.697,
       "timeUtc": "2026-09-14T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -505,14 +510,14 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032344"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032344&episodeid=7&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032344&episodeid=8&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -525,8 +530,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.2522,
-      "lon": 112.2336,
+      "lat": -3.2521,
+      "lon": 112.2338,
       "timeUtc": "2026-09-14T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -534,14 +539,14 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032345"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032345&episodeid=10&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032345&episodeid=11&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -554,8 +559,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.1075,
-      "lon": 112.5574,
+      "lat": -3.1072,
+      "lon": 112.5576,
       "timeUtc": "2026-09-11T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -563,14 +568,14 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032248"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032248&episodeid=10&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032248&episodeid=11&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -583,8 +588,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.4339,
-      "lon": 111.9013,
+      "lat": -3.4338,
+      "lon": 111.9011,
       "timeUtc": "2026-09-11T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -599,7 +604,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032293&episodeid=19&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032293&episodeid=20&eventtype=WF"
         }
       ],
       "supplementary": [],
