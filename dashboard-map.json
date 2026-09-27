@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T00:41:31.212Z",
+  "generatedAt": "2026-09-27T05:51:51.650Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -23,32 +23,18 @@
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-26T22:10:27.292Z",
+    "priorRunAt": "2026-09-27T00:41:31.212Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032141",
+        "storyId": "1032264",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032248",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032349",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
       }
     ]
   },
@@ -210,7 +196,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032345&episodeid=14&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032345&episodeid=15&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -228,7 +214,7 @@
         "Indonesia"
       ],
       "lat": -2.8377,
-      "lon": 112.6581,
+      "lon": 112.6582,
       "timeUtc": "2026-09-18T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -236,20 +222,20 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032349"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032349&episodeid=10&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032349&episodeid=11&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-18",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9081,-3.5877,113.4081,-2.0877&t=2026-09-18",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9082,-3.5877,113.4082,-2.0877&t=2026-09-18",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -283,39 +269,6 @@
       "imagery": {
         "imageDate": "2026-09-11",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.1517,-4.1834,112.6517,-2.6834&t=2026-09-11",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032264",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.1111,
-      "lon": 112.6679,
-      "timeUtc": "2026-09-16T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032264"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=16&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-16",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9179,-3.8611,113.4179,-2.3611&t=2026-09-16",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -2630,7 +2583,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tfyw"
       ],
@@ -2835,10 +2788,10 @@
     {
       "id": "us7000tetc",
       "hazardType": "EQ",
-      "title": "124 km S of Dampit, Indonesia",
+      "title": "129 km S of Dampit, Indonesia",
       "countries": [],
-      "lat": -9.3217,
-      "lon": 112.9125,
+      "lat": -9.3747,
+      "lon": 112.8794,
       "timeUtc": "Mon, 07 Sep 2026 02:48:35 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
