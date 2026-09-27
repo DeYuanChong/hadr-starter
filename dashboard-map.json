@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T05:51:51.650Z",
+  "generatedAt": "2026-09-27T10:57:05.659Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -23,22 +23,123 @@
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-27T00:41:31.212Z",
+    "priorRunAt": "2026-09-27T05:51:51.650Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032264",
+        "storyId": "1032293",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032344",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032345",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032349",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1032141",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      },
+      {
+        "kind": "new",
+        "storyId": "1032264",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "1104122",
+      "hazardType": "FL",
+      "title": "Flood in Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "lat": 15.7055,
+      "lon": 99.9288,
+      "timeUtc": "2026-08-18T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104122"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=34&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-08-18",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=99.1788,14.9555,100.6788,16.4555&t=2026-08-18",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1032141",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -1.8336,
+      "lon": 103.9544,
+      "timeUtc": "2026-09-15T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1032141"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032141&episodeid=22&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-09-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.2044,-2.5836,104.7044,-1.0836&t=2026-09-15",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us6000txur",
       "hazardType": "EQ",
@@ -108,167 +209,35 @@
       "imagery": null
     },
     {
-      "id": "1104122",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 15.7055,
-      "lon": 99.9288,
-      "timeUtc": "2026-08-18T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104122"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=34&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-08-18",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=99.1788,14.9555,100.6788,16.4555&t=2026-08-18",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032344",
+      "id": "1032264",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.0211,
-      "lon": 112.7003,
-      "timeUtc": "2026-09-14T00:00:00",
+      "lat": -3.1111,
+      "lon": 112.6679,
+      "timeUtc": "2026-09-16T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1032344"
+        "1032264"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032344&episodeid=10&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=17&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9503,-3.7711,113.4503,-2.2711&t=2026-09-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032345",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.2523,
-      "lon": 112.2331,
-      "timeUtc": "2026-09-14T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032345"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032345&episodeid=15&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.4831,-4.0023,112.9831,-2.5023&t=2026-09-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032349",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.8377,
-      "lon": 112.6582,
-      "timeUtc": "2026-09-18T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032349"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032349&episodeid=11&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-18",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9082,-3.5877,113.4082,-2.0877&t=2026-09-18",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032293",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.4334,
-      "lon": 111.9017,
-      "timeUtc": "2026-09-11T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032293"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032293&episodeid=23&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-09-11",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.1517,-4.1834,112.6517,-2.6834&t=2026-09-11",
+        "imageDate": "2026-09-16",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9179,-3.8611,113.4179,-2.3611&t=2026-09-16",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1409,10 +1378,10 @@
     {
       "id": "us7000ti03",
       "hazardType": "EQ",
-      "title": "78 km NW of Maumere, Indonesia",
+      "title": "74 km NNW of Ende, Indonesia",
       "countries": [],
-      "lat": -8.1138,
-      "lon": 121.7079,
+      "lat": -8.1916,
+      "lon": 121.4748,
       "timeUtc": "Thu, 17 Sep 2026 08:28:25 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -1436,10 +1405,10 @@
     {
       "id": "us7000thzp",
       "hazardType": "EQ",
-      "title": "132 km E of Bitung, Indonesia",
+      "title": "130 km WNW of Ternate, Indonesia",
       "countries": [],
-      "lat": 1.3156,
-      "lon": 126.3092,
+      "lat": 1.2794,
+      "lon": 126.3131,
       "timeUtc": "Thu, 17 Sep 2026 06:20:48 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
