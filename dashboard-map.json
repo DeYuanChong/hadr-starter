@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T19:15:07.666Z",
+  "generatedAt": "2026-09-27T22:20:09.481Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -23,11 +23,11 @@
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-27T15:36:57.663Z",
+    "priorRunAt": "2026-09-27T19:15:07.666Z",
     "changes": []
   },
   "stories": [
@@ -199,29 +199,22 @@
     {
       "id": "us6000txur",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "52 km NNW of Ruteng, Indonesia",
+      "countries": [],
       "lat": -8.1581,
       "lon": 120.3294,
       "timeUtc": "Sat, 26 Sep 2026 19:37:01 GMT",
       "mag": 5,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000txur",
-        "1568213"
+        "us6000txur"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568213&episodeid=1736234&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txur"
@@ -271,7 +264,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000txt8"
       ],
@@ -1556,10 +1549,10 @@
     {
       "id": "us7000thp0",
       "hazardType": "EQ",
-      "title": "45 km N of Ruteng, Indonesia",
+      "title": "53 km NNW of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.1982,
-      "lon": 120.4443,
+      "lat": -8.1691,
+      "lon": 120.2775,
       "timeUtc": "Tue, 15 Sep 2026 18:26:33 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
