@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T00:37:00.005Z",
+  "generatedAt": "2026-09-29T06:10:37.385Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-28T20:45:17.983Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1032475",
-        "title": "Forest fires in Papua New Guinea, Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-09-29T00:37:00.005Z",
+    "changes": []
   },
   "stories": [
     {
@@ -263,7 +255,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032475"
       ],
@@ -320,8 +312,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 0.1968,
-      "lon": 116.8061,
+      "lat": 0.1974,
+      "lon": 116.8066,
       "timeUtc": "2026-09-19T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -336,13 +328,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=7&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-19",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=116.0561,-0.5532,117.5561,0.9468&t=2026-09-19",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=116.0566,-0.5526,117.5566,0.9474&t=2026-09-19",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
