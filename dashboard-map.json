@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T02:03:33.278Z",
+  "generatedAt": "2026-10-01T08:47:22.758Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "14 in-scope record(s)"
+      "detail": "15 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "175 in-scope event(s)"
+      "detail": "180 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,86 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-09-30T23:04:50.849Z",
-    "changes": []
+    "priorRunAt": "2026-10-01T02:03:33.278Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1018545",
+        "title": "Drought in Indonesia, Cambodia, Thailand, Vietnam",
+        "hazardType": "DR",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000tyq7",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 6.1116,
+      "lon": 123.8599,
+      "timeUtc": "Thu, 01 Oct 2026 05:34:10 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tyq7",
+        "1568876"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568876&episodeid=1737024&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyq7"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000typ5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -6.154,
+      "lon": 130.346,
+      "timeUtc": "Thu, 01 Oct 2026 02:09:19 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000typ5",
+        "1568869"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568869&episodeid=1737015&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000typ0",
       "hazardType": "EQ",
@@ -47,7 +123,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000typ0",
         "1568847"
@@ -64,42 +140,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1018545",
-      "hazardType": "DR",
-      "title": "Drought in Indonesia, Cambodia, Thailand, Vietnam",
-      "countries": [
-        "Indonesia",
-        "Cambodia",
-        "Thailand",
-        "Vietnam"
-      ],
-      "lat": 12.745,
-      "lon": 104.506,
-      "timeUtc": "2025-06-11T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1018545"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=16&eventtype=DR"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2025-06-11",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.506,9.745,107.506,15.745&t=2025-06-11",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000tyjb",
@@ -326,7 +366,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032486&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032486&episodeid=5&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -496,7 +536,11 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-09-19",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=116.0569,-0.5525,117.5569,0.9475&t=2026-09-19",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us6000tym9",
@@ -2822,6 +2866,87 @@
       "imagery": null
     },
     {
+      "id": "us7000ti3v",
+      "hazardType": "EQ",
+      "title": "14 km NNE of Namuac, Philippines",
+      "countries": [],
+      "lat": 18.7346,
+      "lon": 121.1983,
+      "timeUtc": "Sat, 12 Sep 2026 04:10:14 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ti3v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti3v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ti3u",
+      "hazardType": "EQ",
+      "title": "157 km SSE of Port Blair, India",
+      "countries": [],
+      "lat": 10.3114,
+      "lon": 93.1932,
+      "timeUtc": "Sat, 12 Sep 2026 03:59:09 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ti3u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti3u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ti3t",
+      "hazardType": "EQ",
+      "title": "153 km NNW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 3.025,
+      "lon": 127.5099,
+      "timeUtc": "Sat, 12 Sep 2026 03:37:07 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ti3t"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti3t"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tgwe",
       "hazardType": "EQ",
       "title": "45 km NNE of Ruteng, Indonesia",
@@ -3393,18 +3518,18 @@
     {
       "id": "us7000tfr8",
       "hazardType": "EQ",
-      "title": "51 km NNE of Ruteng, Indonesia",
+      "title": "51 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.1646,
-      "lon": 120.5995,
+      "lat": -8.152,
+      "lon": 120.5257,
       "timeUtc": "Tue, 08 Sep 2026 04:40:28 GMT",
-      "mag": 5.3,
+      "mag": 5.2,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tfr8"
       ],
@@ -3431,7 +3556,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000thm3"
       ],
@@ -3566,7 +3691,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000thee"
       ],
