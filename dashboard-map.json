@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:10:21.426Z",
+  "generatedAt": "2026-10-02T05:51:36.761Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "21 in-scope record(s)"
+      "detail": "20 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,49 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-01T20:35:11.419Z",
+    "priorRunAt": "2026-10-02T00:10:21.426Z",
     "changes": [
       {
-        "kind": "new",
-        "storyId": "1032530",
+        "kind": "deleted",
+        "storyId": "1032264",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032528",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032527",
-        "title": "Forest fires in Papua New Guinea, Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032526",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032448",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032349",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
@@ -260,7 +225,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032530"
       ],
@@ -272,8 +237,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-20",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=133.1296,-4.0511,134.6296,-2.5511&t=2026-09-20",
+        "imageDate": "2026-09-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=133.1296,-4.0511,134.6296,-2.5511&t=2026-09-21",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -293,7 +258,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032528"
       ],
@@ -305,8 +270,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-22",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.8642,-8.4168,141.3642,-6.9168&t=2026-09-22",
+        "imageDate": "2026-09-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.8642,-8.4168,141.3642,-6.9168&t=2026-09-23",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -327,7 +292,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032527"
       ],
@@ -339,8 +304,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-22",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=140.2142,-7.2723,141.7142,-5.7723&t=2026-09-22",
+        "imageDate": "2026-09-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=140.2142,-7.2723,141.7142,-5.7723&t=2026-09-23",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -360,7 +325,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032526"
       ],
@@ -372,8 +337,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-22",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.8431,-8.5752,141.3431,-7.0752&t=2026-09-22",
+        "imageDate": "2026-09-23",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.8431,-8.5752,141.3431,-7.0752&t=2026-09-23",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -384,8 +349,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.0738,
-      "lon": 105.0649,
+      "lat": -3.0736,
+      "lon": 105.065,
       "timeUtc": "2026-09-25T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -400,13 +365,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032521&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032521&episodeid=2&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-24",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.3149,-3.8238,105.8149,-2.3238&t=2026-09-24",
+        "imageDate": "2026-09-25",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.315,-3.8236,105.815,-2.3236&t=2026-09-25",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -438,8 +403,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=138.6447,-8.5269,140.1447,-7.0269&t=2026-09-23",
+        "imageDate": "2026-09-24",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=138.6447,-8.5269,140.1447,-7.0269&t=2026-09-24",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -471,8 +436,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-23",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=140.1633,-7.1011,141.6633,-5.6011&t=2026-09-23",
+        "imageDate": "2026-09-24",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=140.1633,-7.1011,141.6633,-5.6011&t=2026-09-24",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -504,8 +469,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-24",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.5204,-7.4968,141.0204,-5.9968&t=2026-09-24",
+        "imageDate": "2026-09-25",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.5204,-7.4968,141.0204,-5.9968&t=2026-09-25",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -662,8 +627,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 0.1976,
-      "lon": 116.8075,
+      "lat": 0.1977,
+      "lon": 116.8077,
       "timeUtc": "2026-09-19T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -671,14 +636,14 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032448"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=11&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=12&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -700,7 +665,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032349"
       ],
@@ -708,35 +673,6 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1032349&episodeid=19&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1032264",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.1142,
-      "lon": 112.6694,
-      "timeUtc": "2026-09-16T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032264"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=27&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -891,7 +827,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tyjb"
       ],
@@ -946,7 +882,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tyh0"
       ],
@@ -973,7 +909,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tygz"
       ],
@@ -1000,7 +936,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tygs"
       ],
@@ -3311,18 +3247,18 @@
     {
       "id": "us7000tgwe",
       "hazardType": "EQ",
-      "title": "45 km NNE of Ruteng, Indonesia",
+      "title": "43 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2634,
-      "lon": 120.6778,
+      "lat": -8.2401,
+      "lon": 120.5917,
       "timeUtc": "Sat, 12 Sep 2026 03:34:57 GMT",
-      "mag": 4.6,
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tgwe"
       ],
