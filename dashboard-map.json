@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:38:53.889Z",
+  "generatedAt": "2026-10-03T21:50:01.638Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "26 in-scope record(s)"
+      "detail": "27 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "176 in-scope event(s)"
+      "detail": "177 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-03T14:56:54.216Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1032549",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-10-03T18:38:53.889Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzdp",
         "1569302"
@@ -122,7 +114,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032549"
       ],
@@ -403,8 +395,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.0682,
-      "lon": 105.0595,
+      "lat": -3.0597,
+      "lon": 105.0623,
       "timeUtc": "2026-09-25T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -419,7 +411,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032521&episodeid=8&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032521&episodeid=9&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -578,8 +570,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 0.2,
-      "lon": 116.8112,
+      "lat": 0.2007,
+      "lon": 116.8117,
       "timeUtc": "2026-09-19T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -594,7 +586,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=18&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032448&episodeid=19&eventtype=WF"
         }
       ],
       "supplementary": [],
@@ -624,6 +616,40 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1032349&episodeid=22&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tz6z",
+      "hazardType": "EQ",
+      "title": "Earthquake in Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "lat": 23.1453,
+      "lon": 94.5469,
+      "timeUtc": "Fri, 02 Oct 2026 16:55:33 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tz6z",
+        "1569305"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569305&episodeid=1737519&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz6z"
         }
       ],
       "supplementary": [],
@@ -866,7 +892,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzcv"
       ],
@@ -1542,7 +1568,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000txzx"
       ],
@@ -1569,7 +1595,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000txur"
       ],
