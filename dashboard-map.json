@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T20:05:04.421Z",
+  "generatedAt": "2026-10-04T23:02:27.467Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -23,11 +23,11 @@
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-04T16:54:48.247Z",
+    "priorRunAt": "2026-10-04T20:05:04.421Z",
     "changes": []
   },
   "stories": [
@@ -273,8 +273,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -2.9267,
-      "lon": 111.5567,
+      "lat": -2.927,
+      "lon": 111.5568,
       "timeUtc": "2026-09-29T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -289,13 +289,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032557&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032557&episodeid=2&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-09-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.8067,-3.6767,112.3067,-2.1767&t=2026-09-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=110.8068,-3.677,112.3068,-2.177&t=2026-09-29",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -327,8 +327,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-25",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.7655,-4.0515,106.2655,-2.5515&t=2026-09-25",
+        "imageDate": "2026-09-24",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=104.7655,-4.0515,106.2655,-2.5515&t=2026-09-24",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1043,7 +1043,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzjw"
       ],
@@ -1070,7 +1070,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzjg"
       ],
@@ -1870,18 +1870,18 @@
     {
       "id": "us6000ty0k",
       "hazardType": "EQ",
-      "title": "0 km ESE of Naisano Dua, Indonesia",
+      "title": "59 km WNW of Pante Makasar, Timor Leste",
       "countries": [],
-      "lat": -9.5995,
-      "lon": 123.7756,
-      "timeUtc": "Sun, 27 Sep 2026 21:14:51 GMT",
-      "mag": 4.5,
+      "lat": -8.9624,
+      "lon": 123.8981,
+      "timeUtc": "Sun, 27 Sep 2026 21:14:44 GMT",
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000ty0k"
       ],
@@ -2205,7 +2205,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000txcw"
       ],
@@ -2421,7 +2421,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000twys"
       ],
@@ -3625,10 +3625,10 @@
     {
       "id": "us7000th9m",
       "hazardType": "EQ",
-      "title": "119 km S of Dampit, Indonesia",
+      "title": "122 km S of Dampit, Indonesia",
       "countries": [],
-      "lat": -9.2825,
-      "lon": 112.9014,
+      "lat": -9.309,
+      "lon": 112.8866,
       "timeUtc": "Mon, 14 Sep 2026 01:42:08 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
@@ -4084,10 +4084,10 @@
     {
       "id": "us7000tgrk",
       "hazardType": "EQ",
-      "title": "126 km NNE of Teluknaga, Indonesia",
+      "title": "121 km NNE of Teluknaga, Indonesia",
       "countries": [],
-      "lat": -4.9832,
-      "lon": 106.8742,
+      "lat": -5.0271,
+      "lon": 106.8682,
       "timeUtc": "Fri, 11 Sep 2026 21:23:55 GMT",
       "mag": 6.5,
       "gdacsAlert": null,
@@ -4221,11 +4221,11 @@
     {
       "id": "us7000tgi9",
       "hazardType": "EQ",
-      "title": "79 km NE of Palu, Indonesia",
+      "title": "70 km NE of Palu, Indonesia",
       "countries": [],
-      "lat": -0.3309,
-      "lon": 120.2972,
-      "timeUtc": "Fri, 11 Sep 2026 00:53:48 GMT",
+      "lat": -0.4457,
+      "lon": 120.3067,
+      "timeUtc": "Fri, 11 Sep 2026 00:53:49 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
