@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:14:54.322Z",
+  "generatedAt": "2026-10-04T16:54:48.247Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "179 in-scope event(s)"
+      "detail": "180 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,44 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-04T06:02:49.663Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104011",
-        "title": "Flood in Myanmar",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032560",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032558",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032557",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104122",
-        "title": "Flood in Thailand",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-10-04T12:14:54.322Z",
+    "changes": []
   },
   "stories": [
     {
@@ -101,6 +65,40 @@
       }
     },
     {
+      "id": "us6000tziz",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -9.2014,
+      "lon": 112.6395,
+      "timeUtc": "Sun, 04 Oct 2026 12:36:47 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000tziz",
+        "1569445"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569445&episodeid=1737669&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tziz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tzi8",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
@@ -116,7 +114,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzi8",
         "1569423"
@@ -150,7 +148,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzi5",
         "1569420"
@@ -184,7 +182,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tzh0",
         "1569392"
@@ -218,7 +216,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032560"
       ],
@@ -251,7 +249,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032558"
       ],
@@ -284,7 +282,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032557"
       ],
@@ -761,16 +759,16 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 4.8223,
-      "lon": 95.2428,
-      "timeUtc": "Sat, 03 Oct 2026 23:37:35 GMT",
-      "mag": 5.6,
+      "lat": 4.8247,
+      "lon": 95.1622,
+      "timeUtc": "Sat, 03 Oct 2026 23:37:34 GMT",
+      "mag": 5.3,
       "gdacsAlert": "Green",
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tzfg",
         "1569335"
@@ -778,7 +776,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569335&episodeid=1737544&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569335&episodeid=1737663&eventtype=EQ"
         },
         {
           "feed": "usgs",
@@ -902,7 +900,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104122"
       ],
@@ -1032,40 +1030,6 @@
       "imagery": null
     },
     {
-      "id": "us6000tz6z",
-      "hazardType": "EQ",
-      "title": "Earthquake in Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "lat": 23.1453,
-      "lon": 94.5469,
-      "timeUtc": "Fri, 02 Oct 2026 16:55:33 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz6z",
-        "1569305"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569305&episodeid=1737519&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz6z"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tzf7",
       "hazardType": "EQ",
       "title": "293 km SSE of Tabiauan, Philippines",
@@ -1120,6 +1084,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tz6z",
+      "hazardType": "EQ",
+      "title": "56 km SSE of Mawlaik, Burma (Myanmar)",
+      "countries": [],
+      "lat": 23.1453,
+      "lon": 94.5469,
+      "timeUtc": "Fri, 02 Oct 2026 16:55:33 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000tz6z"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz6z"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tz1q",
       "hazardType": "EQ",
       "title": "78 km WSW of San Nicolas, Philippines",
@@ -1133,7 +1124,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tz1q"
       ],
@@ -1160,7 +1151,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tyzy"
       ],
@@ -1187,7 +1178,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tyzt"
       ],
