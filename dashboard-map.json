@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:26:27.590Z",
+  "generatedAt": "2026-10-05T22:52:57.283Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "27 in-scope record(s)"
+      "detail": "26 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "181 in-scope event(s)"
+      "detail": "182 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,35 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-05T07:49:13.472Z",
+    "priorRunAt": "2026-10-05T16:26:27.590Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032448",
+        "storyId": "1032521",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1104207",
-        "title": "Flood in Malaysia",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032570",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032520",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
       }
     ]
   },
@@ -143,7 +122,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032570"
       ],
@@ -221,8 +200,8 @@
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-09-26",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.7606,-8.2598,141.2606,-6.7598&t=2026-09-26",
+        "imageDate": "2026-09-25",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.7606,-8.2598,141.2606,-6.7598&t=2026-09-25",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -520,7 +499,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032520"
       ],
@@ -874,35 +853,6 @@
       "imagery": null
     },
     {
-      "id": "1032521",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.059,
-      "lon": 105.063,
-      "timeUtc": "2026-09-25T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032521"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032521&episodeid=15&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000tznu",
       "hazardType": "EQ",
       "title": "75 km NNE of Yonakuni, Japan",
@@ -916,7 +866,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tznu"
       ],
@@ -943,7 +893,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tznr"
       ],
@@ -970,7 +920,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tznk"
       ],
@@ -1105,7 +1055,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tzfg"
       ],
@@ -1159,7 +1109,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tzer",
         "usauto6000tzer"
@@ -1187,7 +1137,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000tzdp"
       ],
@@ -1933,11 +1883,11 @@
     {
       "id": "us6000ty1l",
       "hazardType": "EQ",
-      "title": "43 km W of Palauig, Philippines",
+      "title": "40 km W of Palauig, Philippines",
       "countries": [],
-      "lat": 15.4374,
-      "lon": 119.503,
-      "timeUtc": "Mon, 28 Sep 2026 00:54:43 GMT",
+      "lat": 15.4079,
+      "lon": 119.5249,
+      "timeUtc": "Mon, 28 Sep 2026 00:54:42 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2357,6 +2307,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx7g"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tydq",
+      "hazardType": "EQ",
+      "title": "197 km N of Fais, Micronesia",
+      "countries": [],
+      "lat": 11.5503,
+      "lon": 140.6463,
+      "timeUtc": "Wed, 23 Sep 2026 16:36:32 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tydq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tydq"
         }
       ],
       "supplementary": [],
