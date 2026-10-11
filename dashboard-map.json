@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T18:59:34.425Z",
+  "generatedAt": "2026-10-11T22:47:56.762Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "10 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "187 in-scope event(s)"
+      "detail": "189 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,39 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-11T14:10:40.747Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032658",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032660",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032615",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1032648",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-10-11T18:59:34.425Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000u1mj",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.5266,
+      "lon": 121.6986,
+      "timeUtc": "Sun, 11 Oct 2026 21:34:53 GMT",
+      "mag": 5.3,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000u1mj",
+        "1570894"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570894&episodeid=1739325&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mj"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000u1i6",
       "hazardType": "EQ",
@@ -211,7 +216,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032615"
       ],
@@ -344,7 +349,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1032648"
       ],
@@ -360,6 +365,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.3488,-2.1009,104.8488,-0.6009&t=2026-09-28",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000u1l0",
+      "hazardType": "EQ",
+      "title": "125 km SE of Nabire, Indonesia",
+      "countries": [],
+      "lat": -4.2017,
+      "lon": 136.2564,
+      "timeUtc": "Sun, 11 Oct 2026 14:57:35 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u1l0"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1l0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000u1ka",
@@ -1958,10 +1990,10 @@
     {
       "id": "us6000tyke",
       "hazardType": "EQ",
-      "title": "48 km WNW of Luwuk, Indonesia",
+      "title": "46 km WNW of Luwuk, Indonesia",
       "countries": [],
-      "lat": -0.7769,
-      "lon": 122.3906,
+      "lat": -0.7573,
+      "lon": 122.4145,
       "timeUtc": "Wed, 30 Sep 2026 16:29:32 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -1996,7 +2028,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u0sk"
       ],
@@ -3590,7 +3622,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000txdp"
       ],
