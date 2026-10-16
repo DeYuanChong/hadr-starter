@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T17:57:54.878Z",
+  "generatedAt": "2026-10-16T20:57:46.786Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "190 in-scope event(s)"
+      "detail": "192 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,14 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-16T14:01:57.775Z",
+    "priorRunAt": "2026-10-16T17:57:54.878Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1032747",
+        "kind": "new",
+        "storyId": "1032797",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+        "detail": "new green-tier story"
       }
     ]
   },
@@ -141,6 +141,39 @@
       }
     },
     {
+      "id": "1032797",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -1.4939,
+      "lon": 104.4014,
+      "timeUtc": "2026-10-03T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1032797"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032797&episodeid=10&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-03",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.6514,-2.2439,105.1514,-0.7439&t=2026-10-03",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "1032798",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -172,6 +205,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.6444,-3.8847,114.1444,-2.3847&t=2026-10-01",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000u2rv",
+      "hazardType": "EQ",
+      "title": "111 km ESE of Bitung, Indonesia",
+      "countries": [],
+      "lat": 1.2121,
+      "lon": 126.1072,
+      "timeUtc": "Fri, 16 Oct 2026 16:26:02 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u2rv"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2rv"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000u2ab",
@@ -2362,12 +2422,39 @@
       "imagery": null
     },
     {
+      "id": "us6000tyug",
+      "hazardType": "EQ",
+      "title": "15 km ESE of Cabacao, Philippines",
+      "countries": [],
+      "lat": 13.2775,
+      "lon": 120.789,
+      "timeUtc": "Thu, 01 Oct 2026 14:43:02 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tyug"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyug"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tyua",
       "hazardType": "EQ",
-      "title": "176 km NNE of Ruteng, Indonesia",
+      "title": "177 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.0805,
-      "lon": 120.9136,
+      "lat": -7.0506,
+      "lon": 120.8431,
       "timeUtc": "Thu, 01 Oct 2026 14:19:59 GMT",
       "mag": 5,
       "gdacsAlert": null,
@@ -2391,10 +2478,10 @@
     {
       "id": "us6000tyu2",
       "hazardType": "EQ",
-      "title": "198 km WNW of Abepura, Indonesia",
+      "title": "204 km WNW of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.0857,
-      "lon": 138.9249,
+      "lat": -2.1035,
+      "lon": 138.8581,
       "timeUtc": "Thu, 01 Oct 2026 13:31:15 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -3672,7 +3759,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tydv"
       ],
