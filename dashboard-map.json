@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:15:27.092Z",
+  "generatedAt": "2026-10-17T21:31:30.853Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-17T17:02:12.130Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032747",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-10-17T19:15:27.092Z",
+    "changes": []
   },
   "stories": [
     {
@@ -114,8 +106,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.0832,
-      "lon": 112.8227,
+      "lat": -3.0841,
+      "lon": 112.8236,
       "timeUtc": "2026-10-04T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -130,13 +122,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032817&episodeid=9&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032817&episodeid=10&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-04",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.0727,-3.8332,113.5727,-2.3332&t=2026-10-04",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.0736,-3.8341,113.5736,-2.3341&t=2026-10-04",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -181,7 +173,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000u2pp"
       ],
@@ -208,7 +200,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000u2p2"
       ],
