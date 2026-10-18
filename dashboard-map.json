@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:31:10.477Z",
+  "generatedAt": "2026-10-18T19:36:36.040Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "11 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-18T14:30:26.077Z",
-    "changes": []
+    "priorRunAt": "2026-10-18T17:31:10.477Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1032747",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -264,141 +272,6 @@
       }
     },
     {
-      "id": "1032747",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.7056,
-      "lon": 104.3551,
-      "timeUtc": "2026-10-04T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032747"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032747&episodeid=17&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-04",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.6051,-2.4556,105.1051,-0.9556&t=2026-10-04",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "us6000u300",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -9.3596,
-      "lon": 118.5983,
-      "timeUtc": "Sat, 17 Oct 2026 12:46:23 GMT",
-      "mag": 4.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u300",
-        "1572307"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572307&episodeid=1740880&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u300"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2zb",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.7339,
-      "lon": 124.3423,
-      "timeUtc": "Sat, 17 Oct 2026 09:07:40 GMT",
-      "mag": 4.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2zb",
-        "1572159"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572159&episodeid=1740727&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2zb"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2yw",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.1086,
-      "lon": 120.2824,
-      "timeUtc": "Sat, 17 Oct 2026 07:20:48 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2yw",
-        "1572139"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000u321",
       "hazardType": "EQ",
       "title": "66 km WSW of Nuofu, China",
@@ -420,6 +293,87 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u321"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u300",
+      "hazardType": "EQ",
+      "title": "70 km W of Tambolaka, Indonesia",
+      "countries": [],
+      "lat": -9.3596,
+      "lon": 118.5983,
+      "timeUtc": "Sat, 17 Oct 2026 12:46:23 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000u300"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u300"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u2zb",
+      "hazardType": "EQ",
+      "title": "51 km N of Pante Makasar, Timor Leste",
+      "countries": [],
+      "lat": -8.7339,
+      "lon": 124.3423,
+      "timeUtc": "Sat, 17 Oct 2026 09:07:40 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000u2zb"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2zb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u2yw",
+      "hazardType": "EQ",
+      "title": "59 km NNW of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.1086,
+      "lon": 120.2824,
+      "timeUtc": "Sat, 17 Oct 2026 07:20:48 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000u2yw"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw"
         }
       ],
       "supplementary": [],
@@ -1319,11 +1273,11 @@
     {
       "id": "us6000u10n",
       "hazardType": "EQ",
-      "title": "46 km N of Waingapu, Indonesia",
+      "title": "57 km N of Waingapu, Indonesia",
       "countries": [],
-      "lat": -9.2392,
-      "lon": 120.3127,
-      "timeUtc": "Thu, 08 Oct 2026 18:06:00 GMT",
+      "lat": -9.1354,
+      "lon": 120.3012,
+      "timeUtc": "Thu, 08 Oct 2026 18:06:02 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
       "pagerAlert": null,
