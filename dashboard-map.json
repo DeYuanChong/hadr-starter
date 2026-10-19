@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:10:05.461Z",
+  "generatedAt": "2026-10-19T23:47:33.089Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "193 in-scope event(s)"
+      "detail": "195 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-19T14:36:00.735Z",
-    "changes": []
+    "priorRunAt": "2026-10-19T20:10:05.461Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1032747",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1032942",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -208,8 +223,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -4.084,
-      "lon": 138.4045,
+      "lat": -4.0846,
+      "lon": 138.4048,
       "timeUtc": "2026-10-12T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -224,13 +239,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=5&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6545,-4.834,139.1545,-3.334&t=2026-10-12",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6548,-4.8346,139.1548,-3.3346&t=2026-10-12",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -241,8 +256,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -7.9637,
-      "lon": 113.5889,
+      "lat": -7.9631,
+      "lon": 113.5884,
       "timeUtc": "2026-10-13T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -257,46 +272,46 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032922&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032922&episodeid=3&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.8389,-8.7137,114.3389,-7.2137&t=2026-10-12",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.8384,-8.7131,114.3384,-7.2131&t=2026-10-12",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
     {
-      "id": "1032747",
+      "id": "1032942",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -1.7069,
-      "lon": 104.3575,
-      "timeUtc": "2026-10-04T00:00:00",
+      "lat": -7.7539,
+      "lon": 112.6072,
+      "timeUtc": "2026-10-15T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1032747"
+        "1032942"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032747&episodeid=21&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=1&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-10-04",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.6075,-2.4569,105.1075,-0.9569&t=2026-10-04",
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.8572,-8.5039,113.3572,-7.0039&t=2026-10-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -314,7 +329,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u3gm"
       ],
@@ -341,7 +356,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u3fm"
       ],
@@ -449,7 +464,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000u34e"
       ],
@@ -3840,6 +3855,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tz61",
+      "hazardType": "EQ",
+      "title": "105 km NNW of Maumere, Indonesia",
+      "countries": [],
+      "lat": -7.7074,
+      "lon": 121.9317,
+      "timeUtc": "Sun, 27 Sep 2026 09:46:27 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tz61"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz61"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000tz5w",
       "hazardType": "EQ",
       "title": "297 km SSW of Pagar Alam, Indonesia",
@@ -4023,6 +4065,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txql"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000tz56",
+      "hazardType": "EQ",
+      "title": "43 km SW of Labuan, Indonesia",
+      "countries": [],
+      "lat": -6.655,
+      "lon": 105.5488,
+      "timeUtc": "Fri, 25 Sep 2026 22:34:22 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tz56"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz56"
         }
       ],
       "supplementary": [],
