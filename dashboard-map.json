@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T07:43:53.219Z",
+  "generatedAt": "2026-10-20T13:02:55.674Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "192 in-scope event(s)"
+      "detail": "193 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,97 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-20T02:10:00.375Z",
+    "priorRunAt": "2026-10-20T07:43:53.219Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032922",
+        "storyId": "1032942",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1018545",
+        "title": "Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+        "hazardType": "DR",
+        "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "1018545",
+      "hazardType": "DR",
+      "title": "Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+      "countries": [
+        "Brunei",
+        "Indonesia",
+        "Cambodia",
+        "Malaysia",
+        "Papua New Guinea",
+        "Philippines"
+      ],
+      "lat": 13.5,
+      "lon": 104.5,
+      "timeUtc": "2026-03-21T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1018545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-03-21",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.5,10.5,107.5,16.5&t=2026-03-21",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "us6000u3k7",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 11.7067,
+      "lon": 125.5048,
+      "timeUtc": "Tue, 20 Oct 2026 06:04:19 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000u3k7",
+        "1572708"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572708&episodeid=1741348&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3k7"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000u3ch",
       "hazardType": "EQ",
@@ -208,39 +287,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1032942",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -7.753,
-      "lon": 112.6068,
-      "timeUtc": "2026-10-15T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032942"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=2&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.8568,-8.503,113.3568,-7.003&t=2026-10-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000u3gm",
@@ -634,7 +680,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u2er"
       ],
@@ -2768,7 +2814,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u1u3"
       ],
@@ -3443,7 +3489,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tyhk",
         "usauto6000tyhk"
@@ -3606,7 +3652,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u0ia"
       ],
