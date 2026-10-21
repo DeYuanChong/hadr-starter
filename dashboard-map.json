@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:05:40.100Z",
+  "generatedAt": "2026-10-21T04:36:01.444Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,18 +27,25 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-20T21:32:00.465Z",
+    "priorRunAt": "2026-10-21T00:05:40.100Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1032893",
+        "storyId": "1032887",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1033000",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       },
       {
         "kind": "new",
-        "storyId": "1033000",
+        "storyId": "1032942",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "new green-tier story"
@@ -220,15 +227,15 @@
       }
     },
     {
-      "id": "1033000",
+      "id": "1032942",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": -6.147,
-      "lon": 140.0736,
-      "timeUtc": "2026-10-08T00:00:00",
+      "lat": -7.7539,
+      "lon": 112.6044,
+      "timeUtc": "2026-10-15T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
@@ -237,51 +244,18 @@
       "reconciled": false,
       "state": "new",
       "aliases": [
-        "1033000"
+        "1032942"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033000&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=7&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-10-08",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.3236,-6.897,140.8236,-5.397&t=2026-10-08",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032887",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9504,
-      "lon": 112.7307,
-      "timeUtc": "2026-10-07T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032887"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032887&episodeid=9&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-07",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9807,-3.7004,113.4807,-2.2004&t=2026-10-07",
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.8544,-8.5039,113.3544,-7.0039&t=2026-10-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1244,7 +1218,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000u1mv"
       ],
@@ -4459,7 +4433,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000tz3h"
       ],
