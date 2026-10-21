@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:59:04.830Z",
+  "generatedAt": "2026-10-21T22:16:19.820Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "9 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,14 +27,28 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-21T14:39:02.932Z",
+    "priorRunAt": "2026-10-21T18:59:04.830Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1033012",
+        "storyId": "1032972",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1033001",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "revised",
+        "storyId": "1001338",
+        "title": "Tropical Cyclone CHAMPI-26",
+        "hazardType": "TC",
+        "detail": "affected: Philippines, Guam, Northern Mariana Islands, Japan → Philippines, Guam, Northern Mariana Islands, Japan, Taiwan"
       }
     ]
   },
@@ -47,10 +61,11 @@
         "Philippines",
         "Guam",
         "Northern Mariana Islands",
-        "Japan"
+        "Japan",
+        "Taiwan"
       ],
-      "lat": 19.3,
-      "lon": 127.9,
+      "lat": 19.9,
+      "lon": 126.9,
       "timeUtc": "2026-10-14T12:00:00",
       "mag": null,
       "gdacsAlert": "Red",
@@ -58,20 +73,20 @@
       "triageSeverity": "red",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "1001338"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=29&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=30&eventtype=TC"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=124.9,16.3,130.9,22.3&t=2026-10-14",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.9,16.9,129.9,22.9&t=2026-10-14",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -276,72 +291,6 @@
       }
     },
     {
-      "id": "1032972",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.4357,
-      "lon": 103.7621,
-      "timeUtc": "2026-10-13T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032972"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032972&episodeid=4&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=103.0121,-3.1857,104.5121,-1.6857&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1033001",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -7.9767,
-      "lon": 113.625,
-      "timeUtc": "2026-10-13T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1033001"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033001&episodeid=2&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=112.875,-8.7267,114.375,-7.2267&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us6000u3nz",
       "hazardType": "EQ",
       "title": "152 km WNW of Tobelo, Indonesia",
@@ -382,7 +331,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000u3nc"
       ],
@@ -409,7 +358,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000u3lx"
       ],
@@ -4515,7 +4464,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000txt8"
       ],
