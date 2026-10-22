@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:43:58.962Z",
+  "generatedAt": "2026-10-22T05:28:21.132Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,21 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-21T22:16:19.820Z",
+    "priorRunAt": "2026-10-22T00:43:58.962Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1032887",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1032893",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+        "kind": "revised",
+        "storyId": "1001338",
+        "title": "Tropical Cyclone CHAMPI-26",
+        "hazardType": "TC",
+        "detail": "affected: Philippines, Guam, Northern Mariana Islands, Japan, Taiwan → Philippines, Guam, Northern Mariana Islands, Japan"
       }
     ]
   },
@@ -54,11 +47,10 @@
         "Philippines",
         "Guam",
         "Northern Mariana Islands",
-        "Japan",
-        "Taiwan"
+        "Japan"
       ],
-      "lat": 19.9,
-      "lon": 126.9,
+      "lat": 20.3,
+      "lon": 126,
       "timeUtc": "2026-10-14T12:00:00",
       "mag": null,
       "gdacsAlert": "Red",
@@ -66,20 +58,20 @@
       "triageSeverity": "red",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "1001338"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=30&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=31&eventtype=TC"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.9,16.9,129.9,22.9&t=2026-10-14",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123,17.3,129,23.3&t=2026-10-14",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1030,11 +1022,11 @@
     {
       "id": "us6000u1zs",
       "hazardType": "EQ",
-      "title": "213 km S of Bengkulu, Indonesia",
+      "title": "225 km S of Bengkulu, Indonesia",
       "countries": [],
-      "lat": -5.7318,
-      "lon": 102.2066,
-      "timeUtc": "Mon, 12 Oct 2026 23:47:24 GMT",
+      "lat": -5.8279,
+      "lon": 102.0583,
+      "timeUtc": "Mon, 12 Oct 2026 23:47:23 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1057,11 +1049,11 @@
     {
       "id": "us6000u1x0",
       "hazardType": "EQ",
-      "title": "274 km WSW of Tual, Indonesia",
+      "title": "278 km WSW of Tual, Indonesia",
       "countries": [],
-      "lat": -6.3101,
-      "lon": 130.3681,
-      "timeUtc": "Mon, 12 Oct 2026 23:43:52 GMT",
+      "lat": -6.1604,
+      "lon": 130.2927,
+      "timeUtc": "Mon, 12 Oct 2026 23:43:50 GMT",
       "mag": 4.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3542,11 +3534,11 @@
     {
       "id": "us6000typ5",
       "hazardType": "EQ",
-      "title": "272 km WSW of Tual, Indonesia",
+      "title": "296 km WSW of Tual, Indonesia",
       "countries": [],
-      "lat": -6.154,
-      "lon": 130.346,
-      "timeUtc": "Thu, 01 Oct 2026 02:09:19 GMT",
+      "lat": -6.1934,
+      "lon": 130.1379,
+      "timeUtc": "Thu, 01 Oct 2026 02:09:21 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3569,11 +3561,11 @@
     {
       "id": "us6000typ0",
       "hazardType": "EQ",
-      "title": "45 km ENE of Luwuk, Indonesia",
+      "title": "60 km ENE of Luwuk, Indonesia",
       "countries": [],
-      "lat": -0.863,
-      "lon": 123.1839,
-      "timeUtc": "Thu, 01 Oct 2026 01:31:23 GMT",
+      "lat": -0.8263,
+      "lon": 123.3144,
+      "timeUtc": "Thu, 01 Oct 2026 01:31:19 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
