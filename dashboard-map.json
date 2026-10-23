@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:41:56.439Z",
+  "generatedAt": "2026-10-23T01:01:17.906Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "6 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "199 in-scope event(s)"
+      "detail": "192 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,95 +27,29 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-22T19:27:38.235Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032972",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1033001",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1033012",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-10-22T22:41:56.439Z",
+    "changes": []
   },
   "stories": [
     {
-      "id": "1001338",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "countries": [
-        "Philippines",
-        "Guam",
-        "Northern Mariana Islands",
-        "Japan",
-        "Taiwan"
-      ],
-      "lat": 21.9,
-      "lon": 124.3,
-      "timeUtc": "2026-10-14T12:00:00",
-      "mag": null,
-      "gdacsAlert": "Red",
-      "pagerAlert": null,
-      "triageSeverity": "red",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1001338"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=34&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=121.3,18.9,127.3,24.9&t=2026-10-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us6000u42q",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "85 km NNW of Curup, Indonesia",
+      "countries": [],
       "lat": -2.8037,
       "lon": 102.1272,
       "timeUtc": "Thu, 22 Oct 2026 10:57:52 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000u42q",
-        "1573113"
+        "us6000u42q"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q"
@@ -123,138 +57,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1033000",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -6.1686,
-      "lon": 140.0606,
-      "timeUtc": "2026-10-08T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1033000"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033000&episodeid=6&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-08",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=139.3106,-6.9186,140.8106,-5.4186&t=2026-10-08",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032887",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9516,
-      "lon": 112.7336,
-      "timeUtc": "2026-10-07T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032887"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032887&episodeid=14&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-07",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.9836,-3.7016,113.4836,-2.2016&t=2026-10-07",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1033054",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.0677,
-      "lon": 114.0675,
-      "timeUtc": "2026-10-11T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1033054"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033054&episodeid=1&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-11",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=113.3175,-8.8177,114.8175,-7.3177&t=2026-10-11",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032893",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -4.0866,
-      "lon": 138.3994,
-      "timeUtc": "2026-10-12T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032893"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=11&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6494,-4.8366,139.1494,-3.3366&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000u3xv",
@@ -1034,6 +836,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ab"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u44g",
+      "hazardType": "EQ",
+      "title": "124 km SE of Bitung, Indonesia",
+      "countries": [],
+      "lat": 0.7648,
+      "lon": 126.0201,
+      "timeUtc": "Tue, 13 Oct 2026 21:08:13 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u44g"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44g"
         }
       ],
       "supplementary": [],
@@ -3113,6 +2942,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzh0"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u22b",
+      "hazardType": "EQ",
+      "title": "199 km S of Tambolaka, Indonesia",
+      "countries": [],
+      "lat": -11.2243,
+      "lon": 119.0914,
+      "timeUtc": "Sun, 04 Oct 2026 03:52:21 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u22b"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u22b"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u228",
+      "hazardType": "EQ",
+      "title": "41 km SSW of Pelabuhanratu, Indonesia",
+      "countries": [],
+      "lat": -7.3074,
+      "lon": 106.3555,
+      "timeUtc": "Sun, 04 Oct 2026 01:31:53 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u228"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u228"
         }
       ],
       "supplementary": [],
@@ -5329,276 +5212,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx08"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000twzp",
-      "hazardType": "EQ",
-      "title": "68 km SW of Labuan, Indonesia",
-      "countries": [],
-      "lat": -6.8894,
-      "lon": 105.4864,
-      "timeUtc": "Tue, 22 Sep 2026 22:27:39 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000twzp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000twzp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3ma",
-      "hazardType": "EQ",
-      "title": "49 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1602,
-      "lon": 120.441,
-      "timeUtc": "Tue, 22 Sep 2026 21:36:34 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3ma"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ma"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000twys",
-      "hazardType": "EQ",
-      "title": "19 km ENE of Union, Philippines",
-      "countries": [],
-      "lat": 9.7992,
-      "lon": 126.285,
-      "timeUtc": "Tue, 22 Sep 2026 20:34:43 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000twys"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000twys"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000ty69",
-      "hazardType": "EQ",
-      "title": "3 km NW of Babo-Pangulo, Philippines",
-      "countries": [],
-      "lat": 15.1078,
-      "lon": 120.499,
-      "timeUtc": "Tue, 22 Sep 2026 16:59:19 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ty69"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty69"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj5d",
-      "hazardType": "EQ",
-      "title": "149 km NE of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 2.7076,
-      "lon": 128.94,
-      "timeUtc": "Tue, 22 Sep 2026 12:24:43 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj5d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj5d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj4y",
-      "hazardType": "EQ",
-      "title": "82 km NNW of Uken, Japan",
-      "countries": [],
-      "lat": 28.9902,
-      "lon": 128.9081,
-      "timeUtc": "Tue, 22 Sep 2026 10:46:21 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj4y"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj4y"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj4v",
-      "hazardType": "EQ",
-      "title": "296 km S of Ambon, Indonesia",
-      "countries": [],
-      "lat": -6.3386,
-      "lon": 128.6516,
-      "timeUtc": "Tue, 22 Sep 2026 10:30:18 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj4v"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj4v"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj3v",
-      "hazardType": "EQ",
-      "title": "18 km ENE of Nailong, Philippines",
-      "countries": [],
-      "lat": 11.0904,
-      "lon": 124.2022,
-      "timeUtc": "Tue, 22 Sep 2026 06:48:09 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj3v"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3v"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj37",
-      "hazardType": "EQ",
-      "title": "52 km NNW of Ende, Indonesia",
-      "countries": [],
-      "lat": -8.3915,
-      "lon": 121.5246,
-      "timeUtc": "Tue, 22 Sep 2026 03:36:25 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj37"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj37"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tj21",
-      "hazardType": "EQ",
-      "title": "67 km N of Namuac, Philippines",
-      "countries": [],
-      "lat": 19.2215,
-      "lon": 121.1043,
-      "timeUtc": "Tue, 22 Sep 2026 00:08:04 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tj21"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj21"
         }
       ],
       "supplementary": [],
