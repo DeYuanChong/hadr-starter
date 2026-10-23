@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:57:24.230Z",
+  "generatedAt": "2026-10-23T11:29:15.457Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "4 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "194 in-scope event(s)"
+      "detail": "195 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,176 +27,36 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-23T01:01:17.906Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032887",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1033000",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1033054",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "revised",
-        "storyId": "1001338",
-        "title": "Tropical Cyclone CHAMPI-26",
-        "hazardType": "TC",
-        "detail": "affected: Philippines, Guam, Northern Mariana Islands, Japan, Taiwan → Philippines, Guam, Northern Mariana Islands, Japan"
-      },
-      {
-        "kind": "new",
-        "storyId": "1033073",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-10-23T05:57:24.230Z",
+    "changes": []
   },
   "stories": [
     {
-      "id": "1001338",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "countries": [
-        "Philippines",
-        "Guam",
-        "Northern Mariana Islands",
-        "Japan"
-      ],
-      "lat": 22.7,
-      "lon": 123.8,
-      "timeUtc": "2026-10-14T12:00:00",
-      "mag": null,
-      "gdacsAlert": "Red",
-      "pagerAlert": null,
-      "triageSeverity": "red",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "revised",
-      "aliases": [
-        "1001338"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.8,19.7,126.8,25.7&t=2026-10-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1573113",
+      "id": "us6000u4b3",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.8037,
-      "lon": 102.1272,
-      "timeUtc": "2026-10-22T10:57:52",
-      "mag": null,
-      "gdacsAlert": "Green",
+      "title": "18 km WNW of Bantogon, Philippines",
+      "countries": [],
+      "lat": 6.5678,
+      "lon": 123.8685,
+      "timeUtc": "Fri, 23 Oct 2026 09:09:36 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
       "state": "new",
       "aliases": [
-        "1573113"
+        "us6000u4b3"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4b3"
         }
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1033073",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -1.6785,
-      "lon": 120.9661,
-      "timeUtc": "2026-10-18T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1033073"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033073&episodeid=1&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-18",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=120.2161,-2.4285,121.7161,-0.9285&t=2026-10-18",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1032893",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -4.0866,
-      "lon": 138.3993,
-      "timeUtc": "2026-10-12T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032893"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=12&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6493,-4.8366,139.1493,-3.3366&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000u49a",
@@ -212,7 +72,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u49a"
       ],
@@ -2453,7 +2313,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u2ir"
       ],
