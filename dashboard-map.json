@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T17:40:06.340Z",
+  "generatedAt": "2026-10-24T19:51:08.493Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "203 in-scope event(s)"
+      "detail": "205 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,11 +27,11 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-24T14:49:35.701Z",
+    "priorRunAt": "2026-10-24T17:40:06.340Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1033001",
+        "storyId": "1032893",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
@@ -107,39 +107,6 @@
       }
     },
     {
-      "id": "1032893",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -4.0873,
-      "lon": 138.3984,
-      "timeUtc": "2026-10-12T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1032893"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=14&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6484,-4.8373,139.1484,-3.3373&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us6000u4lz",
       "hazardType": "EQ",
       "title": "76 km S of Mawlaik, Burma (Myanmar)",
@@ -207,7 +174,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4gs"
       ],
@@ -990,7 +957,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u31a"
       ],
@@ -1152,7 +1119,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000u2rv"
       ],
@@ -3085,18 +3052,18 @@
     {
       "id": "us6000tznk",
       "hazardType": "EQ",
-      "title": "54 km WSW of Tambolaka, Indonesia",
+      "title": "53 km SW of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -9.6952,
-      "lon": 118.824,
+      "lat": -9.704,
+      "lon": 118.8381,
       "timeUtc": "Mon, 05 Oct 2026 12:17:22 GMT",
-      "mag": 4.4,
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tznk"
       ],
@@ -4131,6 +4098,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tym9"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u0su",
+      "hazardType": "EQ",
+      "title": "145 km SW of Palimbang, Philippines",
+      "countries": [],
+      "lat": 5.1753,
+      "lon": 123.3749,
+      "timeUtc": "Wed, 30 Sep 2026 20:08:50 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u0su"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0su"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u0sz",
+      "hazardType": "EQ",
+      "title": "155 km N of Dili, Timor Leste",
+      "countries": [],
+      "lat": -7.1703,
+      "lon": 125.3361,
+      "timeUtc": "Wed, 30 Sep 2026 19:46:19 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u0sz"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0sz"
         }
       ],
       "supplementary": [],
