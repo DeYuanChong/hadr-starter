@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T19:55:41.775Z",
+  "generatedAt": "2026-10-25T22:28:56.724Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "2 in-scope record(s)"
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "208 in-scope event(s)"
+      "detail": "209 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-25T17:36:04.030Z",
-    "changes": []
+    "priorRunAt": "2026-10-25T19:55:41.775Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1032893",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -70,37 +78,31 @@
       }
     },
     {
-      "id": "1032893",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -4.0875,
-      "lon": 138.3982,
-      "timeUtc": "2026-10-12T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
+      "id": "us6000u4we",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.8376,
+      "lon": 139.6752,
+      "timeUtc": "Sun, 25 Oct 2026 22:14:15 GMT",
+      "mag": 5.3,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
+      "triageSeverity": "none",
+      "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1032893"
+        "us6000u4we"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=16&eventtype=WF"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4we"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-12",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6482,-4.8375,139.1482,-3.3375&t=2026-10-12",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us6000u4vp",
@@ -116,7 +118,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4vp"
       ],
@@ -3547,7 +3549,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tziz"
       ],
@@ -3563,18 +3565,18 @@
     {
       "id": "us6000tzi8",
       "hazardType": "EQ",
-      "title": "43 km N of Ruteng, Indonesia",
+      "title": "39 km NNE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2236,
-      "lon": 120.5325,
+      "lat": -8.2663,
+      "lon": 120.5607,
       "timeUtc": "Sun, 04 Oct 2026 10:52:27 GMT",
-      "mag": 4.8,
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tzi8"
       ],
@@ -3590,10 +3592,10 @@
     {
       "id": "us6000tzi5",
       "hazardType": "EQ",
-      "title": "37 km N of Ruteng, Indonesia",
+      "title": "42 km NNW of Ruteng, Indonesia",
       "countries": [],
-      "lat": -8.2698,
-      "lon": 120.4532,
+      "lat": -8.2659,
+      "lon": 120.2937,
       "timeUtc": "Sun, 04 Oct 2026 10:13:07 GMT",
       "mag": 5,
       "gdacsAlert": null,
