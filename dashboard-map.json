@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T17:36:04.030Z",
+  "generatedAt": "2026-10-25T19:55:41.775Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "207 in-scope event(s)"
+      "detail": "208 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-25T13:57:48.101Z",
+    "priorRunAt": "2026-10-25T17:36:04.030Z",
     "changes": []
   },
   "stories": [
@@ -43,8 +43,8 @@
         "China",
         "South Korea"
       ],
-      "lat": 30.7,
-      "lon": 126.3,
+      "lat": 31.2,
+      "lon": 127.4,
       "timeUtc": "2026-10-14T12:00:00",
       "mag": null,
       "gdacsAlert": "Red",
@@ -59,13 +59,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.3,27.7,129.3,33.7&t=2026-10-14",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=124.4,28.2,130.4,34.2&t=2026-10-14",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -101,6 +101,33 @@
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=137.6482,-4.8375,139.1482,-3.3375&t=2026-10-12",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000u4vp",
+      "hazardType": "EQ",
+      "title": "267 km WSW of Tual, Indonesia",
+      "countries": [],
+      "lat": -6.172,
+      "lon": 130.3943,
+      "timeUtc": "Sun, 25 Oct 2026 19:26:12 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4vp"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4vp"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000u4tn",
@@ -3509,18 +3536,18 @@
     {
       "id": "us6000tziz",
       "hazardType": "EQ",
-      "title": "110 km S of Dampit, Indonesia",
+      "title": "109 km S of Dampit, Indonesia",
       "countries": [],
-      "lat": -9.2014,
-      "lon": 112.6395,
+      "lat": -9.1988,
+      "lon": 112.6889,
       "timeUtc": "Sun, 04 Oct 2026 12:36:47 GMT",
-      "mag": 4.6,
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000tziz"
       ],
