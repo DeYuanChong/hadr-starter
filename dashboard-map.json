@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T00:14:41.089Z",
+  "generatedAt": "2026-10-25T04:55:11.540Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "201 in-scope event(s)"
+      "detail": "206 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-24T22:00:20.533Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1033098",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-10-25T00:14:41.089Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4pw",
         "1573678"
@@ -108,6 +100,89 @@
       "imagery": null
     },
     {
+      "id": "us6000u4ru",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.8771,
+      "lon": 139.7294,
+      "timeUtc": "Sun, 25 Oct 2026 02:47:49 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4ru"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ru"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u4rr",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.6872,
+      "lon": 139.7389,
+      "timeUtc": "Sun, 25 Oct 2026 02:36:32 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4rr"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4rr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u4r9",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.7953,
+      "lon": 139.6184,
+      "timeUtc": "Sun, 25 Oct 2026 02:09:23 GMT",
+      "mag": 6.5,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4r9",
+        "attnfxzn",
+        "usauto6000u4r9"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u4lz",
       "hazardType": "EQ",
       "title": "76 km S of Mawlaik, Burma (Myanmar)",
@@ -129,6 +204,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lz"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "pt26297050",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 28,
+      "lon": 139.9,
+      "timeUtc": "Sat, 24 Oct 2026 02:09:00 GMT",
+      "mag": 7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "pt26297050"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26297050"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "pt26298050",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 28,
+      "lon": 139.9,
+      "timeUtc": "Sat, 24 Oct 2026 02:09:00 GMT",
+      "mag": 7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "pt26298050"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26298050"
         }
       ],
       "supplementary": [],
@@ -3107,11 +3236,11 @@
     {
       "id": "us6000tzm4",
       "hazardType": "EQ",
-      "title": "100 km N of Ruteng, Indonesia",
+      "title": "96 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.7071,
-      "lon": 120.509,
-      "timeUtc": "Mon, 05 Oct 2026 02:44:38 GMT",
+      "lat": -7.7411,
+      "lon": 120.4184,
+      "timeUtc": "Mon, 05 Oct 2026 02:44:37 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3134,10 +3263,10 @@
     {
       "id": "us6000tzlz",
       "hazardType": "EQ",
-      "title": "111 km S of Dampit, Indonesia",
+      "title": "101 km SSW of Kencong, Indonesia",
       "countries": [],
-      "lat": -9.2033,
-      "lon": 112.9221,
+      "lat": -9.1311,
+      "lon": 113.0196,
       "timeUtc": "Mon, 05 Oct 2026 02:16:31 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
