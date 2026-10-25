@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T22:00:20.533Z",
+  "generatedAt": "2026-10-25T00:14:41.089Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "205 in-scope event(s)"
+      "detail": "201 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,52 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-24T19:51:08.493Z",
-    "changes": []
+    "priorRunAt": "2026-10-24T22:00:20.533Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1033098",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000u4pw",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.3574,
+      "lon": 132.2541,
+      "timeUtc": "Sat, 24 Oct 2026 21:41:51 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000u4pw",
+        "1573678"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573678&episodeid=1742473&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pw"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000u4m9",
       "hazardType": "EQ",
@@ -64,39 +106,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1033098",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9486,
-      "lon": 112.6101,
-      "timeUtc": "2026-10-10T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1033098"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033098&episodeid=4&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-10",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.8601,-3.6986,113.3601,-2.1986&t=2026-10-10",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000u4lz",
@@ -3541,7 +3550,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tzer",
         "usauto6000tzer"
@@ -5468,141 +5477,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz30"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txg5",
-      "hazardType": "EQ",
-      "title": "156 km NW of Ternate, Indonesia",
-      "countries": [],
-      "lat": 1.8906,
-      "lon": 126.5037,
-      "timeUtc": "Thu, 24 Sep 2026 20:05:26 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txg5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txg5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txcw",
-      "hazardType": "EQ",
-      "title": "108 km SW of Abepura, Indonesia",
-      "countries": [],
-      "lat": -3.3098,
-      "lon": 139.9601,
-      "timeUtc": "Thu, 24 Sep 2026 16:28:01 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txcw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txcw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txb1",
-      "hazardType": "EQ",
-      "title": "99 km WNW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 2.1769,
-      "lon": 127.2333,
-      "timeUtc": "Thu, 24 Sep 2026 10:48:57 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txb1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tx8q",
-      "hazardType": "EQ",
-      "title": "33 km NNW of Komodo, Indonesia",
-      "countries": [],
-      "lat": -8.3085,
-      "lon": 119.3723,
-      "timeUtc": "Thu, 24 Sep 2026 03:30:25 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tx8q"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx8q"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tx7g",
-      "hazardType": "EQ",
-      "title": "215 km WNW of Abepura, Indonesia",
-      "countries": [],
-      "lat": -1.8513,
-      "lon": 138.8464,
-      "timeUtc": "Thu, 24 Sep 2026 00:26:38 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tx7g"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx7g"
         }
       ],
       "supplementary": [],
