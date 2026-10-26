@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:29:11.397Z",
+  "generatedAt": "2026-10-26T17:36:45.557Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: The operation was aborted due to timeout"
+      "status": "live",
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "204 in-scope event(s)"
+      "detail": "202 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,29 +27,72 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-26T05:27:14.878Z",
-    "changes": []
+    "priorRunAt": "2026-10-26T11:29:11.397Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1001338",
+        "title": "Tropical Cyclone CHAMPI-26",
+        "hazardType": "TC",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032893",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1032942",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1033001",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1033210",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
       "id": "us6000u4y1",
       "hazardType": "EQ",
-      "title": "45 km NNW of Ende, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -8.443,
       "lon": 121.5729,
       "timeUtc": "Mon, 26 Oct 2026 04:53:40 GMT",
       "mag": 5,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000u4y1"
+        "us6000u4y1",
+        "1573911"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573911&episodeid=1742739&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4y1"
@@ -61,22 +104,29 @@
     {
       "id": "us6000u4xp",
       "hazardType": "EQ",
-      "title": "41 km WNW of Kupang, Indonesia",
-      "countries": [],
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
       "lat": -10.0437,
       "lon": 123.2505,
       "timeUtc": "Mon, 26 Oct 2026 03:59:22 GMT",
       "mag": 4.8,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us6000u4xp"
+        "us6000u4xp",
+        "1573900"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573900&episodeid=1742728&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4xp"
@@ -207,7 +257,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4u2"
       ],
@@ -406,60 +456,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "pt26297050",
-      "hazardType": "EQ",
-      "title": "Bonin Islands, Japan region",
-      "countries": [],
-      "lat": 28,
-      "lon": 139.9,
-      "timeUtc": "Sat, 24 Oct 2026 02:09:00 GMT",
-      "mag": 7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "pt26297050"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26297050"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "pt26298050",
-      "hazardType": "EQ",
-      "title": "Bonin Islands, Japan region",
-      "countries": [],
-      "lat": 28,
-      "lon": 139.9,
-      "timeUtc": "Sat, 24 Oct 2026 02:09:00 GMT",
-      "mag": 7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "pt26298050"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26298050"
         }
       ],
       "supplementary": [],
