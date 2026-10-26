@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:28:56.724Z",
+  "generatedAt": "2026-10-26T00:39:55.273Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,13 +12,13 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "live",
-      "detail": "1 in-scope record(s)"
+      "status": "unavailable",
+      "detail": "fetch failed: The operation was aborted due to timeout"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "209 in-scope event(s)"
+      "detail": "200 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,55 +27,63 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-25T19:55:41.775Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1032893",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-10-25T22:28:56.724Z",
+    "changes": []
   },
   "stories": [
     {
-      "id": "1001338",
-      "hazardType": "TC",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "countries": [
-        "Philippines",
-        "Guam",
-        "Northern Mariana Islands",
-        "Japan",
-        "China",
-        "South Korea"
-      ],
-      "lat": 31.2,
-      "lon": 127.4,
-      "timeUtc": "2026-10-14T12:00:00",
-      "mag": null,
-      "gdacsAlert": "Red",
+      "id": "us6000u4wt",
+      "hazardType": "EQ",
+      "title": "180 km NNW of Maubara, Timor Leste",
+      "countries": [],
+      "lat": -7.2486,
+      "lon": 124.3083,
+      "timeUtc": "Sun, 25 Oct 2026 23:32:07 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "red",
-      "suppressed": false,
+      "triageSeverity": "none",
+      "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1001338"
+        "us6000u4wt"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4wt"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-14",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=124.4,28.2,130.4,34.2&t=2026-10-14",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
+    },
+    {
+      "id": "us6000u4wi",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.8494,
+      "lon": 139.7272,
+      "timeUtc": "Sun, 25 Oct 2026 22:16:27 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4wi"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4wi"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us6000u4we",
@@ -91,7 +99,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4we"
       ],
@@ -3576,7 +3584,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000tzi8"
       ],
@@ -5422,303 +5430,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz2h"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txql",
-      "hazardType": "EQ",
-      "title": "13 km NW of Xunchang, China",
-      "countries": [],
-      "lat": 28.5296,
-      "lon": 104.61,
-      "timeUtc": "Fri, 25 Sep 2026 23:57:33 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txql"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txql"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz56",
-      "hazardType": "EQ",
-      "title": "43 km SW of Labuan, Indonesia",
-      "countries": [],
-      "lat": -6.655,
-      "lon": 105.5488,
-      "timeUtc": "Fri, 25 Sep 2026 22:34:22 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz56"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz56"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz4x",
-      "hazardType": "EQ",
-      "title": "4 km NNE of Qingfu, China",
-      "countries": [],
-      "lat": 28.4741,
-      "lon": 104.5267,
-      "timeUtc": "Fri, 25 Sep 2026 21:08:45 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz4x"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz4x"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txpf",
-      "hazardType": "EQ",
-      "title": "11 km NNW of Xunchang, China",
-      "countries": [],
-      "lat": 28.5408,
-      "lon": 104.6521,
-      "timeUtc": "Fri, 25 Sep 2026 21:01:27 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txpf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txnq",
-      "hazardType": "EQ",
-      "title": "44 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2237,
-      "lon": 120.3702,
-      "timeUtc": "Fri, 25 Sep 2026 19:39:28 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txnq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txnq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz3h",
-      "hazardType": "EQ",
-      "title": "81 km ESE of Caburan, Philippines",
-      "countries": [],
-      "lat": 5.5757,
-      "lon": 126.296,
-      "timeUtc": "Fri, 25 Sep 2026 19:34:11 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz3h"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz3h"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txnm",
-      "hazardType": "EQ",
-      "title": "42 km ENE of Kunigami, Japan",
-      "countries": [],
-      "lat": 26.8448,
-      "lon": 128.578,
-      "timeUtc": "Fri, 25 Sep 2026 19:14:55 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txnm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txnm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txkc",
-      "hazardType": "EQ",
-      "title": "71 km SW of Labuan, Indonesia",
-      "countries": [],
-      "lat": -6.8071,
-      "lon": 105.3486,
-      "timeUtc": "Fri, 25 Sep 2026 13:47:27 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txkc"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txkc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txk5",
-      "hazardType": "EQ",
-      "title": "72 km NW of Iheya, Japan",
-      "countries": [],
-      "lat": 27.5553,
-      "lon": 127.5577,
-      "timeUtc": "Fri, 25 Sep 2026 12:21:40 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txk5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txk5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txim",
-      "hazardType": "EQ",
-      "title": "123 km N of Metinaro, Timor Leste",
-      "countries": [],
-      "lat": -7.4166,
-      "lon": 125.6697,
-      "timeUtc": "Fri, 25 Sep 2026 04:27:40 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txim"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txim"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz30",
-      "hazardType": "EQ",
-      "title": "36 km SW of Monywa, Burma (Myanmar)",
-      "countries": [],
-      "lat": 21.8451,
-      "lon": 94.9216,
-      "timeUtc": "Fri, 25 Sep 2026 02:13:56 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz30"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz30"
         }
       ],
       "supplementary": [],
