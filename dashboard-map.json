@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T21:50:52.866Z",
+  "generatedAt": "2026-10-27T00:56:15.289Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "2 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "204 in-scope event(s)"
+      "detail": "201 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-26T17:36:45.557Z",
+    "priorRunAt": "2026-10-26T21:50:52.866Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000ttd3",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 2.5777,
+      "lon": 127.7372,
+      "timeUtc": "Mon, 26 Oct 2026 22:52:22 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000ttd3",
+        "1574041"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574041&episodeid=1742906&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttd3"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ttc6",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 5.6361,
+      "lon": 126.5418,
+      "timeUtc": "Mon, 26 Oct 2026 20:41:25 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000ttc6",
+        "1574027"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574027&episodeid=1742886&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttc6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000u4y1",
       "hazardType": "EQ",
@@ -3977,7 +4045,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u1tc"
       ],
@@ -4058,7 +4126,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u16z"
       ],
@@ -5417,141 +5485,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz5w"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz4h",
-      "hazardType": "EQ",
-      "title": "37 km ENE of Kinablangan, Philippines",
-      "countries": [],
-      "lat": 7.7923,
-      "lon": 126.876,
-      "timeUtc": "Sat, 26 Sep 2026 21:18:05 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz4h"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz4h"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txur",
-      "hazardType": "EQ",
-      "title": "53 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.1482,
-      "lon": 120.3303,
-      "timeUtc": "Sat, 26 Sep 2026 19:37:01 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txur"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txur"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txuj",
-      "hazardType": "EQ",
-      "title": "15 km WNW of Bowangshan, China",
-      "countries": [],
-      "lat": 28.3378,
-      "lon": 104.8984,
-      "timeUtc": "Sat, 26 Sep 2026 18:31:42 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txuj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txuj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000txt8",
-      "hazardType": "EQ",
-      "title": "150 km NE of Maumere, Indonesia",
-      "countries": [],
-      "lat": -7.8462,
-      "lon": 123.3361,
-      "timeUtc": "Sat, 26 Sep 2026 13:38:15 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000txt8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txt8"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tz2h",
-      "hazardType": "EQ",
-      "title": "205 km NE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.4386,
-      "lon": 128.5109,
-      "timeUtc": "Sat, 26 Sep 2026 03:11:30 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tz2h"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz2h"
         }
       ],
       "supplementary": [],
