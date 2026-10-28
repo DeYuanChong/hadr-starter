@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:38:17.521Z",
+  "generatedAt": "2026-10-28T07:31:30.158Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,16 +18,16 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "203 in-scope event(s)"
+      "detail": "206 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-27T22:23:49.809Z",
+    "priorRunAt": "2026-10-28T01:38:17.521Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000ttlc",
         "1574247"
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000ttkk",
         "1574233"
@@ -149,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttgf",
         "1574161"
@@ -162,6 +162,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ttlw",
+      "hazardType": "EQ",
+      "title": "Banda Sea",
+      "countries": [],
+      "lat": -6.9158,
+      "lon": 129.4792,
+      "timeUtc": "Wed, 28 Oct 2026 03:44:02 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ttlw"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttlw"
         }
       ],
       "supplementary": [],
@@ -2955,9 +2982,9 @@
       "hazardType": "EQ",
       "title": "92 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.7761,
-      "lon": 120.5395,
-      "timeUtc": "Thu, 08 Oct 2026 04:48:59 GMT",
+      "lat": -7.7822,
+      "lon": 120.3316,
+      "timeUtc": "Thu, 08 Oct 2026 04:49:00 GMT",
       "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2980,11 +3007,11 @@
     {
       "id": "us6000u0vw",
       "hazardType": "EQ",
-      "title": "101 km NE of Ruteng, Indonesia",
+      "title": "103 km NE of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.8993,
-      "lon": 121.0443,
-      "timeUtc": "Thu, 08 Oct 2026 03:00:01 GMT",
+      "lat": -7.9273,
+      "lon": 121.105,
+      "timeUtc": "Thu, 08 Oct 2026 03:00:00 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3869,6 +3896,33 @@
       "imagery": null
     },
     {
+      "id": "us6000tzh9",
+      "hazardType": "EQ",
+      "title": "111 km SE of Taira, Japan",
+      "countries": [],
+      "lat": 25.8843,
+      "lon": 128.8986,
+      "timeUtc": "Sun, 04 Oct 2026 06:50:22 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000tzh9"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzh9"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u0xz",
       "hazardType": "EQ",
       "title": "221 km NNE of Colonia, Micronesia",
@@ -4323,6 +4377,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u16p"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u16m",
+      "hazardType": "EQ",
+      "title": "184 km WNW of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 2.4405,
+      "lon": 126.5131,
+      "timeUtc": "Fri, 02 Oct 2026 07:57:46 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u16m"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u16m"
         }
       ],
       "supplementary": [],
