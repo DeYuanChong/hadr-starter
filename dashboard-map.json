@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:22:53.768Z",
+  "generatedAt": "2026-10-30T01:18:40.554Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,25 +18,17 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "220 in-scope event(s)"
+      "detail": "215 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-29T16:26:12.792Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104241",
-        "title": "Flood in Thailand",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-10-29T21:22:53.768Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tu3u",
         "1574617"
@@ -244,6 +236,33 @@
       }
     },
     {
+      "id": "us7000tu4e",
+      "hazardType": "EQ",
+      "title": "26 km SW of Tambolaka, Indonesia",
+      "countries": [],
+      "lat": -9.5953,
+      "lon": 119.0611,
+      "timeUtc": "Thu, 29 Oct 2026 21:34:37 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tu4e"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4e"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ttua",
       "hazardType": "EQ",
       "title": "271 km WSW of Tual, Indonesia",
@@ -257,7 +276,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttua",
         "usauto7000ttua"
@@ -285,7 +304,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tttl"
       ],
@@ -312,7 +331,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ttnq"
       ],
@@ -339,7 +358,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ttmz"
       ],
@@ -393,7 +412,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ttlc"
       ],
@@ -3716,7 +3735,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u2jb"
       ],
@@ -3986,7 +4005,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u2he"
       ],
@@ -5040,7 +5059,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u16r"
       ],
@@ -5886,168 +5905,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tyf0",
-      "hazardType": "EQ",
-      "title": "48 km N of Dicabisagan, Philippines",
-      "countries": [],
-      "lat": 17.5234,
-      "lon": 122.4467,
-      "timeUtc": "Tue, 29 Sep 2026 20:45:50 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tyf0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyf0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tyc9",
-      "hazardType": "EQ",
-      "title": "62 km NNW of Pante Makasar, Timor Leste",
-      "countries": [],
-      "lat": -8.7188,
-      "lon": 124.0814,
-      "timeUtc": "Tue, 29 Sep 2026 14:14:05 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tyc9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0it",
-      "hazardType": "EQ",
-      "title": "40 km ENE of Barcelona, Philippines",
-      "countries": [],
-      "lat": 8.3025,
-      "lon": 126.768,
-      "timeUtc": "Tue, 29 Sep 2026 13:40:55 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0it"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0it"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0ip",
-      "hazardType": "EQ",
-      "title": "89 km E of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 6.2374,
-      "lon": 126.9739,
-      "timeUtc": "Tue, 29 Sep 2026 12:52:38 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0ip"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ip"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0ij",
-      "hazardType": "EQ",
-      "title": "61 km SSW of Lumatil, Philippines",
-      "countries": [],
-      "lat": 5.3371,
-      "lon": 124.7329,
-      "timeUtc": "Tue, 29 Sep 2026 10:48:17 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0ij"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ij"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0ia",
-      "hazardType": "EQ",
-      "title": "53 km NNW of Ternate, Indonesia",
-      "countries": [],
-      "lat": 1.2567,
-      "lon": 127.2428,
-      "timeUtc": "Tue, 29 Sep 2026 04:41:13 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0ia"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ia"
         }
       ],
       "supplementary": [],
