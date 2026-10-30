@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T19:29:40.109Z",
+  "generatedAt": "2026-10-30T23:09:27.939Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,19 +18,53 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "217 in-scope event(s)"
+      "detail": "218 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-30T14:19:04.123Z",
+    "priorRunAt": "2026-10-30T19:29:40.109Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000tub8",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 9.0593,
+      "lon": 126.2834,
+      "timeUtc": "Fri, 30 Oct 2026 17:06:26 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000tub8",
+        "1574806"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574806&episodeid=1743787&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tub8"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tu7k",
       "hazardType": "EQ",
@@ -99,40 +133,6 @@
       }
     },
     {
-      "id": "us7000tu3u",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -4.4698,
-      "lon": 132.4922,
-      "timeUtc": "Thu, 29 Oct 2026 20:32:11 GMT",
-      "mag": 5,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tu3u",
-        "1574617"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1574617&episodeid=1743565&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3u"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000tu97",
       "hazardType": "EQ",
       "title": "262 km NNE of Lospalos, Timor Leste",
@@ -146,7 +146,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tu97"
       ],
@@ -187,6 +187,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tu3u",
+      "hazardType": "EQ",
+      "title": "131 km NNW of Tual, Indonesia",
+      "countries": [],
+      "lat": -4.4698,
+      "lon": 132.4922,
+      "timeUtc": "Thu, 29 Oct 2026 20:32:11 GMT",
+      "mag": 5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tu3u"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3u"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ttyk",
       "hazardType": "EQ",
       "title": "Pulau Pulau Tanimbar, Indonesia",
@@ -200,7 +227,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ttyk"
       ],
@@ -227,7 +254,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttxn"
       ],
@@ -254,7 +281,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttw3",
         "usauto7000ttw3"
@@ -282,7 +309,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttw2"
       ],
@@ -3028,18 +3055,18 @@
     {
       "id": "us6000u1cl",
       "hazardType": "EQ",
-      "title": "53 km NW of Pante Makasar, Timor Leste",
+      "title": "58 km NW of Pante Makasar, Timor Leste",
       "countries": [],
-      "lat": -8.8422,
-      "lon": 124.0625,
-      "timeUtc": "Sat, 10 Oct 2026 04:45:03 GMT",
-      "mag": 4.4,
+      "lat": -8.8009,
+      "lon": 124.0297,
+      "timeUtc": "Sat, 10 Oct 2026 04:45:04 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u1cl"
       ],
