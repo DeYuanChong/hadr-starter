@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T02:30:04.587Z",
+  "generatedAt": "2026-10-31T08:47:56.980Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -12,8 +12,8 @@
   "feedHealth": [
     {
       "feed": "gdacs",
-      "status": "unavailable",
-      "detail": "fetch failed: GDACS responded with HTTP 503 Service Unavailable"
+      "status": "live",
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,29 +27,36 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-10-30T23:09:27.939Z",
+    "priorRunAt": "2026-10-31T02:30:04.587Z",
     "changes": []
   },
   "stories": [
     {
       "id": "us7000tub8",
       "hazardType": "EQ",
-      "title": "7 km NE of Tago, Philippines",
-      "countries": [],
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
       "lat": 9.0593,
       "lon": 126.2834,
       "timeUtc": "Fri, 30 Oct 2026 17:06:26 GMT",
       "mag": 4.6,
-      "gdacsAlert": null,
+      "gdacsAlert": "Green",
       "pagerAlert": null,
-      "triageSeverity": "none",
+      "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
-        "us7000tub8"
+        "us7000tub8",
+        "1574806"
       ],
       "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574806&episodeid=1743787&eventtype=EQ"
+        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tub8"
@@ -57,6 +64,73 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "us7000tu7k",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 8.3731,
+      "lon": 127.3616,
+      "timeUtc": "Fri, 30 Oct 2026 10:24:11 GMT",
+      "mag": 4.5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "escalated",
+      "aliases": [
+        "us7000tu7k",
+        "1574738"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574738&episodeid=1743700&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7k"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104253",
+      "hazardType": "FL",
+      "title": "Flood in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 4.3685,
+      "lon": 97.0253,
+      "timeUtc": "2026-10-24T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104253"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-24",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.2753,3.6185,97.7753,5.1185&t=2026-10-24",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us7000tu97",
@@ -80,33 +154,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu97"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tu7k",
-      "hazardType": "EQ",
-      "title": "104 km ENE of Barcelona, Philippines",
-      "countries": [],
-      "lat": 8.3731,
-      "lon": 127.3616,
-      "timeUtc": "Fri, 30 Oct 2026 10:24:11 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us7000tu7k"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7k"
         }
       ],
       "supplementary": [],
@@ -2819,10 +2866,10 @@
     {
       "id": "us6000u1i6",
       "hazardType": "EQ",
-      "title": "180 km S of Pelabuhanratu, Indonesia",
+      "title": "193 km S of Pelabuhanratu, Indonesia",
       "countries": [],
-      "lat": -8.6161,
-      "lon": 106.526,
+      "lat": -8.7323,
+      "lon": 106.4969,
       "timeUtc": "Sun, 11 Oct 2026 03:30:17 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
@@ -2846,18 +2893,18 @@
     {
       "id": "us6000u1i0",
       "hazardType": "EQ",
-      "title": "109 km SSE of Pondaguitan, Philippines",
+      "title": "107 km SSE of Pondaguitan, Philippines",
       "countries": [],
-      "lat": 5.4706,
-      "lon": 126.6164,
-      "timeUtc": "Sun, 11 Oct 2026 02:35:35 GMT",
-      "mag": 4.6,
+      "lat": 5.4795,
+      "lon": 126.5841,
+      "timeUtc": "Sun, 11 Oct 2026 02:35:36 GMT",
+      "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u1i0"
       ],
