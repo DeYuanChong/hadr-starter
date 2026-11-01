@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T19:32:13.032Z",
+  "generatedAt": "2026-11-01T23:00:03.876Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "0 in-scope record(s)"
+      "detail": "1 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "198 in-scope event(s)"
+      "detail": "199 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-01T14:59:23.768Z",
+    "priorRunAt": "2026-11-01T19:32:13.032Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000tuqy",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 19.7626,
+      "lon": 121.328,
+      "timeUtc": "Sun, 01 Nov 2026 18:42:57 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000tuqy",
+        "1575121"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1575121&episodeid=1744128&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqy"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tuqi",
       "hazardType": "EQ",
@@ -45,7 +79,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tuqi"
       ],
@@ -2468,18 +2502,18 @@
     {
       "id": "us6000u1zc",
       "hazardType": "EQ",
-      "title": "124 km N of Pagudpud, Philippines",
+      "title": "79 km N of Claveria, Philippines",
       "countries": [],
-      "lat": 19.6853,
-      "lon": 120.7047,
-      "timeUtc": "Tue, 13 Oct 2026 06:01:24 GMT",
-      "mag": 4.7,
+      "lat": 19.3182,
+      "lon": 120.9643,
+      "timeUtc": "Tue, 13 Oct 2026 06:01:23 GMT",
+      "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u1zc"
       ],
@@ -2927,10 +2961,10 @@
     {
       "id": "us6000u1ka",
       "hazardType": "EQ",
-      "title": "165 km SSE of Miyakojima, Japan",
+      "title": "163 km SSE of Miyakojima, Japan",
       "countries": [],
-      "lat": 23.5015,
-      "lon": 126.1264,
+      "lat": 23.4607,
+      "lon": 126.0164,
       "timeUtc": "Sun, 11 Oct 2026 12:13:18 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
@@ -3143,10 +3177,10 @@
     {
       "id": "us6000u1cv",
       "hazardType": "EQ",
-      "title": "141 km E of Bitung, Indonesia",
+      "title": "136 km E of Bitung, Indonesia",
       "countries": [],
-      "lat": 1.6248,
-      "lon": 126.3886,
+      "lat": 1.5139,
+      "lon": 126.3557,
       "timeUtc": "Sat, 10 Oct 2026 05:32:01 GMT",
       "mag": 5,
       "gdacsAlert": null,
