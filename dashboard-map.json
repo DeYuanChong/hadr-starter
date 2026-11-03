@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:17:13.473Z",
+  "generatedAt": "2026-11-03T22:21:52.198Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,30 +13,22 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "8 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "196 in-scope event(s)"
+      "detail": "197 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-03T09:26:29.156Z",
-    "changes": [
-      {
-        "kind": "new",
-        "storyId": "1033458",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-11-03T17:17:13.473Z",
+    "changes": []
   },
   "stories": [
     {
@@ -55,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tva7",
         "1575458"
@@ -89,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tv3l",
         "1575396"
@@ -134,7 +126,11 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.7994,4.3264,116.2994,5.8264&t=2026-10-15",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "1104266",
@@ -163,7 +159,11 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.734,5.8147,125.234,7.3147&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "1033458",
@@ -181,7 +181,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1033458"
       ],
@@ -192,105 +192,34 @@
         }
       ],
       "supplementary": [],
-      "imagery": null
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2357,-4.0769,112.7357,-2.5769&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
-      "id": "us7000tuv5",
+      "id": "us7000tva4",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": 19.8007,
-      "lon": 121.1252,
-      "timeUtc": "Mon, 02 Nov 2026 08:42:47 GMT",
-      "mag": 4.7,
-      "gdacsAlert": "Green",
+      "title": "38 km SSE of Yilan, Taiwan",
+      "countries": [],
+      "lat": 24.4281,
+      "lon": 121.8693,
+      "timeUtc": "Tue, 03 Nov 2026 15:22:04 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "new",
       "aliases": [
-        "us7000tuv5",
-        "1575227"
+        "us7000tva4"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1575227&episodeid=1744248&eventtype=EQ"
-        },
-        {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tuuy",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 1.392,
-      "lon": 124.6476,
-      "timeUtc": "Mon, 02 Nov 2026 08:13:14 GMT",
-      "mag": 5.1,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tuuy",
-        "1575222"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1575222&episodeid=1744242&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuuy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tusv",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -6.9205,
-      "lon": 129.9514,
-      "timeUtc": "Mon, 02 Nov 2026 00:53:10 GMT",
-      "mag": 5.1,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tusv",
-        "1575167"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1575167&episodeid=1744180&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tusv"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tva4"
         }
       ],
       "supplementary": [],
@@ -318,6 +247,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuvx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tuv5",
+      "hazardType": "EQ",
+      "title": "113 km SW of Basco, Philippines",
+      "countries": [],
+      "lat": 19.8007,
+      "lon": 121.1252,
+      "timeUtc": "Mon, 02 Nov 2026 08:42:47 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tuv5"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tuuy",
+      "hazardType": "EQ",
+      "title": "19 km WNW of Tomohon, Indonesia",
+      "countries": [],
+      "lat": 1.392,
+      "lon": 124.6476,
+      "timeUtc": "Mon, 02 Nov 2026 08:13:14 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tuuy"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuuy"
         }
       ],
       "supplementary": [],
@@ -372,6 +355,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tutf"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tusv",
+      "hazardType": "EQ",
+      "title": "Banda Sea",
+      "countries": [],
+      "lat": -6.9205,
+      "lon": 129.9514,
+      "timeUtc": "Mon, 02 Nov 2026 00:53:10 GMT",
+      "mag": 5.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tusv"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tusv"
         }
       ],
       "supplementary": [],
@@ -2879,7 +2889,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u442"
       ],
