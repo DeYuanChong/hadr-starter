@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:52:43.171Z",
+  "generatedAt": "2026-11-03T09:26:29.156Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,24 +13,105 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "192 in-scope event(s)"
+      "detail": "193 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-02T19:50:14.775Z",
-    "changes": []
+    "priorRunAt": "2026-11-03T01:52:43.171Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1104266",
+        "title": "Flood in Philippines",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      },
+      {
+        "kind": "new",
+        "storyId": "1104239",
+        "title": "Flood in Malaysia",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1104266",
+      "hazardType": "FL",
+      "title": "Flood in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 6.5647,
+      "lon": 124.484,
+      "timeUtc": "2026-10-29T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104266"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104266&episodeid=2&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.734,5.8147,125.234,7.3147&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1104239",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "lat": 5.0764,
+      "lon": 115.5494,
+      "timeUtc": "2026-10-15T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104239"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=3&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.7994,4.3264,116.2994,5.8264&t=2026-10-15",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
     {
       "id": "us7000tuv5",
       "hazardType": "EQ",
@@ -2246,10 +2327,10 @@
     {
       "id": "us6000u321",
       "hazardType": "EQ",
-      "title": "66 km WSW of Nuofu, China",
+      "title": "72 km WSW of Nuofu, China",
       "countries": [],
-      "lat": 21.9272,
-      "lon": 99.1332,
+      "lat": 21.8928,
+      "lon": 99.0928,
       "timeUtc": "Sat, 17 Oct 2026 21:08:23 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
@@ -2454,6 +2535,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u4es",
+      "hazardType": "EQ",
+      "title": "43 km E of Pototano, Indonesia",
+      "countries": [],
+      "lat": -8.41,
+      "lon": 117.8771,
+      "timeUtc": "Fri, 16 Oct 2026 22:27:18 GMT",
+      "mag": 4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4es"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4es"
         }
       ],
       "supplementary": [],
@@ -2716,7 +2824,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u1zj"
       ],
@@ -3229,7 +3337,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u3mp"
       ],
@@ -3607,7 +3715,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u2su"
       ],
