@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T22:21:52.198Z",
+  "generatedAt": "2026-11-04T02:29:14.552Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,16 +18,16 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "197 in-scope event(s)"
+      "detail": "184 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (response had no <item> entries (unexpected shape)); fixture"
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-03T17:17:13.473Z",
+    "priorRunAt": "2026-11-03T22:21:52.198Z",
     "changes": []
   },
   "stories": [
@@ -100,39 +100,6 @@
       "imagery": null
     },
     {
-      "id": "1104239",
-      "hazardType": "FL",
-      "title": "Flood in Malaysia",
-      "countries": [
-        "Malaysia"
-      ],
-      "lat": 5.0764,
-      "lon": 115.5494,
-      "timeUtc": "2026-10-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104239"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=3&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.7994,4.3264,116.2994,5.8264&t=2026-10-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "1104266",
       "hazardType": "FL",
       "title": "Flood in Philippines",
@@ -162,6 +129,39 @@
       "imagery": {
         "imageDate": "2026-10-29",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=123.734,5.8147,125.234,7.3147&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1104239",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "lat": 5.0764,
+      "lon": 115.5494,
+      "timeUtc": "2026-10-15T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "1104239"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=3&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=114.7994,4.3264,116.2994,5.8264&t=2026-10-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -212,7 +212,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tva4"
       ],
@@ -266,7 +266,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tuv5"
       ],
@@ -293,7 +293,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tuuy"
       ],
@@ -374,7 +374,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tusv"
       ],
@@ -2986,10 +2986,10 @@
     {
       "id": "us6000u1ye",
       "hazardType": "EQ",
-      "title": "119 km SSW of Gambiran Satu, Indonesia",
+      "title": "107 km S of Gambiran Satu, Indonesia",
       "countries": [],
-      "lat": -9.4473,
-      "lon": 113.8887,
+      "lat": -9.3589,
+      "lon": 113.9988,
       "timeUtc": "Tue, 13 Oct 2026 04:00:15 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
@@ -5111,357 +5111,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzlz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u234",
-      "hazardType": "EQ",
-      "title": "33 km NNW of Uken, Japan",
-      "countries": [],
-      "lat": 28.5882,
-      "lon": 129.1369,
-      "timeUtc": "Sun, 04 Oct 2026 23:39:01 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u234"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u234"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u233",
-      "hazardType": "EQ",
-      "title": "43 km S of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.8163,
-      "lon": 119.2109,
-      "timeUtc": "Sun, 04 Oct 2026 23:19:13 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u233"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u233"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzl7",
-      "hazardType": "EQ",
-      "title": "152 km NE of Tual, Indonesia",
-      "countries": [],
-      "lat": -4.5009,
-      "lon": 133.5479,
-      "timeUtc": "Sun, 04 Oct 2026 23:05:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzl7"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzl7"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzjw",
-      "hazardType": "EQ",
-      "title": "15 km NNW of Xunchang, China",
-      "countries": [],
-      "lat": 28.5926,
-      "lon": 104.6722,
-      "timeUtc": "Sun, 04 Oct 2026 17:19:53 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzjw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzjw"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzjg",
-      "hazardType": "EQ",
-      "title": "46 km SW of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.7063,
-      "lon": 118.9234,
-      "timeUtc": "Sun, 04 Oct 2026 14:59:43 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzjg"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzjg"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tziz",
-      "hazardType": "EQ",
-      "title": "109 km S of Dampit, Indonesia",
-      "countries": [],
-      "lat": -9.1988,
-      "lon": 112.6889,
-      "timeUtc": "Sun, 04 Oct 2026 12:36:47 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tziz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tziz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzi8",
-      "hazardType": "EQ",
-      "title": "39 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2663,
-      "lon": 120.5607,
-      "timeUtc": "Sun, 04 Oct 2026 10:52:27 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzi8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzi8"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzi5",
-      "hazardType": "EQ",
-      "title": "42 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.2659,
-      "lon": 120.2937,
-      "timeUtc": "Sun, 04 Oct 2026 10:13:07 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzi5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzi5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzh9",
-      "hazardType": "EQ",
-      "title": "111 km SE of Taira, Japan",
-      "countries": [],
-      "lat": 25.8843,
-      "lon": 128.8986,
-      "timeUtc": "Sun, 04 Oct 2026 06:50:22 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzh9"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzh9"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0xz",
-      "hazardType": "EQ",
-      "title": "221 km NNE of Colonia, Micronesia",
-      "countries": [],
-      "lat": 11.2951,
-      "lon": 139.0607,
-      "timeUtc": "Sun, 04 Oct 2026 05:57:54 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0xz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000tzh0",
-      "hazardType": "EQ",
-      "title": "125 km WNW of Chauk, Burma (Myanmar)",
-      "countries": [],
-      "lat": 21.4444,
-      "lon": 93.7574,
-      "timeUtc": "Sun, 04 Oct 2026 05:55:07 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000tzh0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzh0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u22b",
-      "hazardType": "EQ",
-      "title": "199 km S of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -11.2243,
-      "lon": 119.0914,
-      "timeUtc": "Sun, 04 Oct 2026 03:52:21 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u22b"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u22b"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u228",
-      "hazardType": "EQ",
-      "title": "41 km SSW of Pelabuhanratu, Indonesia",
-      "countries": [],
-      "lat": -7.3074,
-      "lon": 106.3555,
-      "timeUtc": "Sun, 04 Oct 2026 01:31:53 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u228"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u228"
         }
       ],
       "supplementary": [],
