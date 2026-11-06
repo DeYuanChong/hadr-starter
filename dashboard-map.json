@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T18:31:39.374Z",
+  "generatedAt": "2026-11-06T23:28:17.874Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "1 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "190 in-scope event(s)"
+      "detail": "192 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,52 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-06T11:37:18.642Z",
-    "changes": []
+    "priorRunAt": "2026-11-06T18:31:39.374Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "1033458",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us7000twmr",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -1.2393,
+      "lon": 120.4589,
+      "timeUtc": "Fri, 06 Nov 2026 19:07:01 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000twmr",
+        "1575976"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1575976&episodeid=1745073&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000twfk",
       "hazardType": "EQ",
@@ -66,6 +108,39 @@
       "imagery": null
     },
     {
+      "id": "1033458",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.3326,
+      "lon": 111.9891,
+      "timeUtc": "2026-10-29T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1033458"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=5&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2391,-4.0826,112.7391,-2.5826&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us7000twhh",
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
@@ -79,7 +154,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twhh"
       ],
@@ -120,6 +195,33 @@
       "imagery": null
     },
     {
+      "id": "us7000twdk",
+      "hazardType": "EQ",
+      "title": "76 km ENE of Donggang, Taiwan",
+      "countries": [],
+      "lat": 22.662,
+      "lon": 121.1634,
+      "timeUtc": "Fri, 06 Nov 2026 00:37:40 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000twdk"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twdk"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000twh7",
       "hazardType": "EQ",
       "title": "107 km SSW of Colonia, Micronesia",
@@ -133,7 +235,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twh7"
       ],
@@ -1881,18 +1983,18 @@
     {
       "id": "us6000u4c8",
       "hazardType": "EQ",
-      "title": "197 km W of Tual, Indonesia",
+      "title": "202 km W of Tual, Indonesia",
       "countries": [],
-      "lat": -5.6817,
-      "lon": 130.9736,
-      "timeUtc": "Fri, 23 Oct 2026 13:11:20 GMT",
-      "mag": 4.2,
+      "lat": -5.6745,
+      "lon": 130.9287,
+      "timeUtc": "Fri, 23 Oct 2026 13:11:19 GMT",
+      "mag": 4.1,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u4c8"
       ],
@@ -3053,7 +3155,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u46d"
       ],
@@ -3080,7 +3182,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u46c"
       ],
@@ -3242,7 +3344,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u447"
       ],
