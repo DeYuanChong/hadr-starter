@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T03:43:12.554Z",
+  "generatedAt": "2026-11-06T11:37:18.642Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "183 in-scope event(s)"
+      "detail": "185 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,50 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-05T23:43:29.813Z",
+    "priorRunAt": "2026-11-06T03:43:12.554Z",
     "changes": [
       {
-        "kind": "new",
+        "kind": "deleted",
         "storyId": "1033458",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "new green-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
   "stories": [
     {
-      "id": "1033458",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
+      "id": "us7000twfk",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
       "countries": [
-        "Indonesia"
+        "Philippines"
       ],
-      "lat": -3.3298,
-      "lon": 111.9862,
-      "timeUtc": "2026-10-29T00:00:00",
-      "mag": null,
+      "lat": 5.2999,
+      "lon": 125.0977,
+      "timeUtc": "Fri, 06 Nov 2026 06:28:26 GMT",
+      "mag": 4.9,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
+      "suppressed": true,
+      "reconciled": true,
       "state": "new",
       "aliases": [
-        "1033458"
+        "us7000twfk",
+        "1575896"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1575896&episodeid=1744989&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2362,-4.0798,112.7362,-2.5798&t=2026-10-29",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
+    },
+    {
+      "id": "us7000twf2",
+      "hazardType": "EQ",
+      "title": "185 km NNW of Gorontalo, Indonesia",
+      "countries": [],
+      "lat": 2.1669,
+      "lon": 122.649,
+      "timeUtc": "Fri, 06 Nov 2026 04:13:15 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000twf2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twf2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us7000tvwj",
@@ -1033,7 +1061,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twad"
       ],
@@ -1672,10 +1700,10 @@
     {
       "id": "us6000u4h0",
       "hazardType": "EQ",
-      "title": "73 km ENE of Kinablangan, Philippines",
+      "title": "71 km ENE of Kinablangan, Philippines",
       "countries": [],
-      "lat": 7.9163,
-      "lon": 127.1813,
+      "lat": 7.9347,
+      "lon": 127.1536,
       "timeUtc": "Fri, 23 Oct 2026 21:41:04 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
