@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:16:03.000Z",
+  "generatedAt": "2026-11-08T17:58:08.265Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "173 in-scope event(s)"
+      "detail": "176 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,32 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-08T05:51:11.707Z",
+    "priorRunAt": "2026-11-08T12:16:03.000Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1033458",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
+        "storyId": "1104239",
+        "title": "Flood in Malaysia",
+        "hazardType": "FL",
         "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       },
       {
         "kind": "new",
-        "storyId": "1033624",
+        "storyId": "1033458",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104239",
-        "title": "Flood in Malaysia",
-        "hazardType": "FL",
         "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "us7000twyd",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 2.5497,
+      "lon": 128.6755,
+      "timeUtc": "Sun, 08 Nov 2026 16:45:12 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000twyd",
+        "1576282"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576282&episodeid=1745413&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1033624",
       "hazardType": "WF",
@@ -69,7 +96,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1033624"
       ],
@@ -81,6 +108,39 @@
       ],
       "supplementary": [],
       "imagery": null
+    },
+    {
+      "id": "1033458",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.3373,
+      "lon": 111.995,
+      "timeUtc": "2026-10-29T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1033458"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=8&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.245,-4.0873,112.745,-2.5873&t=2026-10-29",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
     },
     {
       "id": "us7000twur",
@@ -149,39 +209,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1104239",
-      "hazardType": "FL",
-      "title": "Flood in Malaysia",
-      "countries": [
-        "Malaysia"
-      ],
-      "lat": 4,
-      "lon": 101,
-      "timeUtc": "2026-10-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1104239"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=5&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=100.25,3.25,101.75,4.75&t=2026-10-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000twrh",
@@ -1603,7 +1630,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4zg"
       ],
@@ -2334,7 +2361,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tua6"
       ],
@@ -2396,6 +2423,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49a"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u45g",
+      "hazardType": "EQ",
+      "title": "115 km NNE of Baukau, Timor Leste",
+      "countries": [],
+      "lat": -7.4583,
+      "lon": 126.6774,
+      "timeUtc": "Thu, 22 Oct 2026 17:21:20 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u45g"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45g"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000u45c",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.6029,
+      "lon": 139.9774,
+      "timeUtc": "Thu, 22 Oct 2026 17:12:15 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u45c"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45c"
         }
       ],
       "supplementary": [],
