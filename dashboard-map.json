@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T05:51:11.707Z",
+  "generatedAt": "2026-11-08T12:16:03.000Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "171 in-scope event(s)"
+      "detail": "173 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,61 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-07T23:53:43.104Z",
-    "changes": []
+    "priorRunAt": "2026-11-08T05:51:11.707Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1033458",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1033624",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "new green-tier story"
+      },
+      {
+        "kind": "new",
+        "storyId": "1104239",
+        "title": "Flood in Malaysia",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "1033624",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.798,
+      "lon": 138.4008,
+      "timeUtc": "2026-11-06T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1033624"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033624&episodeid=1&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000twur",
       "hazardType": "EQ",
@@ -100,35 +151,35 @@
       "imagery": null
     },
     {
-      "id": "1033458",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
+      "id": "1104239",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
       "countries": [
-        "Indonesia"
+        "Malaysia"
       ],
-      "lat": -3.3338,
-      "lon": 111.9913,
-      "timeUtc": "2026-10-29T00:00:00",
+      "lat": 4,
+      "lon": 101,
+      "timeUtc": "2026-10-15T01:00:00",
       "mag": null,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1033458"
+        "1104239"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=7&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=5&eventtype=FL"
         }
       ],
       "supplementary": [],
       "imagery": {
-        "imageDate": "2026-10-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2413,-4.0838,112.7413,-2.5838&t=2026-10-29",
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=100.25,3.25,101.75,4.75&t=2026-10-15",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1539,6 +1590,33 @@
       "imagery": null
     },
     {
+      "id": "us6000u4zg",
+      "hazardType": "EQ",
+      "title": "230 km S of Pagar Alam, Indonesia",
+      "countries": [],
+      "lat": -6.1107,
+      "lon": 103.2204,
+      "timeUtc": "Mon, 26 Oct 2026 12:31:32 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u4zg"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4zg"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u4y1",
       "hazardType": "EQ",
       "title": "45 km NNW of Ende, Indonesia",
@@ -2237,6 +2315,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bw"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tua6",
+      "hazardType": "EQ",
+      "title": "119 km E of Bitung, Indonesia",
+      "countries": [],
+      "lat": 1.2862,
+      "lon": 126.1887,
+      "timeUtc": "Fri, 23 Oct 2026 11:55:47 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tua6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tua6"
         }
       ],
       "supplementary": [],
