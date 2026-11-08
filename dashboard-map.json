@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:53:43.104Z",
+  "generatedAt": "2026-11-08T05:51:11.707Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "189 in-scope event(s)"
+      "detail": "171 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-07T20:28:44.230Z",
+    "priorRunAt": "2026-11-07T23:53:43.104Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twur",
         "1576166"
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twu1",
         "1576151"
@@ -106,8 +106,8 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": -3.3337,
-      "lon": 111.9911,
+      "lat": -3.3338,
+      "lon": 111.9913,
       "timeUtc": "2026-10-29T00:00:00",
       "mag": null,
       "gdacsAlert": "Green",
@@ -122,13 +122,13 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=7&eventtype=WF"
         }
       ],
       "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2411,-4.0837,112.7411,-2.5837&t=2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.2413,-4.0838,112.7413,-2.5838&t=2026-10-29",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -1010,7 +1010,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twiz"
       ],
@@ -4694,492 +4694,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2ri",
-      "hazardType": "EQ",
-      "title": "65 km S of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.7716,
-      "lon": 126.2447,
-      "timeUtc": "Thu, 08 Oct 2026 19:44:48 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2ri"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ri"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2rd",
-      "hazardType": "EQ",
-      "title": "234 km SW of Bengkulu, Indonesia",
-      "countries": [],
-      "lat": -5.5357,
-      "lon": 101.0522,
-      "timeUtc": "Thu, 08 Oct 2026 18:33:31 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2rd"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2rd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u10n",
-      "hazardType": "EQ",
-      "title": "57 km N of Waingapu, Indonesia",
-      "countries": [],
-      "lat": -9.1354,
-      "lon": 120.3012,
-      "timeUtc": "Thu, 08 Oct 2026 18:06:02 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u10n"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10n"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0yy",
-      "hazardType": "EQ",
-      "title": "84 km WNW of Bengkulu, Indonesia",
-      "countries": [],
-      "lat": -3.4889,
-      "lon": 101.5755,
-      "timeUtc": "Thu, 08 Oct 2026 15:23:46 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0yy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0yy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0yr",
-      "hazardType": "EQ",
-      "title": "115 km NW of Baa, Indonesia",
-      "countries": [],
-      "lat": -9.9475,
-      "lon": 122.3512,
-      "timeUtc": "Thu, 08 Oct 2026 14:11:53 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0yr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0yr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2rq",
-      "hazardType": "EQ",
-      "title": "87 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.0386,
-      "lon": 121.0068,
-      "timeUtc": "Thu, 08 Oct 2026 12:44:12 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2rq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2rq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0ye",
-      "hazardType": "EQ",
-      "title": "86 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.9839,
-      "lon": 120.9318,
-      "timeUtc": "Thu, 08 Oct 2026 12:44:01 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0ye"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ye"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0ya",
-      "hazardType": "EQ",
-      "title": "7 km E of Talagutong, Philippines",
-      "countries": [],
-      "lat": 6.2632,
-      "lon": 125.734,
-      "timeUtc": "Thu, 08 Oct 2026 12:34:35 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0ya"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ya"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0xu",
-      "hazardType": "EQ",
-      "title": "103 km ENE of Masohi, Indonesia",
-      "countries": [],
-      "lat": -3.0014,
-      "lon": 129.8566,
-      "timeUtc": "Thu, 08 Oct 2026 10:59:32 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0xu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0xp",
-      "hazardType": "EQ",
-      "title": "294 km WSW of Tual, Indonesia",
-      "countries": [],
-      "lat": -6.2403,
-      "lon": 130.162,
-      "timeUtc": "Thu, 08 Oct 2026 10:10:25 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0xp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2r0",
-      "hazardType": "EQ",
-      "title": "48 km SSW of Katubao, Philippines",
-      "countries": [],
-      "lat": 5.4633,
-      "lon": 124.7412,
-      "timeUtc": "Thu, 08 Oct 2026 08:34:58 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2r0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2r0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0x4",
-      "hazardType": "EQ",
-      "title": "13 km SW of Burias, Philippines",
-      "countries": [],
-      "lat": 5.6177,
-      "lon": 125.1838,
-      "timeUtc": "Thu, 08 Oct 2026 08:07:59 GMT",
-      "mag": 5.5,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0x4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0x2",
-      "hazardType": "EQ",
-      "title": "70 km W of Banda Aceh, Indonesia",
-      "countries": [],
-      "lat": 5.4566,
-      "lon": 94.7022,
-      "timeUtc": "Thu, 08 Oct 2026 07:45:11 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0x2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2qz",
-      "hazardType": "EQ",
-      "title": "89 km NNE of Bitung, Indonesia",
-      "countries": [],
-      "lat": 2.1226,
-      "lon": 125.5681,
-      "timeUtc": "Thu, 08 Oct 2026 06:49:29 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2qz"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qz"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2qu",
-      "hazardType": "EQ",
-      "title": "76 km NNW of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.9323,
-      "lon": 120.3157,
-      "timeUtc": "Thu, 08 Oct 2026 05:39:21 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2qu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0wb",
-      "hazardType": "EQ",
-      "title": "39 km SW of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.6285,
-      "lon": 118.9391,
-      "timeUtc": "Thu, 08 Oct 2026 05:06:50 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0wb"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0wa",
-      "hazardType": "EQ",
-      "title": "92 km N of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.7822,
-      "lon": 120.3316,
-      "timeUtc": "Thu, 08 Oct 2026 04:49:00 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0wa"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wa"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u0vw",
-      "hazardType": "EQ",
-      "title": "103 km NE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -7.9273,
-      "lon": 121.105,
-      "timeUtc": "Thu, 08 Oct 2026 03:00:00 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u0vw"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw"
         }
       ],
       "supplementary": [],
