@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:58:08.265Z",
+  "generatedAt": "2026-11-08T21:57:27.028Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,23 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-08T12:16:03.000Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104239",
-        "title": "Flood in Malaysia",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1033458",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-11-08T17:58:08.265Z",
+    "changes": []
   },
   "stories": [
     {
@@ -62,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twyd",
         "1576282"
@@ -125,7 +110,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1033458"
       ],
@@ -145,29 +130,22 @@
     {
       "id": "us7000twur",
       "hazardType": "EQ",
-      "title": "Earthquake in Philippines",
-      "countries": [
-        "Philippines"
-      ],
+      "title": "41 km WSW of Gadung, Philippines",
+      "countries": [],
       "lat": 6.706,
       "lon": 123.6541,
       "timeUtc": "Sat, 07 Nov 2026 23:25:35 GMT",
       "mag": 4.9,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000twur",
-        "1576166"
+        "us7000twur"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576166&episodeid=1745280&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur"
@@ -179,29 +157,22 @@
     {
       "id": "us7000twu1",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "43 km ESE of Ambon, Indonesia",
+      "countries": [],
       "lat": -3.905,
       "lon": 128.5121,
       "timeUtc": "Sat, 07 Nov 2026 20:55:38 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000twu1",
-        "1576151"
+        "us7000twu1"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576151&episodeid=1745262&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1"
@@ -969,10 +940,10 @@
     {
       "id": "us7000tu97",
       "hazardType": "EQ",
-      "title": "262 km NNE of Lospalos, Timor Leste",
+      "title": "269 km NNE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -6.5295,
-      "lon": 128.2892,
+      "lat": -6.4925,
+      "lon": 128.348,
       "timeUtc": "Fri, 30 Oct 2026 16:54:42 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
@@ -2442,7 +2413,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u45g"
       ],
@@ -2469,7 +2440,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u45c"
       ],
@@ -2728,18 +2699,18 @@
     {
       "id": "us6000u3gm",
       "hazardType": "EQ",
-      "title": "248 km SW of Tambolaka, Indonesia",
+      "title": "251 km SW of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -11.2335,
-      "lon": 117.885,
+      "lat": -11.232,
+      "lon": 117.8466,
       "timeUtc": "Mon, 19 Oct 2026 19:16:50 GMT",
-      "mag": 4.3,
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u3gm"
       ],
@@ -2755,18 +2726,18 @@
     {
       "id": "us6000u3fm",
       "hazardType": "EQ",
-      "title": "147 km ENE of Lospalos, Timor Leste",
+      "title": "188 km ENE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.9636,
-      "lon": 128.2132,
-      "timeUtc": "Mon, 19 Oct 2026 17:20:55 GMT",
-      "mag": 4.4,
+      "lat": -7.8171,
+      "lon": 128.5573,
+      "timeUtc": "Mon, 19 Oct 2026 17:20:54 GMT",
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u3fm"
       ],
@@ -3052,11 +3023,11 @@
     {
       "id": "us6000u37s",
       "hazardType": "EQ",
-      "title": "223 km NE of Lospalos, Timor Leste",
+      "title": "235 km NE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.3545,
-      "lon": 128.6566,
-      "timeUtc": "Sun, 18 Oct 2026 20:24:09 GMT",
+      "lat": -7.3185,
+      "lon": 128.7577,
+      "timeUtc": "Sun, 18 Oct 2026 20:24:07 GMT",
       "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3135,16 +3106,16 @@
       "hazardType": "EQ",
       "title": "29 km SW of Trà My, Vietnam",
       "countries": [],
-      "lat": 15.1576,
-      "lon": 108.0258,
+      "lat": 15.1535,
+      "lon": 108.0294,
       "timeUtc": "Sat, 17 Oct 2026 18:48:10 GMT",
-      "mag": 4.5,
+      "mag": 4.4,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u31a"
       ],
