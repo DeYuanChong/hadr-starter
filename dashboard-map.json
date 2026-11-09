@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T01:39:29.342Z",
+  "generatedAt": "2026-11-09T08:42:54.926Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -27,8 +27,23 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-08T21:57:27.028Z",
-    "changes": []
+    "priorRunAt": "2026-11-09T01:39:29.342Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1033458",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1104271",
+        "title": "Flood in Vietnam",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -66,6 +81,35 @@
       "imagery": null
     },
     {
+      "id": "1104271",
+      "hazardType": "FL",
+      "title": "Flood in Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "lat": 22.5023,
+      "lon": 104.3068,
+      "timeUtc": "2026-11-06T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104271"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=1&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "1033624",
       "hazardType": "WF",
       "title": "Forest fires in Indonesia",
@@ -93,39 +137,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1033458",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.3374,
-      "lon": 111.995,
-      "timeUtc": "2026-10-29T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1033458"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=9&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.245,-4.0874,112.745,-2.5874&t=2026-10-29",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us7000twur",
@@ -1385,7 +1396,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twj5"
       ],
@@ -2323,8 +2334,8 @@
       "hazardType": "EQ",
       "title": "207 km NE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.3421,
-      "lon": 128.4666,
+      "lat": -7.3581,
+      "lon": 128.4796,
       "timeUtc": "Fri, 23 Oct 2026 12:24:24 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
