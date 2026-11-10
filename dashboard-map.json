@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:00:10.173Z",
+  "generatedAt": "2026-11-10T17:41:19.692Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "179 in-scope event(s)"
+      "detail": "181 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-10T02:15:58.770Z",
+    "priorRunAt": "2026-11-10T10:00:10.173Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us7000txbi",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.9226,
+      "lon": 128.7092,
+      "timeUtc": "Tue, 10 Nov 2026 15:51:35 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000txbi",
+        "1576636"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576636&episodeid=1745812&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tx9z",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx9z",
         "1576577"
@@ -100,7 +134,7 @@
       "imagery": null
     },
     {
-      "id": "1576414",
+      "id": "us7000tx3c",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -108,28 +142,33 @@
       ],
       "lat": 4.1741,
       "lon": 127.7802,
-      "timeUtc": "2026-11-09T11:25:07",
-      "mag": null,
+      "timeUtc": "Mon, 09 Nov 2026 11:25:07 GMT",
+      "mag": 4.7,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us7000tx3c",
         "1576414"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1576414&episodeid=1745563&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx3c"
         }
       ],
       "supplementary": [],
       "imagery": null
     },
     {
-      "id": "1576405",
+      "id": "us7000tx34",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
@@ -137,21 +176,26 @@
       ],
       "lat": -2.9775,
       "lon": 130.5842,
-      "timeUtc": "2026-11-09T09:53:38",
-      "mag": null,
+      "timeUtc": "Mon, 09 Nov 2026 09:53:38 GMT",
+      "mag": 4.8,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
+      "reconciled": true,
+      "state": "escalated",
       "aliases": [
+        "us7000tx34",
         "1576405"
       ],
       "sources": [
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1576405&episodeid=1745550&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
         }
       ],
       "supplementary": [],
@@ -213,60 +257,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx48"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tx3c",
-      "hazardType": "EQ",
-      "title": "271 km N of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 4.1741,
-      "lon": 127.7802,
-      "timeUtc": "Mon, 09 Nov 2026 11:25:07 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us7000tx3c"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx3c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tx34",
-      "hazardType": "EQ",
-      "title": "183 km E of Masohi, Indonesia",
-      "countries": [],
-      "lat": -2.9775,
-      "lon": 130.5842,
-      "timeUtc": "Mon, 09 Nov 2026 09:53:38 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "de-escalated",
-      "aliases": [
-        "us7000tx34"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
         }
       ],
       "supplementary": [],
@@ -1652,6 +1642,33 @@
       "imagery": null
     },
     {
+      "id": "us7000twa6",
+      "hazardType": "EQ",
+      "title": "123 km N of Metinaro, Timor Leste",
+      "countries": [],
+      "lat": -7.4202,
+      "lon": 125.669,
+      "timeUtc": "Tue, 27 Oct 2026 20:11:57 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000twa6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twa6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ttii",
       "hazardType": "EQ",
       "title": "288 km N of Bamboo Flat, India",
@@ -2952,11 +2969,11 @@
     {
       "id": "us6000u3t6",
       "hazardType": "EQ",
-      "title": "68 km NE of Cabatuan, Philippines",
+      "title": "63 km NNE of Cabatuan, Philippines",
       "countries": [],
-      "lat": 13.0297,
-      "lon": 125.5898,
-      "timeUtc": "Wed, 21 Oct 2026 08:37:41 GMT",
+      "lat": 13.0045,
+      "lon": 125.5407,
+      "timeUtc": "Wed, 21 Oct 2026 08:37:40 GMT",
       "mag": 5.2,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2979,11 +2996,11 @@
     {
       "id": "us6000u3t4",
       "hazardType": "EQ",
-      "title": "164 km NE of Lospalos, Timor Leste",
+      "title": "173 km NE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.5619,
-      "lon": 128.1355,
-      "timeUtc": "Wed, 21 Oct 2026 07:44:16 GMT",
+      "lat": -7.541,
+      "lon": 128.2234,
+      "timeUtc": "Wed, 21 Oct 2026 07:44:14 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3249,11 +3266,11 @@
     {
       "id": "us6000u3c5",
       "hazardType": "EQ",
-      "title": "53 km NNE of Labuan Bajo, Indonesia",
+      "title": "38 km N of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.0866,
-      "lon": 120.1454,
-      "timeUtc": "Mon, 19 Oct 2026 10:10:56 GMT",
+      "lat": -8.1494,
+      "lon": 119.9476,
+      "timeUtc": "Mon, 19 Oct 2026 10:10:55 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3276,11 +3293,11 @@
     {
       "id": "us6000u3c1",
       "hazardType": "EQ",
-      "title": "54 km NE of Labuan Bajo, Indonesia",
+      "title": "68 km NE of Labuan Bajo, Indonesia",
       "countries": [],
-      "lat": -8.1064,
-      "lon": 120.1872,
-      "timeUtc": "Mon, 19 Oct 2026 09:45:56 GMT",
+      "lat": -8.0128,
+      "lon": 120.2778,
+      "timeUtc": "Mon, 19 Oct 2026 09:45:55 GMT",
       "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
