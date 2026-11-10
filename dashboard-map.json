@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:13:57.985Z",
+  "generatedAt": "2026-11-10T02:15:58.770Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "3 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "182 in-scope event(s)"
+      "detail": "178 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,25 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-09T08:42:54.926Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1033624",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1104271",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-11-09T19:13:57.985Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000tx8d",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.8742,
+      "lon": 130.2935,
+      "timeUtc": "Tue, 10 Nov 2026 01:53:24 GMT",
+      "mag": 5.4,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000tx8d",
+        "1576526"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576526&episodeid=1745686&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tx3c",
       "hazardType": "EQ",
@@ -62,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx3c",
         "1576414"
@@ -96,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx34",
         "1576405"
@@ -130,7 +149,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx32",
         "1576404"
@@ -162,7 +181,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx48"
       ],
@@ -189,7 +208,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000twyd"
       ],
@@ -378,7 +397,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twg8"
       ],
@@ -1555,6 +1574,33 @@
       "imagery": null
     },
     {
+      "id": "us7000ttii",
+      "hazardType": "EQ",
+      "title": "288 km N of Bamboo Flat, India",
+      "countries": [],
+      "lat": 14.2825,
+      "lon": 93.0886,
+      "timeUtc": "Tue, 27 Oct 2026 17:22:45 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ttii"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttii"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tth4",
       "hazardType": "EQ",
       "title": "70 km WNW of Callaguip, Philippines",
@@ -1711,6 +1757,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttc6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tw1z",
+      "hazardType": "EQ",
+      "title": "129 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.6017,
+      "lon": 127.732,
+      "timeUtc": "Mon, 26 Oct 2026 14:17:49 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tw1z"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw1z"
         }
       ],
       "supplementary": [],
@@ -2529,6 +2602,33 @@
       "imagery": null
     },
     {
+      "id": "us6000u477",
+      "hazardType": "EQ",
+      "title": "156 km ESE of Modisi, Indonesia",
+      "countries": [],
+      "lat": 0.1365,
+      "lon": 125.8067,
+      "timeUtc": "Thu, 22 Oct 2026 20:11:43 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000u477"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u477"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u475",
       "hazardType": "EQ",
       "title": "171 km WSW of Ternate, Indonesia",
@@ -2542,7 +2642,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u475"
       ],
@@ -2569,7 +2669,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u472"
       ],
@@ -2596,7 +2696,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tuci"
       ],
@@ -2623,7 +2723,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tuce"
       ],
@@ -2650,7 +2750,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tuca"
       ],
@@ -4081,7 +4181,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u441"
       ],
@@ -4486,7 +4586,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u3v8"
       ],
@@ -4764,222 +4864,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1gu",
-      "hazardType": "EQ",
-      "title": "169 km SSW of Pagar Alam, Indonesia",
-      "countries": [],
-      "lat": -5.387,
-      "lon": 102.5372,
-      "timeUtc": "Sat, 10 Oct 2026 21:38:08 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1gu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3eu",
-      "hazardType": "EQ",
-      "title": "54 km S of Singkil, Indonesia",
-      "countries": [],
-      "lat": 1.7939,
-      "lon": 97.8441,
-      "timeUtc": "Sat, 10 Oct 2026 12:28:17 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3eu"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3eu"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1ed",
-      "hazardType": "EQ",
-      "title": "84 km S of Wonosari, Indonesia",
-      "countries": [],
-      "lat": -8.7218,
-      "lon": 110.7284,
-      "timeUtc": "Sat, 10 Oct 2026 11:53:17 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1ed"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ed"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3ek",
-      "hazardType": "EQ",
-      "title": "105 km W of Abepura, Indonesia",
-      "countries": [],
-      "lat": -2.4404,
-      "lon": 139.6983,
-      "timeUtc": "Sat, 10 Oct 2026 09:17:13 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3ek"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ek"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1cv",
-      "hazardType": "EQ",
-      "title": "136 km E of Bitung, Indonesia",
-      "countries": [],
-      "lat": 1.5139,
-      "lon": 126.3557,
-      "timeUtc": "Sat, 10 Oct 2026 05:32:01 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1cv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1cl",
-      "hazardType": "EQ",
-      "title": "58 km NW of Pante Makasar, Timor Leste",
-      "countries": [],
-      "lat": -8.8009,
-      "lon": 124.0297,
-      "timeUtc": "Sat, 10 Oct 2026 04:45:04 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1cl"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cl"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1bs",
-      "hazardType": "EQ",
-      "title": "127 km E of Bitung, Indonesia",
-      "countries": [],
-      "lat": 1.4159,
-      "lon": 126.2738,
-      "timeUtc": "Sat, 10 Oct 2026 02:00:42 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1bs"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1d3",
-      "hazardType": "EQ",
-      "title": "66 km WSW of Nuofu, China",
-      "countries": [],
-      "lat": 22.016,
-      "lon": 99.098,
-      "timeUtc": "Sat, 10 Oct 2026 01:23:33 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1d3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d3"
         }
       ],
       "supplementary": [],
