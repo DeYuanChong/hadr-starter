@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:33:51.379Z",
+  "generatedAt": "2026-11-11T02:12:26.726Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "184 in-scope event(s)"
+      "detail": "176 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-10T17:41:19.692Z",
+    "priorRunAt": "2026-11-10T22:33:51.379Z",
     "changes": []
   },
   "stories": [
@@ -81,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txb6",
         "1576664"
@@ -168,102 +168,34 @@
       "imagery": null
     },
     {
-      "id": "us7000tx3c",
+      "id": "us7000txa7",
       "hazardType": "EQ",
       "title": "Earthquake in Indonesia",
       "countries": [
         "Indonesia"
       ],
-      "lat": 4.1741,
-      "lon": 127.7802,
-      "timeUtc": "Mon, 09 Nov 2026 11:25:07 GMT",
-      "mag": 4.7,
+      "lat": -2.3853,
+      "lon": 138.6219,
+      "timeUtc": "Tue, 10 Nov 2026 00:11:23 GMT",
+      "mag": 4.5,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "us7000tx3c",
-        "1576414"
+        "us7000txa7",
+        "1576523"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576414&episodeid=1745563&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576523&episodeid=1745875&eventtype=EQ"
         },
         {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx3c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tx34",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9775,
-      "lon": 130.5842,
-      "timeUtc": "Mon, 09 Nov 2026 09:53:38 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tx34",
-        "1576405"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576405&episodeid=1745550&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tx32",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.0627,
-      "lon": 130.3905,
-      "timeUtc": "Mon, 09 Nov 2026 09:48:27 GMT",
-      "mag": 5.4,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tx32",
-        "1576404"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576404&episodeid=1745555&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx32"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txa7"
         }
       ],
       "supplementary": [],
@@ -283,7 +215,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx9s"
       ],
@@ -318,6 +250,87 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx48"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tx3c",
+      "hazardType": "EQ",
+      "title": "271 km N of Tobelo, Indonesia",
+      "countries": [],
+      "lat": 4.1741,
+      "lon": 127.7802,
+      "timeUtc": "Mon, 09 Nov 2026 11:25:07 GMT",
+      "mag": 4.7,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tx3c"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx3c"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tx34",
+      "hazardType": "EQ",
+      "title": "183 km E of Masohi, Indonesia",
+      "countries": [],
+      "lat": -2.9775,
+      "lon": 130.5842,
+      "timeUtc": "Mon, 09 Nov 2026 09:53:38 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tx34"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tx32",
+      "hazardType": "EQ",
+      "title": "160 km E of Masohi, Indonesia",
+      "countries": [],
+      "lat": -3.0627,
+      "lon": 130.3905,
+      "timeUtc": "Mon, 09 Nov 2026 09:48:27 GMT",
+      "mag": 5.4,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000tx32"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx32"
         }
       ],
       "supplementary": [],
@@ -3878,7 +3891,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000u4eq"
       ],
@@ -4804,249 +4817,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nr"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1mv",
-      "hazardType": "EQ",
-      "title": "114 km SE of Nabire, Indonesia",
-      "countries": [],
-      "lat": -4.1003,
-      "lon": 136.2257,
-      "timeUtc": "Sun, 11 Oct 2026 22:07:25 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1mv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1mj",
-      "hazardType": "EQ",
-      "title": "149 km W of Gorontalo, Indonesia",
-      "countries": [],
-      "lat": 0.52,
-      "lon": 121.7198,
-      "timeUtc": "Sun, 11 Oct 2026 21:34:54 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1mj"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mj"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1ls",
-      "hazardType": "EQ",
-      "title": "184 km E of Masohi, Indonesia",
-      "countries": [],
-      "lat": -3.1642,
-      "lon": 130.6235,
-      "timeUtc": "Sun, 11 Oct 2026 18:47:57 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1ls"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ls"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1l0",
-      "hazardType": "EQ",
-      "title": "113 km SE of Nabire, Indonesia",
-      "countries": [],
-      "lat": -4.0814,
-      "lon": 136.223,
-      "timeUtc": "Sun, 11 Oct 2026 14:57:35 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1l0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1l0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1ka",
-      "hazardType": "EQ",
-      "title": "163 km SSE of Miyakojima, Japan",
-      "countries": [],
-      "lat": 23.4607,
-      "lon": 126.0164,
-      "timeUtc": "Sun, 11 Oct 2026 12:13:18 GMT",
-      "mag": 4.8,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1ka"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3mp",
-      "hazardType": "EQ",
-      "title": "Kepulauan Babar, Indonesia",
-      "countries": [],
-      "lat": -7.0916,
-      "lon": 129.5654,
-      "timeUtc": "Sun, 11 Oct 2026 10:58:45 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3mp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3mp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3mk",
-      "hazardType": "EQ",
-      "title": "58 km SE of Bitung, Indonesia",
-      "countries": [],
-      "lat": 1.1152,
-      "lon": 125.5436,
-      "timeUtc": "Sun, 11 Oct 2026 06:42:51 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3mk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3mk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1i6",
-      "hazardType": "EQ",
-      "title": "193 km S of Pelabuhanratu, Indonesia",
-      "countries": [],
-      "lat": -8.7323,
-      "lon": 106.4969,
-      "timeUtc": "Sun, 11 Oct 2026 03:30:17 GMT",
-      "mag": 5.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1i6"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1i0",
-      "hazardType": "EQ",
-      "title": "107 km SSE of Pondaguitan, Philippines",
-      "countries": [],
-      "lat": 5.4795,
-      "lon": 126.5841,
-      "timeUtc": "Sun, 11 Oct 2026 02:35:36 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1i0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0"
         }
       ],
       "supplementary": [],
