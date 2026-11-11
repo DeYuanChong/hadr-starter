@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:25:19.828Z",
+  "generatedAt": "2026-11-11T23:40:26.458Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,7 +13,7 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
@@ -27,21 +27,14 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-11T09:34:55.082Z",
+    "priorRunAt": "2026-11-11T17:25:19.828Z",
     "changes": [
       {
         "kind": "deleted",
-        "storyId": "1104271",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
         "storyId": "1033458",
         "title": "Forest fires in Indonesia",
         "hazardType": "WF",
-        "detail": "new green-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
@@ -62,7 +55,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txir",
         "1576792"
@@ -114,64 +107,24 @@
       }
     },
     {
-      "id": "1033458",
-      "hazardType": "WF",
-      "title": "Forest fires in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -3.3374,
-      "lon": 111.995,
-      "timeUtc": "2026-10-29T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1033458"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=10&eventtype=WF"
-        }
-      ],
-      "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-29",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.245,-4.0874,112.745,-2.5874&t=2026-10-29",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
       "id": "us7000txbi",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -0.9226,
-      "lon": 128.7092,
+      "title": "139 km ESE of Labuha, Indonesia",
+      "countries": [],
+      "lat": -0.9034,
+      "lon": 128.701,
       "timeUtc": "Tue, 10 Nov 2026 15:51:35 GMT",
-      "mag": 5.2,
-      "gdacsAlert": "Green",
+      "mag": 5.1,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000txbi",
-        "1576636"
+        "us7000txbi"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576636&episodeid=1745812&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi"
@@ -183,29 +136,22 @@
     {
       "id": "us7000txb6",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "3 km SSE of Sukabumi, Indonesia",
+      "countries": [],
       "lat": -6.9525,
       "lon": 106.9355,
       "timeUtc": "Tue, 10 Nov 2026 14:31:36 GMT",
       "mag": 4.7,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000txb6",
-        "1576664"
+        "us7000txb6"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576664&episodeid=1745843&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6"
@@ -228,7 +174,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tx9z"
       ],
@@ -255,7 +201,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tx8d"
       ],
@@ -282,7 +228,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000txa7"
       ],
@@ -3299,18 +3245,18 @@
     {
       "id": "us6000u3lx",
       "hazardType": "EQ",
-      "title": "142 km SSW of Abepura, Indonesia",
+      "title": "148 km SSW of Abepura, Indonesia",
       "countries": [],
-      "lat": -3.7134,
-      "lon": 139.9987,
+      "lat": -3.7782,
+      "lon": 139.994,
       "timeUtc": "Tue, 20 Oct 2026 13:27:24 GMT",
-      "mag": 4.5,
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u3lx"
       ],
