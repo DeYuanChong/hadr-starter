@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:34:55.082Z",
+  "generatedAt": "2026-11-11T17:25:19.828Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "178 in-scope event(s)"
+      "detail": "179 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,25 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-11T02:12:26.726Z",
+    "priorRunAt": "2026-11-11T09:34:55.082Z",
     "changes": [
       {
-        "kind": "new",
-        "storyId": "1104253",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      },
-      {
-        "kind": "new",
+        "kind": "deleted",
         "storyId": "1104271",
         "title": "Flood in Vietnam",
         "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "1033458",
+        "title": "Forest fires in Indonesia",
+        "hazardType": "WF",
         "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
+    {
+      "id": "us7000txir",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.9445,
+      "lon": 130.2513,
+      "timeUtc": "Wed, 11 Nov 2026 11:32:24 GMT",
+      "mag": 5.1,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000txir",
+        "1576792"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576792&episodeid=1745984&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txir"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1104253",
       "hazardType": "FL",
@@ -62,7 +96,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104253"
       ],
@@ -76,6 +110,39 @@
       "imagery": {
         "imageDate": "2026-10-24",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.2753,3.6185,97.7753,5.1185&t=2026-10-24",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
+      "id": "1033458",
+      "hazardType": "WF",
+      "title": "Forest fires in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -3.3374,
+      "lon": 111.995,
+      "timeUtc": "2026-10-29T00:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1033458"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033458&episodeid=10&eventtype=WF"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-29",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=111.245,-4.0874,112.745,-2.5874&t=2026-10-29",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
     },
@@ -150,29 +217,22 @@
     {
       "id": "us7000tx9z",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "58 km NE of Fef, Indonesia",
+      "countries": [],
       "lat": -0.4928,
       "lon": 132.859,
       "timeUtc": "Tue, 10 Nov 2026 08:34:07 GMT",
       "mag": 5,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000tx9z",
-        "1576577"
+        "us7000tx9z"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576577&episodeid=1745746&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx9z"
@@ -184,29 +244,22 @@
     {
       "id": "us7000tx8d",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "Pulau Pulau Tanimbar, Indonesia",
+      "countries": [],
       "lat": -7.8742,
       "lon": 130.2935,
       "timeUtc": "Tue, 10 Nov 2026 01:53:24 GMT",
       "mag": 5.4,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": "green",
       "triageSeverity": "green",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "revised",
       "aliases": [
-        "us7000tx8d",
-        "1576526"
+        "us7000tx8d"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576526&episodeid=1745686&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d"
@@ -216,60 +269,24 @@
       "imagery": null
     },
     {
-      "id": "1104271",
-      "hazardType": "FL",
-      "title": "Flood in Vietnam",
-      "countries": [
-        "Vietnam"
-      ],
-      "lat": 19.9782,
-      "lon": 105.4816,
-      "timeUtc": "2026-11-06T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "new",
-      "aliases": [
-        "1104271"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=2&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us7000txa7",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "224 km W of Abepura, Indonesia",
+      "countries": [],
       "lat": -2.3853,
       "lon": 138.6219,
       "timeUtc": "Tue, 10 Nov 2026 00:11:23 GMT",
       "mag": 4.5,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us7000txa7",
-        "1576523"
+        "us7000txa7"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576523&episodeid=1745875&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txa7"
@@ -1210,7 +1227,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txce"
       ],
@@ -1291,7 +1308,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx5u"
       ],
