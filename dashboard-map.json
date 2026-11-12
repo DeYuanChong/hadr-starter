@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:40:26.458Z",
+  "generatedAt": "2026-11-12T04:22:52.739Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "179 in-scope event(s)"
+      "detail": "168 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-11T17:25:19.828Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1033458",
-        "title": "Forest fires in Indonesia",
-        "hazardType": "WF",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-11-11T23:40:26.458Z",
+    "changes": []
   },
   "stories": [
     {
@@ -107,6 +99,33 @@
       }
     },
     {
+      "id": "us7000txf8",
+      "hazardType": "EQ",
+      "title": "61 km ENE of Blangpidie, Indonesia",
+      "countries": [],
+      "lat": 3.9179,
+      "lon": 97.359,
+      "timeUtc": "Tue, 10 Nov 2026 22:09:07 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000txf8"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txf8"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000txbi",
       "hazardType": "EQ",
       "title": "139 km ESE of Labuha, Indonesia",
@@ -120,7 +139,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000txbi"
       ],
@@ -147,7 +166,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000txb6"
       ],
@@ -1002,9 +1021,9 @@
       "hazardType": "EQ",
       "title": "Banda Sea",
       "countries": [],
-      "lat": -6.9205,
-      "lon": 129.9514,
-      "timeUtc": "Mon, 02 Nov 2026 00:53:10 GMT",
+      "lat": -6.9162,
+      "lon": 129.957,
+      "timeUtc": "Mon, 02 Nov 2026 00:53:09 GMT",
       "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1027,11 +1046,11 @@
     {
       "id": "us7000tusp",
       "hazardType": "EQ",
-      "title": "135 km N of Ruteng, Indonesia",
+      "title": "134 km N of Ruteng, Indonesia",
       "countries": [],
-      "lat": -7.3836,
-      "lon": 120.4389,
-      "timeUtc": "Mon, 02 Nov 2026 00:29:44 GMT",
+      "lat": -7.3995,
+      "lon": 120.4299,
+      "timeUtc": "Mon, 02 Nov 2026 00:29:43 GMT",
       "mag": 4.1,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3256,7 +3275,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000u3lx"
       ],
@@ -4587,330 +4606,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ye"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1zs",
-      "hazardType": "EQ",
-      "title": "216 km S of Bengkulu, Indonesia",
-      "countries": [],
-      "lat": -5.7559,
-      "lon": 102.1164,
-      "timeUtc": "Mon, 12 Oct 2026 23:47:24 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1zs"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zs"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1x0",
-      "hazardType": "EQ",
-      "title": "278 km WSW of Tual, Indonesia",
-      "countries": [],
-      "lat": -6.1604,
-      "lon": 130.2927,
-      "timeUtc": "Mon, 12 Oct 2026 23:43:50 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1x0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1x0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3vk",
-      "hazardType": "EQ",
-      "title": "32 km W of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -9.4513,
-      "lon": 118.9409,
-      "timeUtc": "Mon, 12 Oct 2026 16:56:38 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3vk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3vk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1sx",
-      "hazardType": "EQ",
-      "title": "74 km ESE of Maumere, Indonesia",
-      "countries": [],
-      "lat": -8.7752,
-      "lon": 122.8745,
-      "timeUtc": "Mon, 12 Oct 2026 16:12:25 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1sx"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1sm",
-      "hazardType": "EQ",
-      "title": "38 km SSE of Kupang, Indonesia",
-      "countries": [],
-      "lat": -10.4787,
-      "lon": 123.7701,
-      "timeUtc": "Mon, 12 Oct 2026 15:42:07 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1sm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1sk",
-      "hazardType": "EQ",
-      "title": "165 km SSE of Port Blair, India",
-      "countries": [],
-      "lat": 10.2276,
-      "lon": 93.1537,
-      "timeUtc": "Mon, 12 Oct 2026 15:37:22 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1sk"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1rm",
-      "hazardType": "EQ",
-      "title": "98 km SSW of Kencong, Indonesia",
-      "countries": [],
-      "lat": -9.1298,
-      "lon": 113.0891,
-      "timeUtc": "Mon, 12 Oct 2026 11:58:07 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1rm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1r3",
-      "hazardType": "EQ",
-      "title": "122 km SE of Bitung, Indonesia",
-      "countries": [],
-      "lat": 0.7022,
-      "lon": 125.9534,
-      "timeUtc": "Mon, 12 Oct 2026 08:59:13 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1r3"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1r3"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1qy",
-      "hazardType": "EQ",
-      "title": "214 km E of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -8.1558,
-      "lon": 128.914,
-      "timeUtc": "Mon, 12 Oct 2026 08:30:06 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1qy"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1qy"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1q2",
-      "hazardType": "EQ",
-      "title": "17 km SSE of Blitar, Indonesia",
-      "countries": [],
-      "lat": -8.237,
-      "lon": 112.244,
-      "timeUtc": "Mon, 12 Oct 2026 05:28:10 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1q2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1q2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3v8",
-      "hazardType": "EQ",
-      "title": "92 km SSW of Labuan, Indonesia",
-      "countries": [],
-      "lat": -7.1711,
-      "lon": 105.5551,
-      "timeUtc": "Mon, 12 Oct 2026 05:19:48 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3v8"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3v8"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u1nr",
-      "hazardType": "EQ",
-      "title": "38 km E of Wāngjing, India",
-      "countries": [],
-      "lat": 24.6284,
-      "lon": 94.439,
-      "timeUtc": "Mon, 12 Oct 2026 01:28:19 GMT",
-      "mag": 4.6,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u1nr"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nr"
         }
       ],
       "supplementary": [],
