@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:46:13.757Z",
+  "generatedAt": "2026-11-13T08:48:42.287Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "170 in-scope event(s)"
+      "detail": "174 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,10 +27,59 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-12T20:55:45.813Z",
-    "changes": []
+    "priorRunAt": "2026-11-13T01:46:13.757Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1018545",
+        "title": "Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+        "hazardType": "DR",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1027462",
+        "title": "Drought in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Vietnam",
+        "hazardType": "DR",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us7000txy5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.262,
+      "lon": 116.7507,
+      "timeUtc": "Fri, 13 Nov 2026 04:49:33 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000txy5",
+        "1577107"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577107&episodeid=1746335&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txy5"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000txtd",
       "hazardType": "EQ",
@@ -66,87 +115,38 @@
       "imagery": null
     },
     {
-      "id": "1027462",
-      "hazardType": "DR",
-      "title": "Drought in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Vietnam",
+      "id": "us7000txs5",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
       "countries": [
-        "Bangladesh",
-        "Bhutan",
-        "China",
-        "India",
-        "Laos",
-        "Myanmar",
-        "Nepal",
-        "Vietnam"
+        "Indonesia"
       ],
-      "lat": 25.658,
-      "lon": 96.501,
-      "timeUtc": "2026-05-21T00:00:00",
-      "mag": null,
+      "lat": -8.0655,
+      "lon": 120.9934,
+      "timeUtc": "Thu, 12 Nov 2026 11:16:29 GMT",
+      "mag": 4.7,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
       "aliases": [
-        "1027462"
+        "us7000txs5",
+        "1576963"
       ],
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027462&episodeid=2&eventtype=DR"
-        }
-      ],
-      "supplementary": [
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576963&episodeid=1746360&eventtype=EQ"
+        },
         {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
-        }
-      ],
-      "imagery": {
-        "imageDate": "2026-05-21",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=93.501,22.658,99.501,28.658&t=2026-05-21",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
-    },
-    {
-      "id": "1018545",
-      "hazardType": "DR",
-      "title": "Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
-      "countries": [
-        "Brunei",
-        "Indonesia",
-        "Cambodia",
-        "Malaysia",
-        "Papua New Guinea",
-        "Philippines"
-      ],
-      "lat": 13.5,
-      "lon": 104.5,
-      "timeUtc": "2026-03-21T00:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1018545"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=20&eventtype=DR"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txs5"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-03-21",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=101.5,10.5,107.5,16.5&t=2026-03-21",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "1104280",
@@ -174,7 +174,12 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104280&episodeid=1&eventtype=FL"
         }
       ],
-      "supplementary": [],
+      "supplementary": [
+        {
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        }
+      ],
       "imagery": null
     },
     {
@@ -279,6 +284,33 @@
       }
     },
     {
+      "id": "us7000txyq",
+      "hazardType": "EQ",
+      "title": "152 km WSW of Fakfak, Indonesia",
+      "countries": [],
+      "lat": -3.6466,
+      "lon": 131.1335,
+      "timeUtc": "Fri, 13 Nov 2026 07:55:35 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000txyq"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyq"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000txvw",
       "hazardType": "EQ",
       "title": "41 km N of Weining, China",
@@ -346,7 +378,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txiv"
       ],
@@ -994,7 +1026,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txur"
       ],
@@ -1102,7 +1134,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txu6"
       ],
@@ -1496,18 +1528,18 @@
     {
       "id": "us7000tunq",
       "hazardType": "EQ",
-      "title": "33 km SE of Jiufen, Taiwan",
+      "title": "32 km SE of Jiufen, Taiwan",
       "countries": [],
-      "lat": 24.8805,
-      "lon": 122.0621,
+      "lat": 24.8987,
+      "lon": 122.075,
       "timeUtc": "Sun, 01 Nov 2026 08:20:07 GMT",
-      "mag": 4.8,
+      "mag": 4.9,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tunq"
       ],
@@ -2792,13 +2824,40 @@
       "imagery": null
     },
     {
+      "id": "us7000tw0y",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.7325,
+      "lon": 139.8079,
+      "timeUtc": "Sun, 25 Oct 2026 02:09:44 GMT",
+      "mag": 6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tw0y"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw0y"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u4r9",
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
       "countries": [],
-      "lat": 27.7953,
-      "lon": 139.6184,
-      "timeUtc": "Sun, 25 Oct 2026 02:09:23 GMT",
+      "lat": 27.8093,
+      "lon": 139.7102,
+      "timeUtc": "Sun, 25 Oct 2026 02:09:22 GMT",
       "mag": 6.5,
       "gdacsAlert": null,
       "pagerAlert": "green",
