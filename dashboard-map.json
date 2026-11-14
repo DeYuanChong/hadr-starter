@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:29:50.844Z",
+  "generatedAt": "2026-11-14T09:20:22.771Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "173 in-scope event(s)"
+      "detail": "174 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-13T22:15:14.432Z",
+    "priorRunAt": "2026-11-14T02:29:50.844Z",
     "changes": []
   },
   "stories": [
@@ -123,6 +123,33 @@
         {
           "feed": "gdacs",
           "url": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=5&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ty6n",
+      "hazardType": "EQ",
+      "title": "off the west coast of northern Sumatra",
+      "countries": [],
+      "lat": 3.304,
+      "lon": 92.8261,
+      "timeUtc": "Sat, 14 Nov 2026 02:59:29 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000ty6n"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n"
         }
       ],
       "supplementary": [],
@@ -781,16 +808,16 @@
       "hazardType": "EQ",
       "title": "156 km ESE of Modisi, Indonesia",
       "countries": [],
-      "lat": 0.0075,
-      "lon": 125.7691,
-      "timeUtc": "Sat, 07 Nov 2026 09:47:33 GMT",
-      "mag": 4.7,
+      "lat": 0.0089,
+      "lon": 125.7724,
+      "timeUtc": "Sat, 07 Nov 2026 09:47:32 GMT",
+      "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000twrh"
       ],
@@ -2104,18 +2131,18 @@
     {
       "id": "us7000ttlc",
       "hazardType": "EQ",
-      "title": "6 km NW of Balangonan, Philippines",
+      "title": "3 km SSE of Pangyan, Philippines",
       "countries": [],
-      "lat": 5.6079,
-      "lon": 125.3054,
-      "timeUtc": "Wed, 28 Oct 2026 01:11:54 GMT",
-      "mag": 5.2,
+      "lat": 5.6662,
+      "lon": 125.288,
+      "timeUtc": "Wed, 28 Oct 2026 01:11:56 GMT",
+      "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000ttlc"
       ],
@@ -2781,16 +2808,16 @@
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
       "countries": [],
-      "lat": 27.8771,
-      "lon": 139.7294,
-      "timeUtc": "Sun, 25 Oct 2026 02:47:49 GMT",
-      "mag": 4.2,
+      "lat": 27.6149,
+      "lon": 139.6974,
+      "timeUtc": "Sun, 25 Oct 2026 02:47:46 GMT",
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u4ru"
       ],
@@ -2817,7 +2844,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000u4rr"
       ],
@@ -2844,7 +2871,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tw0z"
       ],
@@ -2871,7 +2898,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tvz1"
       ],
