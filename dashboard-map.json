@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:15:14.432Z",
+  "generatedAt": "2026-11-14T02:29:50.844Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "177 in-scope event(s)"
+      "detail": "173 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-13T16:47:54.865Z",
+    "priorRunAt": "2026-11-13T22:15:14.432Z",
     "changes": []
   },
   "stories": [
@@ -2412,7 +2412,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ttc6"
       ],
@@ -2808,16 +2808,16 @@
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
       "countries": [],
-      "lat": 27.6872,
-      "lon": 139.7389,
+      "lat": 27.6622,
+      "lon": 139.6534,
       "timeUtc": "Sun, 25 Oct 2026 02:36:32 GMT",
-      "mag": 4.8,
+      "mag": 5,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us6000u4rr"
       ],
@@ -2825,6 +2825,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4rr"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tw0z",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.8172,
+      "lon": 139.8801,
+      "timeUtc": "Sun, 25 Oct 2026 02:28:02 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tw0z"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw0z"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tvz1",
+      "hazardType": "EQ",
+      "title": "Bonin Islands, Japan region",
+      "countries": [],
+      "lat": 27.5942,
+      "lon": 139.4926,
+      "timeUtc": "Sun, 25 Oct 2026 02:27:32 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tvz1"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvz1"
         }
       ],
       "supplementary": [],
@@ -2916,10 +2970,10 @@
     {
       "id": "us6000u4p7",
       "hazardType": "EQ",
-      "title": "257 km ENE of Lospalos, Timor Leste",
+      "title": "278 km ENE of Lospalos, Timor Leste",
       "countries": [],
-      "lat": -7.2583,
-      "lon": 128.9646,
+      "lat": -7.2024,
+      "lon": 129.151,
       "timeUtc": "Sat, 24 Oct 2026 20:23:19 GMT",
       "mag": 4.1,
       "gdacsAlert": null,
@@ -4690,168 +4744,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ch"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u46d",
-      "hazardType": "EQ",
-      "title": "12 km NNW of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.3986,
-      "lon": 119.8301,
-      "timeUtc": "Wed, 14 Oct 2026 18:14:12 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u46d"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u46d"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u46c",
-      "hazardType": "EQ",
-      "title": "178 km N of Bamboo Flat, India",
-      "countries": [],
-      "lat": 13.3026,
-      "lon": 92.5017,
-      "timeUtc": "Wed, 14 Oct 2026 18:02:18 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u46c"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u46c"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2ab",
-      "hazardType": "EQ",
-      "title": "95 km SSW of Bengkulu, Indonesia",
-      "countries": [],
-      "lat": -4.5612,
-      "lon": 101.8653,
-      "timeUtc": "Wed, 14 Oct 2026 15:12:45 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2ab"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ab"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u28f",
-      "hazardType": "EQ",
-      "title": "Banda Sea",
-      "countries": [],
-      "lat": -6.4062,
-      "lon": 129.8824,
-      "timeUtc": "Wed, 14 Oct 2026 09:21:12 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u28f"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28f"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u45x",
-      "hazardType": "EQ",
-      "title": "33 km SW of Sarangani, Philippines",
-      "countries": [],
-      "lat": 5.2036,
-      "lon": 125.2317,
-      "timeUtc": "Wed, 14 Oct 2026 07:02:53 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u45x"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45x"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u45v",
-      "hazardType": "EQ",
-      "title": "73 km NNE of Ruteng, Indonesia",
-      "countries": [],
-      "lat": -8.0579,
-      "lon": 120.8361,
-      "timeUtc": "Wed, 14 Oct 2026 06:33:44 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u45v"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45v"
         }
       ],
       "supplementary": [],
