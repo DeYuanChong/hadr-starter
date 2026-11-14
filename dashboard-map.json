@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:53:35.095Z",
+  "generatedAt": "2026-11-14T20:38:26.560Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "1 in-scope record(s)"
+      "detail": "3 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "174 in-scope event(s)"
+      "detail": "176 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,25 +27,78 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-14T09:20:22.771Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104271",
-        "title": "Flood in Vietnam",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "1104253",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "new green-tier story"
-      }
-    ]
+    "priorRunAt": "2026-11-14T15:53:35.095Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000ty9v",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 5.5982,
+      "lon": 126.6097,
+      "timeUtc": "Sat, 14 Nov 2026 16:56:39 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000ty9v",
+        "1577360"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577360&episodeid=1746627&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ty9l",
+      "hazardType": "EQ",
+      "title": "Earthquake in Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": 8.3996,
+      "lon": 126.2112,
+      "timeUtc": "Sat, 14 Nov 2026 16:04:22 GMT",
+      "mag": 4.9,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000ty9l",
+        "1577356"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577356&episodeid=1746618&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1104253",
       "hazardType": "FL",
@@ -62,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "1104253"
       ],
@@ -147,7 +200,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000txz0"
       ],
@@ -201,7 +254,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000txy5"
       ],
@@ -3218,11 +3271,11 @@
     {
       "id": "us6000u4f5",
       "hazardType": "EQ",
-      "title": "91 km ESE of Tuensang, India",
+      "title": "96 km ESE of Tuensang, India",
       "countries": [],
-      "lat": 25.9295,
-      "lon": 95.6545,
-      "timeUtc": "Fri, 23 Oct 2026 17:06:25 GMT",
+      "lat": 25.9964,
+      "lon": 95.7372,
+      "timeUtc": "Fri, 23 Oct 2026 17:06:24 GMT",
       "mag": 4.6,
       "gdacsAlert": null,
       "pagerAlert": null,
