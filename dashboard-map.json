@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T19:59:07.303Z",
+  "generatedAt": "2026-11-15T23:55:34.907Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "183 in-scope event(s)"
+      "detail": "185 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,18 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-15T14:42:07.005Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104253",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-11-15T19:59:07.303Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us7000tyg6",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -5.9449,
+      "lon": 128.7523,
+      "timeUtc": "Sun, 15 Nov 2026 20:51:56 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us7000tyg6",
+        "1577543"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577543&episodeid=1746823&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyg6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us7000tyf4",
       "hazardType": "EQ",
@@ -55,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyf4",
         "1577509"
@@ -89,7 +115,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyes",
         "1577504"
@@ -142,68 +168,27 @@
       "imagery": null
     },
     {
-      "id": "us7000tyan",
+      "id": "us7000tyg0",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.3823,
-      "lon": 120.443,
-      "timeUtc": "Sat, 14 Nov 2026 21:24:20 GMT",
-      "mag": 4.5,
-      "gdacsAlert": "Green",
+      "title": "102 km ESE of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.9457,
+      "lon": 126.2715,
+      "timeUtc": "Sun, 15 Nov 2026 19:38:39 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "new",
       "aliases": [
-        "us7000tyan",
-        "1577378"
+        "us7000tyg0"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577378&episodeid=1746652&eventtype=EQ"
-        },
-        {
           "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ty9v",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 5.5982,
-      "lon": 126.6097,
-      "timeUtc": "Sat, 14 Nov 2026 16:56:39 GMT",
-      "mag": 4.6,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ty9v",
-        "1577360"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577360&episodeid=1746627&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v"
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyg0"
         }
       ],
       "supplementary": [],
@@ -223,7 +208,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyfb"
       ],
@@ -250,7 +235,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyeu"
       ],
@@ -291,6 +276,60 @@
       "imagery": null
     },
     {
+      "id": "us7000tyan",
+      "hazardType": "EQ",
+      "title": "25 km N of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.3823,
+      "lon": 120.443,
+      "timeUtc": "Sat, 14 Nov 2026 21:24:20 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tyan"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000ty9v",
+      "hazardType": "EQ",
+      "title": "96 km SSE of Pondaguitan, Philippines",
+      "countries": [],
+      "lat": 5.5982,
+      "lon": 126.6097,
+      "timeUtc": "Sat, 14 Nov 2026 16:56:39 GMT",
+      "mag": 4.6,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000ty9v"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ty9l",
       "hazardType": "EQ",
       "title": "7 km SE of Tagbina, Philippines",
@@ -304,7 +343,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ty9l"
       ],
@@ -1159,9 +1198,9 @@
       "hazardType": "EQ",
       "title": "Bonin Islands, Japan region",
       "countries": [],
-      "lat": 26.9139,
-      "lon": 140.2478,
-      "timeUtc": "Fri, 06 Nov 2026 13:52:56 GMT",
+      "lat": 26.8889,
+      "lon": 140.3258,
+      "timeUtc": "Fri, 06 Nov 2026 13:52:55 GMT",
       "mag": 4.2,
       "gdacsAlert": null,
       "pagerAlert": null,
