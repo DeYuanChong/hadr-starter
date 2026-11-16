@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:55:34.907Z",
+  "generatedAt": "2026-11-16T06:11:09.115Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "185 in-scope event(s)"
+      "detail": "181 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,7 +27,7 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-15T19:59:07.303Z",
+    "priorRunAt": "2026-11-15T23:55:34.907Z",
     "changes": []
   },
   "stories": [
@@ -47,7 +47,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyg6",
         "1577543"
@@ -181,7 +181,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyg0"
       ],
@@ -289,7 +289,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000tyan"
       ],
@@ -316,7 +316,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us7000ty9v"
       ],
@@ -2031,6 +2031,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tx5d",
+      "hazardType": "EQ",
+      "title": "47 km SSW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 4.9872,
+      "lon": 125.3646,
+      "timeUtc": "Sat, 31 Oct 2026 00:48:50 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tx5d"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx5d"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tub8",
       "hazardType": "EQ",
       "title": "7 km NE of Tago, Philippines",
@@ -2116,16 +2143,16 @@
       "hazardType": "EQ",
       "title": "26 km SW of Tambolaka, Indonesia",
       "countries": [],
-      "lat": -9.5953,
-      "lon": 119.0611,
+      "lat": -9.5954,
+      "lon": 119.0622,
       "timeUtc": "Thu, 29 Oct 2026 21:34:37 GMT",
-      "mag": 4.4,
+      "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000tu4e"
       ],
@@ -3682,12 +3709,39 @@
       "imagery": null
     },
     {
+      "id": "us7000tu9e",
+      "hazardType": "EQ",
+      "title": "9 km SE of Santa Maria, Philippines",
+      "countries": [],
+      "lat": 7.9747,
+      "lon": 126.2216,
+      "timeUtc": "Fri, 23 Oct 2026 02:41:08 GMT",
+      "mag": 4.1,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tu9e"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu9e"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u49a",
       "hazardType": "EQ",
-      "title": "18 km NNW of Yongning, China",
+      "title": "17 km NNW of Yongning, China",
       "countries": [],
-      "lat": 27.9986,
-      "lon": 100.6189,
+      "lat": 27.9707,
+      "lon": 100.5857,
       "timeUtc": "Fri, 23 Oct 2026 02:17:01 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
@@ -4891,168 +4945,6 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tthe"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u4es",
-      "hazardType": "EQ",
-      "title": "43 km E of Pototano, Indonesia",
-      "countries": [],
-      "lat": -8.41,
-      "lon": 117.8771,
-      "timeUtc": "Fri, 16 Oct 2026 22:27:18 GMT",
-      "mag": 4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u4es"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4es"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u4eq",
-      "hazardType": "EQ",
-      "title": "125 km SSE of Sarangani, Philippines",
-      "countries": [],
-      "lat": 4.3305,
-      "lon": 125.8404,
-      "timeUtc": "Fri, 16 Oct 2026 20:28:48 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u4eq"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4eq"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2s5",
-      "hazardType": "EQ",
-      "title": "286 km ENE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.198,
-      "lon": 129.2298,
-      "timeUtc": "Fri, 16 Oct 2026 17:47:38 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2s5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2s5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2rv",
-      "hazardType": "EQ",
-      "title": "119 km ESE of Bitung, Indonesia",
-      "countries": [],
-      "lat": 1.2192,
-      "lon": 126.1814,
-      "timeUtc": "Fri, 16 Oct 2026 16:25:59 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2rv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2rv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2pp",
-      "hazardType": "EQ",
-      "title": "14 km ESE of Lamitan, Philippines",
-      "countries": [],
-      "lat": 6.0542,
-      "lon": 125.8275,
-      "timeUtc": "Fri, 16 Oct 2026 12:18:25 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2pp"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pp"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u2p2",
-      "hazardType": "EQ",
-      "title": "46 km NE of Kinablangan, Philippines",
-      "countries": [],
-      "lat": 7.9271,
-      "lon": 126.8993,
-      "timeUtc": "Fri, 16 Oct 2026 09:13:40 GMT",
-      "mag": 5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u2p2"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2p2"
         }
       ],
       "supplementary": [],
