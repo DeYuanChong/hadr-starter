@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T07:11:55.914Z",
+  "generatedAt": "2026-11-18T16:32:46.480Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "181 in-scope event(s)"
+      "detail": "182 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,183 +27,18 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-18T00:00:12.022Z",
+    "priorRunAt": "2026-11-18T07:11:55.914Z",
     "changes": [
       {
-        "kind": "deleted",
-        "storyId": "1018545",
-        "title": "Drought in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
-        "hazardType": "DR",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1027462",
-        "title": "Drought in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Vietnam",
-        "hazardType": "DR",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-        "title": "Myanmar: Floods - Jun 2026 (fixture)",
-        "hazardType": "OTHER",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
         "kind": "new",
-        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl",
-        "title": "Philippines: Floods - Aug 2026",
-        "hazardType": "OTHER",
-        "detail": "new no alert-tier story"
-      },
-      {
-        "kind": "new",
-        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr",
-        "title": "Myanmar: Floods - Jul 2026",
-        "hazardType": "OTHER",
-        "detail": "new no alert-tier story"
+        "storyId": "1104239",
+        "title": "Flood in Malaysia",
+        "hazardType": "FL",
+        "detail": "new green-tier story"
       }
     ]
   },
   "stories": [
-    {
-      "id": "us7000tyy2",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.0301,
-      "lon": 120.6485,
-      "timeUtc": "Wed, 18 Nov 2026 05:24:55 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "new",
-      "aliases": [
-        "us7000tyy2",
-        "1577936"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577936&episodeid=1747263&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tyxi",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.2501,
-      "lon": 120.5285,
-      "timeUtc": "Wed, 18 Nov 2026 04:41:32 GMT",
-      "mag": 5.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "new",
-      "aliases": [
-        "us7000tyxi",
-        "usauto7000tyxi",
-        "1577920"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577920&episodeid=1747238&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tyxc",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.151,
-      "lon": 120.6489,
-      "timeUtc": "Wed, 18 Nov 2026 04:21:35 GMT",
-      "mag": 5.2,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "new",
-      "aliases": [
-        "us7000tyxc",
-        "1577919"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577919&episodeid=1747233&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tywx",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9907,
-      "lon": 136.6576,
-      "timeUtc": "Wed, 18 Nov 2026 03:23:58 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "new",
-      "aliases": [
-        "us7000tywx",
-        "1577910"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577910&episodeid=1747221&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
     {
       "id": "1104253",
       "hazardType": "FL",
@@ -247,6 +82,176 @@
       }
     },
     {
+      "id": "us7000tyy2",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.0301,
+      "lon": 120.6485,
+      "timeUtc": "Wed, 18 Nov 2026 05:24:55 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "unchanged",
+      "aliases": [
+        "us7000tyy2",
+        "1577936"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577936&episodeid=1747263&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tyxi",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.2501,
+      "lon": 120.5285,
+      "timeUtc": "Wed, 18 Nov 2026 04:41:32 GMT",
+      "mag": 5.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "unchanged",
+      "aliases": [
+        "us7000tyxi",
+        "usauto7000tyxi",
+        "1577920"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577920&episodeid=1747238&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tyxc",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -8.151,
+      "lon": 120.6489,
+      "timeUtc": "Wed, 18 Nov 2026 04:21:35 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "unchanged",
+      "aliases": [
+        "us7000tyxc",
+        "1577919"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577919&episodeid=1747233&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tywx",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -2.9907,
+      "lon": 136.6576,
+      "timeUtc": "Wed, 18 Nov 2026 03:23:58 GMT",
+      "mag": 4.8,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "unchanged",
+      "aliases": [
+        "us7000tywx",
+        "1577910"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577910&episodeid=1747221&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "1104239",
+      "hazardType": "FL",
+      "title": "Flood in Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "lat": 3.3315,
+      "lon": 101.2513,
+      "timeUtc": "2026-10-15T01:00:00",
+      "mag": null,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "1104239"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=7&eventtype=FL"
+        }
+      ],
+      "supplementary": [],
+      "imagery": {
+        "imageDate": "2026-10-15",
+        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=100.5013,2.5815,102.0013,4.0815&t=2026-10-15",
+        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
+      }
+    },
+    {
       "id": "us7000tyum",
       "hazardType": "EQ",
       "title": "35 km WSW of Palauig, Philippines",
@@ -274,6 +279,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tys6",
+      "hazardType": "EQ",
+      "title": "141 km NE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.5464,
+      "lon": 127.8304,
+      "timeUtc": "Tue, 17 Nov 2026 11:15:26 GMT",
+      "mag": 4.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tys6"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tys6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tynx",
       "hazardType": "EQ",
       "title": "121 km WSW of Tual, Indonesia",
@@ -287,7 +319,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tynx"
       ],
@@ -2791,18 +2823,18 @@
     {
       "id": "us7000ttnq",
       "hazardType": "EQ",
-      "title": "1 km WSW of Butulan, Philippines",
+      "title": "9 km WNW of Balangonan, Philippines",
       "countries": [],
-      "lat": 5.6073,
-      "lon": 125.4182,
-      "timeUtc": "Wed, 28 Oct 2026 12:14:49 GMT",
-      "mag": 4.9,
+      "lat": 5.5928,
+      "lon": 125.2686,
+      "timeUtc": "Wed, 28 Oct 2026 12:14:54 GMT",
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000ttnq"
       ],
@@ -2818,18 +2850,18 @@
     {
       "id": "us7000ttmz",
       "hazardType": "EQ",
-      "title": "29 km SSW of Sarangani, Philippines",
+      "title": "19 km SSW of Sarangani, Philippines",
       "countries": [],
-      "lat": 5.1505,
-      "lon": 125.3884,
-      "timeUtc": "Wed, 28 Oct 2026 09:32:56 GMT",
-      "mag": 4.8,
+      "lat": 5.2345,
+      "lon": 125.4004,
+      "timeUtc": "Wed, 28 Oct 2026 09:32:54 GMT",
+      "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000ttmz"
       ],
@@ -3180,7 +3212,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tw90"
       ],
@@ -3423,7 +3455,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tw0r"
       ],
@@ -4170,11 +4202,11 @@
     {
       "id": "us6000u4b3",
       "hazardType": "EQ",
-      "title": "18 km WNW of Bantogon, Philippines",
+      "title": "19 km WNW of Bantogon, Philippines",
       "countries": [],
-      "lat": 6.5678,
-      "lon": 123.8685,
-      "timeUtc": "Fri, 23 Oct 2026 09:09:36 GMT",
+      "lat": 6.6043,
+      "lon": 123.8752,
+      "timeUtc": "Fri, 23 Oct 2026 09:09:35 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -5047,7 +5079,7 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl"
       ],
@@ -5081,7 +5113,7 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr"
       ],
