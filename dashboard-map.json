@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:55:14.930Z",
+  "generatedAt": "2026-11-19T21:23:51.575Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "7 in-scope record(s)"
+      "detail": "2 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "178 in-scope event(s)"
+      "detail": "180 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,16 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-19T04:05:49.721Z",
-    "changes": []
+    "priorRunAt": "2026-11-19T12:55:14.930Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104239",
+        "title": "Flood in Malaysia",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      }
+    ]
   },
   "stories": [
     {
@@ -108,174 +116,31 @@
       "imagery": null
     },
     {
-      "id": "us7000tyy2",
+      "id": "us6000uc26",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.0301,
-      "lon": 120.6485,
-      "timeUtc": "Wed, 18 Nov 2026 05:24:55 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
+      "title": "13 km WNW of Xichang, China",
+      "countries": [],
+      "lat": 27.9346,
+      "lon": 102.1326,
+      "timeUtc": "Thu, 19 Nov 2026 18:41:19 GMT",
+      "mag": 4.9,
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tyy2",
-        "1577936"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577936&episodeid=1747263&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy2"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tyxi",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.2501,
-      "lon": 120.5285,
-      "timeUtc": "Wed, 18 Nov 2026 04:41:32 GMT",
-      "mag": 5.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tyxi",
-        "usauto7000tyxi",
-        "1577920"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577920&episodeid=1747238&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tyxc",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -8.151,
-      "lon": 120.6489,
-      "timeUtc": "Wed, 18 Nov 2026 04:21:35 GMT",
-      "mag": 5.2,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tyxc",
-        "1577919"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577919&episodeid=1747233&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tywx",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": -2.9907,
-      "lon": 136.6576,
-      "timeUtc": "Wed, 18 Nov 2026 03:23:58 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tywx",
-        "1577910"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577910&episodeid=1747221&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104239",
-      "hazardType": "FL",
-      "title": "Flood in Malaysia",
-      "countries": [
-        "Malaysia"
-      ],
-      "lat": 3.3315,
-      "lon": 101.2513,
-      "timeUtc": "2026-10-15T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "1104239"
+        "us6000uc26"
       ],
       "sources": [
         {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=7&eventtype=FL"
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc26"
         }
       ],
       "supplementary": [],
-      "imagery": {
-        "imageDate": "2026-10-15",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=100.5013,2.5815,102.0013,4.0815&t=2026-10-15",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
+      "imagery": null
     },
     {
       "id": "us6000ubvt",
@@ -299,6 +164,115 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubvt"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tyy2",
+      "hazardType": "EQ",
+      "title": "67 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.0301,
+      "lon": 120.6485,
+      "timeUtc": "Wed, 18 Nov 2026 05:24:55 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tyy2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tyxi",
+      "hazardType": "EQ",
+      "title": "40 km N of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.2501,
+      "lon": 120.5285,
+      "timeUtc": "Wed, 18 Nov 2026 04:41:32 GMT",
+      "mag": 5.8,
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "revised",
+      "aliases": [
+        "us7000tyxi",
+        "usauto7000tyxi"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tyxc",
+      "hazardType": "EQ",
+      "title": "54 km NNE of Ruteng, Indonesia",
+      "countries": [],
+      "lat": -8.151,
+      "lon": 120.6489,
+      "timeUtc": "Wed, 18 Nov 2026 04:21:35 GMT",
+      "mag": 5.2,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tyxc"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tywx",
+      "hazardType": "EQ",
+      "title": "134 km ENE of Nabire, Indonesia",
+      "countries": [],
+      "lat": -2.9907,
+      "lon": 136.6576,
+      "timeUtc": "Wed, 18 Nov 2026 03:23:58 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us7000tywx"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx"
         }
       ],
       "supplementary": [],
@@ -3414,6 +3388,33 @@
       "imagery": null
     },
     {
+      "id": "us7000tw1k",
+      "hazardType": "EQ",
+      "title": "90 km SE of Pondaguitan, Philippines",
+      "countries": [],
+      "lat": 5.7119,
+      "lon": 126.6806,
+      "timeUtc": "Mon, 26 Oct 2026 06:43:24 GMT",
+      "mag": 4.4,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tw1k"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw1k"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000u4y1",
       "hazardType": "EQ",
       "title": "45 km N of Ende, Indonesia",
@@ -4293,7 +4294,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tua2"
       ],
@@ -4320,7 +4321,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tu9w"
       ],
