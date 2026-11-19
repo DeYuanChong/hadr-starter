@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T23:04:05.441Z",
+  "generatedAt": "2026-11-19T04:05:49.721Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,28 +13,28 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "7 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "184 in-scope event(s)"
+      "detail": "176 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
-      "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "status": "live",
+      "detail": "live RSS"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-18T16:32:46.480Z",
+    "priorRunAt": "2026-11-18T23:04:05.441Z",
     "changes": [
       {
-        "kind": "new",
+        "kind": "deleted",
         "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
         "title": "Myanmar: Floods - Jun 2026 (fixture)",
         "hazardType": "OTHER",
-        "detail": "new no alert-tier story"
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
       }
     ]
   },
@@ -65,12 +65,55 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL"
         }
       ],
-      "supplementary": [],
+      "supplementary": [
+        {
+          "title": "Indonesia: Drought - Sep 2026",
+          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
+        },
+        {
+          "title": "Indonesia: Earthquake - Aug 2026",
+          "url": "https://reliefweb.int/disaster/eq-2026-000150-idn"
+        }
+      ],
       "imagery": {
         "imageDate": "2026-10-24",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.2753,3.6185,97.7753,5.1185&t=2026-10-24",
         "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
       }
+    },
+    {
+      "id": "us6000ubxb",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 0.5231,
+      "lon": 96.5298,
+      "timeUtc": "Thu, 19 Nov 2026 01:34:52 GMT",
+      "mag": 5.2,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ubxb",
+        "1578098"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578098&episodeid=1747436&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubxb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
     },
     {
       "id": "us7000tyy2",
@@ -256,7 +299,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ubvt"
       ],
@@ -1273,11 +1316,11 @@
     {
       "id": "us7000tx9s",
       "hazardType": "EQ",
-      "title": "78 km NW of Pante Makasar, Timor Leste",
+      "title": "92 km NW of Pante Makasar, Timor Leste",
       "countries": [],
-      "lat": -8.6129,
-      "lon": 123.9775,
-      "timeUtc": "Mon, 09 Nov 2026 21:06:35 GMT",
+      "lat": -8.5095,
+      "lon": 123.9077,
+      "timeUtc": "Mon, 09 Nov 2026 21:06:34 GMT",
       "mag": 4.3,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -3934,7 +3977,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tv7x"
       ],
@@ -4866,252 +4909,43 @@
       "imagery": null
     },
     {
-      "id": "us6000u3gm",
-      "hazardType": "EQ",
-      "title": "251 km SW of Tambolaka, Indonesia",
-      "countries": [],
-      "lat": -11.232,
-      "lon": 117.8466,
-      "timeUtc": "Mon, 19 Oct 2026 19:16:50 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3gm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3gm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3fm",
-      "hazardType": "EQ",
-      "title": "188 km ENE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.8171,
-      "lon": 128.5573,
-      "timeUtc": "Mon, 19 Oct 2026 17:20:54 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3fm"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3fm"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3ch",
-      "hazardType": "EQ",
-      "title": "57 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.1139,
-      "lon": 120.235,
-      "timeUtc": "Mon, 19 Oct 2026 12:06:01 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3ch"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ch"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3ca",
-      "hazardType": "EQ",
-      "title": "203 km NE of Lospalos, Timor Leste",
-      "countries": [],
-      "lat": -7.3894,
-      "lon": 128.4534,
-      "timeUtc": "Mon, 19 Oct 2026 11:10:24 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3ca"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ca"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3c5",
-      "hazardType": "EQ",
-      "title": "38 km N of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.1494,
-      "lon": 119.9476,
-      "timeUtc": "Mon, 19 Oct 2026 10:10:55 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3c5"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c5"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3c1",
-      "hazardType": "EQ",
-      "title": "68 km NE of Labuan Bajo, Indonesia",
-      "countries": [],
-      "lat": -8.0128,
-      "lon": 120.2778,
-      "timeUtc": "Mon, 19 Oct 2026 09:45:55 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3c1"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c1"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3bv",
-      "hazardType": "EQ",
-      "title": "178 km WNW of Tobelo, Indonesia",
-      "countries": [],
-      "lat": 2.3665,
-      "lon": 126.5351,
-      "timeUtc": "Mon, 19 Oct 2026 09:00:39 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3bv"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bv"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ttr0",
-      "hazardType": "EQ",
-      "title": "10 km SE of Khawhai, India",
-      "countries": [],
-      "lat": 23.3218,
-      "lon": 93.2135,
-      "timeUtc": "Mon, 19 Oct 2026 06:29:43 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ttr0"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttr0"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us6000u3ar",
-      "hazardType": "EQ",
-      "title": "Banda Sea",
-      "countries": [],
-      "lat": -6.3133,
-      "lon": 130.1267,
-      "timeUtc": "Mon, 19 Oct 2026 06:15:13 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us6000u3ar"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ar"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl",
       "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jun 2026 (fixture)",
+      "title": "Philippines: Floods - Aug 2026",
+      "countries": [
+        "Philippines"
+      ],
+      "lat": null,
+      "lon": null,
+      "timeUtc": null,
+      "mag": null,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": false,
+      "reconciled": false,
+      "state": "unchanged",
+      "aliases": [
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl"
+      ],
+      "sources": [
+        {
+          "feed": "reliefweb",
+          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
+        }
+      ],
+      "supplementary": [
+        {
+          "title": "Philippines: Floods - Aug 2026",
+          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
+        }
+      ],
+      "imagery": null
+    },
+    {
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr",
+      "hazardType": "OTHER",
+      "title": "Myanmar: Floods - Jul 2026",
       "countries": [
         "Myanmar"
       ],
@@ -5124,20 +4958,20 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr"
       ],
       "sources": [
         {
           "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
         }
       ],
       "supplementary": [
         {
-          "title": "Myanmar: Floods - Jun 2026 (fixture)",
-          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
+          "title": "Myanmar: Floods - Jul 2026",
+          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
         }
       ],
       "imagery": null
