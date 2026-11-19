@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T04:05:49.721Z",
+  "generatedAt": "2026-11-19T12:55:14.930Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "176 in-scope event(s)"
+      "detail": "178 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,16 +27,8 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-18T23:04:05.441Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-        "title": "Myanmar: Floods - Jun 2026 (fixture)",
-        "hazardType": "OTHER",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      }
-    ]
+    "priorRunAt": "2026-11-19T04:05:49.721Z",
+    "changes": []
   },
   "stories": [
     {
@@ -88,16 +80,16 @@
       "countries": [
         "Indonesia"
       ],
-      "lat": 0.5231,
-      "lon": 96.5298,
-      "timeUtc": "Thu, 19 Nov 2026 01:34:52 GMT",
+      "lat": 0.5027,
+      "lon": 96.6318,
+      "timeUtc": "Thu, 19 Nov 2026 01:34:48 GMT",
       "mag": 5.2,
       "gdacsAlert": "Green",
       "pagerAlert": null,
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ubxb",
         "1578098"
@@ -105,7 +97,7 @@
       "sources": [
         {
           "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578098&episodeid=1747436&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578098&episodeid=1747463&eventtype=EQ"
         },
         {
           "feed": "usgs",
@@ -1289,11 +1281,11 @@
     {
       "id": "us7000txa7",
       "hazardType": "EQ",
-      "title": "224 km W of Abepura, Indonesia",
+      "title": "203 km W of Abepura, Indonesia",
       "countries": [],
-      "lat": -2.3853,
-      "lon": 138.6219,
-      "timeUtc": "Tue, 10 Nov 2026 00:11:23 GMT",
+      "lat": -2.3778,
+      "lon": 138.8149,
+      "timeUtc": "Tue, 10 Nov 2026 00:11:22 GMT",
       "mag": 4.5,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -4282,6 +4274,60 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tua6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tua2",
+      "hazardType": "EQ",
+      "title": "206 km WSW of Tual, Indonesia",
+      "countries": [],
+      "lat": -6.1668,
+      "lon": 130.9619,
+      "timeUtc": "Fri, 23 Oct 2026 10:56:33 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tua2"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tua2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us7000tu9w",
+      "hazardType": "EQ",
+      "title": "92 km E of Aras-asan, Philippines",
+      "countries": [],
+      "lat": 8.9449,
+      "lon": 127.1525,
+      "timeUtc": "Fri, 23 Oct 2026 09:29:45 GMT",
+      "mag": 4.5,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000tu9w"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu9w"
         }
       ],
       "supplementary": [],
