@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T08:09:43.391Z",
+  "generatedAt": "2026-11-22T16:25:15.831Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,24 +13,58 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "4 in-scope record(s)"
+      "detail": "5 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "177 in-scope event(s)"
+      "detail": "178 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
       "status": "fixture",
-      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
+      "detail": "live unavailable (timed out after 15000ms); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-22T01:11:27.467Z",
+    "priorRunAt": "2026-11-22T08:09:43.391Z",
     "changes": []
   },
   "stories": [
+    {
+      "id": "us6000ucrb",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 3.0314,
+      "lon": 126.3861,
+      "timeUtc": "Sun, 22 Nov 2026 07:54:40 GMT",
+      "mag": 5.4,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ucrb",
+        "1578681"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578681&episodeid=1748084&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrb"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000ucr3",
       "hazardType": "EQ",
@@ -47,7 +81,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ucr3",
         "1578676"
@@ -1659,11 +1693,11 @@
     {
       "id": "us7000tx3c",
       "hazardType": "EQ",
-      "title": "271 km N of Tobelo, Indonesia",
+      "title": "272 km N of Tobelo, Indonesia",
       "countries": [],
-      "lat": 4.1741,
-      "lon": 127.7802,
-      "timeUtc": "Mon, 09 Nov 2026 11:25:07 GMT",
+      "lat": 4.1806,
+      "lon": 127.8171,
+      "timeUtc": "Mon, 09 Nov 2026 11:25:06 GMT",
       "mag": 4.7,
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -1686,10 +1720,10 @@
     {
       "id": "us7000tx34",
       "hazardType": "EQ",
-      "title": "183 km E of Masohi, Indonesia",
+      "title": "179 km E of Masohi, Indonesia",
       "countries": [],
-      "lat": -2.9775,
-      "lon": 130.5842,
+      "lat": -2.9862,
+      "lon": 130.5501,
       "timeUtc": "Mon, 09 Nov 2026 09:53:38 GMT",
       "mag": 4.8,
       "gdacsAlert": null,
@@ -1713,10 +1747,10 @@
     {
       "id": "us7000tx32",
       "hazardType": "EQ",
-      "title": "160 km E of Masohi, Indonesia",
+      "title": "159 km E of Masohi, Indonesia",
       "countries": [],
-      "lat": -3.0627,
-      "lon": 130.3905,
+      "lat": -3.0609,
+      "lon": 130.382,
       "timeUtc": "Mon, 09 Nov 2026 09:48:27 GMT",
       "mag": 5.4,
       "gdacsAlert": null,
@@ -1886,7 +1920,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000twqr"
       ],
