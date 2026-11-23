@@ -1,44 +1,72 @@
 {
   "version": 1,
-  "lastRunAt": "2026-11-22T21:58:31.917Z",
+  "lastRunAt": "2026-11-23T02:33:06.987Z",
   "cursors": {
     "gdacs": {
-      "lastSuccessAt": "2026-11-22T21:58:31.917Z",
-      "watermark": "2026-11-22T21:56:43"
+      "lastSuccessAt": "2026-11-23T02:33:06.987Z",
+      "watermark": "2026-11-23T02:20:04"
     },
     "usgs": {
-      "lastSuccessAt": "2026-11-22T21:58:31.917Z",
-      "watermark": "2026-11-22T21:11:09.040Z"
+      "lastSuccessAt": "2026-11-23T02:33:06.987Z",
+      "watermark": "2026-11-23T00:43:50.040Z"
     },
     "reliefweb": {
-      "lastSuccessAt": "2026-11-22T21:58:31.917Z",
+      "lastSuccessAt": "2026-11-23T02:33:06.987Z",
       "watermark": null
     }
   },
   "stories": {
-    "1104253": {
-      "id": "1104253",
+    "us6000ucv4": {
+      "id": "us6000ucv4",
       "aliases": [
-        "1104253"
+        "us6000ucv4",
+        "1578778"
       ],
-      "hazardType": "FL",
-      "title": "Flood in Indonesia",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
       "tier": "green",
       "gdacsAlert": "Green",
       "pagerAlert": null,
-      "mag": null,
+      "mag": 4.7,
       "countries": [
         "Indonesia"
       ],
       "feeds": [
-        "gdacs"
+        "gdacs",
+        "usgs"
       ],
-      "eventTimeMs": 1792803600000,
-      "hadSupplementary": true,
-      "everReported": true,
-      "state": "deleted",
-      "firstSeenAt": "2026-11-16T16:03:55.384Z",
-      "lastSeenAt": "2026-11-22T16:25:15.831Z"
+      "eventTimeMs": 1795392480000,
+      "hadSupplementary": false,
+      "everReported": false,
+      "state": "new",
+      "firstSeenAt": "2026-11-23T02:33:06.987Z",
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
+    },
+    "us6000ucv2": {
+      "id": "us6000ucv2",
+      "aliases": [
+        "us6000ucv2",
+        "1578777"
+      ],
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "tier": "green",
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "mag": 4.7,
+      "countries": [
+        "Indonesia"
+      ],
+      "feeds": [
+        "gdacs",
+        "usgs"
+      ],
+      "eventTimeMs": 1795391444000,
+      "hadSupplementary": false,
+      "everReported": false,
+      "state": "new",
+      "firstSeenAt": "2026-11-23T02:33:06.987Z",
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucrb": {
       "id": "us6000ucrb",
@@ -64,7 +92,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-22T16:25:15.831Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucr3": {
       "id": "us6000ucr3",
@@ -90,7 +118,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-22T08:09:43.391Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucpj": {
       "id": "us6000ucpj",
@@ -116,35 +144,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-22T01:11:27.467Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000ucij": {
-      "id": "us6000ucij",
-      "aliases": [
-        "us6000ucij",
-        "usauto6000ucij",
-        "attouiya",
-        "1578530"
-      ],
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "tier": "green",
-      "gdacsAlert": "Green",
-      "pagerAlert": "green",
-      "mag": 6.8,
-      "countries": [
-        "Indonesia"
-      ],
-      "feeds": [
-        "gdacs",
-        "usgs"
-      ],
-      "eventTimeMs": 1795254129000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-11-21T15:33:47.043Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucnl": {
       "id": "us6000ucnl",
@@ -166,7 +166,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-22T01:11:27.467Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucmt": {
       "id": "us6000ucmt",
@@ -188,7 +188,31 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T21:04:36.143Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
+    },
+    "us6000ucij": {
+      "id": "us6000ucij",
+      "aliases": [
+        "us6000ucij",
+        "usauto6000ucij",
+        "attouiya"
+      ],
+      "hazardType": "EQ",
+      "title": "105 km NE of Lospalos, Timor Leste",
+      "tier": "green",
+      "gdacsAlert": null,
+      "pagerAlert": "green",
+      "mag": 6.8,
+      "countries": [],
+      "feeds": [
+        "usgs"
+      ],
+      "eventTimeMs": 1795254129000,
+      "hadSupplementary": false,
+      "everReported": false,
+      "state": "revised",
+      "firstSeenAt": "2026-11-21T15:33:47.043Z",
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucax": {
       "id": "us6000ucax",
@@ -210,7 +234,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T00:20:28.313Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000uc96": {
       "id": "us6000uc96",
@@ -232,7 +256,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T18:46:27.925Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000uc3v": {
       "id": "us6000uc3v",
@@ -254,7 +278,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T02:32:32.912Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000uc26": {
       "id": "us6000uc26",
@@ -276,7 +300,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-19T21:23:51.575Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ubxb": {
       "id": "us6000ubxb",
@@ -298,7 +322,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-19T04:05:49.721Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ubvt": {
       "id": "us6000ubvt",
@@ -320,7 +344,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T23:04:05.441Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyy2": {
       "id": "us7000tyy2",
@@ -342,7 +366,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyxi": {
       "id": "us7000tyxi",
@@ -365,7 +389,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyxc": {
       "id": "us7000tyxc",
@@ -387,7 +411,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tywx": {
       "id": "us7000tywx",
@@ -409,7 +433,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyum": {
       "id": "us7000tyum",
@@ -431,7 +455,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T00:00:12.022Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tys6": {
       "id": "us7000tys6",
@@ -453,7 +477,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T16:32:46.480Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tynx": {
       "id": "us7000tynx",
@@ -475,7 +499,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tymu": {
       "id": "us7000tymu",
@@ -499,7 +523,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-17T00:10:27.948Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyjz": {
       "id": "us7000tyjz",
@@ -521,7 +545,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-16T16:03:55.384Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyil": {
       "id": "us7000tyil",
@@ -543,7 +567,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-16T16:03:55.384Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyii": {
       "id": "us7000tyii",
@@ -565,7 +589,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-16T16:03:55.384Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyg6": {
       "id": "us7000tyg6",
@@ -587,7 +611,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T23:55:34.907Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyg0": {
       "id": "us7000tyg0",
@@ -609,7 +633,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T23:55:34.907Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyfb": {
       "id": "us7000tyfb",
@@ -631,7 +655,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T19:59:07.303Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyf4": {
       "id": "us7000tyf4",
@@ -653,7 +677,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T19:59:07.303Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyeu": {
       "id": "us7000tyeu",
@@ -675,7 +699,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T19:59:07.303Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyes": {
       "id": "us7000tyes",
@@ -697,7 +721,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T19:59:07.303Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyek": {
       "id": "us7000tyek",
@@ -719,7 +743,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T14:42:07.005Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tydm": {
       "id": "us7000tydm",
@@ -741,7 +765,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T14:42:07.005Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tyan": {
       "id": "us7000tyan",
@@ -763,7 +787,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T00:24:34.324Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ty9v": {
       "id": "us7000ty9v",
@@ -785,7 +809,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-14T20:38:26.560Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ty9l": {
       "id": "us7000ty9l",
@@ -807,7 +831,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-14T20:38:26.560Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ty6n": {
       "id": "us7000ty6n",
@@ -829,7 +853,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-14T09:20:22.771Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ty5b": {
       "id": "us7000ty5b",
@@ -851,7 +875,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T00:24:34.324Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ty0g": {
       "id": "us7000ty0g",
@@ -873,7 +897,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T16:47:54.865Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txz0": {
       "id": "us7000txz0",
@@ -895,7 +919,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T16:47:54.865Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txyq": {
       "id": "us7000txyq",
@@ -917,7 +941,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T08:48:42.287Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txy5": {
       "id": "us7000txy5",
@@ -939,7 +963,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T08:48:42.287Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txvw": {
       "id": "us7000txvw",
@@ -961,7 +985,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T20:55:45.813Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txtd": {
       "id": "us7000txtd",
@@ -983,7 +1007,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T20:55:45.813Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000ucaf": {
       "id": "us6000ucaf",
@@ -1003,9 +1027,9 @@
       "eventTimeMs": 1794493429000,
       "hadSupplementary": false,
       "everReported": false,
-      "state": "new",
+      "state": "unchanged",
       "firstSeenAt": "2026-11-22T21:58:31.917Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txsu": {
       "id": "us7000txsu",
@@ -1027,7 +1051,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T20:55:45.813Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txs5": {
       "id": "us7000txs5",
@@ -1049,7 +1073,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T08:48:42.287Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txiw": {
       "id": "us7000txiw",
@@ -1071,7 +1095,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T13:09:59.616Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txiv": {
       "id": "us7000txiv",
@@ -1093,7 +1117,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T01:46:13.757Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txir": {
       "id": "us7000txir",
@@ -1115,7 +1139,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-11T17:25:19.828Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txf8": {
       "id": "us7000txf8",
@@ -1137,7 +1161,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T04:22:52.739Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tz2m": {
       "id": "us7000tz2m",
@@ -1159,7 +1183,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T02:32:32.912Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txbi": {
       "id": "us7000txbi",
@@ -1181,7 +1205,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T17:41:19.692Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txb6": {
       "id": "us7000txb6",
@@ -1203,7 +1227,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T22:33:51.379Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx9z": {
       "id": "us7000tx9z",
@@ -1225,7 +1249,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T10:00:10.173Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx8d": {
       "id": "us7000tx8d",
@@ -1247,7 +1271,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T02:15:58.770Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tz1r": {
       "id": "us7000tz1r",
@@ -1269,7 +1293,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T02:32:32.912Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txa7": {
       "id": "us7000txa7",
@@ -1291,7 +1315,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-11T02:12:26.726Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx9s": {
       "id": "us7000tx9s",
@@ -1313,7 +1337,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T22:33:51.379Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx4r": {
       "id": "us7000tx4r",
@@ -1335,7 +1359,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-12T20:55:45.813Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txa8": {
       "id": "us7000txa8",
@@ -1357,7 +1381,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T00:20:28.313Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx48": {
       "id": "us7000tx48",
@@ -1379,7 +1403,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T19:13:57.985Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx3c": {
       "id": "us7000tx3c",
@@ -1401,7 +1425,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T19:13:57.985Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx34": {
       "id": "us7000tx34",
@@ -1423,7 +1447,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T19:13:57.985Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx32": {
       "id": "us7000tx32",
@@ -1445,7 +1469,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T19:13:57.985Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tz0h": {
       "id": "us7000tz0h",
@@ -1467,7 +1491,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T15:33:47.043Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twyd": {
       "id": "us7000twyd",
@@ -1489,7 +1513,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-08T17:58:08.265Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twur": {
       "id": "us7000twur",
@@ -1511,7 +1535,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T23:53:43.104Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twu1": {
       "id": "us7000twu1",
@@ -1533,7 +1557,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T23:53:43.104Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twrh": {
       "id": "us7000twrh",
@@ -1555,7 +1579,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T16:36:10.130Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twqr": {
       "id": "us7000twqr",
@@ -1577,7 +1601,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T10:26:35.612Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twmr": {
       "id": "us7000twmr",
@@ -1599,7 +1623,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T23:28:17.874Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twhh": {
       "id": "us7000twhh",
@@ -1621,7 +1645,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T18:31:39.374Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twg8": {
       "id": "us7000twg8",
@@ -1643,7 +1667,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T19:13:57.985Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twfk": {
       "id": "us7000twfk",
@@ -1665,7 +1689,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T11:37:18.642Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twf2": {
       "id": "us7000twf2",
@@ -1687,7 +1711,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T11:37:18.642Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twdk": {
       "id": "us7000twdk",
@@ -1709,7 +1733,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T23:28:17.874Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txzp": {
       "id": "us7000txzp",
@@ -1731,7 +1755,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T16:47:54.865Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txur": {
       "id": "us7000txur",
@@ -1753,7 +1777,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T01:46:13.757Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw6s": {
       "id": "us7000tw6s",
@@ -1775,7 +1799,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-17T17:40:33.350Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twh7": {
       "id": "us7000twh7",
@@ -1797,7 +1821,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T18:31:39.374Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tvwj": {
       "id": "us7000tvwj",
@@ -1819,7 +1843,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-04T17:48:47.213Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tvvc": {
       "id": "us7000tvvc",
@@ -1841,7 +1865,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-04T17:48:47.213Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txu6": {
       "id": "us7000txu6",
@@ -1863,7 +1887,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T01:46:13.757Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txls": {
       "id": "us7000txls",
@@ -1885,7 +1909,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-16T16:03:55.384Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tva7": {
       "id": "us7000tva7",
@@ -1907,7 +1931,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-03T17:17:13.473Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tva4": {
       "id": "us7000tva4",
@@ -1929,7 +1953,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-03T22:21:52.198Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tv3l": {
       "id": "us7000tv3l",
@@ -1951,7 +1975,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-03T17:17:13.473Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuzg": {
       "id": "us7000tuzg",
@@ -1973,7 +1997,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-05T23:43:29.813Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuvx": {
       "id": "us7000tuvx",
@@ -1995,7 +2019,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T19:50:14.775Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuv5": {
       "id": "us7000tuv5",
@@ -2017,7 +2041,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T09:42:40.034Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuuy": {
       "id": "us7000tuuy",
@@ -2039,7 +2063,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T09:42:40.034Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuua": {
       "id": "us7000tuua",
@@ -2061,7 +2085,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T09:42:40.034Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tutf": {
       "id": "us7000tutf",
@@ -2083,7 +2107,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T09:42:40.034Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txjh": {
       "id": "us7000txjh",
@@ -2105,7 +2129,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-15T07:05:50.024Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tusv": {
       "id": "us7000tusv",
@@ -2127,7 +2151,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T02:22:04.560Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tusp": {
       "id": "us7000tusp",
@@ -2149,7 +2173,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-02T02:22:04.560Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuqy": {
       "id": "us7000tuqy",
@@ -2157,7 +2181,7 @@
         "us7000tuqy"
       ],
       "hazardType": "EQ",
-      "title": "101 km SW of Basco, Philippines",
+      "title": "99 km SW of Basco, Philippines",
       "tier": "none",
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2166,12 +2190,12 @@
       "feeds": [
         "usgs"
       ],
-      "eventTimeMs": 1793558577000,
+      "eventTimeMs": 1793558576000,
       "hadSupplementary": false,
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-01T23:00:03.876Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuqi": {
       "id": "us7000tuqi",
@@ -2179,7 +2203,7 @@
         "us7000tuqi"
       ],
       "hazardType": "EQ",
-      "title": "78 km SSE of Yonakuni, Japan",
+      "title": "69 km SSE of Yonakuni, Japan",
       "tier": "none",
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2188,12 +2212,12 @@
       "feeds": [
         "usgs"
       ],
-      "eventTimeMs": 1793552478000,
+      "eventTimeMs": 1793552480000,
       "hadSupplementary": false,
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-01T19:32:13.032Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tup7": {
       "id": "us7000tup7",
@@ -2215,7 +2239,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-01T14:59:23.768Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tunq": {
       "id": "us7000tunq",
@@ -2237,7 +2261,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-01T14:59:23.768Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000txce": {
       "id": "us7000txce",
@@ -2259,7 +2283,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-11T09:34:55.082Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuj1": {
       "id": "us7000tuj1",
@@ -2281,7 +2305,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-31T18:52:31.911Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tuiw": {
       "id": "us7000tuiw",
@@ -2303,7 +2327,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-31T14:50:52.409Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx5u": {
       "id": "us7000tx5u",
@@ -2325,7 +2349,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-11T09:34:55.082Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tx5d": {
       "id": "us7000tx5d",
@@ -2347,7 +2371,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-16T06:11:09.115Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tub8": {
       "id": "us7000tub8",
@@ -2355,7 +2379,7 @@
         "us7000tub8"
       ],
       "hazardType": "EQ",
-      "title": "7 km NE of Tago, Philippines",
+      "title": "6 km NE of Tago, Philippines",
       "tier": "none",
       "gdacsAlert": null,
       "pagerAlert": null,
@@ -2369,7 +2393,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-30T23:09:27.939Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tu97": {
       "id": "us7000tu97",
@@ -2391,7 +2415,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-30T19:29:40.109Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tu7k": {
       "id": "us7000tu7k",
@@ -2413,7 +2437,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-30T14:19:04.123Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tu4e": {
       "id": "us7000tu4e",
@@ -2435,7 +2459,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-30T01:18:40.554Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tu3u": {
       "id": "us7000tu3u",
@@ -2457,7 +2481,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-29T21:22:53.768Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twiz": {
       "id": "us7000twiz",
@@ -2479,7 +2503,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T23:53:43.104Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttyk": {
       "id": "us7000ttyk",
@@ -2501,7 +2525,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-29T16:26:12.792Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttxn": {
       "id": "us7000ttxn",
@@ -2523,7 +2547,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-29T09:48:12.490Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttw3": {
       "id": "us7000ttw3",
@@ -2546,7 +2570,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-29T09:48:12.490Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttw2": {
       "id": "us7000ttw2",
@@ -2568,7 +2592,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-29T09:48:12.490Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttua": {
       "id": "us7000ttua",
@@ -2591,7 +2615,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T23:39:08.823Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tttl": {
       "id": "us7000tttl",
@@ -2613,7 +2637,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T23:39:08.823Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttnq": {
       "id": "us7000ttnq",
@@ -2635,7 +2659,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T14:25:26.024Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttmz": {
       "id": "us7000ttmz",
@@ -2657,7 +2681,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T14:25:26.024Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttms": {
       "id": "us7000ttms",
@@ -2679,7 +2703,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-04T17:48:47.213Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twjn": {
       "id": "us7000twjn",
@@ -2701,7 +2725,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-17T17:40:33.350Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttlw": {
       "id": "us7000ttlw",
@@ -2723,7 +2747,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T07:31:30.158Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttlc": {
       "id": "us7000ttlc",
@@ -2745,7 +2769,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T01:38:17.521Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twj5": {
       "id": "us7000twj5",
@@ -2767,7 +2791,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-09T01:39:29.342Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twad": {
       "id": "us7000twad",
@@ -2789,7 +2813,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-06T03:43:12.554Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttkk": {
       "id": "us7000ttkk",
@@ -2811,7 +2835,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-28T01:38:17.521Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twa6": {
       "id": "us7000twa6",
@@ -2833,7 +2857,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T17:41:19.692Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttii": {
       "id": "us7000ttii",
@@ -2855,7 +2879,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T02:15:58.770Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw9z": {
       "id": "us7000tw9z",
@@ -2877,7 +2901,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T00:20:28.313Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw9w": {
       "id": "us7000tw9w",
@@ -2899,7 +2923,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-21T00:20:28.313Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tth4": {
       "id": "us7000tth4",
@@ -2921,7 +2945,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-27T22:23:49.809Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw9s": {
       "id": "us7000tw9s",
@@ -2943,7 +2967,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T18:46:27.925Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw9r": {
       "id": "us7000tw9r",
@@ -2965,7 +2989,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T18:46:27.925Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000twah": {
       "id": "us7000twah",
@@ -2987,7 +3011,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-20T18:46:27.925Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttgf": {
       "id": "us7000ttgf",
@@ -3009,7 +3033,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-27T18:12:41.954Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttgh": {
       "id": "us7000ttgh",
@@ -3031,7 +3055,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-27T18:12:41.954Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw90": {
       "id": "us7000tw90",
@@ -3053,7 +3077,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttd3": {
       "id": "us7000ttd3",
@@ -3075,7 +3099,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-27T00:56:15.289Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw27": {
       "id": "us7000tw27",
@@ -3097,7 +3121,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-05T10:43:38.402Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000ttc6": {
       "id": "us7000ttc6",
@@ -3119,7 +3143,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-27T00:56:15.289Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw1z": {
       "id": "us7000tw1z",
@@ -3141,7 +3165,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-10T02:15:58.770Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4zg": {
       "id": "us6000u4zg",
@@ -3163,7 +3187,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-08T12:16:03.000Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw1k": {
       "id": "us7000tw1k",
@@ -3185,7 +3209,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-19T21:23:51.575Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4y1": {
       "id": "us6000u4y1",
@@ -3207,7 +3231,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-26T05:27:14.878Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4xp": {
       "id": "us6000u4xp",
@@ -3229,7 +3253,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-26T05:27:14.878Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw1d": {
       "id": "us7000tw1d",
@@ -3251,7 +3275,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-17T00:10:27.948Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw0r": {
       "id": "us7000tw0r",
@@ -3273,7 +3297,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-05T10:43:38.402Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4wt": {
       "id": "us6000u4wt",
@@ -3295,7 +3319,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-26T00:39:55.273Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4wi": {
       "id": "us6000u4wi",
@@ -3317,7 +3341,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-26T00:39:55.273Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4we": {
       "id": "us6000u4we",
@@ -3339,7 +3363,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T22:28:56.724Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4vp": {
       "id": "us6000u4vp",
@@ -3361,7 +3385,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T19:55:41.775Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4u2": {
       "id": "us6000u4u2",
@@ -3383,7 +3407,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-26T11:29:11.397Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4tn": {
       "id": "us6000u4tn",
@@ -3405,7 +3429,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T13:57:48.101Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tvzl": {
       "id": "us7000tvzl",
@@ -3427,7 +3451,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T16:36:10.130Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tvzk": {
       "id": "us7000tvzk",
@@ -3449,7 +3473,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T16:36:10.130Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4ru": {
       "id": "us6000u4ru",
@@ -3471,7 +3495,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T04:55:11.540Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4rr": {
       "id": "us6000u4rr",
@@ -3493,7 +3517,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T04:55:11.540Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw0z": {
       "id": "us7000tw0z",
@@ -3515,7 +3539,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-14T02:29:50.844Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tvz1": {
       "id": "us7000tvz1",
@@ -3537,7 +3561,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-14T02:29:50.844Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tw0y": {
       "id": "us7000tw0y",
@@ -3559,7 +3583,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-13T08:48:42.287Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4r9": {
       "id": "us6000u4r9",
@@ -3583,7 +3607,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T04:55:11.540Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4pw": {
       "id": "us6000u4pw",
@@ -3605,7 +3629,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-25T00:14:41.089Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4p7": {
       "id": "us6000u4p7",
@@ -3627,7 +3651,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-31T18:52:31.911Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tv7x": {
       "id": "us7000tv7x",
@@ -3649,7 +3673,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T23:04:05.441Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4m9": {
       "id": "us6000u4m9",
@@ -3671,7 +3695,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-24T14:49:35.701Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us6000u4lz": {
       "id": "us6000u4lz",
@@ -3693,7 +3717,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-10-24T14:49:35.701Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "us7000tv79": {
       "id": "us7000tv79",
@@ -3715,293 +3739,7 @@
       "everReported": false,
       "state": "unchanged",
       "firstSeenAt": "2026-11-07T10:26:35.612Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4h0": {
-      "id": "us6000u4h0",
-      "aliases": [
-        "us6000u4h0"
-      ],
-      "hazardType": "EQ",
-      "title": "71 km ENE of Kinablangan, Philippines",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.6,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792791664000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T23:03:42.127Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4gs": {
-      "id": "us6000u4gs",
-      "aliases": [
-        "us6000u4gs"
-      ],
-      "hazardType": "EQ",
-      "title": "43 km ESE of Hualien City, Taiwan",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 5,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792789081000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-24T17:40:06.340Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4gm": {
-      "id": "us6000u4gm",
-      "aliases": [
-        "us6000u4gm"
-      ],
-      "hazardType": "EQ",
-      "title": "33 km ESE of Hualien City, Taiwan",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.8,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792788497000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T23:03:42.127Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4g1": {
-      "id": "us6000u4g1",
-      "aliases": [
-        "us6000u4g1"
-      ],
-      "hazardType": "EQ",
-      "title": "37 km ESE of Sainyabuli, Laos",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792783881000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-24T14:49:35.701Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4f5": {
-      "id": "us6000u4f5",
-      "aliases": [
-        "us6000u4f5"
-      ],
-      "hazardType": "EQ",
-      "title": "96 km ESE of Tuensang, India",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.6,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792775184000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T19:55:16.670Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4c8": {
-      "id": "us6000u4c8",
-      "aliases": [
-        "us6000u4c8"
-      ],
-      "hazardType": "EQ",
-      "title": "202 km W of Tual, Indonesia",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.1,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792761079000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T19:55:16.670Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4bw": {
-      "id": "us6000u4bw",
-      "aliases": [
-        "us6000u4bw"
-      ],
-      "hazardType": "EQ",
-      "title": "207 km NE of Lospalos, Timor Leste",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.5,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792758264000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T15:53:11.299Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us7000tua6": {
-      "id": "us7000tua6",
-      "aliases": [
-        "us7000tua6"
-      ],
-      "hazardType": "EQ",
-      "title": "119 km E of Bitung, Indonesia",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.4,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792756547000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-11-08T12:16:03.000Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us7000tua2": {
-      "id": "us7000tua2",
-      "aliases": [
-        "us7000tua2"
-      ],
-      "hazardType": "EQ",
-      "title": "206 km WSW of Tual, Indonesia",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.3,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792752993000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-11-19T12:55:14.930Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us7000tu9w": {
-      "id": "us7000tu9w",
-      "aliases": [
-        "us7000tu9w"
-      ],
-      "hazardType": "EQ",
-      "title": "92 km E of Aras-asan, Philippines",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.5,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792747785000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-11-19T12:55:14.930Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u4b3": {
-      "id": "us6000u4b3",
-      "aliases": [
-        "us6000u4b3"
-      ],
-      "hazardType": "EQ",
-      "title": "19 km WNW of Bantogon, Philippines",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.5,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792746575000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T11:29:15.457Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us7000tu9e": {
-      "id": "us7000tu9e",
-      "aliases": [
-        "us7000tu9e"
-      ],
-      "hazardType": "EQ",
-      "title": "9 km SE of Santa Maria, Philippines",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.1,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792723268000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-11-16T06:11:09.115Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "us6000u49a": {
-      "id": "us6000u49a",
-      "aliases": [
-        "us6000u49a"
-      ],
-      "hazardType": "EQ",
-      "title": "17 km NNW of Yongning, China",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": 4.5,
-      "countries": [],
-      "feeds": [
-        "usgs"
-      ],
-      "eventTimeMs": 1792721821000,
-      "hadSupplementary": false,
-      "everReported": false,
-      "state": "unchanged",
-      "firstSeenAt": "2026-10-23T05:57:24.230Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn": {
       "id": "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn",
@@ -4023,9 +3761,9 @@
       "eventTimeMs": null,
       "hadSupplementary": true,
       "everReported": true,
-      "state": "new",
+      "state": "unchanged",
       "firstSeenAt": "2026-11-22T21:58:31.917Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl": {
       "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl",
@@ -4049,7 +3787,7 @@
       "everReported": true,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     },
     "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr": {
       "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr",
@@ -4073,31 +3811,7 @@
       "everReported": true,
       "state": "unchanged",
       "firstSeenAt": "2026-11-18T07:11:55.914Z",
-      "lastSeenAt": "2026-11-22T21:58:31.917Z"
-    },
-    "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr": {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
-      ],
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jun 2026 (fixture)",
-      "tier": "none",
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "mag": null,
-      "countries": [
-        "Myanmar"
-      ],
-      "feeds": [
-        "reliefweb"
-      ],
-      "eventTimeMs": null,
-      "hadSupplementary": true,
-      "everReported": true,
-      "state": "deleted",
-      "firstSeenAt": "2026-11-22T01:11:27.467Z",
-      "lastSeenAt": "2026-11-22T16:25:15.831Z"
+      "lastSeenAt": "2026-11-23T02:33:06.987Z"
     }
   }
 }
