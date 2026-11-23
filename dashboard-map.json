@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T02:33:06.987Z",
+  "generatedAt": "2026-11-23T11:10:51.680Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,24 +13,100 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "5 in-scope record(s)"
+      "detail": "6 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "168 in-scope event(s)"
+      "detail": "170 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
-      "status": "live",
-      "detail": "live RSS"
+      "status": "fixture",
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-22T21:58:31.917Z",
-    "changes": []
+    "priorRunAt": "2026-11-23T02:33:06.987Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
+        "title": "Myanmar: Floods - Jun 2026 (fixture)",
+        "hazardType": "OTHER",
+        "detail": "new no alert-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000ucx6",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -7.4408,
+      "lon": 128.2414,
+      "timeUtc": "Mon, 23 Nov 2026 07:36:21 GMT",
+      "mag": 5.4,
+      "gdacsAlert": "Green",
+      "pagerAlert": "green",
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ucx6",
+        "1578839"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578839&episodeid=1748261&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucx6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ucws",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 1.3824,
+      "lon": 126.1133,
+      "timeUtc": "Mon, 23 Nov 2026 06:28:32 GMT",
+      "mag": 4.7,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000ucws",
+        "1578828"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578828&episodeid=1748272&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucws"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000ucv4",
       "hazardType": "EQ",
@@ -47,7 +123,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ucv4",
         "1578778"
@@ -81,7 +157,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ucv2",
         "1578777"
@@ -170,29 +246,22 @@
     {
       "id": "us6000ucpj",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "60 km WNW of Abepura, Indonesia",
+      "countries": [],
       "lat": -2.442,
       "lon": 140.1129,
       "timeUtc": "Sat, 21 Nov 2026 23:16:05 GMT",
       "mag": 4.6,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000ucpj",
-        "1578621"
+        "us6000ucpj"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578621&episodeid=1748029&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucpj"
@@ -269,7 +338,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000ucij",
         "usauto6000ucij",
@@ -2128,16 +2197,16 @@
       "hazardType": "EQ",
       "title": "76 km ENE of Donggang, Taiwan",
       "countries": [],
-      "lat": 22.662,
-      "lon": 121.1634,
+      "lat": 22.6722,
+      "lon": 121.1628,
       "timeUtc": "Fri, 06 Nov 2026 00:37:40 GMT",
-      "mag": 4.2,
+      "mag": 4.1,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000twdk"
       ],
@@ -4612,81 +4681,9 @@
       "imagery": null
     },
     {
-      "id": "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn",
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
       "hazardType": "OTHER",
-      "title": "Indonesia: Drought - Sep 2026",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Indonesia: Drought - Sep 2026",
-          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
-        },
-        {
-          "title": "Indonesia: Earthquake - Aug 2026",
-          "url": "https://reliefweb.int/disaster/eq-2026-000150-idn"
-        }
-      ],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl",
-      "hazardType": "OTHER",
-      "title": "Philippines: Floods - Aug 2026",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Philippines: Floods - Aug 2026",
-          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
-        }
-      ],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr",
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jul 2026",
+      "title": "Myanmar: Floods - Jun 2026 (fixture)",
       "countries": [
         "Myanmar"
       ],
@@ -4699,20 +4696,20 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr"
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
       ],
       "sources": [
         {
           "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
         }
       ],
       "supplementary": [
         {
-          "title": "Myanmar: Floods - Jul 2026",
-          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
         }
       ],
       "imagery": null
