@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T11:41:17.831Z",
+  "generatedAt": "2026-11-25T20:42:19.692Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,19 +18,61 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "176 in-scope event(s)"
+      "detail": "179 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
-      "status": "live",
-      "detail": "live RSS"
+      "status": "fixture",
+      "detail": "live unavailable (HTTP 406 Not Acceptable); fixture"
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-25T02:35:42.964Z",
-    "changes": []
+    "priorRunAt": "2026-11-25T11:41:17.831Z",
+    "changes": [
+      {
+        "kind": "new",
+        "storyId": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
+        "title": "Myanmar: Floods - Jun 2026 (fixture)",
+        "hazardType": "OTHER",
+        "detail": "new no alert-tier story"
+      }
+    ]
   },
   "stories": [
+    {
+      "id": "us6000udf2",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": -0.3849,
+      "lon": 123.0018,
+      "timeUtc": "Wed, 25 Nov 2026 12:08:12 GMT",
+      "mag": 5,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000udf2",
+        "1579203"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1579203&episodeid=1748660&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udf2"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "1104253",
       "hazardType": "FL",
@@ -57,16 +99,7 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL"
         }
       ],
-      "supplementary": [
-        {
-          "title": "Indonesia: Drought - Sep 2026",
-          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
-        },
-        {
-          "title": "Indonesia: Earthquake - Aug 2026",
-          "url": "https://reliefweb.int/disaster/eq-2026-000150-idn"
-        }
-      ],
+      "supplementary": [],
       "imagery": {
         "imageDate": "2026-10-24",
         "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.2753,3.6185,97.7753,5.1185&t=2026-10-24",
@@ -137,40 +170,6 @@
       "imagery": null
     },
     {
-      "id": "us6000ucyd",
-      "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 1.3368,
-      "lon": 132.0172,
-      "timeUtc": "Mon, 23 Nov 2026 11:24:31 GMT",
-      "mag": 4.8,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
-      "aliases": [
-        "us6000ucyd",
-        "1578854"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578854&episodeid=1748283&eventtype=EQ"
-        },
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucyd"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
       "id": "us6000udew",
       "hazardType": "EQ",
       "title": "18 km SSW of Yonakuni, Japan",
@@ -184,7 +183,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000udew"
       ],
@@ -211,7 +210,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000udef"
       ],
@@ -306,6 +305,33 @@
       "imagery": null
     },
     {
+      "id": "us6000ucyd",
+      "hazardType": "EQ",
+      "title": "209 km SSE of Tobi Village, Palau",
+      "countries": [],
+      "lat": 1.3368,
+      "lon": 132.0172,
+      "timeUtc": "Mon, 23 Nov 2026 11:24:31 GMT",
+      "mag": 4.8,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "de-escalated",
+      "aliases": [
+        "us6000ucyd"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucyd"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us6000ucx6",
       "hazardType": "EQ",
       "title": "181 km NE of Lospalos, Timor Leste",
@@ -319,7 +345,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us6000ucx6"
       ],
@@ -346,7 +372,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000ucwx"
       ],
@@ -373,7 +399,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "de-escalated",
+      "state": "unchanged",
       "aliases": [
         "us6000ucws"
       ],
@@ -807,7 +833,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tyyh"
       ],
@@ -1404,7 +1430,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tydm"
       ],
@@ -2849,6 +2875,33 @@
       "imagery": null
     },
     {
+      "id": "us7000txue",
+      "hazardType": "EQ",
+      "title": "232 km ENE of Lospalos, Timor Leste",
+      "countries": [],
+      "lat": -7.3936,
+      "lon": 128.7778,
+      "timeUtc": "Wed, 04 Nov 2026 08:15:12 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000txue"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txue"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tvwj",
       "hazardType": "EQ",
       "title": "226 km ESE of Sarangani, Philippines",
@@ -3956,6 +4009,33 @@
       "imagery": null
     },
     {
+      "id": "us7000twip",
+      "hazardType": "EQ",
+      "title": "2 km WNW of Sarangani, Philippines",
+      "countries": [],
+      "lat": 5.4123,
+      "lon": 125.4467,
+      "timeUtc": "Thu, 29 Oct 2026 09:26:28 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000twip"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twip"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000ttxn",
       "hazardType": "EQ",
       "title": "106 km ENE of Barcelona, Philippines",
@@ -4876,43 +4956,9 @@
       "imagery": null
     },
     {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl",
+      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr",
       "hazardType": "OTHER",
-      "title": "Philippines: Floods - Aug 2026",
-      "countries": [
-        "Philippines"
-      ],
-      "lat": null,
-      "lon": null,
-      "timeUtc": null,
-      "mag": null,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000169-phl"
-      ],
-      "sources": [
-        {
-          "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Philippines: Floods - Aug 2026",
-          "url": "https://reliefweb.int/disaster/fl-2026-000169-phl"
-        }
-      ],
-      "imagery": null
-    },
-    {
-      "id": "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr",
-      "hazardType": "OTHER",
-      "title": "Myanmar: Floods - Jul 2026",
+      "title": "Myanmar: Floods - Jun 2026 (fixture)",
       "countries": [
         "Myanmar"
       ],
@@ -4925,20 +4971,20 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "reliefweb:https://reliefweb.int/disaster/fl-2026-000141-mmr"
+        "reliefweb:https://reliefweb.int/disaster/fl-2026-000104-mmr"
       ],
       "sources": [
         {
           "feed": "reliefweb",
-          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
         }
       ],
       "supplementary": [
         {
-          "title": "Myanmar: Floods - Jul 2026",
-          "url": "https://reliefweb.int/disaster/fl-2026-000141-mmr"
+          "title": "Myanmar: Floods - Jun 2026 (fixture)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000104-mmr"
         }
       ],
       "imagery": null
