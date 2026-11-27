@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:07:37.554Z",
+  "generatedAt": "2026-11-27T13:59:20.946Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -18,7 +18,7 @@
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "167 in-scope event(s)"
+      "detail": "168 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,32 +27,44 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-26T21:59:30.658Z",
-    "changes": [
-      {
-        "kind": "deleted",
-        "storyId": "1104253",
-        "title": "Flood in Indonesia",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "deleted",
-        "storyId": "1104297",
-        "title": "Flood in Thailand",
-        "hazardType": "FL",
-        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
-      },
-      {
-        "kind": "new",
-        "storyId": "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn",
-        "title": "Indonesia: Drought - Sep 2026",
-        "hazardType": "OTHER",
-        "detail": "new no alert-tier story"
-      }
-    ]
+    "priorRunAt": "2026-11-27T04:07:37.554Z",
+    "changes": []
   },
   "stories": [
+    {
+      "id": "us6000udu6",
+      "hazardType": "EQ",
+      "title": "Earthquake in Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": 2.0437,
+      "lon": 126.6462,
+      "timeUtc": "Fri, 27 Nov 2026 04:17:10 GMT",
+      "mag": 4.6,
+      "gdacsAlert": "Green",
+      "pagerAlert": null,
+      "triageSeverity": "green",
+      "suppressed": true,
+      "reconciled": true,
+      "state": "new",
+      "aliases": [
+        "us6000udu6",
+        "1579545"
+      ],
+      "sources": [
+        {
+          "feed": "gdacs",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1579545&episodeid=1749033&eventtype=EQ"
+        },
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udu6"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
     {
       "id": "us6000udqa",
       "hazardType": "EQ",
@@ -161,29 +173,22 @@
     {
       "id": "us6000udf2",
       "hazardType": "EQ",
-      "title": "Earthquake in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
+      "title": "67 km NNE of Luwuk, Indonesia",
+      "countries": [],
       "lat": -0.3849,
       "lon": 123.0018,
       "timeUtc": "Wed, 25 Nov 2026 12:08:12 GMT",
       "mag": 5,
-      "gdacsAlert": "Green",
+      "gdacsAlert": null,
       "pagerAlert": null,
-      "triageSeverity": "green",
+      "triageSeverity": "none",
       "suppressed": true,
-      "reconciled": true,
-      "state": "unchanged",
+      "reconciled": false,
+      "state": "de-escalated",
       "aliases": [
-        "us6000udf2",
-        "1579203"
+        "us6000udf2"
       ],
       "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1579203&episodeid=1748660&eventtype=EQ"
-        },
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udf2"
@@ -1588,7 +1593,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000ty6n"
       ],
@@ -1615,7 +1620,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000ucby"
       ],
@@ -3289,7 +3294,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000txl4"
       ],
@@ -4616,7 +4621,7 @@
       "triageSeverity": "none",
       "suppressed": false,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn"
       ],
