@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:59:30.658Z",
+  "generatedAt": "2026-11-27T04:07:37.554Z",
   "scope": {
     "countries": "ASEAN-10 + Timor-Leste",
     "boundingBox": {
@@ -13,12 +13,12 @@
     {
       "feed": "gdacs",
       "status": "live",
-      "detail": "6 in-scope record(s)"
+      "detail": "4 in-scope record(s)"
     },
     {
       "feed": "usgs",
       "status": "live",
-      "detail": "178 in-scope event(s)"
+      "detail": "167 in-scope event(s)"
     },
     {
       "feed": "reliefweb",
@@ -27,8 +27,30 @@
     }
   ],
   "sinceYesterday": {
-    "priorRunAt": "2026-11-26T12:51:25.757Z",
-    "changes": []
+    "priorRunAt": "2026-11-26T21:59:30.658Z",
+    "changes": [
+      {
+        "kind": "deleted",
+        "storyId": "1104253",
+        "title": "Flood in Indonesia",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "deleted",
+        "storyId": "1104297",
+        "title": "Flood in Thailand",
+        "hazardType": "FL",
+        "detail": "no longer listed as current by its source feed — treat as withdrawn/resolved"
+      },
+      {
+        "kind": "new",
+        "storyId": "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn",
+        "title": "Indonesia: Drought - Sep 2026",
+        "hazardType": "OTHER",
+        "detail": "new no alert-tier story"
+      }
+    ]
   },
   "stories": [
     {
@@ -47,7 +69,7 @@
       "triageSeverity": "green",
       "suppressed": true,
       "reconciled": true,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us6000udqa",
         "1579450"
@@ -169,77 +191,6 @@
       ],
       "supplementary": [],
       "imagery": null
-    },
-    {
-      "id": "1104297",
-      "hazardType": "FL",
-      "title": "Flood in Thailand",
-      "countries": [
-        "Thailand"
-      ],
-      "lat": 6.879,
-      "lon": 100.5499,
-      "timeUtc": "2026-11-22T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104297"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104297&episodeid=2&eventtype=FL"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "1104253",
-      "hazardType": "FL",
-      "title": "Flood in Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "lat": 4.3685,
-      "lon": 97.0253,
-      "timeUtc": "2026-10-24T01:00:00",
-      "mag": null,
-      "gdacsAlert": "Green",
-      "pagerAlert": null,
-      "triageSeverity": "green",
-      "suppressed": false,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "1104253"
-      ],
-      "sources": [
-        {
-          "feed": "gdacs",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL"
-        }
-      ],
-      "supplementary": [
-        {
-          "title": "Indonesia: Drought - Sep 2026",
-          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
-        },
-        {
-          "title": "Indonesia: Earthquake - Aug 2026",
-          "url": "https://reliefweb.int/disaster/eq-2026-000150-idn"
-        }
-      ],
-      "imagery": {
-        "imageDate": "2026-10-24",
-        "worldviewUrl": "https://worldview.earthdata.nasa.gov/?v=96.2753,3.6185,97.7753,5.1185&t=2026-10-24",
-        "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor"
-      }
     },
     {
       "id": "us6000udew",
@@ -1628,16 +1579,16 @@
       "hazardType": "EQ",
       "title": "off the west coast of northern Sumatra",
       "countries": [],
-      "lat": 3.304,
-      "lon": 92.8261,
-      "timeUtc": "Sat, 14 Nov 2026 02:59:29 GMT",
-      "mag": 5.2,
+      "lat": 3.2464,
+      "lon": 92.7042,
+      "timeUtc": "Sat, 14 Nov 2026 02:59:28 GMT",
+      "mag": 5.1,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "revised",
       "aliases": [
         "us7000ty6n"
       ],
@@ -1645,6 +1596,33 @@
         {
           "feed": "usgs",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
+      "id": "us6000ucby",
+      "hazardType": "EQ",
+      "title": "2 km WNW of Batiano, Philippines",
+      "countries": [],
+      "lat": 7.5651,
+      "lon": 126.4686,
+      "timeUtc": "Sat, 14 Nov 2026 01:26:58 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us6000ucby"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucby"
         }
       ],
       "supplementary": [],
@@ -3298,6 +3276,33 @@
       "imagery": null
     },
     {
+      "id": "us7000txl4",
+      "hazardType": "EQ",
+      "title": "35 km ESE of Mangili, Philippines",
+      "countries": [],
+      "lat": 5.8592,
+      "lon": 125.9682,
+      "timeUtc": "Tue, 03 Nov 2026 02:51:36 GMT",
+      "mag": 4.3,
+      "gdacsAlert": null,
+      "pagerAlert": null,
+      "triageSeverity": "none",
+      "suppressed": true,
+      "reconciled": false,
+      "state": "new",
+      "aliases": [
+        "us7000txl4"
+      ],
+      "sources": [
+        {
+          "feed": "usgs",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txl4"
+        }
+      ],
+      "supplementary": [],
+      "imagery": null
+    },
+    {
       "id": "us7000tuzg",
       "hazardType": "EQ",
       "title": "86 km E of Xiazhuang, China",
@@ -3770,7 +3775,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000tx5w"
       ],
@@ -3797,7 +3802,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "revised",
+      "state": "unchanged",
       "aliases": [
         "us7000tuj1"
       ],
@@ -3905,7 +3910,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twmc"
       ],
@@ -3932,7 +3937,7 @@
       "triageSeverity": "none",
       "suppressed": true,
       "reconciled": false,
-      "state": "new",
+      "state": "unchanged",
       "aliases": [
         "us7000twmb"
       ],
@@ -4596,354 +4601,41 @@
       "imagery": null
     },
     {
-      "id": "us7000twad",
-      "hazardType": "EQ",
-      "title": "23 km NNW of Sepatan, Indonesia",
-      "countries": [],
-      "lat": -5.9168,
-      "lon": 106.5103,
-      "timeUtc": "Tue, 27 Oct 2026 23:51:13 GMT",
-      "mag": 4.3,
+      "id": "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn",
+      "hazardType": "OTHER",
+      "title": "Indonesia: Drought - Sep 2026",
+      "countries": [
+        "Indonesia"
+      ],
+      "lat": null,
+      "lon": null,
+      "timeUtc": null,
+      "mag": null,
       "gdacsAlert": null,
       "pagerAlert": null,
       "triageSeverity": "none",
-      "suppressed": true,
+      "suppressed": false,
       "reconciled": false,
-      "state": "unchanged",
+      "state": "new",
       "aliases": [
-        "us7000twad"
+        "reliefweb:https://reliefweb.int/disaster/dr-2026-000178-idn"
       ],
       "sources": [
         {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twad"
+          "feed": "reliefweb",
+          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
         }
       ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ttkk",
-      "hazardType": "EQ",
-      "title": "8 km NW of Nuing, Philippines",
-      "countries": [],
-      "lat": 5.6864,
-      "lon": 125.3863,
-      "timeUtc": "Tue, 27 Oct 2026 23:43:53 GMT",
-      "mag": 5.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ttkk"
-      ],
-      "sources": [
+      "supplementary": [
         {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttkk"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000twa6",
-      "hazardType": "EQ",
-      "title": "123 km N of Metinaro, Timor Leste",
-      "countries": [],
-      "lat": -7.4202,
-      "lon": 125.669,
-      "timeUtc": "Tue, 27 Oct 2026 20:11:57 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000twa6"
-      ],
-      "sources": [
+          "title": "Indonesia: Drought - Sep 2026",
+          "url": "https://reliefweb.int/disaster/dr-2026-000178-idn"
+        },
         {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twa6"
+          "title": "Indonesia: Earthquake - Aug 2026",
+          "url": "https://reliefweb.int/disaster/eq-2026-000150-idn"
         }
       ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ttii",
-      "hazardType": "EQ",
-      "title": "288 km N of Bamboo Flat, India",
-      "countries": [],
-      "lat": 14.2825,
-      "lon": 93.0886,
-      "timeUtc": "Tue, 27 Oct 2026 17:22:45 GMT",
-      "mag": 4.4,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ttii"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttii"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tw9z",
-      "hazardType": "EQ",
-      "title": "54 km SE of Ambon, Indonesia",
-      "countries": [],
-      "lat": -4.0258,
-      "lon": 128.5514,
-      "timeUtc": "Tue, 27 Oct 2026 16:47:42 GMT",
-      "mag": 4.1,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tw9z"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9z"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tw9w",
-      "hazardType": "EQ",
-      "title": "230 km SSE of Tabiauan, Philippines",
-      "countries": [],
-      "lat": 4.0613,
-      "lon": 122.5891,
-      "timeUtc": "Tue, 27 Oct 2026 16:13:57 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tw9w"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9w"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tth4",
-      "hazardType": "EQ",
-      "title": "72 km WNW of Callaguip, Philippines",
-      "countries": [],
-      "lat": 18.2499,
-      "lon": 119.827,
-      "timeUtc": "Tue, 27 Oct 2026 16:07:53 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tth4"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tth4"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tw9s",
-      "hazardType": "EQ",
-      "title": "137 km S of Wonosari, Indonesia",
-      "countries": [],
-      "lat": -9.2046,
-      "lon": 110.4562,
-      "timeUtc": "Tue, 27 Oct 2026 15:24:38 GMT",
-      "mag": 4.3,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tw9s"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9s"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tw9r",
-      "hazardType": "EQ",
-      "title": "123 km WNW of Ternate, Indonesia",
-      "countries": [],
-      "lat": 1.3139,
-      "lon": 126.4032,
-      "timeUtc": "Tue, 27 Oct 2026 15:03:14 GMT",
-      "mag": 4.5,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tw9r"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9r"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000twah",
-      "hazardType": "EQ",
-      "title": "167 km S of Pundong, Indonesia",
-      "countries": [],
-      "lat": -9.4661,
-      "lon": 110.3901,
-      "timeUtc": "Tue, 27 Oct 2026 14:46:02 GMT",
-      "mag": 4.7,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000twah"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twah"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ttgf",
-      "hazardType": "EQ",
-      "title": "126 km S of Pundong, Indonesia",
-      "countries": [],
-      "lat": -9.0955,
-      "lon": 110.3354,
-      "timeUtc": "Tue, 27 Oct 2026 14:44:01 GMT",
-      "mag": 5.3,
-      "gdacsAlert": null,
-      "pagerAlert": "green",
-      "triageSeverity": "green",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ttgf"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgf"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000ttgh",
-      "hazardType": "EQ",
-      "title": "145 km S of Pundong, Indonesia",
-      "countries": [],
-      "lat": -9.2719,
-      "lon": 110.3591,
-      "timeUtc": "Tue, 27 Oct 2026 14:43:10 GMT",
-      "mag": 4.9,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000ttgh"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgh"
-        }
-      ],
-      "supplementary": [],
-      "imagery": null
-    },
-    {
-      "id": "us7000tw90",
-      "hazardType": "EQ",
-      "title": "85 km ENE of Kinablangan, Philippines",
-      "countries": [],
-      "lat": 7.9225,
-      "lon": 127.2869,
-      "timeUtc": "Tue, 27 Oct 2026 03:15:44 GMT",
-      "mag": 4.2,
-      "gdacsAlert": null,
-      "pagerAlert": null,
-      "triageSeverity": "none",
-      "suppressed": true,
-      "reconciled": false,
-      "state": "unchanged",
-      "aliases": [
-        "us7000tw90"
-      ],
-      "sources": [
-        {
-          "feed": "usgs",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw90"
-        }
-      ],
-      "supplementary": [],
       "imagery": null
     },
     {
